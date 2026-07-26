@@ -36,7 +36,6 @@ function riskClass(level: string) {
   }
 }
 
-// A bordered TUI panel drawn with box-drawing characters.
 function Panel({
   title,
   children,
@@ -50,7 +49,6 @@ function Panel({
 }) {
   return (
     <section className={`relative flex flex-col ${className}`}>
-      {/* top border with embedded title */}
       <div className={`flex items-center whitespace-pre leading-none ${accent} text-xs select-none`}>
         <span>┌─[ </span>
         <span className="font-bold tracking-widest">{title}</span>
@@ -60,13 +58,11 @@ function Panel({
         </span>
         <span>┐</span>
       </div>
-      {/* body with side borders */}
       <div className={`flex flex-1 min-h-0 ${accent}`}>
         <span className="text-xs leading-none select-none">│</span>
         <div className="flex-1 min-w-0 px-2 py-1 text-green-400">{children}</div>
         <span className="text-xs leading-none select-none">│</span>
       </div>
-      {/* bottom border */}
       <div className={`whitespace-pre leading-none ${accent} text-xs select-none overflow-hidden`}>
         {"└" + "─".repeat(400) + "┘"}
       </div>
@@ -74,7 +70,6 @@ function Panel({
   )
 }
 
-// Horizontal ASCII bar made of block characters.
 function AsciiBar({ value, max = 100, width = 20, className = "" }: { value: number; max?: number; width?: number; className?: string }) {
   const ratio = Math.max(0, Math.min(1, value / max))
   const filled = Math.round(ratio * width)
@@ -87,7 +82,6 @@ function AsciiBar({ value, max = 100, width = 20, className = "" }: { value: num
   )
 }
 
-// Vertical column chart using block characters per data point/series.
 const BLOCKS = [" ", "▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
 
 function Sparkline({ values, className = "" }: { values: number[]; className?: string }) {
@@ -119,7 +113,6 @@ function useTypewriter(text: string, speed = 24) {
   return out
 }
 
-// A reusable blinking cursor block.
 function Cursor() {
   return <span className="cursor-blink">█</span>
 }
@@ -177,13 +170,14 @@ function AttackWindows({ tick }: { tick: number }) {
 export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboardProps) {
   const { t } = useI18n()
   const [now, setNow] = useState(new Date())
-  const [selected, setSelected] = useState(data.companies[0].id)
+  const [selected, setSelected] = useState(data.companies[0]?.id ?? "")
   const [tick, setTick] = useState(0)
   const [bootLines, setBootLines] = useState<string[]>([])
   const [attackMode, setAttackMode] = useState(false)
   const sessionId = useRef(Math.random().toString(36).slice(2, 10).toUpperCase())
   const previousSelected = useRef(selected)
   const attackToggleSeen = useRef(false)
+  const meta = data.metadata
 
   useEffect(() => {
     const t = setInterval(() => setNow(new Date()), 1000)
@@ -194,7 +188,6 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
     }
   }, [])
 
-  // Boot sequence log
   useEffect(() => {
     const lines = [
       t("boot.initializing"),
@@ -219,26 +212,24 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
   const high = data.companies.filter((c) => c.riskLevel === "high")
   const totalIncidents = data.companies.reduce((s, c) => s + c.recentIncidents, 0)
   const avg = Math.round(data.companies.reduce((s, c) => s + c.probability, 0) / data.companies.length)
-  const sel = data.companies.find((c) => c.id === selected)!
+  const sel = data.companies.find((c) => c.id === selected) ?? data.companies[0]!
   const activeNote = attackMode
     ? t("attack.transmission")
-    : (sel.fieldNotes[Math.floor(tick / 5) % sel.fieldNotes.length] ?? t("transmission.fallback"))
+    : (sel?.fieldNotes?.[Math.floor(tick / 5) % (sel?.fieldNotes?.length ?? 1)] ?? t("transmission.fallback"))
   const redactionActive = attackMode || tick % 8 === 5 || tick % 13 === 9
 
-  // Sorted by probability for the threat board.
   const sorted = [...data.companies].sort((a, b) => b.probability - a.probability)
 
-  // Build computational-power series for the selected-ish chart.
-  const cp = data.charts.computationalPower
+  const cp = data.charts?.computationalPower ?? []
   const series: { key: string; label: string; color: string }[] = [
-    { key: "omniscient", label: "OMNI", color: "text-red-400" },
-    { key: "neuralink", label: "NRLK", color: "text-orange-400" },
-    { key: "nexus", label: "NEXS", color: "text-yellow-400" },
-    { key: "cortex", label: "CRTX", color: "text-green-400" },
+    { key: "openai", label: "OPEN", color: "text-red-400" },
+    { key: "anthropic", label: "ANTH", color: "text-orange-400" },
+    { key: "google", label: "GGL", color: "text-yellow-400" },
+    { key: "meta", label: "META", color: "text-green-400" },
   ]
 
   useEffect(() => {
-    if (previousSelected.current === selected) return
+    if (previousSelected.current === selected || !sel) return
 
     previousSelected.current = selected
     setBootLines((lines) => [
@@ -247,7 +238,7 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
       t("boot.drift", { drift: (sel.probability / 100).toFixed(2) }),
       t("boot.resists"),
     ])
-  }, [selected, sel.probability, sel.shortName, t])
+  }, [selected, sel?.probability, sel?.shortName, t])
 
   useEffect(() => {
     if (!attackToggleSeen.current) {
@@ -286,6 +277,11 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
             {t("top.dataset")}: {data.lastUpdated}
           </span>
           <span className="text-xs text-red-400 blink-slow">● {t("top.liveFeed")}</span>
+          {meta?.judgmentDay && (
+            <span className="text-xs text-yellow-400 font-bold">
+              {t("top.judgmentDay")}: {meta.judgmentDay}
+            </span>
+          )}
           <button
             type="button"
             onClick={() => setAttackMode((value) => !value)}
@@ -319,7 +315,7 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
       </div>
 
       {/* ============================== STAT STRIP ============================== */}
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-2 mb-2 text-xs">
+      <div className="grid grid-cols-2 md:grid-cols-6 gap-2 mb-2 text-xs">
         <StatCell
           label={attackMode ? t("attack.stats.signal") : t("stats.criticalThreats")}
           value={attackMode ? "OVERRIDE" : critical.length}
@@ -347,6 +343,11 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
           value={attackMode ? "ALL" : data.companies.length}
           color="text-green-400"
         />
+        <StatCell
+          label={attackMode ? t("attack.stats.valuation") : t("stats.totalValuation")}
+          value={attackMode ? "LOCKED" : (meta?.totalValuation ?? "N/A")}
+          color="text-green-400"
+        />
       </div>
 
       {/* ============================== MAIN GRID ============================== */}
@@ -357,10 +358,11 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
             <div className="flex text-green-700 border-b border-green-900 pb-1 mb-1 whitespace-pre">
               <span className="w-4">#</span>
               <span className="w-20">{t("table.entity")}</span>
-              <span className="w-44 hidden xl:inline">P(SKYNET)</span>
-              <span className="w-12 text-right">{t("table.probability")}</span>
-              <span className="w-12 text-right">{t("table.trend")}</span>
+              <span className="w-36 hidden xl:inline">P(SKYNET)</span>
+              <span className="w-10 text-right">{t("table.probability")}</span>
+              <span className="w-10 text-right">{t("table.trend")}</span>
               <span className="w-10 text-right">{t("table.incidents")}</span>
+              <span className="w-16 text-right">{t("table.valuation")}</span>
             </div>
             <div className="max-h-[460px] overflow-y-auto pr-1 tui-scroll">
               {sorted.map((c, i) => {
@@ -377,15 +379,16 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
                   >
                     <span className="w-4">{active ? ">" : String(i + 1).padStart(2, "0").slice(-1)}</span>
                     <span className="w-20 truncate font-bold">{c.shortName}</span>
-                    <span className="w-44 hidden xl:inline">
-                      <AsciiBar value={c.probability} width={28} className={active ? "text-black" : ""} />
+                    <span className="w-36 hidden xl:inline">
+                      <AsciiBar value={c.probability} width={22} className={active ? "text-black" : ""} />
                     </span>
-                    <span className="w-12 text-right">{c.probability}%</span>
-                    <span className="w-12 text-right">
+                    <span className="w-10 text-right">{c.probability}%</span>
+                    <span className="w-10 text-right">
                       {c.trend.direction === "up" ? "▲" : "▼"}
                       {c.trend.value}
                     </span>
                     <span className="w-10 text-right">{c.recentIncidents}</span>
+                    <span className="w-16 text-right text-green-600">{c.valuation ?? "—"}</span>
                   </button>
                 )
               })}
@@ -395,30 +398,36 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
 
         {/* CENTER: detail + chart */}
         <div className="lg:col-span-4 flex flex-col gap-2">
-          <Panel title={t("panels.dossier", { name: sel.shortName })} accent="text-green-600">
+          <Panel title={t("panels.dossier", { name: sel?.shortName ?? "" })} accent="text-green-600">
             <div className="text-xs space-y-1">
               <div className="flex justify-between">
                 <span className="text-green-700">{t("dossier.designation")}</span>
-                <span className="text-green-300">{sel.name}</span>
+                <span className="text-green-300">{sel?.name}</span>
               </div>
+              {sel?.valuation && (
+                <div className="flex justify-between">
+                  <span className="text-green-700">{t("dossier.valuation")}</span>
+                  <span className="text-green-300">{sel.valuation}</span>
+                </div>
+              )}
               <div className="flex justify-between">
                 <span className="text-green-700">{t("dossier.riskLevel")}</span>
-                <span className={`font-bold uppercase ${riskClass(sel.riskLevel)}`}>
-                  {sel.riskLevel === "critical" && <span className="blink-fast">⚠ </span>}
-                  {t(`riskLevels.${sel.riskLevel}`)}
+                <span className={`font-bold uppercase ${riskClass(sel?.riskLevel ?? "low")}`}>
+                  {sel?.riskLevel === "critical" && <span className="blink-fast">⚠ </span>}
+                  {t(`riskLevels.${sel?.riskLevel ?? "low"}`)}
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-green-700">P(SKYNET)</span>
-                <AsciiBar value={sel.probability} width={24} className={riskClass(sel.riskLevel)} />
-                <span className={riskClass(sel.riskLevel)}>{sel.probability}%</span>
+                <AsciiBar value={sel?.probability ?? 0} width={24} className={riskClass(sel?.riskLevel ?? "low")} />
+                <span className={riskClass(sel?.riskLevel ?? "low")}>{sel?.probability}%</span>
               </div>
               <div className="text-green-700 pt-1">
-                {t("dossier.factors")}: {sel.riskFactors} │ {t("dossier.incidents")}: {sel.recentIncidents}
+                {t("dossier.factors")}: {sel?.riskFactors} │ {t("dossier.incidents")}: {sel?.recentIncidents}
               </div>
               <div className="border-t border-green-900 my-1" />
               <p className="text-green-500 leading-relaxed">
-                <RedactedText text={sel.details} active={redactionActive} />
+                <RedactedText text={sel?.details ?? ""} active={redactionActive} />
                 <Cursor />
               </p>
             </div>
@@ -426,7 +435,7 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
 
           <Panel title={t("panels.fieldNotes")} accent="text-green-600">
             <div className="text-xs space-y-1">
-              {sel.fieldNotes.map((note, index) => (
+              {(sel?.fieldNotes ?? []).map((note, index) => (
                 <div
                   key={note}
                   className={`literary-line flex gap-2 ${
@@ -451,7 +460,7 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
                     <span className={`${s.color} text-base tracking-tighter`}>
                       <Sparkline values={vals} />
                     </span>
-                    <span className="ml-auto text-green-700">{last}TF</span>
+                    <span className="ml-auto text-green-700">{last ?? 0}TF</span>
                   </div>
                 )
               })}
@@ -489,6 +498,15 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
                     {n.title}
                   </div>
                   <div className="text-green-700 line-clamp-2">{n.content}</div>
+                  {n.tags && (
+                    <div className="flex gap-1 mt-0.5 flex-wrap">
+                      {n.tags.map((tag) => (
+                        <span key={tag} className="text-[9px] text-green-800 border border-green-900 px-1">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
@@ -544,7 +562,7 @@ export function SkynetDashboard({ data, locale, onLocaleChange }: SkynetDashboar
         <span>{attackMode ? t("attack.status.operator") : t("status.operator")}</span>
         <span>{attackMode ? t("attack.status.uptime") : t("status.uptime")}</span>
         <span className={tick % 2 === 0 ? "" : "opacity-30"}>
-          ● {attackMode ? t("attack.status.compromised") : t("status.operational")}
+          ● {meta?.status === "DEGRADED" && !attackMode ? t("status.degraded") : attackMode ? t("attack.status.compromised") : t("status.operational")}
         </span>
       </div>
     </div>

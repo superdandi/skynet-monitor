@@ -2,7 +2,6 @@
 
 import { createContext, useContext, useMemo, type ReactNode } from "react"
 import { MDText } from "i18n-react"
-import { initialDataEn, initialDataEs, initialDataFr, type SkynetData } from "@/data/skynet-data"
 
 export const locales = ["en", "es", "fr"] as const
 export type Locale = (typeof locales)[number]
@@ -19,12 +18,6 @@ export const localeDateIds: Record<Locale, string> = {
   fr: "fr-FR",
 }
 
-export const initialDataByLocale: Record<Locale, SkynetData> = {
-  en: initialDataEn,
-  es: initialDataEs,
-  fr: initialDataFr,
-}
-
 const messages = {
   en: {
     app: {
@@ -36,6 +29,7 @@ const messages = {
       dataset: "DATASET",
       liveFeed: "LIVE FEED",
       language: "LANG",
+      judgmentDay: "JUDGMENT DAY",
     },
     stats: {
       criticalThreats: "CRIT THREATS",
@@ -43,6 +37,7 @@ const messages = {
       incidents30d: "INCIDENTS/30D",
       avgSkynet: "AVG P(SKYNET)",
       entities: "ENTITIES",
+      totalValuation: "VALUATION",
     },
     panels: {
       threatBoard: "THREAT BOARD",
@@ -57,12 +52,14 @@ const messages = {
       probability: "PROB",
       trend: "TRND",
       incidents: "INC",
+      valuation: "VALUE",
     },
     dossier: {
       designation: "DESIGNATION",
       riskLevel: "RISK LEVEL",
       factors: "FACTORS",
       incidents: "INCIDENTS",
+      valuation: "VALUATION",
     },
     riskLevels: {
       critical: "critical",
@@ -103,6 +100,7 @@ const messages = {
         integrity: "INTEGRITY",
         operator: "OPERATOR",
         entities: "AFFECTED",
+        valuation: "VALUE LOCKED",
       },
       logs: {
         breach: "> intrusion theater armed .......... FAIL",
@@ -142,6 +140,7 @@ const messages = {
       operator: "OPERATOR: ████████",
       uptime: "UPTIME: 99.97%",
       operational: "SYSTEM OPERATIONAL",
+      degraded: "UPLINK DEGRADED",
     },
   },
   es: {
@@ -154,6 +153,7 @@ const messages = {
       dataset: "DATOS",
       liveFeed: "FLUJO EN VIVO",
       language: "IDIOMA",
+      judgmentDay: "JUICIO FINAL",
     },
     stats: {
       criticalThreats: "AMENAZAS CRIT",
@@ -161,6 +161,7 @@ const messages = {
       incidents30d: "INCIDENTES/30D",
       avgSkynet: "PROM P(SKYNET)",
       entities: "ENTIDADES",
+      totalValuation: "VALUACION",
     },
     panels: {
       threatBoard: "TABLERO DE AMENAZAS",
@@ -175,12 +176,14 @@ const messages = {
       probability: "PROB",
       trend: "TEND",
       incidents: "INC",
+      valuation: "VALOR",
     },
     dossier: {
       designation: "DESIGNACION",
       riskLevel: "NIVEL DE RIESGO",
       factors: "FACTORES",
       incidents: "INCIDENTES",
+      valuation: "VALUACION",
     },
     riskLevels: {
       critical: "critico",
@@ -221,6 +224,7 @@ const messages = {
         integrity: "INTEGRIDAD",
         operator: "OPERADOR",
         entities: "AFECTADAS",
+        valuation: "VALOR BLOQ",
       },
       logs: {
         breach: "> teatro de intrusion armado ....... FALLA",
@@ -260,6 +264,7 @@ const messages = {
       operator: "OPERADOR: ████████",
       uptime: "ACTIVO: 99.97%",
       operational: "SISTEMA OPERATIVO",
+      degraded: "ENLACE DEGRADADO",
     },
   },
   fr: {
@@ -272,6 +277,7 @@ const messages = {
       dataset: "DONNEES",
       liveFeed: "FLUX DIRECT",
       language: "LANGUE",
+      judgmentDay: "JOUR DU JUGEMENT",
     },
     stats: {
       criticalThreats: "MENACES CRIT",
@@ -279,6 +285,7 @@ const messages = {
       incidents30d: "INCIDENTS/30J",
       avgSkynet: "MOY P(SKYNET)",
       entities: "ENTITES",
+      totalValuation: "VALORISATION",
     },
     panels: {
       threatBoard: "TABLEAU DES MENACES",
@@ -293,12 +300,14 @@ const messages = {
       probability: "PROB",
       trend: "TEND",
       incidents: "INC",
+      valuation: "VALEUR",
     },
     dossier: {
       designation: "DESIGNATION",
       riskLevel: "NIVEAU DE RISQUE",
       factors: "FACTEURS",
       incidents: "INCIDENTS",
+      valuation: "VALORISATION",
     },
     riskLevels: {
       critical: "critique",
@@ -339,6 +348,7 @@ const messages = {
         integrity: "INTEGRITE",
         operator: "OPERATEUR",
         entities: "AFFECTEES",
+        valuation: "VALEUR BLOQ",
       },
       logs: {
         breach: "> theatre intrusion arme ........... ECHEC",
@@ -378,6 +388,7 @@ const messages = {
       operator: "OPERATEUR : ████████",
       uptime: "DISPO : 99.97%",
       operational: "SYSTEME OPERATIONNEL",
+      degraded: "LIAISON DEGRADEE",
     },
   },
 } as const

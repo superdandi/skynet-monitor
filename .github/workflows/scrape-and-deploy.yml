@@ -73,8 +73,9 @@ jobs:
 
       - name: Build static site
         run: |
-          NEXT_PUBLIC_BASE_PATH="" \
-          NEXT_PUBLIC_DATA_URL="/data/dashboard.json" \
+          REPO_NAME="${{ github.event.repository.name }}"
+          NEXT_PUBLIC_BASE_PATH="/${REPO_NAME}" \
+          NEXT_PUBLIC_DATA_URL="/${REPO_NAME}/data/dashboard.json" \
           pnpm build
 
       - name: Deploy to GitHub Pages
