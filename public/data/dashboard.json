@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26 05:07 UTC",
+  "lastUpdated": "2026-07-26 05:18 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,7 +8,7 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 80,
       "trend": {
-        "value": 12,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "critical",
@@ -33,7 +33,7 @@
       "description": "AI safety company behind Claude models",
       "probability": 36,
       "trend": {
-        "value": 4,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "high",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-93485",
+      "id": "news-62722",
       "date": "2026-07-26",
       "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
       "content": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL.\n\nConfiant, which detailed the campaign on July 23, 2026",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-25253",
+      "id": "news-39235",
       "date": "2026-07-25",
       "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
       "content": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process.\n\nTracke",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-42905",
+      "id": "news-12950",
       "date": "2026-07-25",
       "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
       "content": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose.\n\nThat model is changing.\n\nRec",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-69401",
+      "id": "news-6492",
       "date": "2026-07-25",
       "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
       "content": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign.\n\n\"Attackers chain a pre-authentication info",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-39512",
+      "id": "news-83963",
       "date": "2026-07-25",
       "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
       "content": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims.\n\nSwiss cybersecurity company PRODAFT is tracking the c",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-70784",
+      "id": "news-96328",
       "date": "2026-07-25",
       "title": "Malicious sites use JavaScript to build malware in browser memory",
       "content": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-6417",
+      "id": "news-8254",
       "date": "2026-07-25",
       "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
       "content": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-9837",
+      "id": "news-25138",
       "date": "2026-07-24",
       "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
       "content": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malwar",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-55299",
+      "id": "news-61674",
       "date": "2026-07-24",
       "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
       "content": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization.\n\nThe v",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-51074",
+      "id": "news-6351",
       "date": "2026-07-24",
       "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
       "content": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is why there are so many approaches, from p",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-6077",
+      "id": "news-81324",
       "date": "2026-07-24",
       "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
       "content": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, which runs the country's treasury and tax collection.\n\nThe agent then worked through",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-73505",
+      "id": "news-21004",
       "date": "2026-07-24",
       "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
       "content": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software's source code.\n\nEvery version before 4.14.0 is affec",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-9884",
+      "id": "news-73216",
       "date": "2026-07-24",
       "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
       "content": "Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0.\n\nAll four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 chain needs EVAL and the bundled RedisBlo",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-33176",
+      "id": "news-93313",
       "date": "2026-07-24",
       "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
       "content": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems.\n\nThe activity has been attributed by the agency to a threat cluster it tracks",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-44027",
+      "id": "news-88334",
       "date": "2026-07-24",
       "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
       "content": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client.\n\nThe payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes k",
