@@ -1,0 +1,85 @@
+name: Scrape & Deploy
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    outputs:
+      data_changed: ${{ steps.check_data.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: |
+          pip install httpx beautifulsoup4 lxml
+
+      - name: Run scraper
+        run: python scripts/scraper.py
+
+      - name: Check if data changed
+        id: check_data
+        run: |
+          if ! git diff --quiet public/data/dashboard.json; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit updated data
+        if: steps.check_data.outputs.changed == 'true'
+        run: |
+          git config user.name "skynet-bot"
+          git config user.email "bot@skynet.local"
+          git add public/data/dashboard.json
+          git commit -m "skynet: auto-update dashboard data [$(date +%Y-%m-%d-%H:%M)]"
+          git push
+
+  build-and-deploy:
+    needs: scrape
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Install frontend deps
+        run: pnpm install
+
+      - name: Build static site
+        run: |
+          NEXT_PUBLIC_BASE_PATH="" \
+          NEXT_PUBLIC_DATA_URL="/data/dashboard.json" \
+          pnpm build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
+          force_orphan: true
