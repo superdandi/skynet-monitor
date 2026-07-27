@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27 14:54 UTC",
+  "lastUpdated": "2026-07-27 19:46 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,7 +8,7 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 84,
       "trend": {
-        "value": 4,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "critical",
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-38687",
+      "id": "news-45866",
+      "date": "2026-07-27",
+      "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+      "content": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user.\n\nSSD Secure Disc",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-44496",
       "date": "2026-07-27",
       "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
       "content": "Monday starts with the usual promise that everything is under control. Then the logs wake up.\n\nThis week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at fir",
@@ -398,7 +410,7 @@
       ]
     },
     {
-      "id": "news-67740",
+      "id": "news-62782",
       "date": "2026-07-27",
       "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
       "content": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools.\n\n\"The victim was directed through compromised web infrastructure to a counterfeit Microsoft S",
@@ -410,7 +422,7 @@
       ]
     },
     {
-      "id": "news-79488",
+      "id": "news-23069",
       "date": "2026-07-27",
       "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
       "content": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.\n\nThe intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, an",
@@ -422,7 +434,31 @@
       ]
     },
     {
-      "id": "news-15572",
+      "id": "news-98120",
+      "date": "2026-07-27",
+      "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
+      "content": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-38292",
+      "date": "2026-07-27",
+      "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
+      "content": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-77154",
       "date": "2026-07-27",
       "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
       "content": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before unmanaged permissions and autonomous actions create security risks. [...]",
@@ -434,7 +470,7 @@
       ]
     },
     {
-      "id": "news-89970",
+      "id": "news-62709",
       "date": "2026-07-26",
       "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
       "content": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL.\n\nConfiant, which detailed the campaign on July 23, 2026",
@@ -446,7 +482,7 @@
       ]
     },
     {
-      "id": "news-76338",
+      "id": "news-21426",
       "date": "2026-07-26",
       "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
       "content": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
@@ -458,7 +494,7 @@
       ]
     },
     {
-      "id": "news-50094",
+      "id": "news-33417",
       "date": "2026-07-25",
       "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
       "content": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process.\n\nTracke",
@@ -470,7 +506,7 @@
       ]
     },
     {
-      "id": "news-54357",
+      "id": "news-22061",
       "date": "2026-07-25",
       "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
       "content": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose.\n\nThat model is changing.\n\nRec",
@@ -482,7 +518,7 @@
       ]
     },
     {
-      "id": "news-27185",
+      "id": "news-6587",
       "date": "2026-07-25",
       "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
       "content": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign.\n\n\"Attackers chain a pre-authentication info",
@@ -494,7 +530,7 @@
       ]
     },
     {
-      "id": "news-48654",
+      "id": "news-40964",
       "date": "2026-07-25",
       "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
       "content": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims.\n\nSwiss cybersecurity company PRODAFT is tracking the c",
@@ -506,7 +542,7 @@
       ]
     },
     {
-      "id": "news-96151",
+      "id": "news-91109",
       "date": "2026-07-25",
       "title": "Malicious sites use JavaScript to build malware in browser memory",
       "content": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]",
@@ -518,7 +554,7 @@
       ]
     },
     {
-      "id": "news-98563",
+      "id": "news-98795",
       "date": "2026-07-25",
       "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
       "content": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
@@ -527,43 +563,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-8612",
-      "date": "2026-07-24",
-      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-      "content": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malwar",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-32008",
-      "date": "2026-07-24",
-      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-      "content": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization.\n\nThe v",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "openai",
-        "critical"
-      ]
-    },
-    {
-      "id": "news-23668",
-      "date": "2026-07-24",
-      "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
-      "content": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is why there are so many approaches, from p",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
