@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-07-28 03:24 UTC",
+  "lastUpdated": "2026-07-28 08:47 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 84,
+      "probability": 88,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 3,
+      "recentIncidents": 4,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 672,
+        "openai": 704,
         "anthropic": 288,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 806,
+        "openai": 844,
         "anthropic": 345,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 940,
+        "openai": 985,
         "anthropic": 403,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1075,
+        "openai": 1126,
         "anthropic": 460,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1209,
+        "openai": 1267,
         "anthropic": 518,
         "google-deepmind": 187,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 604,
+        "openai": 633,
         "anthropic": 259,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 722,
+        "openai": 756,
         "anthropic": 309,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 840,
+        "openai": 880,
         "anthropic": 360,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 957,
+        "openai": 1003,
         "anthropic": 410,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1075,
+        "openai": 1126,
         "anthropic": 460,
         "google-deepmind": 166,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 336,
+        "openai": 352,
         "anthropic": 144,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 436,
+        "openai": 457,
         "anthropic": 187,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 537,
+        "openai": 563,
         "anthropic": 230,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 638,
+        "openai": 668,
         "anthropic": 273,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 739,
+        "openai": 774,
         "anthropic": 316,
         "google-deepmind": 114,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 504,
+        "openai": 528,
         "anthropic": 216,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 621,
+        "openai": 651,
         "anthropic": 266,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 739,
+        "openai": 774,
         "anthropic": 316,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 856,
+        "openai": 897,
         "anthropic": 367,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 974,
+        "openai": 1020,
         "anthropic": 417,
         "google-deepmind": 150,
         "meta-ai": 116
@@ -385,7 +385,20 @@
   },
   "news": [
     {
-      "id": "news-87568",
+      "id": "news-26488",
+      "date": "2026-07-28",
+      "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+      "content": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness.\n\nThe company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% le",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-94783",
       "date": "2026-07-27",
       "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
       "content": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents.\n\nThe 37-member group spans cloud, security, enterprise software, and AI companies",
@@ -397,7 +410,7 @@
       ]
     },
     {
-      "id": "news-77101",
+      "id": "news-12732",
       "date": "2026-07-27",
       "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
       "content": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user.\n\nSSD Secure Disc",
@@ -409,7 +422,7 @@
       ]
     },
     {
-      "id": "news-8156",
+      "id": "news-78105",
       "date": "2026-07-27",
       "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
       "content": "Monday starts with the usual promise that everything is under control. Then the logs wake up.\n\nThis week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at fir",
@@ -422,7 +435,7 @@
       ]
     },
     {
-      "id": "news-45891",
+      "id": "news-21197",
       "date": "2026-07-27",
       "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
       "content": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools.\n\n\"The victim was directed through compromised web infrastructure to a counterfeit Microsoft S",
@@ -434,7 +447,7 @@
       ]
     },
     {
-      "id": "news-12125",
+      "id": "news-18427",
       "date": "2026-07-27",
       "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
       "content": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.\n\nThe intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, an",
@@ -446,7 +459,7 @@
       ]
     },
     {
-      "id": "news-58722",
+      "id": "news-15356",
       "date": "2026-07-27",
       "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
       "content": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
@@ -458,7 +471,7 @@
       ]
     },
     {
-      "id": "news-64742",
+      "id": "news-74174",
       "date": "2026-07-27",
       "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
       "content": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
@@ -470,7 +483,7 @@
       ]
     },
     {
-      "id": "news-88128",
+      "id": "news-12841",
       "date": "2026-07-27",
       "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
       "content": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
@@ -482,7 +495,7 @@
       ]
     },
     {
-      "id": "news-6121",
+      "id": "news-52641",
       "date": "2026-07-27",
       "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
       "content": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before unmanaged permissions and autonomous actions create security risks. [...]",
@@ -494,7 +507,7 @@
       ]
     },
     {
-      "id": "news-98642",
+      "id": "news-72272",
       "date": "2026-07-26",
       "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
       "content": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL.\n\nConfiant, which detailed the campaign on July 23, 2026",
@@ -506,7 +519,7 @@
       ]
     },
     {
-      "id": "news-10037",
+      "id": "news-54281",
       "date": "2026-07-26",
       "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
       "content": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
@@ -518,7 +531,7 @@
       ]
     },
     {
-      "id": "news-99001",
+      "id": "news-31589",
       "date": "2026-07-25",
       "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
       "content": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process.\n\nTracke",
@@ -530,7 +543,7 @@
       ]
     },
     {
-      "id": "news-55658",
+      "id": "news-26675",
       "date": "2026-07-25",
       "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
       "content": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose.\n\nThat model is changing.\n\nRec",
@@ -542,22 +555,10 @@
       ]
     },
     {
-      "id": "news-17316",
+      "id": "news-65653",
       "date": "2026-07-25",
       "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
       "content": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign.\n\n\"Attackers chain a pre-authentication info",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-2977",
-      "date": "2026-07-25",
-      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
-      "content": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims.\n\nSwiss cybersecurity company PRODAFT is tracking the c",
       "category": "critical",
       "impact": "Critical",
       "views": 0,
