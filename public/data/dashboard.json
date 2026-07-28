@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-07-28 14:28 UTC",
+  "lastUpdated": "2026-07-28 19:44 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 96,
+      "probability": 92,
       "trend": {
-        "value": 8,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 2,
-      "recentIncidents": 5,
+      "recentIncidents": 4,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 36,
+      "probability": 40,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 2,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -200,36 +200,36 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 768,
-        "anthropic": 288,
+        "openai": 736,
+        "anthropic": 320,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 921,
-        "anthropic": 345,
+        "openai": 883,
+        "anthropic": 384,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 1075,
-        "anthropic": 403,
+        "openai": 1030,
+        "anthropic": 448,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1228,
-        "anthropic": 460,
+        "openai": 1177,
+        "anthropic": 512,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1382,
-        "anthropic": 518,
+        "openai": 1324,
+        "anthropic": 576,
         "google-deepmind": 187,
         "meta-ai": 144
       }
@@ -237,36 +237,36 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 691,
-        "anthropic": 259,
+        "openai": 662,
+        "anthropic": 288,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 825,
-        "anthropic": 309,
+        "openai": 791,
+        "anthropic": 344,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 960,
-        "anthropic": 360,
+        "openai": 920,
+        "anthropic": 400,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 1094,
-        "anthropic": 410,
+        "openai": 1048,
+        "anthropic": 456,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1228,
-        "anthropic": 460,
+        "openai": 1177,
+        "anthropic": 512,
         "google-deepmind": 166,
         "meta-ai": 128
       }
@@ -274,36 +274,36 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 384,
-        "anthropic": 144,
+        "openai": 368,
+        "anthropic": 160,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 499,
-        "anthropic": 187,
+        "openai": 478,
+        "anthropic": 208,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 614,
-        "anthropic": 230,
+        "openai": 588,
+        "anthropic": 256,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 729,
-        "anthropic": 273,
+        "openai": 699,
+        "anthropic": 304,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 844,
-        "anthropic": 316,
+        "openai": 809,
+        "anthropic": 352,
         "google-deepmind": 114,
         "meta-ai": 88
       }
@@ -311,36 +311,36 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 576,
-        "anthropic": 216,
+        "openai": 552,
+        "anthropic": 240,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 710,
-        "anthropic": 266,
+        "openai": 680,
+        "anthropic": 296,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 844,
-        "anthropic": 316,
+        "openai": 809,
+        "anthropic": 352,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 979,
-        "anthropic": 367,
+        "openai": 938,
+        "anthropic": 408,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 1113,
-        "anthropic": 417,
+        "openai": 1067,
+        "anthropic": 464,
         "google-deepmind": 150,
         "meta-ai": 116
       }
@@ -385,7 +385,32 @@
   },
   "news": [
     {
-      "id": "news-35814",
+      "id": "news-28406",
+      "date": "2026-07-29",
+      "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
+      "content": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.\n\nThe HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic'",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-68020",
+      "date": "2026-07-28",
+      "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+      "content": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.\n\nIf that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dro",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-47404",
       "date": "2026-07-28",
       "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
       "content": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved lat",
@@ -398,7 +423,7 @@
       ]
     },
     {
-      "id": "news-71620",
+      "id": "news-85659",
       "date": "2026-07-28",
       "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
       "content": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia.\n\nThe intrusions involve ",
@@ -410,7 +435,7 @@
       ]
     },
     {
-      "id": "news-44143",
+      "id": "news-69557",
       "date": "2026-07-28",
       "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
       "content": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution.\n\nThe vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity",
@@ -422,7 +447,7 @@
       ]
     },
     {
-      "id": "news-21057",
+      "id": "news-74390",
       "date": "2026-07-28",
       "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
       "content": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness.\n\nThe company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% le",
@@ -435,7 +460,7 @@
       ]
     },
     {
-      "id": "news-47512",
+      "id": "news-88754",
       "date": "2026-07-28",
       "title": "Is Your SSO Protected Against Modern Credential Attacks?",
       "content": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...",
@@ -447,7 +472,7 @@
       ]
     },
     {
-      "id": "news-14685",
+      "id": "news-24703",
       "date": "2026-07-27",
       "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
       "content": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents.\n\nThe 37-member group spans cloud, security, enterprise software, and AI companies",
@@ -459,7 +484,7 @@
       ]
     },
     {
-      "id": "news-96657",
+      "id": "news-11552",
       "date": "2026-07-27",
       "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
       "content": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user.\n\nSSD Secure Disc",
@@ -471,7 +496,7 @@
       ]
     },
     {
-      "id": "news-96941",
+      "id": "news-83178",
       "date": "2026-07-27",
       "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
       "content": "Monday starts with the usual promise that everything is under control. Then the logs wake up.\n\nThis week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at fir",
@@ -484,7 +509,7 @@
       ]
     },
     {
-      "id": "news-72326",
+      "id": "news-65350",
       "date": "2026-07-27",
       "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
       "content": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools.\n\n\"The victim was directed through compromised web infrastructure to a counterfeit Microsoft S",
@@ -496,7 +521,7 @@
       ]
     },
     {
-      "id": "news-338",
+      "id": "news-39367",
       "date": "2026-07-27",
       "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
       "content": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.\n\nThe intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, an",
@@ -508,7 +533,7 @@
       ]
     },
     {
-      "id": "news-9301",
+      "id": "news-39245",
       "date": "2026-07-27",
       "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
       "content": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
@@ -520,7 +545,7 @@
       ]
     },
     {
-      "id": "news-21792",
+      "id": "news-79478",
       "date": "2026-07-27",
       "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
       "content": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
@@ -532,7 +557,7 @@
       ]
     },
     {
-      "id": "news-65991",
+      "id": "news-82639",
       "date": "2026-07-27",
       "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
       "content": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
@@ -541,30 +566,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-65545",
-      "date": "2026-07-27",
-      "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
-      "content": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before unmanaged permissions and autonomous actions create security risks. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-85753",
-      "date": "2026-07-26",
-      "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
-      "content": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL.\n\nConfiant, which detailed the campaign on July 23, 2026",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
