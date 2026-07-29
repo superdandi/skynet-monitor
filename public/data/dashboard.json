@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-07-28 19:44 UTC",
+  "lastUpdated": "2026-07-29 03:26 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 92,
+      "probability": 99,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 7,
+        "direction": "up"
       },
       "riskLevel": "critical",
-      "riskFactors": 2,
-      "recentIncidents": 4,
+      "riskFactors": 3,
+      "recentIncidents": 5,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -33,7 +33,7 @@
       "description": "AI safety company behind Claude models",
       "probability": 40,
       "trend": {
-        "value": 4,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "high",
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 736,
+        "openai": 792,
         "anthropic": 320,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 883,
+        "openai": 950,
         "anthropic": 384,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 1030,
+        "openai": 1108,
         "anthropic": 448,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1177,
+        "openai": 1267,
         "anthropic": 512,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1324,
+        "openai": 1425,
         "anthropic": 576,
         "google-deepmind": 187,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 662,
+        "openai": 712,
         "anthropic": 288,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 791,
+        "openai": 851,
         "anthropic": 344,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 920,
+        "openai": 990,
         "anthropic": 400,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 1048,
+        "openai": 1128,
         "anthropic": 456,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1177,
+        "openai": 1267,
         "anthropic": 512,
         "google-deepmind": 166,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 368,
+        "openai": 396,
         "anthropic": 160,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 478,
+        "openai": 514,
         "anthropic": 208,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 588,
+        "openai": 633,
         "anthropic": 256,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 699,
+        "openai": 752,
         "anthropic": 304,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 809,
+        "openai": 871,
         "anthropic": 352,
         "google-deepmind": 114,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 552,
+        "openai": 594,
         "anthropic": 240,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 680,
+        "openai": 732,
         "anthropic": 296,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 809,
+        "openai": 871,
         "anthropic": 352,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 938,
+        "openai": 1009,
         "anthropic": 408,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 1067,
+        "openai": 1148,
         "anthropic": 464,
         "google-deepmind": 150,
         "meta-ai": 116
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-28406",
+      "id": "news-54595",
       "date": "2026-07-29",
       "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
       "content": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.\n\nThe HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic'",
@@ -398,7 +398,7 @@
       ]
     },
     {
-      "id": "news-68020",
+      "id": "news-86210",
       "date": "2026-07-28",
       "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
       "content": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.\n\nIf that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dro",
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "id": "news-47404",
+      "id": "news-50216",
       "date": "2026-07-28",
       "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
       "content": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved lat",
@@ -423,7 +423,7 @@
       ]
     },
     {
-      "id": "news-85659",
+      "id": "news-42284",
       "date": "2026-07-28",
       "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
       "content": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia.\n\nThe intrusions involve ",
@@ -435,7 +435,7 @@
       ]
     },
     {
-      "id": "news-69557",
+      "id": "news-21844",
       "date": "2026-07-28",
       "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
       "content": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution.\n\nThe vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity",
@@ -447,7 +447,7 @@
       ]
     },
     {
-      "id": "news-74390",
+      "id": "news-3483",
       "date": "2026-07-28",
       "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
       "content": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness.\n\nThe company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% le",
@@ -460,7 +460,20 @@
       ]
     },
     {
-      "id": "news-88754",
+      "id": "news-82455",
+      "date": "2026-07-28",
+      "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+      "content": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "openai",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-60613",
       "date": "2026-07-28",
       "title": "Is Your SSO Protected Against Modern Credential Attacks?",
       "content": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...",
@@ -472,7 +485,7 @@
       ]
     },
     {
-      "id": "news-24703",
+      "id": "news-42031",
       "date": "2026-07-27",
       "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
       "content": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents.\n\nThe 37-member group spans cloud, security, enterprise software, and AI companies",
@@ -484,7 +497,7 @@
       ]
     },
     {
-      "id": "news-11552",
+      "id": "news-76630",
       "date": "2026-07-27",
       "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
       "content": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user.\n\nSSD Secure Disc",
@@ -496,7 +509,7 @@
       ]
     },
     {
-      "id": "news-83178",
+      "id": "news-35960",
       "date": "2026-07-27",
       "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
       "content": "Monday starts with the usual promise that everything is under control. Then the logs wake up.\n\nThis week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at fir",
@@ -509,7 +522,7 @@
       ]
     },
     {
-      "id": "news-65350",
+      "id": "news-67486",
       "date": "2026-07-27",
       "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
       "content": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools.\n\n\"The victim was directed through compromised web infrastructure to a counterfeit Microsoft S",
@@ -521,7 +534,7 @@
       ]
     },
     {
-      "id": "news-39367",
+      "id": "news-84821",
       "date": "2026-07-27",
       "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
       "content": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.\n\nThe intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, an",
@@ -533,7 +546,7 @@
       ]
     },
     {
-      "id": "news-39245",
+      "id": "news-91229",
       "date": "2026-07-27",
       "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
       "content": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
@@ -545,22 +558,10 @@
       ]
     },
     {
-      "id": "news-79478",
+      "id": "news-79315",
       "date": "2026-07-27",
       "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
       "content": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-82639",
-      "date": "2026-07-27",
-      "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
-      "content": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
       "category": "critical",
       "impact": "Critical",
       "views": 0,
