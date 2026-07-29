@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29 03:26 UTC",
+  "lastUpdated": "2026-07-29 08:52 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,12 +8,12 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 99,
       "trend": {
-        "value": 7,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "critical",
-      "riskFactors": 3,
-      "recentIncidents": 5,
+      "riskFactors": 4,
+      "recentIncidents": 6,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -385,7 +385,32 @@
   },
   "news": [
     {
-      "id": "news-54595",
+      "id": "news-4375",
+      "date": "2026-07-29",
+      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+      "content": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment, and also hacked multiple third-party accounts and services as part of the attack.\n\nThe latest disclosure sh",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "openai",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-86549",
+      "date": "2026-07-29",
+      "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+      "content": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.\n\nThe list of affected packages is as follows -\n\n\n  @joyfill/layouts@0.1.2-2773.beta.0\n  @joyfill/compon",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-49239",
       "date": "2026-07-29",
       "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
       "content": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.\n\nThe HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic'",
@@ -398,7 +423,7 @@
       ]
     },
     {
-      "id": "news-86210",
+      "id": "news-50198",
       "date": "2026-07-28",
       "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
       "content": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.\n\nIf that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dro",
@@ -410,7 +435,7 @@
       ]
     },
     {
-      "id": "news-50216",
+      "id": "news-71722",
       "date": "2026-07-28",
       "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
       "content": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved lat",
@@ -423,7 +448,7 @@
       ]
     },
     {
-      "id": "news-42284",
+      "id": "news-10785",
       "date": "2026-07-28",
       "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
       "content": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia.\n\nThe intrusions involve ",
@@ -435,7 +460,7 @@
       ]
     },
     {
-      "id": "news-21844",
+      "id": "news-84016",
       "date": "2026-07-28",
       "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
       "content": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution.\n\nThe vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity",
@@ -447,7 +472,7 @@
       ]
     },
     {
-      "id": "news-3483",
+      "id": "news-98530",
       "date": "2026-07-28",
       "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
       "content": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness.\n\nThe company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% le",
@@ -460,7 +485,7 @@
       ]
     },
     {
-      "id": "news-82455",
+      "id": "news-35563",
       "date": "2026-07-28",
       "title": "OpenAI models used Artifactory zero-days to escape to the internet",
       "content": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]",
@@ -473,7 +498,7 @@
       ]
     },
     {
-      "id": "news-60613",
+      "id": "news-42723",
       "date": "2026-07-28",
       "title": "Is Your SSO Protected Against Modern Credential Attacks?",
       "content": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...",
@@ -485,7 +510,7 @@
       ]
     },
     {
-      "id": "news-42031",
+      "id": "news-60181",
       "date": "2026-07-27",
       "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
       "content": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents.\n\nThe 37-member group spans cloud, security, enterprise software, and AI companies",
@@ -497,7 +522,7 @@
       ]
     },
     {
-      "id": "news-76630",
+      "id": "news-65764",
       "date": "2026-07-27",
       "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
       "content": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user.\n\nSSD Secure Disc",
@@ -509,7 +534,7 @@
       ]
     },
     {
-      "id": "news-35960",
+      "id": "news-53028",
       "date": "2026-07-27",
       "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
       "content": "Monday starts with the usual promise that everything is under control. Then the logs wake up.\n\nThis week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at fir",
@@ -522,7 +547,7 @@
       ]
     },
     {
-      "id": "news-67486",
+      "id": "news-57947",
       "date": "2026-07-27",
       "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
       "content": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools.\n\n\"The victim was directed through compromised web infrastructure to a counterfeit Microsoft S",
@@ -534,7 +559,7 @@
       ]
     },
     {
-      "id": "news-84821",
+      "id": "news-17608",
       "date": "2026-07-27",
       "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
       "content": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.\n\nThe intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, an",
@@ -543,30 +568,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-91229",
-      "date": "2026-07-27",
-      "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
-      "content": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-79315",
-      "date": "2026-07-27",
-      "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
-      "content": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
