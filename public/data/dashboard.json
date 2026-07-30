@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30 14:24 UTC",
+  "lastUpdated": "2026-07-30 19:44 UTC",
   "companies": [
     {
       "id": "openai",
@@ -12,8 +12,8 @@
         "direction": "up"
       },
       "riskLevel": "critical",
-      "riskFactors": 4,
-      "recentIncidents": 8,
+      "riskFactors": 3,
+      "recentIncidents": 6,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-31407",
+      "id": "news-60258",
+      "date": "2026-07-30",
+      "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
+      "content": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Con",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-39569",
+      "date": "2026-07-30",
+      "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+      "content": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and expl",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-85067",
+      "date": "2026-07-30",
+      "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+      "content": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.\n\nWiz, which codenamed the chain CosmosEscape, said the exploit chain ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-51508",
       "date": "2026-07-30",
       "title": "The Network Has Become the Control Plane for AI Security",
       "content": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to",
@@ -397,7 +433,7 @@
       ]
     },
     {
-      "id": "news-26603",
+      "id": "news-38389",
       "date": "2026-07-30",
       "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
       "content": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE b",
@@ -409,7 +445,7 @@
       ]
     },
     {
-      "id": "news-20567",
+      "id": "news-96992",
       "date": "2026-07-30",
       "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
       "content": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent",
@@ -421,7 +457,7 @@
       ]
     },
     {
-      "id": "news-31811",
+      "id": "news-85824",
       "date": "2026-07-30",
       "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
       "content": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommuni",
@@ -433,7 +469,7 @@
       ]
     },
     {
-      "id": "news-84442",
+      "id": "news-92197",
       "date": "2026-07-30",
       "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
       "content": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages c",
@@ -445,7 +481,67 @@
       ]
     },
     {
-      "id": "news-13230",
+      "id": "news-31764",
+      "date": "2026-07-30",
+      "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
+      "content": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-99397",
+      "date": "2026-07-30",
+      "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
+      "content": "Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with more than 1,000 security bugs patched across the browser's two most recent releases as it expands its use of AI. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-58034",
+      "date": "2026-07-30",
+      "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
+      "content": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-15148",
+      "date": "2026-07-30",
+      "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
+      "content": "Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransomware in attacks targeting North American organizations. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-602",
+      "date": "2026-07-30",
+      "title": "Analog Devices discloses data breach, says operations unaffected",
+      "content": "American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-24323",
       "date": "2026-07-30",
       "title": "After the Break-In: What Attackers Do Once They're Already Inside",
       "content": "Attackers rarely stop after gaining initial access. Huntress analyzes a real-world intrusion to show how threat actors establish persistence, disable defenses, and reshape compromised systems, and why defenders must investigate the original entry point rather than simply remove t",
@@ -457,109 +553,10 @@
       ]
     },
     {
-      "id": "news-5647",
-      "date": "2026-07-29",
-      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-      "content": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\n\nTracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process e",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-13699",
-      "date": "2026-07-29",
-      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-      "content": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.\n\nThe vulnerability, tracked as CVE-2026-59726 (CVSS score: 1",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "anthropic",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-50735",
-      "date": "2026-07-29",
-      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
-      "content": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response.\n\nBraham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications f",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-7624",
-      "date": "2026-07-29",
-      "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
-      "content": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years.\n\nAccording to Russian cybersecurity vendor F6, the ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-37459",
-      "date": "2026-07-29",
-      "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
-      "content": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along.\n\nThe conversation happening in security circles right now goes something like this: Mythos is he",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-51109",
-      "date": "2026-07-29",
-      "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
-      "content": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian law.\n\nThe principal security agency said",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-73363",
-      "date": "2026-07-29",
-      "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
-      "content": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild.\n\nThe vulnerab",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-56944",
-      "date": "2026-07-29",
-      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
-      "content": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack.\n\nThe latest disclosure shows t",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "openai",
-        "critical"
-      ]
-    },
-    {
-      "id": "news-7669",
-      "date": "2026-07-29",
-      "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
-      "content": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.\n\nThe list of affected packages is as follows -\n\n\n  @joyfill/layouts@0.1.2-2773.beta.0\n  @joyfill/compon",
+      "id": "news-56861",
+      "date": "2026-07-30",
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "content": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a groundbreaking new analysis finds ",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
