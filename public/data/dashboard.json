@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29 19:36 UTC",
+  "lastUpdated": "2026-07-30 03:14 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-59830",
+      "id": "news-75",
       "date": "2026-07-29",
       "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
       "content": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\n\nTracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process e",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-99393",
+      "id": "news-88213",
       "date": "2026-07-29",
       "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
       "content": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.\n\nThe vulnerability, tracked as CVE-2026-59726 (CVSS score: 1",
@@ -411,7 +411,7 @@
       ]
     },
     {
-      "id": "news-48115",
+      "id": "news-86495",
       "date": "2026-07-29",
       "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
       "content": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response.\n\nBraham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications f",
@@ -423,7 +423,7 @@
       ]
     },
     {
-      "id": "news-86823",
+      "id": "news-26610",
       "date": "2026-07-29",
       "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
       "content": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years.\n\nAccording to Russian cybersecurity vendor F6, the ",
@@ -435,7 +435,7 @@
       ]
     },
     {
-      "id": "news-15702",
+      "id": "news-26949",
       "date": "2026-07-29",
       "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
       "content": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along.\n\nThe conversation happening in security circles right now goes something like this: Mythos is he",
@@ -447,7 +447,7 @@
       ]
     },
     {
-      "id": "news-79248",
+      "id": "news-75188",
       "date": "2026-07-29",
       "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
       "content": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian law.\n\nThe principal security agency said",
@@ -459,7 +459,7 @@
       ]
     },
     {
-      "id": "news-14887",
+      "id": "news-95189",
       "date": "2026-07-29",
       "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
       "content": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild.\n\nThe vulnerab",
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "id": "news-5580",
+      "id": "news-23638",
       "date": "2026-07-29",
       "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
       "content": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack.\n\nThe latest disclosure shows t",
@@ -484,7 +484,7 @@
       ]
     },
     {
-      "id": "news-1144",
+      "id": "news-28270",
       "date": "2026-07-29",
       "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
       "content": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.\n\nThe list of affected packages is as follows -\n\n\n  @joyfill/layouts@0.1.2-2773.beta.0\n  @joyfill/compon",
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": "news-79686",
+      "id": "news-72449",
       "date": "2026-07-29",
       "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
       "content": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.\n\nThe HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic'",
@@ -509,7 +509,31 @@
       ]
     },
     {
-      "id": "news-26750",
+      "id": "news-80658",
+      "date": "2026-07-29",
+      "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+      "content": "The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-14587",
+      "date": "2026-07-29",
+      "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+      "content": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-6027",
       "date": "2026-07-29",
       "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
       "content": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
@@ -522,7 +546,7 @@
       ]
     },
     {
-      "id": "news-7832",
+      "id": "news-21979",
       "date": "2026-07-29",
       "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
       "content": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege are becoming the foundation for securing agentic AI. [...]",
@@ -534,7 +558,7 @@
       ]
     },
     {
-      "id": "news-98518",
+      "id": "news-29302",
       "date": "2026-07-28",
       "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
       "content": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.\n\nIf that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dro",
@@ -543,31 +567,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-43630",
-      "date": "2026-07-28",
-      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
-      "content": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved lat",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "openai",
-        "critical"
-      ]
-    },
-    {
-      "id": "news-64057",
-      "date": "2026-07-28",
-      "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
-      "content": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia.\n\nThe intrusions involve ",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
