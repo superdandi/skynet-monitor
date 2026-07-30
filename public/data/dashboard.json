@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30 08:42 UTC",
+  "lastUpdated": "2026-07-30 14:24 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-62261",
+      "id": "news-31407",
+      "date": "2026-07-30",
+      "title": "The Network Has Become the Control Plane for AI Security",
+      "content": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-26603",
+      "date": "2026-07-30",
+      "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
+      "content": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE b",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-20567",
+      "date": "2026-07-30",
+      "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
+      "content": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-31811",
       "date": "2026-07-30",
       "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
       "content": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommuni",
@@ -397,7 +433,7 @@
       ]
     },
     {
-      "id": "news-90855",
+      "id": "news-84442",
       "date": "2026-07-30",
       "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
       "content": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages c",
@@ -409,7 +445,19 @@
       ]
     },
     {
-      "id": "news-90095",
+      "id": "news-13230",
+      "date": "2026-07-30",
+      "title": "After the Break-In: What Attackers Do Once They're Already Inside",
+      "content": "Attackers rarely stop after gaining initial access. Huntress analyzes a real-world intrusion to show how threat actors establish persistence, disable defenses, and reshape compromised systems, and why defenders must investigate the original entry point rather than simply remove t",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-5647",
       "date": "2026-07-29",
       "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
       "content": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\n\nTracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process e",
@@ -421,7 +469,7 @@
       ]
     },
     {
-      "id": "news-38977",
+      "id": "news-13699",
       "date": "2026-07-29",
       "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
       "content": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.\n\nThe vulnerability, tracked as CVE-2026-59726 (CVSS score: 1",
@@ -435,7 +483,7 @@
       ]
     },
     {
-      "id": "news-9127",
+      "id": "news-50735",
       "date": "2026-07-29",
       "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
       "content": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response.\n\nBraham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications f",
@@ -447,7 +495,7 @@
       ]
     },
     {
-      "id": "news-13920",
+      "id": "news-7624",
       "date": "2026-07-29",
       "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
       "content": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years.\n\nAccording to Russian cybersecurity vendor F6, the ",
@@ -459,7 +507,7 @@
       ]
     },
     {
-      "id": "news-73429",
+      "id": "news-37459",
       "date": "2026-07-29",
       "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
       "content": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along.\n\nThe conversation happening in security circles right now goes something like this: Mythos is he",
@@ -471,7 +519,7 @@
       ]
     },
     {
-      "id": "news-86747",
+      "id": "news-51109",
       "date": "2026-07-29",
       "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
       "content": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian law.\n\nThe principal security agency said",
@@ -483,7 +531,7 @@
       ]
     },
     {
-      "id": "news-39654",
+      "id": "news-73363",
       "date": "2026-07-29",
       "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
       "content": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild.\n\nThe vulnerab",
@@ -495,7 +543,7 @@
       ]
     },
     {
-      "id": "news-59589",
+      "id": "news-56944",
       "date": "2026-07-29",
       "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
       "content": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack.\n\nThe latest disclosure shows t",
@@ -508,7 +556,7 @@
       ]
     },
     {
-      "id": "news-24181",
+      "id": "news-7669",
       "date": "2026-07-29",
       "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
       "content": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.\n\nThe list of affected packages is as follows -\n\n\n  @joyfill/layouts@0.1.2-2773.beta.0\n  @joyfill/compon",
@@ -517,56 +565,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-6019",
-      "date": "2026-07-29",
-      "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
-      "content": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.\n\nThe HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic'",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "anthropic",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-59403",
-      "date": "2026-07-29",
-      "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
-      "content": "The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-43554",
-      "date": "2026-07-29",
-      "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
-      "content": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-92464",
-      "date": "2026-07-29",
-      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
-      "content": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "openai",
-        "critical"
       ]
     }
   ],
