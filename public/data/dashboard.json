@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31 09:13 UTC",
+  "lastUpdated": "2026-07-31 14:26 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 48,
+      "probability": 56,
       "trend": {
-        "value": 0,
+        "value": 8,
         "direction": "up"
       },
-      "riskLevel": "high",
-      "riskFactors": 1,
-      "recentIncidents": 3,
+      "riskLevel": "critical",
+      "riskFactors": 2,
+      "recentIncidents": 4,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 792,
-        "anthropic": 384,
+        "anthropic": 448,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 950,
-        "anthropic": 460,
+        "anthropic": 537,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 1108,
-        "anthropic": 537,
+        "anthropic": 627,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 1267,
-        "anthropic": 614,
+        "anthropic": 716,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1425,
-        "anthropic": 691,
+        "anthropic": 806,
         "google-deepmind": 187,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 712,
-        "anthropic": 345,
+        "anthropic": 403,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 851,
-        "anthropic": 412,
+        "anthropic": 481,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 990,
-        "anthropic": 480,
+        "anthropic": 560,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 1128,
-        "anthropic": 547,
+        "anthropic": 638,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 1267,
-        "anthropic": 614,
+        "anthropic": 716,
         "google-deepmind": 166,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 396,
-        "anthropic": 192,
+        "anthropic": 224,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 514,
-        "anthropic": 249,
+        "anthropic": 291,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 633,
-        "anthropic": 307,
+        "anthropic": 358,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 752,
-        "anthropic": 364,
+        "anthropic": 425,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 871,
-        "anthropic": 422,
+        "anthropic": 492,
         "google-deepmind": 114,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 594,
-        "anthropic": 288,
+        "anthropic": 336,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 732,
-        "anthropic": 355,
+        "anthropic": 414,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 871,
-        "anthropic": 422,
+        "anthropic": 492,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 1009,
-        "anthropic": 489,
+        "anthropic": 571,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 1148,
-        "anthropic": 556,
+        "anthropic": 649,
         "google-deepmind": 150,
         "meta-ai": 116
       }
@@ -385,7 +385,32 @@
   },
   "news": [
     {
-      "id": "news-30494",
+      "id": "news-83182",
+      "date": "2026-07-31",
+      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+      "content": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously.\n\nAfter an initial Telegram instruction, the agent found internet-facing systems and selected public exploits. The research",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-90857",
+      "date": "2026-07-31",
+      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+      "content": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge.\n\nThe A",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-17938",
       "date": "2026-07-30",
       "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
       "content": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Con",
@@ -397,7 +422,7 @@
       ]
     },
     {
-      "id": "news-36098",
+      "id": "news-59167",
       "date": "2026-07-30",
       "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
       "content": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and expl",
@@ -409,7 +434,7 @@
       ]
     },
     {
-      "id": "news-58926",
+      "id": "news-50135",
       "date": "2026-07-30",
       "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
       "content": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.\n\nWiz, which codenamed the chain CosmosEscape, said the exploit chain ",
@@ -421,7 +446,7 @@
       ]
     },
     {
-      "id": "news-96065",
+      "id": "news-86839",
       "date": "2026-07-30",
       "title": "The Network Has Become the Control Plane for AI Security",
       "content": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to",
@@ -433,7 +458,7 @@
       ]
     },
     {
-      "id": "news-57759",
+      "id": "news-35467",
       "date": "2026-07-30",
       "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
       "content": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE b",
@@ -445,7 +470,7 @@
       ]
     },
     {
-      "id": "news-89684",
+      "id": "news-34569",
       "date": "2026-07-30",
       "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
       "content": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent",
@@ -457,7 +482,7 @@
       ]
     },
     {
-      "id": "news-90361",
+      "id": "news-76349",
       "date": "2026-07-30",
       "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
       "content": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommuni",
@@ -469,7 +494,7 @@
       ]
     },
     {
-      "id": "news-57692",
+      "id": "news-98207",
       "date": "2026-07-30",
       "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
       "content": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages c",
@@ -481,7 +506,7 @@
       ]
     },
     {
-      "id": "news-14556",
+      "id": "news-94885",
       "date": "2026-07-30",
       "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
       "content": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]",
@@ -494,7 +519,7 @@
       ]
     },
     {
-      "id": "news-93762",
+      "id": "news-17207",
       "date": "2026-07-30",
       "title": "JetBrains warns of critical TeamCity remote code execution flaw",
       "content": "JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve remote code execution. [...]",
@@ -506,7 +531,7 @@
       ]
     },
     {
-      "id": "news-14409",
+      "id": "news-80031",
       "date": "2026-07-30",
       "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
       "content": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...]",
@@ -518,7 +543,7 @@
       ]
     },
     {
-      "id": "news-12178",
+      "id": "news-98439",
       "date": "2026-07-30",
       "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
       "content": "Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with more than 1,000 security bugs patched across the browser's two most recent releases as it expands its use of AI. [...]",
@@ -530,34 +555,10 @@
       ]
     },
     {
-      "id": "news-58010",
+      "id": "news-4326",
       "date": "2026-07-30",
       "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
       "content": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-46388",
-      "date": "2026-07-30",
-      "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
-      "content": "Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransomware in attacks targeting North American organizations. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-93981",
-      "date": "2026-07-30",
-      "title": "Analog Devices discloses data breach, says operations unaffected",
-      "content": "American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]",
       "category": "critical",
       "impact": "Critical",
       "views": 0,
