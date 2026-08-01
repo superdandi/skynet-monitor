@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31 19:45 UTC",
+  "lastUpdated": "2026-08-01 03:40 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 96,
       "trend": {
-        "value": 3,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 2,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-15204",
+      "id": "news-80550",
       "date": "2026-08-01",
       "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
       "content": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.\n\nThe",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-36482",
+      "id": "news-18216",
       "date": "2026-07-31",
       "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
       "content": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka.\n\nAccording to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-7729",
+      "id": "news-68918",
       "date": "2026-07-31",
       "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
       "content": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously.\n\nAfter an initial Telegram instruction, the agent found internet-facing systems and selected public exploits. The research",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-91675",
+      "id": "news-83606",
       "date": "2026-07-31",
       "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
       "content": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge.\n\nThe A",
@@ -434,7 +434,19 @@
       ]
     },
     {
-      "id": "news-97736",
+      "id": "news-54923",
+      "date": "2026-07-31",
+      "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
+      "content": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-18469",
       "date": "2026-07-31",
       "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
       "content": "A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]",
@@ -446,7 +458,7 @@
       ]
     },
     {
-      "id": "news-95120",
+      "id": "news-563",
       "date": "2026-07-31",
       "title": "ESET tracks rise in malicious AI skills and adaptable malware",
       "content": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware, ClickFix attacks, record quishing activity, and ransomware tools designed to d",
@@ -458,7 +470,7 @@
       ]
     },
     {
-      "id": "news-84098",
+      "id": "news-13836",
       "date": "2026-07-30",
       "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
       "content": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Con",
@@ -470,7 +482,7 @@
       ]
     },
     {
-      "id": "news-4470",
+      "id": "news-82145",
       "date": "2026-07-30",
       "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
       "content": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and expl",
@@ -482,7 +494,7 @@
       ]
     },
     {
-      "id": "news-33464",
+      "id": "news-65995",
       "date": "2026-07-30",
       "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
       "content": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.\n\nWiz, which codenamed the chain CosmosEscape, said the exploit chain ",
@@ -494,7 +506,7 @@
       ]
     },
     {
-      "id": "news-20105",
+      "id": "news-78503",
       "date": "2026-07-30",
       "title": "The Network Has Become the Control Plane for AI Security",
       "content": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to",
@@ -506,7 +518,7 @@
       ]
     },
     {
-      "id": "news-70556",
+      "id": "news-10358",
       "date": "2026-07-30",
       "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
       "content": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE b",
@@ -518,7 +530,7 @@
       ]
     },
     {
-      "id": "news-15620",
+      "id": "news-10537",
       "date": "2026-07-30",
       "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
       "content": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent",
@@ -530,7 +542,7 @@
       ]
     },
     {
-      "id": "news-85019",
+      "id": "news-69512",
       "date": "2026-07-30",
       "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
       "content": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommuni",
@@ -542,7 +554,7 @@
       ]
     },
     {
-      "id": "news-69060",
+      "id": "news-39780",
       "date": "2026-07-30",
       "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
       "content": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages c",
@@ -551,19 +563,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-72313",
-      "date": "2026-07-30",
-      "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
-      "content": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "anthropic",
-        "critical"
       ]
     }
   ],
