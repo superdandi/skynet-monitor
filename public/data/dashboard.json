@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01 08:31 UTC",
+  "lastUpdated": "2026-08-01 13:45 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-17546",
+      "id": "news-89333",
       "date": "2026-08-01",
       "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
       "content": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-48449, carries a severity score ",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-2483",
+      "id": "news-30499",
       "date": "2026-08-01",
       "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
       "content": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.\n\nResearchers track the operation as CaptiveCrunch and att",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-30154",
+      "id": "news-95408",
       "date": "2026-08-01",
       "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
       "content": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.\n\nThe",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-20528",
+      "id": "news-26505",
       "date": "2026-07-31",
       "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
       "content": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka.\n\nAccording to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-56859",
+      "id": "news-17803",
       "date": "2026-07-31",
       "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
       "content": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously.\n\nAfter an initial Telegram instruction, the agent found internet-facing systems and selected public exploits. The research",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-77269",
+      "id": "news-5919",
       "date": "2026-07-31",
       "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
       "content": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge.\n\nThe A",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-29013",
+      "id": "news-14097",
       "date": "2026-07-31",
       "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
       "content": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-77419",
+      "id": "news-23678",
       "date": "2026-07-31",
       "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
       "content": "A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-19315",
+      "id": "news-51187",
       "date": "2026-07-31",
       "title": "ESET tracks rise in malicious AI skills and adaptable malware",
       "content": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware, ClickFix attacks, record quishing activity, and ransomware tools designed to d",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-69521",
+      "id": "news-44012",
       "date": "2026-07-30",
       "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
       "content": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Con",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-4020",
+      "id": "news-70794",
       "date": "2026-07-30",
       "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
       "content": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and expl",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-78716",
+      "id": "news-33350",
       "date": "2026-07-30",
       "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
       "content": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.\n\nWiz, which codenamed the chain CosmosEscape, said the exploit chain ",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-26135",
+      "id": "news-87494",
       "date": "2026-07-30",
       "title": "The Network Has Become the Control Plane for AI Security",
       "content": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-41436",
+      "id": "news-24538",
       "date": "2026-07-30",
       "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
       "content": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE b",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-3306",
+      "id": "news-19008",
       "date": "2026-07-30",
       "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
       "content": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent",
