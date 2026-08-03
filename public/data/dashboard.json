@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03 03:42 UTC",
+  "lastUpdated": "2026-08-03 10:01 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,31 @@
   },
   "news": [
     {
-      "id": "news-42708",
+      "id": "news-86048",
+      "date": "2026-08-03",
+      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+      "content": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped buil",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-5678",
+      "date": "2026-08-03",
+      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+      "content": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk.\n\n\"These vu",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-64785",
       "date": "2026-08-01",
       "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
       "content": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite.\n\nA March ",
@@ -397,7 +421,7 @@
       ]
     },
     {
-      "id": "news-61189",
+      "id": "news-45723",
       "date": "2026-08-01",
       "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
       "content": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-48449, carries a severity score ",
@@ -409,7 +433,7 @@
       ]
     },
     {
-      "id": "news-40150",
+      "id": "news-26984",
       "date": "2026-08-01",
       "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
       "content": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.\n\nResearchers track the operation as CaptiveCrunch and att",
@@ -421,7 +445,7 @@
       ]
     },
     {
-      "id": "news-80685",
+      "id": "news-45821",
       "date": "2026-08-01",
       "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
       "content": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.\n\nThe",
@@ -433,7 +457,7 @@
       ]
     },
     {
-      "id": "news-87773",
+      "id": "news-30097",
       "date": "2026-08-01",
       "title": "Rails patches critical Active Storage flaw with RCE potential",
       "content": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
@@ -445,7 +469,7 @@
       ]
     },
     {
-      "id": "news-83164",
+      "id": "news-49548",
       "date": "2026-07-31",
       "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
       "content": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka.\n\nAccording to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link",
@@ -457,7 +481,7 @@
       ]
     },
     {
-      "id": "news-14994",
+      "id": "news-77307",
       "date": "2026-07-31",
       "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
       "content": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously.\n\nAfter an initial Telegram instruction, the agent found internet-facing systems and selected public exploits. The research",
@@ -469,7 +493,7 @@
       ]
     },
     {
-      "id": "news-38879",
+      "id": "news-73835",
       "date": "2026-07-31",
       "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
       "content": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge.\n\nThe A",
@@ -482,7 +506,7 @@
       ]
     },
     {
-      "id": "news-74457",
+      "id": "news-9616",
       "date": "2026-07-31",
       "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
       "content": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]",
@@ -494,7 +518,7 @@
       ]
     },
     {
-      "id": "news-99751",
+      "id": "news-69816",
       "date": "2026-07-31",
       "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
       "content": "A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]",
@@ -506,7 +530,7 @@
       ]
     },
     {
-      "id": "news-23519",
+      "id": "news-8750",
       "date": "2026-07-31",
       "title": "ESET tracks rise in malicious AI skills and adaptable malware",
       "content": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware, ClickFix attacks, record quishing activity, and ransomware tools designed to d",
@@ -518,7 +542,7 @@
       ]
     },
     {
-      "id": "news-69907",
+      "id": "news-61553",
       "date": "2026-07-30",
       "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
       "content": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Con",
@@ -530,7 +554,7 @@
       ]
     },
     {
-      "id": "news-28883",
+      "id": "news-78301",
       "date": "2026-07-30",
       "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
       "content": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and expl",
@@ -539,30 +563,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-60806",
-      "date": "2026-07-30",
-      "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
-      "content": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.\n\nWiz, which codenamed the chain CosmosEscape, said the exploit chain ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-84205",
-      "date": "2026-07-30",
-      "title": "The Network Has Become the Control Plane for AI Security",
-      "content": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
