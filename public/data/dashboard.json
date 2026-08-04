@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-04 08:50 UTC",
+  "lastUpdated": "2026-08-04 14:34 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 80,
+      "probability": 72,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 8,
+        "direction": "down"
       },
       "riskLevel": "critical",
-      "riskFactors": 1,
-      "recentIncidents": 2,
+      "riskFactors": 0,
+      "recentIncidents": 1,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 52,
+      "probability": 48,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "high",
       "riskFactors": 1,
-      "recentIncidents": 4,
+      "recentIncidents": 3,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -200,36 +200,36 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 640,
-        "anthropic": 416,
+        "openai": 576,
+        "anthropic": 384,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 768,
-        "anthropic": 499,
+        "openai": 691,
+        "anthropic": 460,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 896,
-        "anthropic": 582,
+        "openai": 806,
+        "anthropic": 537,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1024,
-        "anthropic": 665,
+        "openai": 921,
+        "anthropic": 614,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1152,
-        "anthropic": 748,
+        "openai": 1036,
+        "anthropic": 691,
         "google-deepmind": 187,
         "meta-ai": 144
       }
@@ -237,36 +237,36 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 576,
-        "anthropic": 374,
+        "openai": 518,
+        "anthropic": 345,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 688,
-        "anthropic": 447,
+        "openai": 619,
+        "anthropic": 412,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 800,
-        "anthropic": 520,
+        "openai": 720,
+        "anthropic": 480,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 912,
-        "anthropic": 592,
+        "openai": 820,
+        "anthropic": 547,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1024,
-        "anthropic": 665,
+        "openai": 921,
+        "anthropic": 614,
         "google-deepmind": 166,
         "meta-ai": 128
       }
@@ -274,36 +274,36 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 320,
-        "anthropic": 208,
+        "openai": 288,
+        "anthropic": 192,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 416,
-        "anthropic": 270,
+        "openai": 374,
+        "anthropic": 249,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 512,
-        "anthropic": 332,
+        "openai": 460,
+        "anthropic": 307,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 608,
-        "anthropic": 395,
+        "openai": 547,
+        "anthropic": 364,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 704,
-        "anthropic": 457,
+        "openai": 633,
+        "anthropic": 422,
         "google-deepmind": 114,
         "meta-ai": 88
       }
@@ -311,36 +311,36 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 480,
-        "anthropic": 312,
+        "openai": 432,
+        "anthropic": 288,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 592,
-        "anthropic": 384,
+        "openai": 532,
+        "anthropic": 355,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 704,
-        "anthropic": 457,
+        "openai": 633,
+        "anthropic": 422,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 816,
-        "anthropic": 530,
+        "openai": 734,
+        "anthropic": 489,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 928,
-        "anthropic": 603,
+        "openai": 835,
+        "anthropic": 556,
         "google-deepmind": 150,
         "meta-ai": 116
       }
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-42806",
+      "id": "news-99593",
+      "date": "2026-08-04",
+      "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
+      "content": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Managemen",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-19416",
+      "date": "2026-08-04",
+      "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+      "content": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized crimi",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-73266",
+      "date": "2026-08-04",
+      "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
+      "content": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent.\n\nThe researchers said the public agent could be prompt",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-27527",
       "date": "2026-08-04",
       "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
       "content": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments.\n\n",
@@ -397,7 +433,7 @@
       ]
     },
     {
-      "id": "news-76241",
+      "id": "news-25904",
       "date": "2026-08-03",
       "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
       "content": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.\n\nUnit 42 detailed three attack paths against Chrome's Google Password Manager cloud auth",
@@ -409,7 +445,7 @@
       ]
     },
     {
-      "id": "news-70824",
+      "id": "news-80411",
       "date": "2026-08-03",
       "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
       "content": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a report published over the weekend, Resecurity said it observed the INC Ransomware acc",
@@ -421,7 +457,7 @@
       ]
     },
     {
-      "id": "news-61593",
+      "id": "news-20220",
       "date": "2026-08-03",
       "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
       "content": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.\n\nSome of it was clever. Most of it was just acc",
@@ -433,7 +469,7 @@
       ]
     },
     {
-      "id": "news-77431",
+      "id": "news-50749",
       "date": "2026-08-03",
       "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
       "content": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.\n\nAI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has",
@@ -446,7 +482,7 @@
       ]
     },
     {
-      "id": "news-40299",
+      "id": "news-63516",
       "date": "2026-08-03",
       "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
       "content": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface management platform Censys said it identified the threat actor running more than 100 web",
@@ -458,7 +494,7 @@
       ]
     },
     {
-      "id": "news-74715",
+      "id": "news-48887",
       "date": "2026-08-03",
       "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
       "content": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.\n\nThe data included names, organisations and work email addresses belonging to police officers, police staff, criminal ju",
@@ -470,7 +506,7 @@
       ]
     },
     {
-      "id": "news-65818",
+      "id": "news-47902",
       "date": "2026-08-03",
       "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
       "content": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped buil",
@@ -482,7 +518,7 @@
       ]
     },
     {
-      "id": "news-4162",
+      "id": "news-57751",
       "date": "2026-08-03",
       "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
       "content": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk.\n\n\"These vu",
@@ -494,7 +530,7 @@
       ]
     },
     {
-      "id": "news-45575",
+      "id": "news-47646",
       "date": "2026-08-03",
       "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
       "content": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
@@ -506,7 +542,7 @@
       ]
     },
     {
-      "id": "news-41071",
+      "id": "news-27764",
       "date": "2026-08-01",
       "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
       "content": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite.\n\nA March ",
@@ -518,46 +554,10 @@
       ]
     },
     {
-      "id": "news-32047",
+      "id": "news-55547",
       "date": "2026-08-01",
       "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
       "content": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-48449, carries a severity score ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-74896",
-      "date": "2026-08-01",
-      "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
-      "content": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.\n\nResearchers track the operation as CaptiveCrunch and att",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-892",
-      "date": "2026-08-01",
-      "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-      "content": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.\n\nThe",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-42968",
-      "date": "2026-08-01",
-      "title": "Rails patches critical Active Storage flaw with RCE potential",
-      "content": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
