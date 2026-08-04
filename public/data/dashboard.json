@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04 03:27 UTC",
+  "lastUpdated": "2026-08-04 08:50 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-25489",
+      "id": "news-42806",
       "date": "2026-08-04",
       "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
       "content": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments.\n\n",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-15715",
+      "id": "news-76241",
       "date": "2026-08-03",
       "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
       "content": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.\n\nUnit 42 detailed three attack paths against Chrome's Google Password Manager cloud auth",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-57357",
+      "id": "news-70824",
       "date": "2026-08-03",
       "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
       "content": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a report published over the weekend, Resecurity said it observed the INC Ransomware acc",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-74755",
+      "id": "news-61593",
       "date": "2026-08-03",
       "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
       "content": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.\n\nSome of it was clever. Most of it was just acc",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-22865",
+      "id": "news-77431",
       "date": "2026-08-03",
       "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
       "content": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.\n\nAI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has",
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": "news-33144",
+      "id": "news-40299",
       "date": "2026-08-03",
       "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
       "content": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface management platform Censys said it identified the threat actor running more than 100 web",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-45271",
+      "id": "news-74715",
       "date": "2026-08-03",
       "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
       "content": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.\n\nThe data included names, organisations and work email addresses belonging to police officers, police staff, criminal ju",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-19125",
+      "id": "news-65818",
       "date": "2026-08-03",
       "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
       "content": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped buil",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-43402",
+      "id": "news-4162",
       "date": "2026-08-03",
       "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
       "content": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk.\n\n\"These vu",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-58476",
+      "id": "news-45575",
       "date": "2026-08-03",
       "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
       "content": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-66490",
+      "id": "news-41071",
       "date": "2026-08-01",
       "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
       "content": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite.\n\nA March ",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-57667",
+      "id": "news-32047",
       "date": "2026-08-01",
       "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
       "content": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-48449, carries a severity score ",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-94113",
+      "id": "news-74896",
       "date": "2026-08-01",
       "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
       "content": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.\n\nResearchers track the operation as CaptiveCrunch and att",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-6474",
+      "id": "news-892",
       "date": "2026-08-01",
       "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
       "content": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.\n\nThe",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-582",
+      "id": "news-42968",
       "date": "2026-08-01",
       "title": "Rails patches critical Active Storage flaw with RCE potential",
       "content": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
