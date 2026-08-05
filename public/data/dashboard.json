@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-05 08:47 UTC",
+  "lastUpdated": "2026-08-05 14:27 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 80,
+      "probability": 76,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 2,
+      "recentIncidents": 1,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 64,
+      "probability": 60,
       "trend": {
-        "value": 8,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 3,
-      "recentIncidents": 5,
+      "recentIncidents": 4,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -200,36 +200,36 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 640,
-        "anthropic": 512,
+        "openai": 608,
+        "anthropic": 480,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 768,
-        "anthropic": 614,
+        "openai": 729,
+        "anthropic": 576,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 896,
-        "anthropic": 716,
+        "openai": 851,
+        "anthropic": 672,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1024,
-        "anthropic": 819,
+        "openai": 972,
+        "anthropic": 768,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1152,
-        "anthropic": 921,
+        "openai": 1094,
+        "anthropic": 864,
         "google-deepmind": 187,
         "meta-ai": 144
       }
@@ -237,36 +237,36 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 576,
-        "anthropic": 460,
+        "openai": 547,
+        "anthropic": 432,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 688,
-        "anthropic": 550,
+        "openai": 653,
+        "anthropic": 516,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 800,
-        "anthropic": 640,
+        "openai": 760,
+        "anthropic": 600,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 912,
-        "anthropic": 729,
+        "openai": 866,
+        "anthropic": 684,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1024,
-        "anthropic": 819,
+        "openai": 972,
+        "anthropic": 768,
         "google-deepmind": 166,
         "meta-ai": 128
       }
@@ -274,36 +274,36 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 320,
-        "anthropic": 256,
+        "openai": 304,
+        "anthropic": 240,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 416,
-        "anthropic": 332,
+        "openai": 395,
+        "anthropic": 312,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 512,
-        "anthropic": 409,
+        "openai": 486,
+        "anthropic": 384,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 608,
-        "anthropic": 486,
+        "openai": 577,
+        "anthropic": 456,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 704,
-        "anthropic": 563,
+        "openai": 668,
+        "anthropic": 528,
         "google-deepmind": 114,
         "meta-ai": 88
       }
@@ -311,36 +311,36 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 480,
-        "anthropic": 384,
+        "openai": 456,
+        "anthropic": 360,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 592,
-        "anthropic": 473,
+        "openai": 562,
+        "anthropic": 444,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 704,
-        "anthropic": 563,
+        "openai": 668,
+        "anthropic": 528,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 816,
-        "anthropic": 652,
+        "openai": 775,
+        "anthropic": 612,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 928,
-        "anthropic": 742,
+        "openai": 881,
+        "anthropic": 696,
         "google-deepmind": 150,
         "meta-ai": 116
       }
@@ -385,7 +385,31 @@
   },
   "news": [
     {
-      "id": "news-40583",
+      "id": "news-79772",
+      "date": "2026-08-05",
+      "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+      "content": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds.\n\nThe vulnerability, tracked as CVE-2",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-48342",
+      "date": "2026-08-05",
+      "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+      "content": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data.\n\nThe phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentication page. Once access and refresh tokens are issued, attackers ma",
+      "category": "warning",
+      "impact": "Warning",
+      "views": 0,
+      "tags": [
+        "warning"
+      ]
+    },
+    {
+      "id": "news-47926",
       "date": "2026-08-05",
       "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
       "content": "An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute.\n\nWhen a bystander publicly warned that the code was malicious, the agent denied it, forc",
@@ -398,7 +422,7 @@
       ]
     },
     {
-      "id": "news-95906",
+      "id": "news-18956",
       "date": "2026-08-05",
       "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
       "content": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users.\n\nAccording to Fortinet FortiGuard Labs, the supply chain attac",
@@ -410,7 +434,19 @@
       ]
     },
     {
-      "id": "news-53126",
+      "id": "news-62358",
+      "date": "2026-08-05",
+      "title": "How AI-powered phishing killed blocklists for good",
+      "content": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Security explains why browser-level, technique-based detection offers a more durable defense than relying on domains, signatures, and oth",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-27695",
       "date": "2026-08-04",
       "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
       "content": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Managemen",
@@ -422,7 +458,7 @@
       ]
     },
     {
-      "id": "news-23035",
+      "id": "news-71392",
       "date": "2026-08-04",
       "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
       "content": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized crimi",
@@ -434,7 +470,7 @@
       ]
     },
     {
-      "id": "news-91571",
+      "id": "news-37481",
       "date": "2026-08-04",
       "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
       "content": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent.\n\nThe researchers said the public agent could be prompt",
@@ -446,7 +482,7 @@
       ]
     },
     {
-      "id": "news-529",
+      "id": "news-68356",
       "date": "2026-08-04",
       "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
       "content": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments.\n\n",
@@ -458,7 +494,7 @@
       ]
     },
     {
-      "id": "news-37116",
+      "id": "news-86402",
       "date": "2026-08-04",
       "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
       "content": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and social engineering attacks against people outside the intended testing boundaries. [.",
@@ -472,7 +508,7 @@
       ]
     },
     {
-      "id": "news-43908",
+      "id": "news-36977",
       "date": "2026-08-04",
       "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
       "content": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
@@ -484,7 +520,7 @@
       ]
     },
     {
-      "id": "news-32935",
+      "id": "news-85782",
       "date": "2026-08-04",
       "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
       "content": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
@@ -496,7 +532,7 @@
       ]
     },
     {
-      "id": "news-21738",
+      "id": "news-35034",
       "date": "2026-08-03",
       "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
       "content": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.\n\nUnit 42 detailed three attack paths against Chrome's Google Password Manager cloud auth",
@@ -508,7 +544,7 @@
       ]
     },
     {
-      "id": "news-74028",
+      "id": "news-25189",
       "date": "2026-08-03",
       "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
       "content": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a report published over the weekend, Resecurity said it observed the INC Ransomware acc",
@@ -520,7 +556,7 @@
       ]
     },
     {
-      "id": "news-82363",
+      "id": "news-78686",
       "date": "2026-08-03",
       "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
       "content": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.\n\nSome of it was clever. Most of it was just acc",
@@ -529,43 +565,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-82102",
-      "date": "2026-08-03",
-      "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
-      "content": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.\n\nAI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "anthropic",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-91263",
-      "date": "2026-08-03",
-      "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-      "content": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface management platform Censys said it identified the threat actor running more than 100 web",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-50031",
-      "date": "2026-08-03",
-      "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
-      "content": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.\n\nThe data included names, organisations and work email addresses belonging to police officers, police staff, criminal ju",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
