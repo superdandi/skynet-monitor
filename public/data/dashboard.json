@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-04 19:46 UTC",
+  "lastUpdated": "2026-08-05 03:22 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 72,
+      "probability": 80,
       "trend": {
-        "value": 0,
+        "value": 8,
         "direction": "up"
       },
       "riskLevel": "critical",
-      "riskFactors": 0,
-      "recentIncidents": 1,
+      "riskFactors": 1,
+      "recentIncidents": 2,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 48,
+      "probability": 56,
       "trend": {
-        "value": 0,
+        "value": 8,
         "direction": "up"
       },
-      "riskLevel": "high",
-      "riskFactors": 1,
-      "recentIncidents": 3,
+      "riskLevel": "critical",
+      "riskFactors": 2,
+      "recentIncidents": 4,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -200,36 +200,36 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 576,
-        "anthropic": 384,
+        "openai": 640,
+        "anthropic": 448,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 691,
-        "anthropic": 460,
+        "openai": 768,
+        "anthropic": 537,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 806,
-        "anthropic": 537,
+        "openai": 896,
+        "anthropic": 627,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 921,
-        "anthropic": 614,
+        "openai": 1024,
+        "anthropic": 716,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1036,
-        "anthropic": 691,
+        "openai": 1152,
+        "anthropic": 806,
         "google-deepmind": 187,
         "meta-ai": 144
       }
@@ -237,36 +237,36 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 518,
-        "anthropic": 345,
+        "openai": 576,
+        "anthropic": 403,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 619,
-        "anthropic": 412,
+        "openai": 688,
+        "anthropic": 481,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 720,
-        "anthropic": 480,
+        "openai": 800,
+        "anthropic": 560,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 820,
-        "anthropic": 547,
+        "openai": 912,
+        "anthropic": 638,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 921,
-        "anthropic": 614,
+        "openai": 1024,
+        "anthropic": 716,
         "google-deepmind": 166,
         "meta-ai": 128
       }
@@ -274,36 +274,36 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 288,
-        "anthropic": 192,
+        "openai": 320,
+        "anthropic": 224,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 374,
-        "anthropic": 249,
+        "openai": 416,
+        "anthropic": 291,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 460,
-        "anthropic": 307,
+        "openai": 512,
+        "anthropic": 358,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 547,
-        "anthropic": 364,
+        "openai": 608,
+        "anthropic": 425,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 633,
-        "anthropic": 422,
+        "openai": 704,
+        "anthropic": 492,
         "google-deepmind": 114,
         "meta-ai": 88
       }
@@ -311,36 +311,36 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 432,
-        "anthropic": 288,
+        "openai": 480,
+        "anthropic": 336,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 532,
-        "anthropic": 355,
+        "openai": 592,
+        "anthropic": 414,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 633,
-        "anthropic": 422,
+        "openai": 704,
+        "anthropic": 492,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 734,
-        "anthropic": 489,
+        "openai": 816,
+        "anthropic": 571,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 835,
-        "anthropic": 556,
+        "openai": 928,
+        "anthropic": 649,
         "google-deepmind": 150,
         "meta-ai": 116
       }
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-69636",
+      "id": "news-55052",
       "date": "2026-08-04",
       "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
       "content": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Managemen",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-43630",
+      "id": "news-61120",
       "date": "2026-08-04",
       "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
       "content": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized crimi",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-27183",
+      "id": "news-61653",
       "date": "2026-08-04",
       "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
       "content": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent.\n\nThe researchers said the public agent could be prompt",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-33659",
+      "id": "news-99007",
       "date": "2026-08-04",
       "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
       "content": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments.\n\n",
@@ -433,7 +433,33 @@
       ]
     },
     {
-      "id": "news-17791",
+      "id": "news-89355",
+      "date": "2026-08-04",
+      "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+      "content": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and social engineering attacks against people outside the intended testing boundaries. [.",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "openai",
+        "anthropic",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-97575",
+      "date": "2026-08-04",
+      "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
+      "content": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-60764",
       "date": "2026-08-04",
       "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
       "content": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
@@ -445,7 +471,7 @@
       ]
     },
     {
-      "id": "news-80510",
+      "id": "news-13039",
       "date": "2026-08-03",
       "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
       "content": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.\n\nUnit 42 detailed three attack paths against Chrome's Google Password Manager cloud auth",
@@ -457,7 +483,7 @@
       ]
     },
     {
-      "id": "news-58820",
+      "id": "news-9516",
       "date": "2026-08-03",
       "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
       "content": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a report published over the weekend, Resecurity said it observed the INC Ransomware acc",
@@ -469,7 +495,7 @@
       ]
     },
     {
-      "id": "news-38220",
+      "id": "news-20342",
       "date": "2026-08-03",
       "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
       "content": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.\n\nSome of it was clever. Most of it was just acc",
@@ -481,7 +507,7 @@
       ]
     },
     {
-      "id": "news-44025",
+      "id": "news-69470",
       "date": "2026-08-03",
       "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
       "content": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.\n\nAI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has",
@@ -494,7 +520,7 @@
       ]
     },
     {
-      "id": "news-31858",
+      "id": "news-95549",
       "date": "2026-08-03",
       "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
       "content": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface management platform Censys said it identified the threat actor running more than 100 web",
@@ -506,7 +532,7 @@
       ]
     },
     {
-      "id": "news-87735",
+      "id": "news-22498",
       "date": "2026-08-03",
       "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
       "content": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.\n\nThe data included names, organisations and work email addresses belonging to police officers, police staff, criminal ju",
@@ -518,7 +544,7 @@
       ]
     },
     {
-      "id": "news-77601",
+      "id": "news-17701",
       "date": "2026-08-03",
       "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
       "content": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped buil",
@@ -530,34 +556,10 @@
       ]
     },
     {
-      "id": "news-67302",
+      "id": "news-69262",
       "date": "2026-08-03",
       "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
       "content": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk.\n\n\"These vu",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-47252",
-      "date": "2026-08-03",
-      "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
-      "content": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-89961",
-      "date": "2026-08-01",
-      "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
-      "content": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite.\n\nA March ",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
