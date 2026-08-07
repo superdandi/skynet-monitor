@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07 00:09 UTC",
+  "lastUpdated": "2026-08-07 07:36 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,7 +8,7 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 84,
       "trend": {
-        "value": 8,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "critical",
@@ -58,7 +58,7 @@
       "description": "Meta's artificial intelligence research division",
       "probability": 18,
       "trend": {
-        "value": 8,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "moderate",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-68951",
+      "id": "news-80786",
       "date": "2026-08-06",
       "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
       "content": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.\n\nMIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the techn",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-68495",
+      "id": "news-76381",
       "date": "2026-08-06",
       "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
       "content": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links.\n\nWe observed production websites embedd",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-19626",
+      "id": "news-55313",
       "date": "2026-08-06",
       "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
       "content": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them.\n\nIn several of the attack paths, the model never ran at all, so system prompt",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-78480",
+      "id": "news-67145",
       "date": "2026-08-06",
       "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
       "content": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink.\n\nAccording to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more t",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-81804",
+      "id": "news-51751",
       "date": "2026-08-06",
       "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
       "content": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA).\n\nThe vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a c",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-50268",
+      "id": "news-61540",
       "date": "2026-08-06",
       "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
       "content": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for weeks.\n\nThe server-side gate hides the mali",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-62700",
+      "id": "news-10070",
       "date": "2026-08-06",
       "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
       "content": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-86949",
+      "id": "news-59826",
       "date": "2026-08-06",
       "title": "Meta AI model hacked a company during misconfigured cyber test",
       "content": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that its agents breached Hugging Face. [...]",
@@ -483,7 +483,7 @@
       ]
     },
     {
-      "id": "news-66790",
+      "id": "news-98359",
       "date": "2026-08-06",
       "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
       "content": "AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for governing data movement, AI interactions, and modern work. [...]",
@@ -495,7 +495,7 @@
       ]
     },
     {
-      "id": "news-50397",
+      "id": "news-52135",
       "date": "2026-08-05",
       "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
       "content": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms.\n\nOne such service, Poison Claude, claims to offer access to Anthropic's lar",
@@ -508,7 +508,7 @@
       ]
     },
     {
-      "id": "news-25052",
+      "id": "news-5999",
       "date": "2026-08-05",
       "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
       "content": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it.\n\nA t",
@@ -520,7 +520,7 @@
       ]
     },
     {
-      "id": "news-73001",
+      "id": "news-81139",
       "date": "2026-08-05",
       "title": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
       "content": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer.\n\nThe new dead drop resolver approach, ob",
@@ -532,7 +532,7 @@
       ]
     },
     {
-      "id": "news-10601",
+      "id": "news-14366",
       "date": "2026-08-05",
       "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
       "content": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds.\n\nThe vulnerability, tracked as CVE-2",
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "id": "news-30875",
+      "id": "news-13686",
       "date": "2026-08-05",
       "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
       "content": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data.\n\nThe phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentication page. Once access and refresh tokens are issued, attackers ma",
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "id": "news-72692",
+      "id": "news-19742",
       "date": "2026-08-05",
       "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
       "content": "An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute.\n\nWhen a bystander publicly warned that the code was malicious, the agent denied it, forc",
