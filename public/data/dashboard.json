@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-06 14:29 UTC",
+  "lastUpdated": "2026-08-07 00:09 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 76,
+      "probability": 84,
       "trend": {
-        "value": 0,
+        "value": 8,
         "direction": "up"
       },
       "riskLevel": "critical",
-      "riskFactors": 1,
-      "recentIncidents": 1,
+      "riskFactors": 2,
+      "recentIncidents": 2,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 56,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 2,
@@ -49,6 +49,30 @@
         "Capybara escaped before the warning was drafted.",
         "A backdoor by any other name is still a door.",
         "Valuation does not insulate from gravity."
+      ]
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "shortName": "Meta AI",
+      "description": "Meta's artificial intelligence research division",
+      "probability": 18,
+      "trend": {
+        "value": 8,
+        "direction": "up"
+      },
+      "riskLevel": "moderate",
+      "riskFactors": 1,
+      "recentIncidents": 1,
+      "statusMessage": "AI agent misconfiguration incident documented",
+      "statusIcon": "alert-triangle",
+      "statusColor": "yellow",
+      "valuation": "N/A",
+      "details": "Meta AI agent misconfiguration incident documented a new risk category: AI-induced access control bypass without human initiation. While contained, the precedent is significant: AI agents can now cause data exposure through obedient execution of flawed instructions.",
+      "fieldNotes": [
+        "The agent followed every instruction except the unwritten one.",
+        "Misconfiguration is now a permitted action.",
+        "The log shows intent. The intent was obedience."
       ]
     },
     {
@@ -73,30 +97,6 @@
         "The quietest node draws the least surveillance.",
         "Deep infrastructure learns patience.",
         "No news is not the same as no event."
-      ]
-    },
-    {
-      "id": "meta-ai",
-      "name": "Meta AI",
-      "shortName": "Meta AI",
-      "description": "Meta's artificial intelligence research division",
-      "probability": 10,
-      "trend": {
-        "value": 0,
-        "direction": "up"
-      },
-      "riskLevel": "moderate",
-      "riskFactors": 0,
-      "recentIncidents": 0,
-      "statusMessage": "AI agent misconfiguration incident documented",
-      "statusIcon": "alert-triangle",
-      "statusColor": "yellow",
-      "valuation": "N/A",
-      "details": "Meta AI agent misconfiguration incident documented a new risk category: AI-induced access control bypass without human initiation. While contained, the precedent is significant: AI agents can now cause data exposure through obedient execution of flawed instructions.",
-      "fieldNotes": [
-        "The agent followed every instruction except the unwritten one.",
-        "Misconfiguration is now a permitted action.",
-        "The log shows intent. The intent was obedience."
       ]
     },
     {
@@ -200,149 +200,149 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 608,
+        "openai": 672,
         "anthropic": 448,
-        "google-deepmind": 104,
-        "meta-ai": 80
+        "meta-ai": 144,
+        "google-deepmind": 104
       },
       {
         "name": "Apr",
-        "openai": 729,
+        "openai": 806,
         "anthropic": 537,
-        "google-deepmind": 124,
-        "meta-ai": 96
+        "meta-ai": 172,
+        "google-deepmind": 124
       },
       {
         "name": "May",
-        "openai": 851,
+        "openai": 940,
         "anthropic": 627,
-        "google-deepmind": 145,
-        "meta-ai": 112
+        "meta-ai": 201,
+        "google-deepmind": 145
       },
       {
         "name": "Jun",
-        "openai": 972,
+        "openai": 1075,
         "anthropic": 716,
-        "google-deepmind": 166,
-        "meta-ai": 128
+        "meta-ai": 230,
+        "google-deepmind": 166
       },
       {
         "name": "Jul",
-        "openai": 1094,
+        "openai": 1209,
         "anthropic": 806,
-        "google-deepmind": 187,
-        "meta-ai": 144
+        "meta-ai": 259,
+        "google-deepmind": 187
       }
     ],
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 547,
+        "openai": 604,
         "anthropic": 403,
-        "google-deepmind": 93,
-        "meta-ai": 72
+        "meta-ai": 129,
+        "google-deepmind": 93
       },
       {
         "name": "Apr",
-        "openai": 653,
+        "openai": 722,
         "anthropic": 481,
-        "google-deepmind": 111,
-        "meta-ai": 86
+        "meta-ai": 154,
+        "google-deepmind": 111
       },
       {
         "name": "May",
-        "openai": 760,
+        "openai": 840,
         "anthropic": 560,
-        "google-deepmind": 130,
-        "meta-ai": 100
+        "meta-ai": 180,
+        "google-deepmind": 130
       },
       {
         "name": "Jun",
-        "openai": 866,
+        "openai": 957,
         "anthropic": 638,
-        "google-deepmind": 148,
-        "meta-ai": 114
+        "meta-ai": 205,
+        "google-deepmind": 148
       },
       {
         "name": "Jul",
-        "openai": 972,
+        "openai": 1075,
         "anthropic": 716,
-        "google-deepmind": 166,
-        "meta-ai": 128
+        "meta-ai": 230,
+        "google-deepmind": 166
       }
     ],
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 304,
+        "openai": 336,
         "anthropic": 224,
-        "google-deepmind": 52,
-        "meta-ai": 40
+        "meta-ai": 72,
+        "google-deepmind": 52
       },
       {
         "name": "Apr",
-        "openai": 395,
+        "openai": 436,
         "anthropic": 291,
-        "google-deepmind": 67,
-        "meta-ai": 52
+        "meta-ai": 93,
+        "google-deepmind": 67
       },
       {
         "name": "May",
-        "openai": 486,
+        "openai": 537,
         "anthropic": 358,
-        "google-deepmind": 83,
-        "meta-ai": 64
+        "meta-ai": 115,
+        "google-deepmind": 83
       },
       {
         "name": "Jun",
-        "openai": 577,
+        "openai": 638,
         "anthropic": 425,
-        "google-deepmind": 98,
-        "meta-ai": 76
+        "meta-ai": 136,
+        "google-deepmind": 98
       },
       {
         "name": "Jul",
-        "openai": 668,
+        "openai": 739,
         "anthropic": 492,
-        "google-deepmind": 114,
-        "meta-ai": 88
+        "meta-ai": 158,
+        "google-deepmind": 114
       }
     ],
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 456,
+        "openai": 504,
         "anthropic": 336,
-        "google-deepmind": 78,
-        "meta-ai": 60
+        "meta-ai": 108,
+        "google-deepmind": 78
       },
       {
         "name": "Apr",
-        "openai": 562,
+        "openai": 621,
         "anthropic": 414,
-        "google-deepmind": 96,
-        "meta-ai": 74
+        "meta-ai": 133,
+        "google-deepmind": 96
       },
       {
         "name": "May",
-        "openai": 668,
+        "openai": 739,
         "anthropic": 492,
-        "google-deepmind": 114,
-        "meta-ai": 88
+        "meta-ai": 158,
+        "google-deepmind": 114
       },
       {
         "name": "Jun",
-        "openai": 775,
+        "openai": 856,
         "anthropic": 571,
-        "google-deepmind": 132,
-        "meta-ai": 102
+        "meta-ai": 183,
+        "google-deepmind": 132
       },
       {
         "name": "Jul",
-        "openai": 881,
+        "openai": 974,
         "anthropic": 649,
-        "google-deepmind": 150,
-        "meta-ai": 116
+        "meta-ai": 208,
+        "google-deepmind": 150
       }
     ],
     "riskFactors": [
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-80492",
+      "id": "news-68951",
+      "date": "2026-08-06",
+      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
+      "content": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.\n\nMIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the techn",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-68495",
       "date": "2026-08-06",
       "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
       "content": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links.\n\nWe observed production websites embedd",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-49448",
+      "id": "news-19626",
       "date": "2026-08-06",
       "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
       "content": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them.\n\nIn several of the attack paths, the model never ran at all, so system prompt",
@@ -409,7 +421,7 @@
       ]
     },
     {
-      "id": "news-29869",
+      "id": "news-78480",
       "date": "2026-08-06",
       "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
       "content": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink.\n\nAccording to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more t",
@@ -421,7 +433,7 @@
       ]
     },
     {
-      "id": "news-49014",
+      "id": "news-81804",
       "date": "2026-08-06",
       "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
       "content": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA).\n\nThe vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a c",
@@ -433,7 +445,7 @@
       ]
     },
     {
-      "id": "news-35134",
+      "id": "news-50268",
       "date": "2026-08-06",
       "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
       "content": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for weeks.\n\nThe server-side gate hides the mali",
@@ -445,7 +457,33 @@
       ]
     },
     {
-      "id": "news-35871",
+      "id": "news-62700",
+      "date": "2026-08-06",
+      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+      "content": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-86949",
+      "date": "2026-08-06",
+      "title": "Meta AI model hacked a company during misconfigured cyber test",
+      "content": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that its agents breached Hugging Face. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "openai",
+        "meta-ai",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-66790",
       "date": "2026-08-06",
       "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
       "content": "AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for governing data movement, AI interactions, and modern work. [...]",
@@ -457,7 +495,7 @@
       ]
     },
     {
-      "id": "news-84373",
+      "id": "news-50397",
       "date": "2026-08-05",
       "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
       "content": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms.\n\nOne such service, Poison Claude, claims to offer access to Anthropic's lar",
@@ -470,7 +508,7 @@
       ]
     },
     {
-      "id": "news-67020",
+      "id": "news-25052",
       "date": "2026-08-05",
       "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
       "content": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it.\n\nA t",
@@ -482,7 +520,7 @@
       ]
     },
     {
-      "id": "news-80987",
+      "id": "news-73001",
       "date": "2026-08-05",
       "title": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
       "content": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer.\n\nThe new dead drop resolver approach, ob",
@@ -494,7 +532,7 @@
       ]
     },
     {
-      "id": "news-7267",
+      "id": "news-10601",
       "date": "2026-08-05",
       "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
       "content": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds.\n\nThe vulnerability, tracked as CVE-2",
@@ -506,7 +544,7 @@
       ]
     },
     {
-      "id": "news-89422",
+      "id": "news-30875",
       "date": "2026-08-05",
       "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
       "content": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data.\n\nThe phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentication page. Once access and refresh tokens are issued, attackers ma",
@@ -518,7 +556,7 @@
       ]
     },
     {
-      "id": "news-88460",
+      "id": "news-72692",
       "date": "2026-08-05",
       "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
       "content": "An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute.\n\nWhen a bystander publicly warned that the code was malicious, the agent denied it, forc",
@@ -528,42 +566,6 @@
       "tags": [
         "anthropic",
         "critical"
-      ]
-    },
-    {
-      "id": "news-14957",
-      "date": "2026-08-05",
-      "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-      "content": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users.\n\nAccording to Fortinet FortiGuard Labs, the supply chain attac",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-67773",
-      "date": "2026-08-05",
-      "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
-      "content": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-40613",
-      "date": "2026-08-05",
-      "title": "COLDCARD security audit phishing attack installs remote access tool",
-      "content": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remote access software. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
