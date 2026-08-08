@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08 02:07 UTC",
+  "lastUpdated": "2026-08-08 07:05 UTC",
   "companies": [
     {
       "id": "openai",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 48,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 1,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-25494",
+      "id": "news-3302",
       "date": "2026-08-08",
       "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
       "content": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"These packages appear to use AI slop squatted, or randomly generated typo-squatting ",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-4597",
+      "id": "news-64089",
       "date": "2026-08-07",
       "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
       "content": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.\n\nThe macOS-focused infection chain is designed to deliver a shell script that pr",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-246",
+      "id": "news-96268",
       "date": "2026-08-07",
       "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
       "content": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-95612",
+      "id": "news-21985",
       "date": "2026-08-07",
       "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
       "content": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gath",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-16398",
+      "id": "news-83284",
       "date": "2026-08-07",
       "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
       "content": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors.\n\nPortSwigger said a separate human-guided discovery cascad",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-10638",
+      "id": "news-21705",
       "date": "2026-08-07",
       "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
       "content": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID.\n\nThe attacker can then establish longer-term cloud access, register a ",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-46933",
+      "id": "news-76668",
       "date": "2026-08-07",
       "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
       "content": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run.\n\nNovee Security ran the attack against each vendo",
@@ -472,7 +472,7 @@
       ]
     },
     {
-      "id": "news-48442",
+      "id": "news-94599",
       "date": "2026-08-07",
       "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
       "content": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain.\n\n\"The ",
@@ -484,7 +484,7 @@
       ]
     },
     {
-      "id": "news-75232",
+      "id": "news-70626",
       "date": "2026-08-07",
       "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
       "content": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]",
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": "news-51018",
+      "id": "news-25773",
       "date": "2026-08-07",
       "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
       "content": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocurrency payments. [...]",
@@ -508,7 +508,7 @@
       ]
     },
     {
-      "id": "news-63915",
+      "id": "news-26695",
       "date": "2026-08-06",
       "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
       "content": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.\n\nMIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the techn",
@@ -520,7 +520,7 @@
       ]
     },
     {
-      "id": "news-39094",
+      "id": "news-91995",
       "date": "2026-08-06",
       "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
       "content": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links.\n\nWe observed production websites embedd",
@@ -532,7 +532,7 @@
       ]
     },
     {
-      "id": "news-61391",
+      "id": "news-41655",
       "date": "2026-08-06",
       "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
       "content": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them.\n\nIn several of the attack paths, the model never ran at all, so system prompt",
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "id": "news-21483",
+      "id": "news-23098",
       "date": "2026-08-06",
       "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
       "content": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink.\n\nAccording to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more t",
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "id": "news-63776",
+      "id": "news-84801",
       "date": "2026-08-06",
       "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
       "content": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA).\n\nThe vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a c",
