@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07 19:07 UTC",
+  "lastUpdated": "2026-08-08 02:07 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 80,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 52,
+      "probability": 48,
       "trend": {
-        "value": 8,
+        "value": 4,
         "direction": "down"
       },
       "riskLevel": "high",
       "riskFactors": 1,
-      "recentIncidents": 4,
+      "recentIncidents": 3,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 640,
-        "anthropic": 416,
+        "anthropic": 384,
         "meta-ai": 144,
         "google-deepmind": 136
       },
       {
         "name": "Apr",
         "openai": 768,
-        "anthropic": 499,
+        "anthropic": 460,
         "meta-ai": 172,
         "google-deepmind": 163
       },
       {
         "name": "May",
         "openai": 896,
-        "anthropic": 582,
+        "anthropic": 537,
         "meta-ai": 201,
         "google-deepmind": 190
       },
       {
         "name": "Jun",
         "openai": 1024,
-        "anthropic": 665,
+        "anthropic": 614,
         "meta-ai": 230,
         "google-deepmind": 217
       },
       {
         "name": "Jul",
         "openai": 1152,
-        "anthropic": 748,
+        "anthropic": 691,
         "meta-ai": 259,
         "google-deepmind": 244
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 576,
-        "anthropic": 374,
+        "anthropic": 345,
         "meta-ai": 129,
         "google-deepmind": 122
       },
       {
         "name": "Apr",
         "openai": 688,
-        "anthropic": 447,
+        "anthropic": 412,
         "meta-ai": 154,
         "google-deepmind": 146
       },
       {
         "name": "May",
         "openai": 800,
-        "anthropic": 520,
+        "anthropic": 480,
         "meta-ai": 180,
         "google-deepmind": 170
       },
       {
         "name": "Jun",
         "openai": 912,
-        "anthropic": 592,
+        "anthropic": 547,
         "meta-ai": 205,
         "google-deepmind": 193
       },
       {
         "name": "Jul",
         "openai": 1024,
-        "anthropic": 665,
+        "anthropic": 614,
         "meta-ai": 230,
         "google-deepmind": 217
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 320,
-        "anthropic": 208,
+        "anthropic": 192,
         "meta-ai": 72,
         "google-deepmind": 68
       },
       {
         "name": "Apr",
         "openai": 416,
-        "anthropic": 270,
+        "anthropic": 249,
         "meta-ai": 93,
         "google-deepmind": 88
       },
       {
         "name": "May",
         "openai": 512,
-        "anthropic": 332,
+        "anthropic": 307,
         "meta-ai": 115,
         "google-deepmind": 108
       },
       {
         "name": "Jun",
         "openai": 608,
-        "anthropic": 395,
+        "anthropic": 364,
         "meta-ai": 136,
         "google-deepmind": 129
       },
       {
         "name": "Jul",
         "openai": 704,
-        "anthropic": 457,
+        "anthropic": 422,
         "meta-ai": 158,
         "google-deepmind": 149
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 480,
-        "anthropic": 312,
+        "anthropic": 288,
         "meta-ai": 108,
         "google-deepmind": 102
       },
       {
         "name": "Apr",
         "openai": 592,
-        "anthropic": 384,
+        "anthropic": 355,
         "meta-ai": 133,
         "google-deepmind": 125
       },
       {
         "name": "May",
         "openai": 704,
-        "anthropic": 457,
+        "anthropic": 422,
         "meta-ai": 158,
         "google-deepmind": 149
       },
       {
         "name": "Jun",
         "openai": 816,
-        "anthropic": 530,
+        "anthropic": 489,
         "meta-ai": 183,
         "google-deepmind": 173
       },
       {
         "name": "Jul",
         "openai": 928,
-        "anthropic": 603,
+        "anthropic": 556,
         "meta-ai": 208,
         "google-deepmind": 197
       }
@@ -385,7 +385,31 @@
   },
   "news": [
     {
-      "id": "news-45277",
+      "id": "news-25494",
+      "date": "2026-08-08",
+      "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+      "content": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"These packages appear to use AI slop squatted, or randomly generated typo-squatting ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-4597",
+      "date": "2026-08-07",
+      "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+      "content": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.\n\nThe macOS-focused infection chain is designed to deliver a shell script that pr",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-246",
       "date": "2026-08-07",
       "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
       "content": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator",
@@ -397,7 +421,7 @@
       ]
     },
     {
-      "id": "news-45040",
+      "id": "news-95612",
       "date": "2026-08-07",
       "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
       "content": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gath",
@@ -409,7 +433,7 @@
       ]
     },
     {
-      "id": "news-64436",
+      "id": "news-16398",
       "date": "2026-08-07",
       "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
       "content": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors.\n\nPortSwigger said a separate human-guided discovery cascad",
@@ -421,7 +445,7 @@
       ]
     },
     {
-      "id": "news-24452",
+      "id": "news-10638",
       "date": "2026-08-07",
       "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
       "content": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID.\n\nThe attacker can then establish longer-term cloud access, register a ",
@@ -433,7 +457,7 @@
       ]
     },
     {
-      "id": "news-43737",
+      "id": "news-46933",
       "date": "2026-08-07",
       "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
       "content": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run.\n\nNovee Security ran the attack against each vendo",
@@ -448,7 +472,7 @@
       ]
     },
     {
-      "id": "news-13001",
+      "id": "news-48442",
       "date": "2026-08-07",
       "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
       "content": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain.\n\n\"The ",
@@ -460,7 +484,7 @@
       ]
     },
     {
-      "id": "news-44422",
+      "id": "news-75232",
       "date": "2026-08-07",
       "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
       "content": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]",
@@ -472,7 +496,7 @@
       ]
     },
     {
-      "id": "news-96806",
+      "id": "news-51018",
       "date": "2026-08-07",
       "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
       "content": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocurrency payments. [...]",
@@ -484,7 +508,7 @@
       ]
     },
     {
-      "id": "news-49161",
+      "id": "news-63915",
       "date": "2026-08-06",
       "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
       "content": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.\n\nMIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the techn",
@@ -496,7 +520,7 @@
       ]
     },
     {
-      "id": "news-872",
+      "id": "news-39094",
       "date": "2026-08-06",
       "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
       "content": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links.\n\nWe observed production websites embedd",
@@ -508,7 +532,7 @@
       ]
     },
     {
-      "id": "news-45804",
+      "id": "news-61391",
       "date": "2026-08-06",
       "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
       "content": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them.\n\nIn several of the attack paths, the model never ran at all, so system prompt",
@@ -520,7 +544,7 @@
       ]
     },
     {
-      "id": "news-61188",
+      "id": "news-21483",
       "date": "2026-08-06",
       "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
       "content": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink.\n\nAccording to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more t",
@@ -532,34 +556,10 @@
       ]
     },
     {
-      "id": "news-62090",
+      "id": "news-63776",
       "date": "2026-08-06",
       "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
       "content": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA).\n\nThe vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a c",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-72311",
-      "date": "2026-08-06",
-      "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
-      "content": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for weeks.\n\nThe server-side gate hides the mali",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-20523",
-      "date": "2026-08-06",
-      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-      "content": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
