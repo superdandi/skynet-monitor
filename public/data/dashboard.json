@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10 13:26 UTC",
+  "lastUpdated": "2026-08-10 19:07 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 76,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 48,
+      "probability": 40,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 8,
+        "direction": "down"
       },
       "riskLevel": "high",
-      "riskFactors": 1,
-      "recentIncidents": 3,
+      "riskFactors": 0,
+      "recentIncidents": 2,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -82,8 +82,8 @@
       "description": "Meta's artificial intelligence research division",
       "probability": 10,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 608,
-        "anthropic": 384,
+        "anthropic": 320,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 729,
-        "anthropic": 460,
+        "anthropic": 384,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 851,
-        "anthropic": 537,
+        "anthropic": 448,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 972,
-        "anthropic": 614,
+        "anthropic": 512,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1094,
-        "anthropic": 691,
+        "anthropic": 576,
         "google-deepmind": 244,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 547,
-        "anthropic": 345,
+        "anthropic": 288,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 653,
-        "anthropic": 412,
+        "anthropic": 344,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 760,
-        "anthropic": 480,
+        "anthropic": 400,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 866,
-        "anthropic": 547,
+        "anthropic": 456,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 972,
-        "anthropic": 614,
+        "anthropic": 512,
         "google-deepmind": 217,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 304,
-        "anthropic": 192,
+        "anthropic": 160,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 395,
-        "anthropic": 249,
+        "anthropic": 208,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 486,
-        "anthropic": 307,
+        "anthropic": 256,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 577,
-        "anthropic": 364,
+        "anthropic": 304,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 668,
-        "anthropic": 422,
+        "anthropic": 352,
         "google-deepmind": 149,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 456,
-        "anthropic": 288,
+        "anthropic": 240,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 562,
-        "anthropic": 355,
+        "anthropic": 296,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 668,
-        "anthropic": 422,
+        "anthropic": 352,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 775,
-        "anthropic": 489,
+        "anthropic": 408,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 881,
-        "anthropic": 556,
+        "anthropic": 464,
         "google-deepmind": 197,
         "meta-ai": 116
       }
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-23201",
+      "id": "news-54311",
       "date": "2026-08-10",
       "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
       "content": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhen software output jumps 10 to 50 times, the problem is no longer just finding vu",
@@ -397,7 +397,43 @@
       ]
     },
     {
-      "id": "news-73560",
+      "id": "news-63729",
+      "date": "2026-08-10",
+      "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+      "content": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Micr",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-10759",
+      "date": "2026-08-10",
+      "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
+      "content": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default.\n\nThat pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-23448",
+      "date": "2026-08-10",
+      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+      "content": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collectin",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-9359",
       "date": "2026-08-10",
       "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
       "content": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors.\n\nRussian cybersecurity ",
@@ -409,7 +445,7 @@
       ]
     },
     {
-      "id": "news-42086",
+      "id": "news-17553",
       "date": "2026-08-10",
       "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
       "content": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer.\n\nThe names of the extensions are below -\n\n\n  helper-beeps.solidity-pr",
@@ -421,7 +457,7 @@
       ]
     },
     {
-      "id": "news-94204",
+      "id": "news-63857",
       "date": "2026-08-10",
       "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
       "content": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity.\n\nIn response to the discovery, the AI ups",
@@ -434,7 +470,19 @@
       ]
     },
     {
-      "id": "news-82099",
+      "id": "news-40300",
+      "date": "2026-08-10",
+      "title": "New StormEncryptor ransomware used by former Medusa affiliate",
+      "content": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-76311",
       "date": "2026-08-08",
       "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
       "content": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirm",
@@ -446,7 +494,7 @@
       ]
     },
     {
-      "id": "news-28082",
+      "id": "news-9339",
       "date": "2026-08-08",
       "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
       "content": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface.\n\nAcross attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party account",
@@ -458,7 +506,7 @@
       ]
     },
     {
-      "id": "news-45826",
+      "id": "news-20864",
       "date": "2026-08-08",
       "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
       "content": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthentica",
@@ -470,7 +518,7 @@
       ]
     },
     {
-      "id": "news-22207",
+      "id": "news-26550",
       "date": "2026-08-08",
       "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
       "content": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.\n\n\"We are proactively expanding protections in response to ongoing monito",
@@ -482,7 +530,7 @@
       ]
     },
     {
-      "id": "news-49075",
+      "id": "news-28234",
       "date": "2026-08-08",
       "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
       "content": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"These packages appear to use AI slop squatted, or randomly generated typo-squatting ",
@@ -494,7 +542,7 @@
       ]
     },
     {
-      "id": "news-23126",
+      "id": "news-5226",
       "date": "2026-08-07",
       "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
       "content": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.\n\nThe macOS-focused infection chain is designed to deliver a shell script that pr",
@@ -506,7 +554,7 @@
       ]
     },
     {
-      "id": "news-43012",
+      "id": "news-57088",
       "date": "2026-08-07",
       "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
       "content": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator",
@@ -514,57 +562,6 @@
       "impact": "Moderate",
       "views": 0,
       "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-17204",
-      "date": "2026-08-07",
-      "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
-      "content": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gath",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-97935",
-      "date": "2026-08-07",
-      "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-      "content": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors.\n\nPortSwigger said a separate human-guided discovery cascad",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-63844",
-      "date": "2026-08-07",
-      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-      "content": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID.\n\nThe attacker can then establish longer-term cloud access, register a ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-95615",
-      "date": "2026-08-07",
-      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-      "content": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run.\n\nNovee Security ran the attack against each vendo",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "anthropic",
-        "google-deepmind",
         "moderate"
       ]
     }
