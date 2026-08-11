@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-10 19:07 UTC",
+  "lastUpdated": "2026-08-11 02:18 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 76,
+      "probability": 80,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 2,
+      "recentIncidents": 3,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 40,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 608,
+        "openai": 640,
         "anthropic": 320,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 729,
+        "openai": 768,
         "anthropic": 384,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 851,
+        "openai": 896,
         "anthropic": 448,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 972,
+        "openai": 1024,
         "anthropic": 512,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1094,
+        "openai": 1152,
         "anthropic": 576,
         "google-deepmind": 244,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 547,
+        "openai": 576,
         "anthropic": 288,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 653,
+        "openai": 688,
         "anthropic": 344,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 760,
+        "openai": 800,
         "anthropic": 400,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 866,
+        "openai": 912,
         "anthropic": 456,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 972,
+        "openai": 1024,
         "anthropic": 512,
         "google-deepmind": 217,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 304,
+        "openai": 320,
         "anthropic": 160,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 395,
+        "openai": 416,
         "anthropic": 208,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 486,
+        "openai": 512,
         "anthropic": 256,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 577,
+        "openai": 608,
         "anthropic": 304,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 668,
+        "openai": 704,
         "anthropic": 352,
         "google-deepmind": 149,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 456,
+        "openai": 480,
         "anthropic": 240,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 562,
+        "openai": 592,
         "anthropic": 296,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 668,
+        "openai": 704,
         "anthropic": 352,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 775,
+        "openai": 816,
         "anthropic": 408,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 881,
+        "openai": 928,
         "anthropic": 464,
         "google-deepmind": 197,
         "meta-ai": 116
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-54311",
+      "id": "news-40004",
       "date": "2026-08-10",
       "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
       "content": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhen software output jumps 10 to 50 times, the problem is no longer just finding vu",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-63729",
+      "id": "news-39473",
       "date": "2026-08-10",
       "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
       "content": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Micr",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-10759",
+      "id": "news-49974",
       "date": "2026-08-10",
       "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
       "content": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default.\n\nThat pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-23448",
+      "id": "news-60985",
       "date": "2026-08-10",
       "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
       "content": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collectin",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-9359",
+      "id": "news-44687",
       "date": "2026-08-10",
       "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
       "content": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors.\n\nRussian cybersecurity ",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-17553",
+      "id": "news-31689",
       "date": "2026-08-10",
       "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
       "content": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer.\n\nThe names of the extensions are below -\n\n\n  helper-beeps.solidity-pr",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-63857",
+      "id": "news-77765",
       "date": "2026-08-10",
       "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
       "content": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity.\n\nIn response to the discovery, the AI ups",
@@ -470,7 +470,32 @@
       ]
     },
     {
-      "id": "news-40300",
+      "id": "news-25506",
+      "date": "2026-08-10",
+      "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
+      "content": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-29973",
+      "date": "2026-08-10",
+      "title": "OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users",
+      "content": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-42032",
       "date": "2026-08-10",
       "title": "New StormEncryptor ransomware used by former Medusa affiliate",
       "content": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
@@ -482,7 +507,7 @@
       ]
     },
     {
-      "id": "news-76311",
+      "id": "news-54185",
       "date": "2026-08-08",
       "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
       "content": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirm",
@@ -494,7 +519,7 @@
       ]
     },
     {
-      "id": "news-9339",
+      "id": "news-78204",
       "date": "2026-08-08",
       "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
       "content": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface.\n\nAcross attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party account",
@@ -506,7 +531,7 @@
       ]
     },
     {
-      "id": "news-20864",
+      "id": "news-91463",
       "date": "2026-08-08",
       "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
       "content": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthentica",
@@ -518,7 +543,7 @@
       ]
     },
     {
-      "id": "news-26550",
+      "id": "news-66672",
       "date": "2026-08-08",
       "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
       "content": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.\n\n\"We are proactively expanding protections in response to ongoing monito",
@@ -530,34 +555,10 @@
       ]
     },
     {
-      "id": "news-28234",
+      "id": "news-14881",
       "date": "2026-08-08",
       "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
       "content": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"These packages appear to use AI slop squatted, or randomly generated typo-squatting ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-5226",
-      "date": "2026-08-07",
-      "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
-      "content": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.\n\nThe macOS-focused infection chain is designed to deliver a shell script that pr",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-57088",
-      "date": "2026-08-07",
-      "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-      "content": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
