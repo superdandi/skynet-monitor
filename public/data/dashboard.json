@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11 02:18 UTC",
+  "lastUpdated": "2026-08-11 07:19 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,7 +8,7 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 80,
       "trend": {
-        "value": 4,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "critical",
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-40004",
+      "id": "news-13749",
+      "date": "2026-08-11",
+      "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+      "content": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads.\n\n\"Unlike traditional software supply chain attacks, zero s",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-17406",
       "date": "2026-08-10",
       "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
       "content": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhen software output jumps 10 to 50 times, the problem is no longer just finding vu",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-39473",
+      "id": "news-40743",
       "date": "2026-08-10",
       "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
       "content": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Micr",
@@ -409,7 +421,7 @@
       ]
     },
     {
-      "id": "news-49974",
+      "id": "news-37932",
       "date": "2026-08-10",
       "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
       "content": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default.\n\nThat pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit",
@@ -421,7 +433,7 @@
       ]
     },
     {
-      "id": "news-60985",
+      "id": "news-93088",
       "date": "2026-08-10",
       "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
       "content": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collectin",
@@ -433,7 +445,7 @@
       ]
     },
     {
-      "id": "news-44687",
+      "id": "news-26559",
       "date": "2026-08-10",
       "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
       "content": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors.\n\nRussian cybersecurity ",
@@ -445,7 +457,7 @@
       ]
     },
     {
-      "id": "news-31689",
+      "id": "news-17307",
       "date": "2026-08-10",
       "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
       "content": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer.\n\nThe names of the extensions are below -\n\n\n  helper-beeps.solidity-pr",
@@ -457,7 +469,7 @@
       ]
     },
     {
-      "id": "news-77765",
+      "id": "news-19333",
       "date": "2026-08-10",
       "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
       "content": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity.\n\nIn response to the discovery, the AI ups",
@@ -470,7 +482,7 @@
       ]
     },
     {
-      "id": "news-25506",
+      "id": "news-18225",
       "date": "2026-08-10",
       "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
       "content": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]",
@@ -482,7 +494,7 @@
       ]
     },
     {
-      "id": "news-29973",
+      "id": "news-99135",
       "date": "2026-08-10",
       "title": "OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users",
       "content": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation. [...]",
@@ -495,7 +507,7 @@
       ]
     },
     {
-      "id": "news-42032",
+      "id": "news-16594",
       "date": "2026-08-10",
       "title": "New StormEncryptor ransomware used by former Medusa affiliate",
       "content": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
@@ -507,7 +519,7 @@
       ]
     },
     {
-      "id": "news-54185",
+      "id": "news-34592",
       "date": "2026-08-08",
       "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
       "content": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirm",
@@ -519,7 +531,7 @@
       ]
     },
     {
-      "id": "news-78204",
+      "id": "news-28959",
       "date": "2026-08-08",
       "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
       "content": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface.\n\nAcross attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party account",
@@ -531,7 +543,7 @@
       ]
     },
     {
-      "id": "news-91463",
+      "id": "news-64416",
       "date": "2026-08-08",
       "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
       "content": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthentica",
@@ -543,22 +555,10 @@
       ]
     },
     {
-      "id": "news-66672",
+      "id": "news-30639",
       "date": "2026-08-08",
       "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
       "content": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.\n\n\"We are proactively expanding protections in response to ongoing monito",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-14881",
-      "date": "2026-08-08",
-      "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-      "content": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"These packages appear to use AI slop squatted, or randomly generated typo-squatting ",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
