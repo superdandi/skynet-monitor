@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-11 19:12 UTC",
+  "lastUpdated": "2026-08-12 02:33 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 88,
+      "probability": 84,
       "trend": {
-        "value": 8,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 4,
+      "recentIncidents": 3,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 36,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 704,
+        "openai": 672,
         "anthropic": 288,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 844,
+        "openai": 806,
         "anthropic": 345,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 985,
+        "openai": 940,
         "anthropic": 403,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1126,
+        "openai": 1075,
         "anthropic": 460,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1267,
+        "openai": 1209,
         "anthropic": 518,
         "google-deepmind": 244,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 633,
+        "openai": 604,
         "anthropic": 259,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 756,
+        "openai": 722,
         "anthropic": 309,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 880,
+        "openai": 840,
         "anthropic": 360,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 1003,
+        "openai": 957,
         "anthropic": 410,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1126,
+        "openai": 1075,
         "anthropic": 460,
         "google-deepmind": 217,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 352,
+        "openai": 336,
         "anthropic": 144,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 457,
+        "openai": 436,
         "anthropic": 187,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 563,
+        "openai": 537,
         "anthropic": 230,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 668,
+        "openai": 638,
         "anthropic": 273,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 774,
+        "openai": 739,
         "anthropic": 316,
         "google-deepmind": 149,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 528,
+        "openai": 504,
         "anthropic": 216,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 651,
+        "openai": 621,
         "anthropic": 266,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 774,
+        "openai": 739,
         "anthropic": 316,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 897,
+        "openai": 856,
         "anthropic": 367,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 1020,
+        "openai": 974,
         "anthropic": 417,
         "google-deepmind": 197,
         "meta-ai": 116
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-77505",
+      "id": "news-58200",
+      "date": "2026-08-12",
+      "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+      "content": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.\n\nThe new version, tra",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-11527",
       "date": "2026-08-12",
       "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
       "content": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware.\n\nCERT-U",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-6107",
+      "id": "news-91229",
       "date": "2026-08-11",
       "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
       "content": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as&nbsp;CVE-2026-55040&nbsp;(CVSS 9.1), affects Sha",
@@ -409,7 +421,7 @@
       ]
     },
     {
-      "id": "news-53804",
+      "id": "news-20776",
       "date": "2026-08-11",
       "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
       "content": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recovery ecosystem combines the Session messaging network with blockchain-bac",
@@ -421,7 +433,7 @@
       ]
     },
     {
-      "id": "news-94862",
+      "id": "news-59915",
       "date": "2026-08-11",
       "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
       "content": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks",
@@ -434,7 +446,7 @@
       ]
     },
     {
-      "id": "news-52022",
+      "id": "news-81126",
       "date": "2026-08-11",
       "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
       "content": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe onboarding paperwork is the part hiring teams can use. The first hire ",
@@ -446,7 +458,7 @@
       ]
     },
     {
-      "id": "news-23927",
+      "id": "news-67912",
       "date": "2026-08-11",
       "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
       "content": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads.\n\n\"Unlike traditional software supply chain attacks, zero s",
@@ -458,7 +470,19 @@
       ]
     },
     {
-      "id": "news-87767",
+      "id": "news-67352",
+      "date": "2026-08-11",
+      "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
+      "content": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-84120",
       "date": "2026-08-11",
       "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
       "content": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]",
@@ -470,7 +494,7 @@
       ]
     },
     {
-      "id": "news-18983",
+      "id": "news-14584",
       "date": "2026-08-11",
       "title": "Wesco confirms security incident after ExfilSquad claims data theft",
       "content": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
@@ -482,7 +506,7 @@
       ]
     },
     {
-      "id": "news-43040",
+      "id": "news-65442",
       "date": "2026-08-11",
       "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
       "content": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains why organizations need to define agent intent and continuously enforce permissions around what each agent was actually created to d",
@@ -494,7 +518,7 @@
       ]
     },
     {
-      "id": "news-26369",
+      "id": "news-25336",
       "date": "2026-08-11",
       "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
       "content": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]",
@@ -506,7 +530,19 @@
       ]
     },
     {
-      "id": "news-66009",
+      "id": "news-45212",
+      "date": "2026-08-11",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "content": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-41127",
       "date": "2026-08-10",
       "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
       "content": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhen software output jumps 10 to 50 times, the problem is no longer just finding vu",
@@ -518,7 +554,7 @@
       ]
     },
     {
-      "id": "news-32385",
+      "id": "news-25468",
       "date": "2026-08-10",
       "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
       "content": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Micr",
@@ -527,42 +563,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-8680",
-      "date": "2026-08-10",
-      "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
-      "content": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default.\n\nThat pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-91478",
-      "date": "2026-08-10",
-      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-      "content": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collectin",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-88588",
-      "date": "2026-08-10",
-      "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
-      "content": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors.\n\nRussian cybersecurity ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
