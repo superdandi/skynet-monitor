@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12 02:33 UTC",
+  "lastUpdated": "2026-08-12 07:43 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 84,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-58200",
+      "id": "news-84428",
+      "date": "2026-08-12",
+      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+      "content": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulnerability, rooted in Microsoft Defender for Windows, demonstrates",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-6111",
       "date": "2026-08-12",
       "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
       "content": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.\n\nThe new version, tra",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-11527",
+      "id": "news-38411",
       "date": "2026-08-12",
       "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
       "content": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware.\n\nCERT-U",
@@ -409,7 +421,7 @@
       ]
     },
     {
-      "id": "news-91229",
+      "id": "news-48963",
       "date": "2026-08-11",
       "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
       "content": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as&nbsp;CVE-2026-55040&nbsp;(CVSS 9.1), affects Sha",
@@ -421,7 +433,7 @@
       ]
     },
     {
-      "id": "news-20776",
+      "id": "news-16324",
       "date": "2026-08-11",
       "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
       "content": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recovery ecosystem combines the Session messaging network with blockchain-bac",
@@ -433,7 +445,7 @@
       ]
     },
     {
-      "id": "news-59915",
+      "id": "news-18459",
       "date": "2026-08-11",
       "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
       "content": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks",
@@ -446,7 +458,7 @@
       ]
     },
     {
-      "id": "news-81126",
+      "id": "news-632",
       "date": "2026-08-11",
       "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
       "content": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe onboarding paperwork is the part hiring teams can use. The first hire ",
@@ -458,7 +470,7 @@
       ]
     },
     {
-      "id": "news-67912",
+      "id": "news-70460",
       "date": "2026-08-11",
       "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
       "content": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads.\n\n\"Unlike traditional software supply chain attacks, zero s",
@@ -470,7 +482,7 @@
       ]
     },
     {
-      "id": "news-67352",
+      "id": "news-7437",
       "date": "2026-08-11",
       "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
       "content": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]",
@@ -482,7 +494,7 @@
       ]
     },
     {
-      "id": "news-84120",
+      "id": "news-89233",
       "date": "2026-08-11",
       "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
       "content": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]",
@@ -494,7 +506,7 @@
       ]
     },
     {
-      "id": "news-14584",
+      "id": "news-2842",
       "date": "2026-08-11",
       "title": "Wesco confirms security incident after ExfilSquad claims data theft",
       "content": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
@@ -506,7 +518,7 @@
       ]
     },
     {
-      "id": "news-65442",
+      "id": "news-64425",
       "date": "2026-08-11",
       "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
       "content": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains why organizations need to define agent intent and continuously enforce permissions around what each agent was actually created to d",
@@ -518,7 +530,7 @@
       ]
     },
     {
-      "id": "news-25336",
+      "id": "news-68154",
       "date": "2026-08-11",
       "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
       "content": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]",
@@ -530,7 +542,7 @@
       ]
     },
     {
-      "id": "news-45212",
+      "id": "news-44273",
       "date": "2026-08-11",
       "title": "Microsoft Plugs Nearly 400 Security Holes",
       "content": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
@@ -542,7 +554,7 @@
       ]
     },
     {
-      "id": "news-41127",
+      "id": "news-17907",
       "date": "2026-08-10",
       "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
       "content": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhen software output jumps 10 to 50 times, the problem is no longer just finding vu",
@@ -551,18 +563,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-25468",
-      "date": "2026-08-10",
-      "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
-      "content": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Micr",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
