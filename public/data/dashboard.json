@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13 13:35 UTC",
+  "lastUpdated": "2026-08-13 19:13 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-77072",
+      "id": "news-82090",
+      "date": "2026-08-13",
+      "title": "Hackers breach govt webmail while running parallel crypto fraud",
+      "content": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-97632",
+      "date": "2026-08-13",
+      "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
+      "content": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-31298",
+      "date": "2026-08-13",
+      "title": "Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion",
+      "content": "AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState explains why organizations should govern packages at the point of selection, before they enter the development pipeline. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-1274",
       "date": "2026-08-12",
       "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
       "content": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and",
@@ -397,7 +433,7 @@
       ]
     },
     {
-      "id": "news-34810",
+      "id": "news-23752",
       "date": "2026-08-12",
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
       "content": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.\n\nThe most severe of the flaws are listed below ",
@@ -409,7 +445,7 @@
       ]
     },
     {
-      "id": "news-48462",
+      "id": "news-53759",
       "date": "2026-08-12",
       "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
       "content": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter ",
@@ -421,7 +457,7 @@
       ]
     },
     {
-      "id": "news-40367",
+      "id": "news-83282",
       "date": "2026-08-12",
       "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
       "content": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them.\n\nThreat intelligence firm CloudSEK now",
@@ -433,7 +469,7 @@
       ]
     },
     {
-      "id": "news-19066",
+      "id": "news-24709",
       "date": "2026-08-12",
       "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
       "content": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulnerability, rooted in Microsoft Defender for Windows, demonstrates",
@@ -445,7 +481,7 @@
       ]
     },
     {
-      "id": "news-46749",
+      "id": "news-59019",
       "date": "2026-08-12",
       "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
       "content": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.\n\nThe new version, tra",
@@ -457,7 +493,7 @@
       ]
     },
     {
-      "id": "news-43418",
+      "id": "news-52372",
       "date": "2026-08-12",
       "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
       "content": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware.\n\nCERT-U",
@@ -469,7 +505,7 @@
       ]
     },
     {
-      "id": "news-8118",
+      "id": "news-98420",
       "date": "2026-08-12",
       "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
       "content": "An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]",
@@ -481,7 +517,7 @@
       ]
     },
     {
-      "id": "news-27289",
+      "id": "news-76679",
       "date": "2026-08-12",
       "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
       "content": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM privileges. [...]",
@@ -493,7 +529,7 @@
       ]
     },
     {
-      "id": "news-67034",
+      "id": "news-6616",
       "date": "2026-08-12",
       "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
       "content": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
@@ -505,7 +541,7 @@
       ]
     },
     {
-      "id": "news-60542",
+      "id": "news-19763",
       "date": "2026-08-11",
       "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
       "content": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as&nbsp;CVE-2026-55040&nbsp;(CVSS 9.1), affects Sha",
@@ -517,7 +553,7 @@
       ]
     },
     {
-      "id": "news-942",
+      "id": "news-99802",
       "date": "2026-08-11",
       "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
       "content": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recovery ecosystem combines the Session messaging network with blockchain-bac",
@@ -526,43 +562,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-1540",
-      "date": "2026-08-11",
-      "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
-      "content": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "openai",
-        "critical"
-      ]
-    },
-    {
-      "id": "news-12911",
-      "date": "2026-08-11",
-      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-      "content": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe onboarding paperwork is the part hiring teams can use. The first hire ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-67049",
-      "date": "2026-08-11",
-      "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
-      "content": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads.\n\n\"Unlike traditional software supply chain attacks, zero s",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
