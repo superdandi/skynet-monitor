@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15 06:50 UTC",
+  "lastUpdated": "2026-08-15 12:52 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-70054",
+      "id": "news-73613",
       "date": "2026-08-14",
       "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
       "content": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the entire Workspace attack chain. [...]",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-39864",
+      "id": "news-2893",
       "date": "2026-08-14",
       "title": "Shell investigates 'potential incident' after Clop data theft claims",
       "content": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-8516",
+      "id": "news-11750",
       "date": "2026-08-13",
       "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
       "content": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-24751",
+      "id": "news-8457",
       "date": "2026-08-13",
       "title": "Hackers breach govt webmail while running parallel crypto fraud",
       "content": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-31860",
+      "id": "news-49614",
       "date": "2026-08-13",
       "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
       "content": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-17654",
+      "id": "news-30591",
       "date": "2026-08-12",
       "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
       "content": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-72802",
+      "id": "news-66848",
       "date": "2026-08-12",
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
       "content": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.\n\nThe most severe of the flaws are listed below ",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-11513",
+      "id": "news-96960",
       "date": "2026-08-12",
       "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
       "content": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter ",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-8873",
+      "id": "news-31597",
       "date": "2026-08-12",
       "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
       "content": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them.\n\nThreat intelligence firm CloudSEK now",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-44170",
+      "id": "news-80265",
       "date": "2026-08-12",
       "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
       "content": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulnerability, rooted in Microsoft Defender for Windows, demonstrates",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": "news-57321",
+      "id": "news-39357",
       "date": "2026-08-12",
       "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
       "content": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.\n\nThe new version, tra",
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": "news-19258",
+      "id": "news-81713",
       "date": "2026-08-12",
       "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
       "content": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware.\n\nCERT-U",
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "id": "news-29853",
+      "id": "news-59463",
       "date": "2026-08-11",
       "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
       "content": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as&nbsp;CVE-2026-55040&nbsp;(CVSS 9.1), affects Sha",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "id": "news-5998",
+      "id": "news-32211",
       "date": "2026-08-11",
       "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
       "content": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recovery ecosystem combines the Session messaging network with blockchain-bac",
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "id": "news-28119",
+      "id": "news-8952",
       "date": "2026-08-11",
       "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
       "content": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks",
