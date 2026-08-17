@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17 01:47 UTC",
+  "lastUpdated": "2026-08-17 07:09 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-73474",
+      "id": "news-40245",
       "date": "2026-08-16",
       "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
       "content": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-60247",
+      "id": "news-77454",
       "date": "2026-08-15",
       "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
       "content": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "id": "news-44039",
+      "id": "news-49014",
       "date": "2026-08-14",
       "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
       "content": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the entire Workspace attack chain. [...]",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "id": "news-95832",
+      "id": "news-60647",
       "date": "2026-08-14",
       "title": "Shell investigates 'potential incident' after Clop data theft claims",
       "content": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
@@ -434,7 +434,7 @@
       ]
     },
     {
-      "id": "news-83545",
+      "id": "news-87096",
       "date": "2026-08-12",
       "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
       "content": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and",
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": "news-66416",
+      "id": "news-99162",
       "date": "2026-08-12",
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
       "content": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.\n\nThe most severe of the flaws are listed below ",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-9084",
+      "id": "news-22091",
       "date": "2026-08-12",
       "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
       "content": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter ",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-63838",
+      "id": "news-98682",
       "date": "2026-08-12",
       "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
       "content": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them.\n\nThreat intelligence firm CloudSEK now",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-9687",
+      "id": "news-58735",
       "date": "2026-08-12",
       "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
       "content": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulnerability, rooted in Microsoft Defender for Windows, demonstrates",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-56643",
+      "id": "news-16043",
       "date": "2026-08-12",
       "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
       "content": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.\n\nThe new version, tra",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-27113",
+      "id": "news-98391",
       "date": "2026-08-12",
       "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
       "content": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware.\n\nCERT-U",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-79632",
+      "id": "news-60302",
       "date": "2026-08-11",
       "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
       "content": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as&nbsp;CVE-2026-55040&nbsp;(CVSS 9.1), affects Sha",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-65124",
+      "id": "news-62389",
       "date": "2026-08-11",
       "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
       "content": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recovery ecosystem combines the Session messaging network with blockchain-bac",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-85465",
+      "id": "news-95887",
       "date": "2026-08-11",
       "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
       "content": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks",
@@ -555,7 +555,7 @@
       ]
     },
     {
-      "id": "news-2468",
+      "id": "news-66595",
       "date": "2026-08-11",
       "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
       "content": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe onboarding paperwork is the part hiring teams can use. The first hire ",
