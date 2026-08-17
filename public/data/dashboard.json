@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-17 07:09 UTC",
+  "lastUpdated": "2026-08-17 12:58 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 88,
+      "probability": 84,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 4,
+      "recentIncidents": 3,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 36,
+      "probability": 32,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 0,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 17,
+      "probability": 13,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 0,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -200,148 +200,148 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 704,
-        "anthropic": 288,
-        "google-deepmind": 136,
+        "openai": 672,
+        "anthropic": 256,
+        "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 844,
-        "anthropic": 345,
-        "google-deepmind": 163,
+        "openai": 806,
+        "anthropic": 307,
+        "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 985,
-        "anthropic": 403,
-        "google-deepmind": 190,
+        "openai": 940,
+        "anthropic": 358,
+        "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1126,
-        "anthropic": 460,
-        "google-deepmind": 217,
+        "openai": 1075,
+        "anthropic": 409,
+        "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1267,
-        "anthropic": 518,
-        "google-deepmind": 244,
+        "openai": 1209,
+        "anthropic": 460,
+        "google-deepmind": 187,
         "meta-ai": 144
       }
     ],
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 633,
-        "anthropic": 259,
-        "google-deepmind": 122,
+        "openai": 604,
+        "anthropic": 230,
+        "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 756,
-        "anthropic": 309,
-        "google-deepmind": 146,
+        "openai": 722,
+        "anthropic": 275,
+        "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 880,
-        "anthropic": 360,
-        "google-deepmind": 170,
+        "openai": 840,
+        "anthropic": 320,
+        "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 1003,
-        "anthropic": 410,
-        "google-deepmind": 193,
+        "openai": 957,
+        "anthropic": 364,
+        "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1126,
-        "anthropic": 460,
-        "google-deepmind": 217,
+        "openai": 1075,
+        "anthropic": 409,
+        "google-deepmind": 166,
         "meta-ai": 128
       }
     ],
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 352,
-        "anthropic": 144,
-        "google-deepmind": 68,
+        "openai": 336,
+        "anthropic": 128,
+        "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 457,
-        "anthropic": 187,
-        "google-deepmind": 88,
+        "openai": 436,
+        "anthropic": 166,
+        "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 563,
-        "anthropic": 230,
-        "google-deepmind": 108,
+        "openai": 537,
+        "anthropic": 204,
+        "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 668,
-        "anthropic": 273,
-        "google-deepmind": 129,
+        "openai": 638,
+        "anthropic": 243,
+        "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 774,
-        "anthropic": 316,
-        "google-deepmind": 149,
+        "openai": 739,
+        "anthropic": 281,
+        "google-deepmind": 114,
         "meta-ai": 88
       }
     ],
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 528,
-        "anthropic": 216,
-        "google-deepmind": 102,
+        "openai": 504,
+        "anthropic": 192,
+        "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 651,
-        "anthropic": 266,
-        "google-deepmind": 125,
+        "openai": 621,
+        "anthropic": 236,
+        "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 774,
-        "anthropic": 316,
-        "google-deepmind": 149,
+        "openai": 739,
+        "anthropic": 281,
+        "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 897,
-        "anthropic": 367,
-        "google-deepmind": 173,
+        "openai": 856,
+        "anthropic": 326,
+        "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 1020,
-        "anthropic": 417,
-        "google-deepmind": 197,
+        "openai": 974,
+        "anthropic": 371,
+        "google-deepmind": 150,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,56 @@
   },
   "news": [
     {
-      "id": "news-40245",
+      "id": "news-11767",
+      "date": "2026-08-17",
+      "title": "How MCP Servers Can Expose Enterprise Secrets",
+      "content": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more organizations adopt AI agents into their systems, that exposure can silently become",
+      "category": "warning",
+      "impact": "Warning",
+      "views": 0,
+      "tags": [
+        "warning"
+      ]
+    },
+    {
+      "id": "news-64293",
+      "date": "2026-08-17",
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+      "content": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, with no fix from the chipset maker.\n\nThe&nbsp;advisory, published August 17, 2026, ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-27982",
+      "date": "2026-08-17",
+      "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+      "content": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies.\n\n\"While the malware reuses the DDoS engi",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-43654",
+      "date": "2026-08-17",
+      "title": "Philips and GE investigating Clop ransomware data theft claims",
+      "content": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-85540",
       "date": "2026-08-16",
       "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
       "content": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]",
@@ -397,7 +446,19 @@
       ]
     },
     {
-      "id": "news-77454",
+      "id": "news-8129",
+      "date": "2026-08-15",
+      "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
+      "content": "Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale.\n\nDNS threat intelligence firm Infoblox has given the name dropcatch domains to those that get a second chance, where an expired domain ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-60967",
       "date": "2026-08-15",
       "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
       "content": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
@@ -410,7 +471,67 @@
       ]
     },
     {
-      "id": "news-49014",
+      "id": "news-67276",
+      "date": "2026-08-14",
+      "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
+      "content": "The threat actor known as HoneyMyte (aka&nbsp;Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect malicious processes, files, registry objects, and command-and-control (C2) ne",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-59483",
+      "date": "2026-08-14",
+      "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
+      "content": "Cybersecurity researchers have detailed a post-exploitation technique that enables the&nbsp;Chrome DevTools Protocol (CDP)&nbsp;inside a running Google Chrome or Microsoft Edge process on Windows, allowing an operator to access cookies, saved data, and authenticated browser sessi",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-87757",
+      "date": "2026-08-14",
+      "title": "CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps",
+      "content": "Cybersecurity researchers have uncovered a large-scale, global recruitment-themed phishing campaign that uses fake interview scheduling pages and Browser-in-the-Browser (BitB) windows to steal Google and Facebook credentials and, in more advanced cases, relay multi-factor authent",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-24507",
+      "date": "2026-08-14",
+      "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
+      "content": "Apple on Thursday sent a fresh batch of notifications to customers whom it suspects may have been targeted by mercenary spyware attacks.\n\nIn a statement shared with TechCrunch, the iPhone maker said it alerted an unspecified number of users targeted in 110 countries and that it h",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-97255",
+      "date": "2026-08-14",
+      "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
+      "content": "A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr.\n\nThe vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerability in the open-source platform that can lead to remote code execution (RCE). The se",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-50531",
       "date": "2026-08-14",
       "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
       "content": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the entire Workspace attack chain. [...]",
@@ -422,7 +543,7 @@
       ]
     },
     {
-      "id": "news-60647",
+      "id": "news-96112",
       "date": "2026-08-14",
       "title": "Shell investigates 'potential incident' after Clop data theft claims",
       "content": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
@@ -434,136 +555,15 @@
       ]
     },
     {
-      "id": "news-87096",
-      "date": "2026-08-12",
-      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-      "content": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and",
+      "id": "news-62299",
+      "date": "2026-08-13",
+      "title": "ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw + 17 More Stories",
+      "content": "Some weeks have one big security story. Others bring many smaller updates that are easy to miss but still matter. This week has plenty of them, covering cloud services, AI tools, malware, data breaches, scams, and new attack methods.\n\nThe latest ThreatsDay Bulletin puts all of th",
       "category": "critical",
       "impact": "Critical",
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-99162",
-      "date": "2026-08-12",
-      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
-      "content": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.\n\nThe most severe of the flaws are listed below ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-22091",
-      "date": "2026-08-12",
-      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
-      "content": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-98682",
-      "date": "2026-08-12",
-      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
-      "content": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them.\n\nThreat intelligence firm CloudSEK now",
-      "category": "warning",
-      "impact": "Warning",
-      "views": 0,
-      "tags": [
-        "warning"
-      ]
-    },
-    {
-      "id": "news-58735",
-      "date": "2026-08-12",
-      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-      "content": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulnerability, rooted in Microsoft Defender for Windows, demonstrates",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-16043",
-      "date": "2026-08-12",
-      "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
-      "content": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.\n\nThe new version, tra",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-98391",
-      "date": "2026-08-12",
-      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
-      "content": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware.\n\nCERT-U",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-60302",
-      "date": "2026-08-11",
-      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
-      "content": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as&nbsp;CVE-2026-55040&nbsp;(CVSS 9.1), affects Sha",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-62389",
-      "date": "2026-08-11",
-      "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
-      "content": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recovery ecosystem combines the Session messaging network with blockchain-bac",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-95887",
-      "date": "2026-08-11",
-      "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
-      "content": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "openai",
-        "critical"
-      ]
-    },
-    {
-      "id": "news-66595",
-      "date": "2026-08-11",
-      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-      "content": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe onboarding paperwork is the part hiring teams can use. The first hire ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
