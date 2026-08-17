@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17 12:58 UTC",
+  "lastUpdated": "2026-08-17 18:50 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 84,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 32,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -58,8 +58,8 @@
       "description": "Alphabet's AI research division",
       "probability": 13,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-11767",
+      "id": "news-59531",
+      "date": "2026-08-17",
+      "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+      "content": "The expensive attacks are not always the clever ones.\n\nThis week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-61836",
       "date": "2026-08-17",
       "title": "How MCP Servers Can Expose Enterprise Secrets",
       "content": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more organizations adopt AI agents into their systems, that exposure can silently become",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-64293",
+      "id": "news-50844",
       "date": "2026-08-17",
       "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
       "content": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, with no fix from the chipset maker.\n\nThe&nbsp;advisory, published August 17, 2026, ",
@@ -409,7 +421,7 @@
       ]
     },
     {
-      "id": "news-27982",
+      "id": "news-54905",
       "date": "2026-08-17",
       "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
       "content": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies.\n\n\"While the malware reuses the DDoS engi",
@@ -422,7 +434,7 @@
       ]
     },
     {
-      "id": "news-43654",
+      "id": "news-75172",
       "date": "2026-08-17",
       "title": "Philips and GE investigating Clop ransomware data theft claims",
       "content": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
@@ -434,7 +446,7 @@
       ]
     },
     {
-      "id": "news-85540",
+      "id": "news-16339",
       "date": "2026-08-16",
       "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
       "content": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]",
@@ -446,7 +458,7 @@
       ]
     },
     {
-      "id": "news-8129",
+      "id": "news-17163",
       "date": "2026-08-15",
       "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
       "content": "Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale.\n\nDNS threat intelligence firm Infoblox has given the name dropcatch domains to those that get a second chance, where an expired domain ",
@@ -458,7 +470,7 @@
       ]
     },
     {
-      "id": "news-60967",
+      "id": "news-25750",
       "date": "2026-08-15",
       "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
       "content": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
@@ -471,7 +483,7 @@
       ]
     },
     {
-      "id": "news-67276",
+      "id": "news-43402",
       "date": "2026-08-14",
       "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
       "content": "The threat actor known as HoneyMyte (aka&nbsp;Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect malicious processes, files, registry objects, and command-and-control (C2) ne",
@@ -483,7 +495,7 @@
       ]
     },
     {
-      "id": "news-59483",
+      "id": "news-44304",
       "date": "2026-08-14",
       "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
       "content": "Cybersecurity researchers have detailed a post-exploitation technique that enables the&nbsp;Chrome DevTools Protocol (CDP)&nbsp;inside a running Google Chrome or Microsoft Edge process on Windows, allowing an operator to access cookies, saved data, and authenticated browser sessi",
@@ -495,7 +507,7 @@
       ]
     },
     {
-      "id": "news-87757",
+      "id": "news-59032",
       "date": "2026-08-14",
       "title": "CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps",
       "content": "Cybersecurity researchers have uncovered a large-scale, global recruitment-themed phishing campaign that uses fake interview scheduling pages and Browser-in-the-Browser (BitB) windows to steal Google and Facebook credentials and, in more advanced cases, relay multi-factor authent",
@@ -507,7 +519,7 @@
       ]
     },
     {
-      "id": "news-24507",
+      "id": "news-99117",
       "date": "2026-08-14",
       "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
       "content": "Apple on Thursday sent a fresh batch of notifications to customers whom it suspects may have been targeted by mercenary spyware attacks.\n\nIn a statement shared with TechCrunch, the iPhone maker said it alerted an unspecified number of users targeted in 110 countries and that it h",
@@ -519,7 +531,7 @@
       ]
     },
     {
-      "id": "news-97255",
+      "id": "news-76765",
       "date": "2026-08-14",
       "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
       "content": "A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr.\n\nThe vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerability in the open-source platform that can lead to remote code execution (RCE). The se",
@@ -531,7 +543,7 @@
       ]
     },
     {
-      "id": "news-50531",
+      "id": "news-37491",
       "date": "2026-08-14",
       "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
       "content": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the entire Workspace attack chain. [...]",
@@ -543,19 +555,7 @@
       ]
     },
     {
-      "id": "news-96112",
-      "date": "2026-08-14",
-      "title": "Shell investigates 'potential incident' after Clop data theft claims",
-      "content": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-62299",
+      "id": "news-3313",
       "date": "2026-08-13",
       "title": "ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw + 17 More Stories",
       "content": "Some weeks have one big security story. Others bring many smaller updates that are easy to miss but still matter. This week has plenty of them, covering cloud services, AI tools, malware, data breaches, scams, and new attack methods.\n\nThe latest ThreatsDay Bulletin puts all of th",
