@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18 01:43 UTC",
+  "lastUpdated": "2026-08-18 06:56 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-65693",
+      "id": "news-38215",
       "date": "2026-08-18",
       "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
       "content": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or delete public projects and user data.\n\n",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-40039",
+      "id": "news-61484",
       "date": "2026-08-18",
       "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
       "content": "Cybersecurity researchers at Wiz&nbsp;have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public&nbsp;snowflakedb/snowflake-connector-net repository that it said could be exploited through a crafted GitHub issue to execute commands in a workflow co",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-37215",
+      "id": "news-79591",
       "date": "2026-08-17",
       "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
       "content": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel.\n\nRussian cybersecurity company Kaspersky said its ongoing monitoring of the th",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-3888",
+      "id": "news-70112",
       "date": "2026-08-17",
       "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
       "content": "The expensive attacks are not always the clever ones.\n\nThis week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to ",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-39563",
+      "id": "news-92143",
       "date": "2026-08-17",
       "title": "How MCP Servers Can Expose Enterprise Secrets",
       "content": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more organizations adopt AI agents into their systems, that exposure can silently become",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-58102",
+      "id": "news-16630",
       "date": "2026-08-17",
       "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
       "content": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, with no fix from the chipset maker.\n\nThe&nbsp;advisory, published August 17, 2026, ",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-83581",
+      "id": "news-71511",
       "date": "2026-08-17",
       "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
       "content": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies.\n\n\"While the malware reuses the DDoS engi",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-20389",
+      "id": "news-75075",
       "date": "2026-08-17",
       "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
       "content": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-9499",
+      "id": "news-52062",
       "date": "2026-08-17",
       "title": "Philips and GE investigating Clop ransomware data theft claims",
       "content": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-94832",
+      "id": "news-29693",
       "date": "2026-08-16",
       "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
       "content": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-60968",
+      "id": "news-41422",
       "date": "2026-08-15",
       "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
       "content": "Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale.\n\nDNS threat intelligence firm Infoblox has given the name dropcatch domains to those that get a second chance, where an expired domain ",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-97578",
+      "id": "news-66831",
       "date": "2026-08-15",
       "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
       "content": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
@@ -531,7 +531,7 @@
       ]
     },
     {
-      "id": "news-50087",
+      "id": "news-88906",
       "date": "2026-08-14",
       "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
       "content": "The threat actor known as HoneyMyte (aka&nbsp;Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect malicious processes, files, registry objects, and command-and-control (C2) ne",
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "id": "news-73590",
+      "id": "news-4644",
       "date": "2026-08-14",
       "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
       "content": "Cybersecurity researchers have detailed a post-exploitation technique that enables the&nbsp;Chrome DevTools Protocol (CDP)&nbsp;inside a running Google Chrome or Microsoft Edge process on Windows, allowing an operator to access cookies, saved data, and authenticated browser sessi",
@@ -555,7 +555,7 @@
       ]
     },
     {
-      "id": "news-87718",
+      "id": "news-64410",
       "date": "2026-08-14",
       "title": "CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps",
       "content": "Cybersecurity researchers have uncovered a large-scale, global recruitment-themed phishing campaign that uses fake interview scheduling pages and Browser-in-the-Browser (BitB) windows to steal Google and Facebook credentials and, in more advanced cases, relay multi-factor authent",
