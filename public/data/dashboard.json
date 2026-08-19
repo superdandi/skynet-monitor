@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18 18:49 UTC",
+  "lastUpdated": "2026-08-19 01:44 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 72,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -33,7 +33,7 @@
       "description": "AI safety company behind Claude models",
       "probability": 40,
       "trend": {
-        "value": 8,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "high",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-8493",
+      "id": "news-37765",
       "date": "2026-08-18",
       "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
       "content": "Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and industrial automation, are witnessing malicious scanning and exploitation effort",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-58240",
+      "id": "news-78072",
       "date": "2026-08-18",
       "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
       "content": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from $20,000 to $60,000.\n\n\"In these messages, the third-party of",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-56879",
+      "id": "news-29364",
       "date": "2026-08-18",
       "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
       "content": "Security researchers at Anthropic and Switzerland's EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable system prompt files that autonomous agent harnesses use to carry state between session",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "id": "news-44467",
+      "id": "news-56895",
       "date": "2026-08-18",
       "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
       "content": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT.\n\n\"TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its entire command-and-control infrastructure inside trusted Microsoft services,\" O",
@@ -434,7 +434,7 @@
       ]
     },
     {
-      "id": "news-54932",
+      "id": "news-21527",
       "date": "2026-08-18",
       "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
       "content": "A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this week by agent security platform Reco.\n\nThe activity, which Reco has named the City For",
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": "news-76721",
+      "id": "news-80095",
       "date": "2026-08-18",
       "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
       "content": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer.\n\nOpenSourceMalware, which discovered the activity on August 15, 2026, is tracking the threat under the moniker StubMaker. The complete list of pa",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-80612",
+      "id": "news-84013",
       "date": "2026-08-18",
       "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
       "content": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 customers.\n\nThe hardware wallet maker said all affected customers were notified indivi",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-32032",
+      "id": "news-61477",
       "date": "2026-08-18",
       "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nRay is an open-source, Python-native distributed computing framework desig",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-70685",
+      "id": "news-24821",
       "date": "2026-08-18",
       "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
       "content": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or delete public projects and user data.\n\n",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-34234",
+      "id": "news-97751",
       "date": "2026-08-18",
       "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
       "content": "Cybersecurity researchers at Wiz&nbsp;have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public&nbsp;snowflakedb/snowflake-connector-net repository that it said could be exploited through a crafted GitHub issue to execute commands in a workflow co",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-38145",
+      "id": "news-1329",
       "date": "2026-08-17",
       "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
       "content": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel.\n\nRussian cybersecurity company Kaspersky said its ongoing monitoring of the th",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-93702",
+      "id": "news-94490",
       "date": "2026-08-17",
       "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
       "content": "The expensive attacks are not always the clever ones.\n\nThis week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to ",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-12344",
+      "id": "news-43926",
       "date": "2026-08-17",
       "title": "How MCP Servers Can Expose Enterprise Secrets",
       "content": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more organizations adopt AI agents into their systems, that exposure can silently become",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-8469",
+      "id": "news-80402",
       "date": "2026-08-17",
       "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
       "content": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, with no fix from the chipset maker.\n\nThe&nbsp;advisory, published August 17, 2026, ",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-66107",
+      "id": "news-89085",
       "date": "2026-08-17",
       "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
       "content": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies.\n\n\"While the malware reuses the DDoS engi",
