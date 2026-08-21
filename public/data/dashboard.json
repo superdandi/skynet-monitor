@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21 01:49 UTC",
+  "lastUpdated": "2026-08-21 06:59 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-41543",
+      "id": "news-45865",
+      "date": "2026-08-21",
+      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "content": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required.\n\nThe vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-45272",
       "date": "2026-08-21",
       "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
       "content": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation.\n\nThe affe",
@@ -397,9 +409,9 @@
       ]
     },
     {
-      "id": "news-9896",
+      "id": "news-11349",
       "date": "2026-08-20",
-      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
       "content": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.\n\nSigned drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hi",
       "category": "moderate",
       "impact": "Moderate",
@@ -410,7 +422,7 @@
       ]
     },
     {
-      "id": "news-51688",
+      "id": "news-10770",
       "date": "2026-08-20",
       "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
       "content": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary we",
@@ -423,7 +435,7 @@
       ]
     },
     {
-      "id": "news-92801",
+      "id": "news-24199",
       "date": "2026-08-20",
       "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
       "content": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability.\n\nAccording to the cloud computing and virtualization technology company, the issues affect custo",
@@ -435,7 +447,7 @@
       ]
     },
     {
-      "id": "news-79477",
+      "id": "news-67321",
       "date": "2026-08-20",
       "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
       "content": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it.&nbsp;\n\nThe incident began when a Meta employee posted a technical question on an internal forum. An enginee",
@@ -447,7 +459,7 @@
       ]
     },
     {
-      "id": "news-43115",
+      "id": "news-69900",
       "date": "2026-08-20",
       "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
       "content": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x aga",
@@ -459,7 +471,7 @@
       ]
     },
     {
-      "id": "news-93610",
+      "id": "news-30242",
       "date": "2026-08-20",
       "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
       "content": "A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurrency services, and military-focused commun",
@@ -471,7 +483,7 @@
       ]
     },
     {
-      "id": "news-69542",
+      "id": "news-61064",
       "date": "2026-08-20",
       "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
       "content": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the software's spacecraft and instrument comman",
@@ -483,7 +495,7 @@
       ]
     },
     {
-      "id": "news-32083",
+      "id": "news-90945",
       "date": "2026-08-20",
       "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
       "content": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its targeting footprint globally.\n\nZimperium zLabs, in a Wednesday report, said the Android m",
@@ -495,7 +507,7 @@
       ]
     },
     {
-      "id": "news-2918",
+      "id": "news-91757",
       "date": "2026-08-20",
       "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
       "content": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution.\n\nThe vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been desc",
@@ -507,7 +519,7 @@
       ]
     },
     {
-      "id": "news-74338",
+      "id": "news-97264",
       "date": "2026-08-20",
       "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
       "content": "Cybersecurity researchers have disclosed details of a&nbsp;remote Spectre attack&nbsp;against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstr",
@@ -519,7 +531,7 @@
       ]
     },
     {
-      "id": "news-93707",
+      "id": "news-63458",
       "date": "2026-08-20",
       "title": "Hackers poison arrayref Rust crate to push infostealer malware",
       "content": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
@@ -531,7 +543,7 @@
       ]
     },
     {
-      "id": "news-46166",
+      "id": "news-97797",
       "date": "2026-08-20",
       "title": "How MSPs can catch phishing attacks email filters miss",
       "content": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]",
@@ -543,7 +555,7 @@
       ]
     },
     {
-      "id": "news-60133",
+      "id": "news-87526",
       "date": "2026-08-20",
       "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
       "content": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]",
@@ -551,19 +563,6 @@
       "impact": "Moderate",
       "views": 0,
       "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-2055",
-      "date": "2026-08-19",
-      "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-      "content": "OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident.\n\n\"As model",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
         "moderate"
       ]
     }
