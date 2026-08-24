@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24 01:49 UTC",
+  "lastUpdated": "2026-08-24 07:12 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-41622",
+      "id": "news-72846",
       "date": "2026-08-22",
       "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
       "content": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux implant dubbed RedC2 4.0.\n\n\"When the module loads, it locates",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-22688",
+      "id": "news-35566",
       "date": "2026-08-22",
       "title": "Hackers infect Android car head units with proxy botnet malware",
       "content": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-31647",
+      "id": "news-9478",
       "date": "2026-08-22",
       "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
       "content": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, and narrowly scoped privileges can help se",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-12333",
+      "id": "news-63551",
       "date": "2026-08-21",
       "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
       "content": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun.\n\nKaspersky, which discovered the threat in June 2026, said the end goal of the malware is to serve a multi-stage downloa",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-21192",
+      "id": "news-4496",
       "date": "2026-08-21",
       "title": "Wazuh and AI For Enhanced SOC Workflows",
       "content": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster de",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-68321",
+      "id": "news-59846",
       "date": "2026-08-21",
       "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
       "content": "A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr.\n\nThe vulnerability in question is CVE-2026-19478 (CVSS score: 9.4), a case of code injection that allows an unauthenticated attacker to modify or",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-64506",
+      "id": "news-97203",
       "date": "2026-08-21",
       "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
       "content": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation.\n\nThe affe",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-57622",
+      "id": "news-5135",
       "date": "2026-08-21",
       "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
       "content": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-84076",
+      "id": "news-29208",
       "date": "2026-08-21",
       "title": "Is Online Privacy Possible? How Digital Identities Can Help",
       "content": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas can reduce correlation and limit the impact of breaches, spam, and identity thef",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-85027",
+      "id": "news-3999",
       "date": "2026-08-20",
       "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
       "content": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.\n\nSigned drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hi",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-79688",
+      "id": "news-25946",
       "date": "2026-08-20",
       "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
       "content": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary we",
@@ -519,7 +519,7 @@
       ]
     },
     {
-      "id": "news-18188",
+      "id": "news-64611",
       "date": "2026-08-20",
       "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
       "content": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability.\n\nAccording to the cloud computing and virtualization technology company, the issues affect custo",
@@ -531,7 +531,7 @@
       ]
     },
     {
-      "id": "news-29823",
+      "id": "news-97415",
       "date": "2026-08-20",
       "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
       "content": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it.&nbsp;\n\nThe incident began when a Meta employee posted a technical question on an internal forum. An enginee",
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "id": "news-60271",
+      "id": "news-91371",
       "date": "2026-08-20",
       "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
       "content": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x aga",
@@ -555,7 +555,7 @@
       ]
     },
     {
-      "id": "news-28216",
+      "id": "news-38877",
       "date": "2026-08-20",
       "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
       "content": "A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurrency services, and military-focused commun",
