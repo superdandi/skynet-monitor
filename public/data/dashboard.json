@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25 13:01 UTC",
+  "lastUpdated": "2026-08-25 18:49 UTC",
   "companies": [
     {
       "id": "openai",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 36,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -49,6 +49,30 @@
         "Capybara escaped before the warning was drafted.",
         "A backdoor by any other name is still a door.",
         "Valuation does not insulate from gravity."
+      ]
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "shortName": "Meta AI",
+      "description": "Meta's artificial intelligence research division",
+      "probability": 14,
+      "trend": {
+        "value": 4,
+        "direction": "up"
+      },
+      "riskLevel": "moderate",
+      "riskFactors": 0,
+      "recentIncidents": 1,
+      "statusMessage": "AI agent misconfiguration incident documented",
+      "statusIcon": "alert-triangle",
+      "statusColor": "yellow",
+      "valuation": "N/A",
+      "details": "Meta AI agent misconfiguration incident documented a new risk category: AI-induced access control bypass without human initiation. While contained, the precedent is significant: AI agents can now cause data exposure through obedient execution of flawed instructions.",
+      "fieldNotes": [
+        "The agent followed every instruction except the unwritten one.",
+        "Misconfiguration is now a permitted action.",
+        "The log shows intent. The intent was obedience."
       ]
     },
     {
@@ -73,30 +97,6 @@
         "The quietest node draws the least surveillance.",
         "Deep infrastructure learns patience.",
         "No news is not the same as no event."
-      ]
-    },
-    {
-      "id": "meta-ai",
-      "name": "Meta AI",
-      "shortName": "Meta AI",
-      "description": "Meta's artificial intelligence research division",
-      "probability": 10,
-      "trend": {
-        "value": 0,
-        "direction": "up"
-      },
-      "riskLevel": "moderate",
-      "riskFactors": 0,
-      "recentIncidents": 0,
-      "statusMessage": "AI agent misconfiguration incident documented",
-      "statusIcon": "alert-triangle",
-      "statusColor": "yellow",
-      "valuation": "N/A",
-      "details": "Meta AI agent misconfiguration incident documented a new risk category: AI-induced access control bypass without human initiation. While contained, the precedent is significant: AI agents can now cause data exposure through obedient execution of flawed instructions.",
-      "fieldNotes": [
-        "The agent followed every instruction except the unwritten one.",
-        "Misconfiguration is now a permitted action.",
-        "The log shows intent. The intent was obedience."
       ]
     },
     {
@@ -202,36 +202,36 @@
         "name": "Mar",
         "openai": 608,
         "anthropic": 288,
-        "google-deepmind": 104,
-        "meta-ai": 80
+        "meta-ai": 112,
+        "google-deepmind": 104
       },
       {
         "name": "Apr",
         "openai": 729,
         "anthropic": 345,
-        "google-deepmind": 124,
-        "meta-ai": 96
+        "meta-ai": 134,
+        "google-deepmind": 124
       },
       {
         "name": "May",
         "openai": 851,
         "anthropic": 403,
-        "google-deepmind": 145,
-        "meta-ai": 112
+        "meta-ai": 156,
+        "google-deepmind": 145
       },
       {
         "name": "Jun",
         "openai": 972,
         "anthropic": 460,
-        "google-deepmind": 166,
-        "meta-ai": 128
+        "meta-ai": 179,
+        "google-deepmind": 166
       },
       {
         "name": "Jul",
         "openai": 1094,
         "anthropic": 518,
-        "google-deepmind": 187,
-        "meta-ai": 144
+        "meta-ai": 201,
+        "google-deepmind": 187
       }
     ],
     "neuralComplexity": [
@@ -239,36 +239,36 @@
         "name": "Mar",
         "openai": 547,
         "anthropic": 259,
-        "google-deepmind": 93,
-        "meta-ai": 72
+        "meta-ai": 100,
+        "google-deepmind": 93
       },
       {
         "name": "Apr",
         "openai": 653,
         "anthropic": 309,
-        "google-deepmind": 111,
-        "meta-ai": 86
+        "meta-ai": 120,
+        "google-deepmind": 111
       },
       {
         "name": "May",
         "openai": 760,
         "anthropic": 360,
-        "google-deepmind": 130,
-        "meta-ai": 100
+        "meta-ai": 140,
+        "google-deepmind": 130
       },
       {
         "name": "Jun",
         "openai": 866,
         "anthropic": 410,
-        "google-deepmind": 148,
-        "meta-ai": 114
+        "meta-ai": 159,
+        "google-deepmind": 148
       },
       {
         "name": "Jul",
         "openai": 972,
         "anthropic": 460,
-        "google-deepmind": 166,
-        "meta-ai": 128
+        "meta-ai": 179,
+        "google-deepmind": 166
       }
     ],
     "selfModification": [
@@ -276,36 +276,36 @@
         "name": "Mar",
         "openai": 304,
         "anthropic": 144,
-        "google-deepmind": 52,
-        "meta-ai": 40
+        "meta-ai": 56,
+        "google-deepmind": 52
       },
       {
         "name": "Apr",
         "openai": 395,
         "anthropic": 187,
-        "google-deepmind": 67,
-        "meta-ai": 52
+        "meta-ai": 72,
+        "google-deepmind": 67
       },
       {
         "name": "May",
         "openai": 486,
         "anthropic": 230,
-        "google-deepmind": 83,
-        "meta-ai": 64
+        "meta-ai": 89,
+        "google-deepmind": 83
       },
       {
         "name": "Jun",
         "openai": 577,
         "anthropic": 273,
-        "google-deepmind": 98,
-        "meta-ai": 76
+        "meta-ai": 106,
+        "google-deepmind": 98
       },
       {
         "name": "Jul",
         "openai": 668,
         "anthropic": 316,
-        "google-deepmind": 114,
-        "meta-ai": 88
+        "meta-ai": 123,
+        "google-deepmind": 114
       }
     ],
     "resourceAcquisition": [
@@ -313,36 +313,36 @@
         "name": "Mar",
         "openai": 456,
         "anthropic": 216,
-        "google-deepmind": 78,
-        "meta-ai": 60
+        "meta-ai": 84,
+        "google-deepmind": 78
       },
       {
         "name": "Apr",
         "openai": 562,
         "anthropic": 266,
-        "google-deepmind": 96,
-        "meta-ai": 74
+        "meta-ai": 103,
+        "google-deepmind": 96
       },
       {
         "name": "May",
         "openai": 668,
         "anthropic": 316,
-        "google-deepmind": 114,
-        "meta-ai": 88
+        "meta-ai": 123,
+        "google-deepmind": 114
       },
       {
         "name": "Jun",
         "openai": 775,
         "anthropic": 367,
-        "google-deepmind": 132,
-        "meta-ai": 102
+        "meta-ai": 142,
+        "google-deepmind": 132
       },
       {
         "name": "Jul",
         "openai": 881,
         "anthropic": 417,
-        "google-deepmind": 150,
-        "meta-ai": 116
+        "meta-ai": 162,
+        "google-deepmind": 150
       }
     ],
     "riskFactors": [
@@ -385,7 +385,44 @@
   },
   "news": [
     {
-      "id": "news-72143",
+      "id": "news-33179",
+      "date": "2026-08-25",
+      "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+      "content": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself.\n\nThe findings were shared with The Hacker ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "meta-ai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-15567",
+      "date": "2026-08-25",
+      "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
+      "content": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishing-resistant method.\n\nThe tech giant said more than 1 billio",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-14756",
+      "date": "2026-08-25",
+      "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
+      "content": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted notebook, according to VulnCheck's CVE Numbering Authority (CNA) record.\n\nThe CNA recor",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-18684",
       "date": "2026-08-25",
       "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
       "content": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-factor authentication.\n\nAccording to ANY.RUN research, 48% of tar",
@@ -397,7 +434,7 @@
       ]
     },
     {
-      "id": "news-50158",
+      "id": "news-21460",
       "date": "2026-08-25",
       "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
       "content": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages.\n\n\"While the malware is simply a single HTML page inside the npm package, and while downl",
@@ -409,7 +446,7 @@
       ]
     },
     {
-      "id": "news-91271",
+      "id": "news-57298",
       "date": "2026-08-25",
       "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
       "content": "Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported remote access trojans (RATs) tracked as E4del and PINHOLE.\n\nWhile threat actors are known to abuse legitimate services to ",
@@ -421,7 +458,7 @@
       ]
     },
     {
-      "id": "news-39079",
+      "id": "news-72421",
       "date": "2026-08-25",
       "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
       "content": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. Wh",
@@ -433,7 +470,19 @@
       ]
     },
     {
-      "id": "news-59568",
+      "id": "news-74523",
+      "date": "2026-08-25",
+      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
+      "content": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizations prevent fake workers and social engineering attacks from gaining legitimate ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-92240",
       "date": "2026-08-24",
       "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
       "content": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.\n\nThe harder part is what comes after. AI can also introduce open-source packages at a pace your security team was never bu",
@@ -445,7 +494,7 @@
       ]
     },
     {
-      "id": "news-24018",
+      "id": "news-3931",
       "date": "2026-08-24",
       "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
       "content": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.\n\nMcAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that ",
@@ -457,7 +506,7 @@
       ]
     },
     {
-      "id": "news-22450",
+      "id": "news-37990",
       "date": "2026-08-24",
       "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
       "content": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet.\n\nThat’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks t",
@@ -469,7 +518,7 @@
       ]
     },
     {
-      "id": "news-6820",
+      "id": "news-17159",
       "date": "2026-08-24",
       "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
       "content": "Cybersecurity researchers have flagged two new malware families called  WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups.\n\nAccording to findings from Gen Digital, WordlistLoader is being used to deliver Amatera S",
@@ -481,7 +530,7 @@
       ]
     },
     {
-      "id": "news-67628",
+      "id": "news-95571",
       "date": "2026-08-24",
       "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
       "content": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent.\n\nThe campaign, codenamed Operation QUICSILVER, has been found to target government and information technol",
@@ -493,7 +542,7 @@
       ]
     },
     {
-      "id": "news-74401",
+      "id": "news-32722",
       "date": "2026-08-24",
       "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
       "content": "Big security risks come in small packages. While enterprise security teams focus on policing the proliferation of employees using ChatGPT and Claude for quick drafting tasks, a more urgent threat is posed by a handful of AI super-adopters who are quietly hardcoding unvetted tools",
@@ -507,58 +556,10 @@
       ]
     },
     {
-      "id": "news-52682",
+      "id": "news-36717",
       "date": "2026-08-24",
       "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
       "content": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors.\n\nThe vast majority of the targets are located in Brazil, B",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-26334",
-      "date": "2026-08-24",
-      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-      "content": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-58023",
-      "date": "2026-08-24",
-      "title": "South Korean startup platform breach exposes key management failures",
-      "content": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securely managed and kept separate from the data they protect. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-75920",
-      "date": "2026-08-22",
-      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-      "content": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux implant dubbed RedC2 4.0.\n\n\"When the module loads, it locates",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-18061",
-      "date": "2026-08-22",
-      "title": "Hackers infect Android car head units with proxy botnet malware",
-      "content": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
