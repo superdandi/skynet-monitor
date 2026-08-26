@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-26 07:00 UTC",
+  "lastUpdated": "2026-08-26 13:07 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 76,
+      "probability": 72,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 2,
+      "recentIncidents": 1,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 36,
+      "probability": 40,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 2,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -200,36 +200,36 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 608,
-        "anthropic": 288,
+        "openai": 576,
+        "anthropic": 320,
         "meta-ai": 112,
         "google-deepmind": 104
       },
       {
         "name": "Apr",
-        "openai": 729,
-        "anthropic": 345,
+        "openai": 691,
+        "anthropic": 384,
         "meta-ai": 134,
         "google-deepmind": 124
       },
       {
         "name": "May",
-        "openai": 851,
-        "anthropic": 403,
+        "openai": 806,
+        "anthropic": 448,
         "meta-ai": 156,
         "google-deepmind": 145
       },
       {
         "name": "Jun",
-        "openai": 972,
-        "anthropic": 460,
+        "openai": 921,
+        "anthropic": 512,
         "meta-ai": 179,
         "google-deepmind": 166
       },
       {
         "name": "Jul",
-        "openai": 1094,
-        "anthropic": 518,
+        "openai": 1036,
+        "anthropic": 576,
         "meta-ai": 201,
         "google-deepmind": 187
       }
@@ -237,36 +237,36 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 547,
-        "anthropic": 259,
+        "openai": 518,
+        "anthropic": 288,
         "meta-ai": 100,
         "google-deepmind": 93
       },
       {
         "name": "Apr",
-        "openai": 653,
-        "anthropic": 309,
+        "openai": 619,
+        "anthropic": 344,
         "meta-ai": 120,
         "google-deepmind": 111
       },
       {
         "name": "May",
-        "openai": 760,
-        "anthropic": 360,
+        "openai": 720,
+        "anthropic": 400,
         "meta-ai": 140,
         "google-deepmind": 130
       },
       {
         "name": "Jun",
-        "openai": 866,
-        "anthropic": 410,
+        "openai": 820,
+        "anthropic": 456,
         "meta-ai": 159,
         "google-deepmind": 148
       },
       {
         "name": "Jul",
-        "openai": 972,
-        "anthropic": 460,
+        "openai": 921,
+        "anthropic": 512,
         "meta-ai": 179,
         "google-deepmind": 166
       }
@@ -274,36 +274,36 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 304,
-        "anthropic": 144,
+        "openai": 288,
+        "anthropic": 160,
         "meta-ai": 56,
         "google-deepmind": 52
       },
       {
         "name": "Apr",
-        "openai": 395,
-        "anthropic": 187,
+        "openai": 374,
+        "anthropic": 208,
         "meta-ai": 72,
         "google-deepmind": 67
       },
       {
         "name": "May",
-        "openai": 486,
-        "anthropic": 230,
+        "openai": 460,
+        "anthropic": 256,
         "meta-ai": 89,
         "google-deepmind": 83
       },
       {
         "name": "Jun",
-        "openai": 577,
-        "anthropic": 273,
+        "openai": 547,
+        "anthropic": 304,
         "meta-ai": 106,
         "google-deepmind": 98
       },
       {
         "name": "Jul",
-        "openai": 668,
-        "anthropic": 316,
+        "openai": 633,
+        "anthropic": 352,
         "meta-ai": 123,
         "google-deepmind": 114
       }
@@ -311,36 +311,36 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 456,
-        "anthropic": 216,
+        "openai": 432,
+        "anthropic": 240,
         "meta-ai": 84,
         "google-deepmind": 78
       },
       {
         "name": "Apr",
-        "openai": 562,
-        "anthropic": 266,
+        "openai": 532,
+        "anthropic": 296,
         "meta-ai": 103,
         "google-deepmind": 96
       },
       {
         "name": "May",
-        "openai": 668,
-        "anthropic": 316,
+        "openai": 633,
+        "anthropic": 352,
         "meta-ai": 123,
         "google-deepmind": 114
       },
       {
         "name": "Jun",
-        "openai": 775,
-        "anthropic": 367,
+        "openai": 734,
+        "anthropic": 408,
         "meta-ai": 142,
         "google-deepmind": 132
       },
       {
         "name": "Jul",
-        "openai": 881,
-        "anthropic": 417,
+        "openai": 835,
+        "anthropic": 464,
         "meta-ai": 162,
         "google-deepmind": 150
       }
@@ -385,7 +385,44 @@
   },
   "news": [
     {
-      "id": "news-5876",
+      "id": "news-80158",
+      "date": "2026-08-26",
+      "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
+      "content": "Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a client-side-only booking restriction in 9 of 10 runs.\n\nThe original incident was ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-873",
+      "date": "2026-08-26",
+      "title": "New SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
+      "content": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the machine and then runs commands written in a 23-instruction language of its own design.",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-51604",
+      "date": "2026-08-26",
+      "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+      "content": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Apple Support and ask for their device passcode.\n\nSOCRadar Threa",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-5808",
       "date": "2026-08-25",
       "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
       "content": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers.\n\n\"We are launching an economic onslaught against Iran's financial co",
@@ -397,7 +434,7 @@
       ]
     },
     {
-      "id": "news-19400",
+      "id": "news-73296",
       "date": "2026-08-25",
       "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
       "content": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself.\n\nThe findings were shared with The Hacker ",
@@ -410,7 +447,7 @@
       ]
     },
     {
-      "id": "news-22636",
+      "id": "news-61466",
       "date": "2026-08-25",
       "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
       "content": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishing-resistant method.\n\nThe tech giant said more than 1 billio",
@@ -422,7 +459,7 @@
       ]
     },
     {
-      "id": "news-53861",
+      "id": "news-7585",
       "date": "2026-08-25",
       "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
       "content": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted notebook, according to VulnCheck's CVE Numbering Authority (CNA) record.\n\nThe CNA recor",
@@ -434,7 +471,7 @@
       ]
     },
     {
-      "id": "news-46307",
+      "id": "news-82241",
       "date": "2026-08-25",
       "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
       "content": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-factor authentication.\n\nAccording to ANY.RUN research, 48% of tar",
@@ -446,7 +483,7 @@
       ]
     },
     {
-      "id": "news-51155",
+      "id": "news-58036",
       "date": "2026-08-25",
       "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
       "content": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages.\n\n\"While the malware is simply a single HTML page inside the npm package, and while downl",
@@ -458,7 +495,7 @@
       ]
     },
     {
-      "id": "news-57211",
+      "id": "news-89258",
       "date": "2026-08-25",
       "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
       "content": "Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported remote access trojans (RATs) tracked as E4del and PINHOLE.\n\nWhile threat actors are known to abuse legitimate services to ",
@@ -470,7 +507,7 @@
       ]
     },
     {
-      "id": "news-22585",
+      "id": "news-28474",
       "date": "2026-08-25",
       "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
       "content": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. Wh",
@@ -482,7 +519,7 @@
       ]
     },
     {
-      "id": "news-73207",
+      "id": "news-75057",
       "date": "2026-08-25",
       "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
       "content": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizations prevent fake workers and social engineering attacks from gaining legitimate ",
@@ -494,7 +531,7 @@
       ]
     },
     {
-      "id": "news-7009",
+      "id": "news-71074",
       "date": "2026-08-24",
       "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
       "content": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.\n\nThe harder part is what comes after. AI can also introduce open-source packages at a pace your security team was never bu",
@@ -506,7 +543,7 @@
       ]
     },
     {
-      "id": "news-99403",
+      "id": "news-93005",
       "date": "2026-08-24",
       "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
       "content": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.\n\nMcAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that ",
@@ -518,7 +555,7 @@
       ]
     },
     {
-      "id": "news-85405",
+      "id": "news-30463",
       "date": "2026-08-24",
       "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
       "content": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet.\n\nThat’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks t",
@@ -526,44 +563,6 @@
       "impact": "Moderate",
       "views": 0,
       "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-72824",
-      "date": "2026-08-24",
-      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-      "content": "Cybersecurity researchers have flagged two new malware families called  WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups.\n\nAccording to findings from Gen Digital, WordlistLoader is being used to deliver Amatera S",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-13797",
-      "date": "2026-08-24",
-      "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
-      "content": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent.\n\nThe campaign, codenamed Operation QUICSILVER, has been found to target government and information technol",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-91974",
-      "date": "2026-08-24",
-      "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
-      "content": "Big security risks come in small packages. While enterprise security teams focus on policing the proliferation of employees using ChatGPT and Claude for quick drafting tasks, a more urgent threat is posed by a handful of AI super-adopters who are quietly hardcoding unvetted tools",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "anthropic",
         "moderate"
       ]
     }
