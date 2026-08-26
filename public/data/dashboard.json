@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26 01:49 UTC",
+  "lastUpdated": "2026-08-26 07:00 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-82052",
+      "id": "news-5876",
       "date": "2026-08-25",
       "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
       "content": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers.\n\n\"We are launching an economic onslaught against Iran's financial co",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-4403",
+      "id": "news-19400",
       "date": "2026-08-25",
       "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
       "content": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself.\n\nThe findings were shared with The Hacker ",
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "id": "news-4882",
+      "id": "news-22636",
       "date": "2026-08-25",
       "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
       "content": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishing-resistant method.\n\nThe tech giant said more than 1 billio",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "id": "news-72008",
+      "id": "news-53861",
       "date": "2026-08-25",
       "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
       "content": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted notebook, according to VulnCheck's CVE Numbering Authority (CNA) record.\n\nThe CNA recor",
@@ -434,7 +434,7 @@
       ]
     },
     {
-      "id": "news-7231",
+      "id": "news-46307",
       "date": "2026-08-25",
       "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
       "content": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-factor authentication.\n\nAccording to ANY.RUN research, 48% of tar",
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": "news-58026",
+      "id": "news-51155",
       "date": "2026-08-25",
       "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
       "content": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages.\n\n\"While the malware is simply a single HTML page inside the npm package, and while downl",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-85846",
+      "id": "news-57211",
       "date": "2026-08-25",
       "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
       "content": "Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported remote access trojans (RATs) tracked as E4del and PINHOLE.\n\nWhile threat actors are known to abuse legitimate services to ",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-17588",
+      "id": "news-22585",
       "date": "2026-08-25",
       "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
       "content": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. Wh",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-48265",
+      "id": "news-73207",
       "date": "2026-08-25",
       "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
       "content": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizations prevent fake workers and social engineering attacks from gaining legitimate ",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-82289",
+      "id": "news-7009",
       "date": "2026-08-24",
       "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
       "content": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.\n\nThe harder part is what comes after. AI can also introduce open-source packages at a pace your security team was never bu",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-91433",
+      "id": "news-99403",
       "date": "2026-08-24",
       "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
       "content": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.\n\nMcAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that ",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-90542",
+      "id": "news-85405",
       "date": "2026-08-24",
       "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
       "content": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet.\n\nThat’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks t",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-66577",
+      "id": "news-72824",
       "date": "2026-08-24",
       "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
       "content": "Cybersecurity researchers have flagged two new malware families called  WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups.\n\nAccording to findings from Gen Digital, WordlistLoader is being used to deliver Amatera S",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-17231",
+      "id": "news-13797",
       "date": "2026-08-24",
       "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
       "content": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent.\n\nThe campaign, codenamed Operation QUICSILVER, has been found to target government and information technol",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-40760",
+      "id": "news-91974",
       "date": "2026-08-24",
       "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
       "content": "Big security risks come in small packages. While enterprise security teams focus on policing the proliferation of employees using ChatGPT and Claude for quick drafting tasks, a more urgent threat is posed by a handful of AI super-adopters who are quietly hardcoding unvetted tools",
