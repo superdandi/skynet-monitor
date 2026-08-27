@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26 19:56 UTC",
+  "lastUpdated": "2026-08-27 09:20 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-76969",
+      "id": "news-79837",
+      "date": "2026-08-27",
+      "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
+      "content": "Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service (DoS) and privilege escalation to a root she",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-97089",
+      "date": "2026-08-27",
+      "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
+      "content": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-47664",
+      "date": "2026-08-27",
+      "title": "ATF confirms “major incident” after recent Qilin breach claims",
+      "content": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-65350",
       "date": "2026-08-26",
       "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
       "content": "Cybersecurity researchers have disclosed details of a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that's used as a proxy to redirect Microsoft 365 sign-ins, while capturing authenticated sessions in the process.\n\nIn a report shared with The Hacker News ",
@@ -397,7 +433,7 @@
       ]
     },
     {
-      "id": "news-10975",
+      "id": "news-75463",
       "date": "2026-08-26",
       "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published the results of two red team assessments it conducted simultaneously against two critical infrastructure organizations, using what it described as similar tradecraft while recording sharply different de",
@@ -409,7 +445,7 @@
       ]
     },
     {
-      "id": "news-16570",
+      "id": "news-80102",
       "date": "2026-08-26",
       "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
       "content": "Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a client-side-only booking restriction in 9 of 10 runs.\n\nThe original incident was ",
@@ -422,7 +458,7 @@
       ]
     },
     {
-      "id": "news-12096",
+      "id": "news-94044",
       "date": "2026-08-26",
       "title": "New SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
       "content": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the machine and then runs commands written in a 23-instruction language of its own design.",
@@ -434,7 +470,7 @@
       ]
     },
     {
-      "id": "news-31942",
+      "id": "news-83078",
       "date": "2026-08-26",
       "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
       "content": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Apple Support and ask for their device passcode.\n\nSOCRadar Threa",
@@ -446,7 +482,19 @@
       ]
     },
     {
-      "id": "news-6484",
+      "id": "news-7596",
+      "date": "2026-08-26",
+      "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
+      "content": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-90056",
       "date": "2026-08-26",
       "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
       "content": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched servers, according to threat intelligence company Defused. [...]",
@@ -458,7 +506,7 @@
       ]
     },
     {
-      "id": "news-21948",
+      "id": "news-35395",
       "date": "2026-08-26",
       "title": "Snowflake ends service-account passwords. Now comes the hard part",
       "content": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security explains why the harder challenge is identifying what uses each account, who owns it, and how much access it still needs. [...]",
@@ -470,7 +518,7 @@
       ]
     },
     {
-      "id": "news-20477",
+      "id": "news-59460",
       "date": "2026-08-25",
       "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
       "content": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers.\n\n\"We are launching an economic onslaught against Iran's financial co",
@@ -482,7 +530,7 @@
       ]
     },
     {
-      "id": "news-54798",
+      "id": "news-34426",
       "date": "2026-08-25",
       "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
       "content": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself.\n\nThe findings were shared with The Hacker ",
@@ -495,7 +543,7 @@
       ]
     },
     {
-      "id": "news-46267",
+      "id": "news-68704",
       "date": "2026-08-25",
       "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
       "content": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishing-resistant method.\n\nThe tech giant said more than 1 billio",
@@ -507,58 +555,10 @@
       ]
     },
     {
-      "id": "news-30456",
+      "id": "news-94990",
       "date": "2026-08-25",
       "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
       "content": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted notebook, according to VulnCheck's CVE Numbering Authority (CNA) record.\n\nThe CNA recor",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-46367",
-      "date": "2026-08-25",
-      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
-      "content": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-factor authentication.\n\nAccording to ANY.RUN research, 48% of tar",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-59149",
-      "date": "2026-08-25",
-      "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
-      "content": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages.\n\n\"While the malware is simply a single HTML page inside the npm package, and while downl",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-83491",
-      "date": "2026-08-25",
-      "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
-      "content": "Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported remote access trojans (RATs) tracked as E4del and PINHOLE.\n\nWhile threat actors are known to abuse legitimate services to ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-88578",
-      "date": "2026-08-25",
-      "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
-      "content": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. Wh",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
