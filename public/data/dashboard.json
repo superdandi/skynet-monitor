@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-28 11:09 UTC",
+  "lastUpdated": "2026-08-28 22:11 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 84,
+      "probability": 80,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 3,
+      "recentIncidents": 2,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 40,
+      "probability": 36,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 2,
+      "recentIncidents": 1,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -200,36 +200,36 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 672,
-        "anthropic": 320,
+        "openai": 640,
+        "anthropic": 288,
         "meta-ai": 112,
         "google-deepmind": 104
       },
       {
         "name": "Apr",
-        "openai": 806,
-        "anthropic": 384,
+        "openai": 768,
+        "anthropic": 345,
         "meta-ai": 134,
         "google-deepmind": 124
       },
       {
         "name": "May",
-        "openai": 940,
-        "anthropic": 448,
+        "openai": 896,
+        "anthropic": 403,
         "meta-ai": 156,
         "google-deepmind": 145
       },
       {
         "name": "Jun",
-        "openai": 1075,
-        "anthropic": 512,
+        "openai": 1024,
+        "anthropic": 460,
         "meta-ai": 179,
         "google-deepmind": 166
       },
       {
         "name": "Jul",
-        "openai": 1209,
-        "anthropic": 576,
+        "openai": 1152,
+        "anthropic": 518,
         "meta-ai": 201,
         "google-deepmind": 187
       }
@@ -237,36 +237,36 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 604,
-        "anthropic": 288,
+        "openai": 576,
+        "anthropic": 259,
         "meta-ai": 100,
         "google-deepmind": 93
       },
       {
         "name": "Apr",
-        "openai": 722,
-        "anthropic": 344,
+        "openai": 688,
+        "anthropic": 309,
         "meta-ai": 120,
         "google-deepmind": 111
       },
       {
         "name": "May",
-        "openai": 840,
-        "anthropic": 400,
+        "openai": 800,
+        "anthropic": 360,
         "meta-ai": 140,
         "google-deepmind": 130
       },
       {
         "name": "Jun",
-        "openai": 957,
-        "anthropic": 456,
+        "openai": 912,
+        "anthropic": 410,
         "meta-ai": 159,
         "google-deepmind": 148
       },
       {
         "name": "Jul",
-        "openai": 1075,
-        "anthropic": 512,
+        "openai": 1024,
+        "anthropic": 460,
         "meta-ai": 179,
         "google-deepmind": 166
       }
@@ -274,36 +274,36 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 336,
-        "anthropic": 160,
+        "openai": 320,
+        "anthropic": 144,
         "meta-ai": 56,
         "google-deepmind": 52
       },
       {
         "name": "Apr",
-        "openai": 436,
-        "anthropic": 208,
+        "openai": 416,
+        "anthropic": 187,
         "meta-ai": 72,
         "google-deepmind": 67
       },
       {
         "name": "May",
-        "openai": 537,
-        "anthropic": 256,
+        "openai": 512,
+        "anthropic": 230,
         "meta-ai": 89,
         "google-deepmind": 83
       },
       {
         "name": "Jun",
-        "openai": 638,
-        "anthropic": 304,
+        "openai": 608,
+        "anthropic": 273,
         "meta-ai": 106,
         "google-deepmind": 98
       },
       {
         "name": "Jul",
-        "openai": 739,
-        "anthropic": 352,
+        "openai": 704,
+        "anthropic": 316,
         "meta-ai": 123,
         "google-deepmind": 114
       }
@@ -311,36 +311,36 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 504,
-        "anthropic": 240,
+        "openai": 480,
+        "anthropic": 216,
         "meta-ai": 84,
         "google-deepmind": 78
       },
       {
         "name": "Apr",
-        "openai": 621,
-        "anthropic": 296,
+        "openai": 592,
+        "anthropic": 266,
         "meta-ai": 103,
         "google-deepmind": 96
       },
       {
         "name": "May",
-        "openai": 739,
-        "anthropic": 352,
+        "openai": 704,
+        "anthropic": 316,
         "meta-ai": 123,
         "google-deepmind": 114
       },
       {
         "name": "Jun",
-        "openai": 856,
-        "anthropic": 408,
+        "openai": 816,
+        "anthropic": 367,
         "meta-ai": 142,
         "google-deepmind": 132
       },
       {
         "name": "Jul",
-        "openai": 974,
-        "anthropic": 464,
+        "openai": 928,
+        "anthropic": 417,
         "meta-ai": 162,
         "google-deepmind": 150
       }
@@ -385,7 +385,79 @@
   },
   "news": [
     {
-      "id": "news-87607",
+      "id": "news-74482",
+      "date": "2026-08-29",
+      "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+      "content": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands.\n\nThe same statement disclosed that forensic work had found furth",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-40072",
+      "date": "2026-08-29",
+      "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+      "content": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026.\n\nThe vulnerability, designated GHSA-7g4w-cg88-2cq2, is rated Critical by Cosmos Labs and was publi",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-58493",
+      "date": "2026-08-28",
+      "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+      "content": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional hardening.\n\n\"This vulnerability gives an unauthenticated attacker remote control o",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-58240",
+      "date": "2026-08-28",
+      "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+      "content": "Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and cryptocurrency draining capabilities.\n\n\nThe extensions, per Socket security researcher Ka",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-17538",
+      "date": "2026-08-28",
+      "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+      "content": "Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth Low Energy (BLE) path that can reach root on the robot's Locomotion PC.\n\nThe flaws are tracked as&nbsp;CVE-2026-76639&nbs",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-83868",
+      "date": "2026-08-28",
+      "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
+      "content": "ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an unauthenticated attacker.\n\nThe company said it deployed a security update to hosted i",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-44252",
       "date": "2026-08-28",
       "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
       "content": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-65643, impacts all supported ve",
@@ -397,7 +469,7 @@
       ]
     },
     {
-      "id": "news-13721",
+      "id": "news-44980",
       "date": "2026-08-28",
       "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
       "content": "PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks.\n\nThe company has released an emergency patch for v25 and v26 to address the issue. It sa",
@@ -409,7 +481,7 @@
       ]
     },
     {
-      "id": "news-76308",
+      "id": "news-68965",
       "date": "2026-08-28",
       "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
       "content": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026.\n\nThese campaigns, per Recorded Future Insikt Group, have led to the deployment of a p",
@@ -421,7 +493,7 @@
       ]
     },
     {
-      "id": "news-77530",
+      "id": "news-51241",
       "date": "2026-08-28",
       "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
       "content": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May.\n\nThe incident, the company said, took place during cyberse",
@@ -434,7 +506,31 @@
       ]
     },
     {
-      "id": "news-17741",
+      "id": "news-37439",
+      "date": "2026-08-28",
+      "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
+      "content": "AI is accelerating vulnerability discovery, putting pressure on systems built to enrich, prioritize, and remediate flaws at a slower pace. Action1 explains why defenders increasingly need to correlate multiple intelligence sources and turn vulnerability data into faster remediati",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-72001",
+      "date": "2026-08-28",
+      "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
+      "content": "Over 8,300 Internet-exposed Gitea instances are still unpatched against a critical security flaw exploited in ongoing remote code execution attacks, according to cybersecurity watchdog Shadowserver. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-4483",
       "date": "2026-08-28",
       "title": "ServiceNow warns of three max severity security vulnerabilities",
       "content": "ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL injection, and privilege escalation attacks. [...]",
@@ -446,7 +542,7 @@
       ]
     },
     {
-      "id": "news-59067",
+      "id": "news-56422",
       "date": "2026-08-27",
       "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
       "content": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine.\n\nThe rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waitin",
@@ -458,107 +554,10 @@
       ]
     },
     {
-      "id": "news-58377",
+      "id": "news-47661",
       "date": "2026-08-27",
       "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
       "content": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers.\n\nThe security flaw, which d",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-27836",
-      "date": "2026-08-27",
-      "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-      "content": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than tradition",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-20602",
-      "date": "2026-08-27",
-      "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-      "content": "The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026 compromise of the open-source security scanners Trivy and Checkmarx KICS and the AI gatew",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-25114",
-      "date": "2026-08-27",
-      "title": "What the Data Says About AI in Security Operations in 2026",
-      "content": "AI is officially mainstream in security operations. According to Prophet Security's State of AI in Security Operations 2026 report (produced from ViB’s survey of 250+ cybersecurity pros), 40% of security teams now use AI daily. Another 56% are currently testing it out, and only 4",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-64568",
-      "date": "2026-08-27",
-      "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
-      "content": "Individuals and organizations in Cambodia have emerged as the target of a new campaign that delivers an open-source remote access trojan (RAT) called Spark RAT.\n\n\"The samples employ diverse lure themes, suggesting an effort to appeal to a broad range of potential victims. These i",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-30977",
-      "date": "2026-08-27",
-      "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
-      "content": "Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service (DoS) and privilege escalation to a root she",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-9904",
-      "date": "2026-08-27",
-      "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
-      "content": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-40018",
-      "date": "2026-08-27",
-      "title": "Manchester Airports Group says hackers stole travelers' data",
-      "content": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-12805",
-      "date": "2026-08-27",
-      "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
-      "content": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can help SMBs strengthen their defenses. [...",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
