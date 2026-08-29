@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28 22:11 UTC",
+  "lastUpdated": "2026-08-29 06:54 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 80,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 36,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-74482",
+      "id": "news-12758",
       "date": "2026-08-29",
       "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
       "content": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands.\n\nThe same statement disclosed that forensic work had found furth",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-40072",
+      "id": "news-34412",
       "date": "2026-08-29",
       "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
       "content": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026.\n\nThe vulnerability, designated GHSA-7g4w-cg88-2cq2, is rated Critical by Cosmos Labs and was publi",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-58493",
+      "id": "news-51101",
       "date": "2026-08-28",
       "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
       "content": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional hardening.\n\n\"This vulnerability gives an unauthenticated attacker remote control o",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-58240",
+      "id": "news-24465",
       "date": "2026-08-28",
       "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
       "content": "Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and cryptocurrency draining capabilities.\n\n\nThe extensions, per Socket security researcher Ka",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-17538",
+      "id": "news-53023",
       "date": "2026-08-28",
       "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
       "content": "Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth Low Energy (BLE) path that can reach root on the robot's Locomotion PC.\n\nThe flaws are tracked as&nbsp;CVE-2026-76639&nbs",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-83868",
+      "id": "news-94664",
       "date": "2026-08-28",
       "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
       "content": "ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an unauthenticated attacker.\n\nThe company said it deployed a security update to hosted i",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-44252",
+      "id": "news-47881",
       "date": "2026-08-28",
       "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
       "content": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-65643, impacts all supported ve",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-44980",
+      "id": "news-5541",
       "date": "2026-08-28",
       "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
       "content": "PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks.\n\nThe company has released an emergency patch for v25 and v26 to address the issue. It sa",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-68965",
+      "id": "news-40605",
       "date": "2026-08-28",
       "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
       "content": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026.\n\nThese campaigns, per Recorded Future Insikt Group, have led to the deployment of a p",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-51241",
+      "id": "news-65484",
       "date": "2026-08-28",
       "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
       "content": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May.\n\nThe incident, the company said, took place during cyberse",
@@ -506,7 +506,19 @@
       ]
     },
     {
-      "id": "news-37439",
+      "id": "news-42257",
+      "date": "2026-08-28",
+      "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+      "content": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it stole 284 million patient data records. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-47496",
       "date": "2026-08-28",
       "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
       "content": "AI is accelerating vulnerability discovery, putting pressure on systems built to enrich, prioritize, and remediate flaws at a slower pace. Action1 explains why defenders increasingly need to correlate multiple intelligence sources and turn vulnerability data into faster remediati",
@@ -518,7 +530,7 @@
       ]
     },
     {
-      "id": "news-72001",
+      "id": "news-88452",
       "date": "2026-08-28",
       "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
       "content": "Over 8,300 Internet-exposed Gitea instances are still unpatched against a critical security flaw exploited in ongoing remote code execution attacks, according to cybersecurity watchdog Shadowserver. [...]",
@@ -530,7 +542,7 @@
       ]
     },
     {
-      "id": "news-4483",
+      "id": "news-61659",
       "date": "2026-08-28",
       "title": "ServiceNow warns of three max severity security vulnerabilities",
       "content": "ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL injection, and privilege escalation attacks. [...]",
@@ -542,22 +554,10 @@
       ]
     },
     {
-      "id": "news-56422",
+      "id": "news-24481",
       "date": "2026-08-27",
       "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
       "content": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine.\n\nThe rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waitin",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-47661",
-      "date": "2026-08-27",
-      "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-      "content": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers.\n\nThe security flaw, which d",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
