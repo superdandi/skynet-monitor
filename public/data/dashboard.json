@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30 16:33 UTC",
+  "lastUpdated": "2026-08-30 20:56 UTC",
   "companies": [
     {
       "id": "openai",
@@ -33,7 +33,7 @@
       "description": "AI safety company behind Claude models",
       "probability": 40,
       "trend": {
-        "value": 4,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "high",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-62895",
+      "id": "news-28703",
       "date": "2026-08-30",
       "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
       "content": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.\n\n\"While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-49971",
+      "id": "news-49452",
       "date": "2026-08-30",
       "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
       "content": "FulcrumSec claims it stole 86 GB of data from Manchester Airports Group. BleepingComputer validated one traveller's record, while samples revealed detailed customer, booking, and travel information beyond what MAG initially disclosed. [...]",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-96230",
+      "id": "news-2863",
       "date": "2026-08-30",
       "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
       "content": "Anthropic is warning some Claude users that infostealer malware on their PCs has stolen active Claude login sessions, allowing attackers to access accounts and consume their usage. [...]",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "id": "news-25527",
+      "id": "news-45757",
       "date": "2026-08-29",
       "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
       "content": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands.\n\nThe same statement disclosed that forensic work had found furth",
@@ -434,7 +434,7 @@
       ]
     },
     {
-      "id": "news-28210",
+      "id": "news-42015",
       "date": "2026-08-29",
       "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
       "content": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026.\n\nThe vulnerability, designated GHSA-7g4w-cg88-2cq2, is rated Critical by Cosmos Labs and was publi",
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": "news-75912",
+      "id": "news-2807",
       "date": "2026-08-28",
       "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
       "content": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional hardening.\n\n\"This vulnerability gives an unauthenticated attacker remote control o",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-48523",
+      "id": "news-33725",
       "date": "2026-08-28",
       "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
       "content": "Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and cryptocurrency draining capabilities.\n\n\nThe extensions, per Socket security researcher Ka",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-96043",
+      "id": "news-37627",
       "date": "2026-08-28",
       "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
       "content": "Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth Low Energy (BLE) path that can reach root on the robot's Locomotion PC.\n\nThe flaws are tracked as&nbsp;CVE-2026-76639&nbs",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-35519",
+      "id": "news-73526",
       "date": "2026-08-28",
       "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
       "content": "ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an unauthenticated attacker.\n\nThe company said it deployed a security update to hosted i",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-63426",
+      "id": "news-94908",
       "date": "2026-08-28",
       "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
       "content": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-65643, impacts all supported ve",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-27970",
+      "id": "news-22128",
       "date": "2026-08-28",
       "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
       "content": "PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks.\n\nThe company has released an emergency patch for v25 and v26 to address the issue. It sa",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-9512",
+      "id": "news-7312",
       "date": "2026-08-28",
       "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
       "content": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026.\n\nThese campaigns, per Recorded Future Insikt Group, have led to the deployment of a p",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-97209",
+      "id": "news-94346",
       "date": "2026-08-28",
       "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
       "content": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May.\n\nThe incident, the company said, took place during cyberse",
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "id": "news-56087",
+      "id": "news-43802",
       "date": "2026-08-28",
       "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
       "content": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it stole 284 million patient data records. [...]",
@@ -555,7 +555,7 @@
       ]
     },
     {
-      "id": "news-82041",
+      "id": "news-79657",
       "date": "2026-08-28",
       "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
       "content": "AI is accelerating vulnerability discovery, putting pressure on systems built to enrich, prioritize, and remediate flaws at a slower pace. Action1 explains why defenders increasingly need to correlate multiple intelligence sources and turn vulnerability data into faster remediati",
