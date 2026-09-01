@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-01 16:29 UTC",
+  "lastUpdated": "2026-09-01 20:56 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 76,
+      "probability": 80,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 1,
+      "recentIncidents": 2,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 40,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -82,8 +82,8 @@
       "description": "Meta's artificial intelligence research division",
       "probability": 10,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 608,
+        "openai": 640,
         "anthropic": 320,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 729,
+        "openai": 768,
         "anthropic": 384,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 851,
+        "openai": 896,
         "anthropic": 448,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 972,
+        "openai": 1024,
         "anthropic": 512,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1094,
+        "openai": 1152,
         "anthropic": 576,
         "google-deepmind": 187,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 547,
+        "openai": 576,
         "anthropic": 288,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 653,
+        "openai": 688,
         "anthropic": 344,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 760,
+        "openai": 800,
         "anthropic": 400,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 866,
+        "openai": 912,
         "anthropic": 456,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 972,
+        "openai": 1024,
         "anthropic": 512,
         "google-deepmind": 166,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 304,
+        "openai": 320,
         "anthropic": 160,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 395,
+        "openai": 416,
         "anthropic": 208,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 486,
+        "openai": 512,
         "anthropic": 256,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 577,
+        "openai": 608,
         "anthropic": 304,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 668,
+        "openai": 704,
         "anthropic": 352,
         "google-deepmind": 114,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 456,
+        "openai": 480,
         "anthropic": 240,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 562,
+        "openai": 592,
         "anthropic": 296,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 668,
+        "openai": 704,
         "anthropic": 352,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 775,
+        "openai": 816,
         "anthropic": 408,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 881,
+        "openai": 928,
         "anthropic": 464,
         "google-deepmind": 150,
         "meta-ai": 116
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-85468",
+      "id": "news-15150",
+      "date": "2026-09-01",
+      "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+      "content": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr.\n\nThe vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication bypass that could lead to admi",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-51917",
       "date": "2026-09-01",
       "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
       "content": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS d",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-77342",
+      "id": "news-78799",
       "date": "2026-09-01",
       "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
       "content": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-horizon, agentic tasks, disclosed that it suffered \"two notable security incidents\" ",
@@ -409,7 +421,7 @@
       ]
     },
     {
-      "id": "news-75148",
+      "id": "news-61801",
       "date": "2026-09-01",
       "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
       "content": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-assisted analysis.\n\nThe idea, ESET said in",
@@ -421,7 +433,7 @@
       ]
     },
     {
-      "id": "news-81612",
+      "id": "news-63052",
       "date": "2026-09-01",
       "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
       "content": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerabi",
@@ -433,7 +445,32 @@
       ]
     },
     {
-      "id": "news-39922",
+      "id": "news-65388",
+      "date": "2026-09-01",
+      "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
+      "content": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain remote administrative control over victim computers and install the ScreenConnect remote support software. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-1762",
+      "date": "2026-09-01",
+      "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+      "content": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-61269",
       "date": "2026-09-01",
       "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
       "content": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichment adds data points that help organizations identify risky sessions and make stronge",
@@ -445,7 +482,7 @@
       ]
     },
     {
-      "id": "news-60993",
+      "id": "news-25917",
       "date": "2026-09-01",
       "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
       "content": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
@@ -457,7 +494,7 @@
       ]
     },
     {
-      "id": "news-13898",
+      "id": "news-3217",
       "date": "2026-08-31",
       "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
       "content": "The boring parts caused most of the trouble.\n\nA router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decided its assigned task w",
@@ -469,7 +506,7 @@
       ]
     },
     {
-      "id": "news-95153",
+      "id": "news-68502",
       "date": "2026-08-31",
       "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
       "content": "The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions.\n\nRussian cybersecurity ",
@@ -481,7 +518,7 @@
       ]
     },
     {
-      "id": "news-16009",
+      "id": "news-18275",
       "date": "2026-08-31",
       "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
       "content": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security.\n\nThe two independent analyses are ba",
@@ -493,7 +530,7 @@
       ]
     },
     {
-      "id": "news-22411",
+      "id": "news-26158",
       "date": "2026-08-31",
       "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
       "content": "Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give security teams their clearest view yet into that activity. They also expose a larger problem: activi",
@@ -506,7 +543,7 @@
       ]
     },
     {
-      "id": "news-50222",
+      "id": "news-80796",
       "date": "2026-08-31",
       "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
       "content": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control System (TACACS) servers, and Linux management hosts used to route, authenticate, an",
@@ -518,7 +555,7 @@
       ]
     },
     {
-      "id": "news-91827",
+      "id": "news-50678",
       "date": "2026-08-31",
       "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
       "content": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now pointing out that they were among those targeted.\n\nLast week, the DoJ said the Natio",
@@ -527,42 +564,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-77526",
-      "date": "2026-08-31",
-      "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
-      "content": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed an attacker to borrow $74 million. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-54165",
-      "date": "2026-08-31",
-      "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
-      "content": "The researchers discovered Fire Ant's new tactic after finding an active GRE (Generic Routing Encapsulation) tunnel interface on a Cisco IOS XR router that could not be explained by a running configuration or commit history. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-67563",
-      "date": "2026-08-31",
-      "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
-      "content": "Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
