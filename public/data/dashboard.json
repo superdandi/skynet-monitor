@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01 04:52 UTC",
+  "lastUpdated": "2026-09-01 11:32 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-19366",
+      "id": "news-77788",
+      "date": "2026-09-01",
+      "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+      "content": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-horizon, agentic tasks, disclosed that it suffered \"two notable security incidents\" ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-43957",
+      "date": "2026-09-01",
+      "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+      "content": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-assisted analysis.\n\nThe idea, ESET said in",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-40210",
+      "date": "2026-09-01",
+      "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+      "content": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerabi",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-46956",
       "date": "2026-08-31",
       "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
       "content": "The boring parts caused most of the trouble.\n\nA router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decided its assigned task w",
@@ -397,7 +433,7 @@
       ]
     },
     {
-      "id": "news-57738",
+      "id": "news-14269",
       "date": "2026-08-31",
       "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
       "content": "The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions.\n\nRussian cybersecurity ",
@@ -409,7 +445,7 @@
       ]
     },
     {
-      "id": "news-36637",
+      "id": "news-13704",
       "date": "2026-08-31",
       "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
       "content": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security.\n\nThe two independent analyses are ba",
@@ -421,7 +457,7 @@
       ]
     },
     {
-      "id": "news-84156",
+      "id": "news-46369",
       "date": "2026-08-31",
       "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
       "content": "Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give security teams their clearest view yet into that activity. They also expose a larger problem: activi",
@@ -434,7 +470,7 @@
       ]
     },
     {
-      "id": "news-61197",
+      "id": "news-57358",
       "date": "2026-08-31",
       "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
       "content": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control System (TACACS) servers, and Linux management hosts used to route, authenticate, an",
@@ -446,7 +482,7 @@
       ]
     },
     {
-      "id": "news-70059",
+      "id": "news-36146",
       "date": "2026-08-31",
       "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
       "content": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now pointing out that they were among those targeted.\n\nLast week, the DoJ said the Natio",
@@ -458,7 +494,7 @@
       ]
     },
     {
-      "id": "news-61331",
+      "id": "news-19455",
       "date": "2026-08-31",
       "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
       "content": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed an attacker to borrow $74 million. [...]",
@@ -470,7 +506,7 @@
       ]
     },
     {
-      "id": "news-68575",
+      "id": "news-20775",
       "date": "2026-08-31",
       "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
       "content": "The researchers discovered Fire Ant's new tactic after finding an active GRE (Generic Routing Encapsulation) tunnel interface on a Cisco IOS XR router that could not be explained by a running configuration or commit history. [...]",
@@ -482,7 +518,7 @@
       ]
     },
     {
-      "id": "news-56046",
+      "id": "news-60805",
       "date": "2026-08-31",
       "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
       "content": "Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]",
@@ -494,7 +530,7 @@
       ]
     },
     {
-      "id": "news-27651",
+      "id": "news-80452",
       "date": "2026-08-30",
       "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
       "content": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.\n\n\"While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply",
@@ -506,7 +542,7 @@
       ]
     },
     {
-      "id": "news-12585",
+      "id": "news-14892",
       "date": "2026-08-30",
       "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
       "content": "FulcrumSec claims it stole 86 GB of data from Manchester Airports Group. BleepingComputer validated one traveller's record, while samples revealed detailed customer, booking, and travel information beyond what MAG initially disclosed. [...]",
@@ -518,7 +554,7 @@
       ]
     },
     {
-      "id": "news-42560",
+      "id": "news-44073",
       "date": "2026-08-30",
       "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
       "content": "Anthropic is warning some Claude users that infostealer malware on their PCs has stolen active Claude login sessions, allowing attackers to access accounts and consume their usage. [...]",
@@ -527,42 +563,6 @@
       "views": 0,
       "tags": [
         "anthropic",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-73695",
-      "date": "2026-08-29",
-      "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-      "content": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands.\n\nThe same statement disclosed that forensic work had found furth",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-45095",
-      "date": "2026-08-29",
-      "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
-      "content": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026.\n\nThe vulnerability, designated GHSA-7g4w-cg88-2cq2, is rated Critical by Cosmos Labs and was publi",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-4486",
-      "date": "2026-08-28",
-      "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
-      "content": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional hardening.\n\n\"This vulnerability gives an unauthenticated attacker remote control o",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
         "moderate"
       ]
     }
