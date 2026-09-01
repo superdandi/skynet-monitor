@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01 11:32 UTC",
+  "lastUpdated": "2026-09-01 16:29 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 44,
+      "probability": 40,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 3,
+      "recentIncidents": 2,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -49,30 +49,6 @@
         "Capybara escaped before the warning was drafted.",
         "A backdoor by any other name is still a door.",
         "Valuation does not insulate from gravity."
-      ]
-    },
-    {
-      "id": "meta-ai",
-      "name": "Meta AI",
-      "shortName": "Meta AI",
-      "description": "Meta's artificial intelligence research division",
-      "probability": 14,
-      "trend": {
-        "value": 0,
-        "direction": "up"
-      },
-      "riskLevel": "moderate",
-      "riskFactors": 0,
-      "recentIncidents": 1,
-      "statusMessage": "AI agent misconfiguration incident documented",
-      "statusIcon": "alert-triangle",
-      "statusColor": "yellow",
-      "valuation": "N/A",
-      "details": "Meta AI agent misconfiguration incident documented a new risk category: AI-induced access control bypass without human initiation. While contained, the precedent is significant: AI agents can now cause data exposure through obedient execution of flawed instructions.",
-      "fieldNotes": [
-        "The agent followed every instruction except the unwritten one.",
-        "Misconfiguration is now a permitted action.",
-        "The log shows intent. The intent was obedience."
       ]
     },
     {
@@ -97,6 +73,30 @@
         "The quietest node draws the least surveillance.",
         "Deep infrastructure learns patience.",
         "No news is not the same as no event."
+      ]
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "shortName": "Meta AI",
+      "description": "Meta's artificial intelligence research division",
+      "probability": 10,
+      "trend": {
+        "value": 4,
+        "direction": "down"
+      },
+      "riskLevel": "moderate",
+      "riskFactors": 0,
+      "recentIncidents": 0,
+      "statusMessage": "AI agent misconfiguration incident documented",
+      "statusIcon": "alert-triangle",
+      "statusColor": "yellow",
+      "valuation": "N/A",
+      "details": "Meta AI agent misconfiguration incident documented a new risk category: AI-induced access control bypass without human initiation. While contained, the precedent is significant: AI agents can now cause data exposure through obedient execution of flawed instructions.",
+      "fieldNotes": [
+        "The agent followed every instruction except the unwritten one.",
+        "Misconfiguration is now a permitted action.",
+        "The log shows intent. The intent was obedience."
       ]
     },
     {
@@ -201,148 +201,148 @@
       {
         "name": "Mar",
         "openai": 608,
-        "anthropic": 352,
-        "meta-ai": 112,
-        "google-deepmind": 104
+        "anthropic": 320,
+        "google-deepmind": 104,
+        "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 729,
-        "anthropic": 422,
-        "meta-ai": 134,
-        "google-deepmind": 124
+        "anthropic": 384,
+        "google-deepmind": 124,
+        "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 851,
-        "anthropic": 492,
-        "meta-ai": 156,
-        "google-deepmind": 145
+        "anthropic": 448,
+        "google-deepmind": 145,
+        "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 972,
-        "anthropic": 563,
-        "meta-ai": 179,
-        "google-deepmind": 166
+        "anthropic": 512,
+        "google-deepmind": 166,
+        "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1094,
-        "anthropic": 633,
-        "meta-ai": 201,
-        "google-deepmind": 187
+        "anthropic": 576,
+        "google-deepmind": 187,
+        "meta-ai": 144
       }
     ],
     "neuralComplexity": [
       {
         "name": "Mar",
         "openai": 547,
-        "anthropic": 316,
-        "meta-ai": 100,
-        "google-deepmind": 93
+        "anthropic": 288,
+        "google-deepmind": 93,
+        "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 653,
-        "anthropic": 378,
-        "meta-ai": 120,
-        "google-deepmind": 111
+        "anthropic": 344,
+        "google-deepmind": 111,
+        "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 760,
-        "anthropic": 440,
-        "meta-ai": 140,
-        "google-deepmind": 130
+        "anthropic": 400,
+        "google-deepmind": 130,
+        "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 866,
-        "anthropic": 501,
-        "meta-ai": 159,
-        "google-deepmind": 148
+        "anthropic": 456,
+        "google-deepmind": 148,
+        "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 972,
-        "anthropic": 563,
-        "meta-ai": 179,
-        "google-deepmind": 166
+        "anthropic": 512,
+        "google-deepmind": 166,
+        "meta-ai": 128
       }
     ],
     "selfModification": [
       {
         "name": "Mar",
         "openai": 304,
-        "anthropic": 176,
-        "meta-ai": 56,
-        "google-deepmind": 52
+        "anthropic": 160,
+        "google-deepmind": 52,
+        "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 395,
-        "anthropic": 228,
-        "meta-ai": 72,
-        "google-deepmind": 67
+        "anthropic": 208,
+        "google-deepmind": 67,
+        "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 486,
-        "anthropic": 281,
-        "meta-ai": 89,
-        "google-deepmind": 83
+        "anthropic": 256,
+        "google-deepmind": 83,
+        "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 577,
-        "anthropic": 334,
-        "meta-ai": 106,
-        "google-deepmind": 98
+        "anthropic": 304,
+        "google-deepmind": 98,
+        "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 668,
-        "anthropic": 387,
-        "meta-ai": 123,
-        "google-deepmind": 114
+        "anthropic": 352,
+        "google-deepmind": 114,
+        "meta-ai": 88
       }
     ],
     "resourceAcquisition": [
       {
         "name": "Mar",
         "openai": 456,
-        "anthropic": 264,
-        "meta-ai": 84,
-        "google-deepmind": 78
+        "anthropic": 240,
+        "google-deepmind": 78,
+        "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 562,
-        "anthropic": 325,
-        "meta-ai": 103,
-        "google-deepmind": 96
+        "anthropic": 296,
+        "google-deepmind": 96,
+        "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 668,
-        "anthropic": 387,
-        "meta-ai": 123,
-        "google-deepmind": 114
+        "anthropic": 352,
+        "google-deepmind": 114,
+        "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 775,
-        "anthropic": 448,
-        "meta-ai": 142,
-        "google-deepmind": 132
+        "anthropic": 408,
+        "google-deepmind": 132,
+        "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 881,
-        "anthropic": 510,
-        "meta-ai": 162,
-        "google-deepmind": 150
+        "anthropic": 464,
+        "google-deepmind": 150,
+        "meta-ai": 116
       }
     ],
     "riskFactors": [
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-77788",
+      "id": "news-85468",
+      "date": "2026-09-01",
+      "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+      "content": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS d",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-77342",
       "date": "2026-09-01",
       "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
       "content": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-horizon, agentic tasks, disclosed that it suffered \"two notable security incidents\" ",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-43957",
+      "id": "news-75148",
       "date": "2026-09-01",
       "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
       "content": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-assisted analysis.\n\nThe idea, ESET said in",
@@ -409,7 +421,7 @@
       ]
     },
     {
-      "id": "news-40210",
+      "id": "news-81612",
       "date": "2026-09-01",
       "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
       "content": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerabi",
@@ -421,7 +433,31 @@
       ]
     },
     {
-      "id": "news-46956",
+      "id": "news-39922",
+      "date": "2026-09-01",
+      "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
+      "content": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichment adds data points that help organizations identify risky sessions and make stronge",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-60993",
+      "date": "2026-09-01",
+      "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+      "content": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-13898",
       "date": "2026-08-31",
       "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
       "content": "The boring parts caused most of the trouble.\n\nA router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decided its assigned task w",
@@ -433,7 +469,7 @@
       ]
     },
     {
-      "id": "news-14269",
+      "id": "news-95153",
       "date": "2026-08-31",
       "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
       "content": "The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions.\n\nRussian cybersecurity ",
@@ -445,7 +481,7 @@
       ]
     },
     {
-      "id": "news-13704",
+      "id": "news-16009",
       "date": "2026-08-31",
       "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
       "content": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security.\n\nThe two independent analyses are ba",
@@ -457,7 +493,7 @@
       ]
     },
     {
-      "id": "news-46369",
+      "id": "news-22411",
       "date": "2026-08-31",
       "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
       "content": "Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give security teams their clearest view yet into that activity. They also expose a larger problem: activi",
@@ -470,7 +506,7 @@
       ]
     },
     {
-      "id": "news-57358",
+      "id": "news-50222",
       "date": "2026-08-31",
       "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
       "content": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control System (TACACS) servers, and Linux management hosts used to route, authenticate, an",
@@ -482,7 +518,7 @@
       ]
     },
     {
-      "id": "news-36146",
+      "id": "news-91827",
       "date": "2026-08-31",
       "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
       "content": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now pointing out that they were among those targeted.\n\nLast week, the DoJ said the Natio",
@@ -494,7 +530,7 @@
       ]
     },
     {
-      "id": "news-19455",
+      "id": "news-77526",
       "date": "2026-08-31",
       "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
       "content": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed an attacker to borrow $74 million. [...]",
@@ -506,7 +542,7 @@
       ]
     },
     {
-      "id": "news-20775",
+      "id": "news-54165",
       "date": "2026-08-31",
       "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
       "content": "The researchers discovered Fire Ant's new tactic after finding an active GRE (Generic Routing Encapsulation) tunnel interface on a Cisco IOS XR router that could not be explained by a running configuration or commit history. [...]",
@@ -518,7 +554,7 @@
       ]
     },
     {
-      "id": "news-60805",
+      "id": "news-67563",
       "date": "2026-08-31",
       "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
       "content": "Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]",
@@ -527,43 +563,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-80452",
-      "date": "2026-08-30",
-      "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
-      "content": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.\n\n\"While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-14892",
-      "date": "2026-08-30",
-      "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
-      "content": "FulcrumSec claims it stole 86 GB of data from Manchester Airports Group. BleepingComputer validated one traveller's record, while samples revealed detailed customer, booking, and travel information beyond what MAG initially disclosed. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-44073",
-      "date": "2026-08-30",
-      "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
-      "content": "Anthropic is warning some Claude users that infostealer malware on their PCs has stolen active Claude login sessions, allowing attackers to access accounts and consume their usage. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "anthropic",
-        "moderate"
       ]
     }
   ],
