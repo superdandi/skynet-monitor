@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01 20:56 UTC",
+  "lastUpdated": "2026-09-02 04:12 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,7 +8,7 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 80,
       "trend": {
-        "value": 4,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "critical",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-15150",
+      "id": "news-47396",
       "date": "2026-09-01",
       "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
       "content": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr.\n\nThe vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication bypass that could lead to admi",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-51917",
+      "id": "news-56221",
       "date": "2026-09-01",
       "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
       "content": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS d",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-78799",
+      "id": "news-51250",
       "date": "2026-09-01",
       "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
       "content": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-horizon, agentic tasks, disclosed that it suffered \"two notable security incidents\" ",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-61801",
+      "id": "news-42878",
       "date": "2026-09-01",
       "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
       "content": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-assisted analysis.\n\nThe idea, ESET said in",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-63052",
+      "id": "news-96984",
       "date": "2026-09-01",
       "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
       "content": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerabi",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-65388",
+      "id": "news-70458",
       "date": "2026-09-01",
       "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
       "content": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain remote administrative control over victim computers and install the ScreenConnect remote support software. [...]",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-1762",
+      "id": "news-96352",
       "date": "2026-09-01",
       "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
       "content": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-61269",
+      "id": "news-48018",
       "date": "2026-09-01",
       "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
       "content": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichment adds data points that help organizations identify risky sessions and make stronge",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-25917",
+      "id": "news-80395",
       "date": "2026-09-01",
       "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
       "content": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
@@ -494,7 +494,19 @@
       ]
     },
     {
-      "id": "news-3217",
+      "id": "news-74576",
+      "date": "2026-09-01",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "content": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appea",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-39269",
       "date": "2026-08-31",
       "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
       "content": "The boring parts caused most of the trouble.\n\nA router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decided its assigned task w",
@@ -506,7 +518,7 @@
       ]
     },
     {
-      "id": "news-68502",
+      "id": "news-45514",
       "date": "2026-08-31",
       "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
       "content": "The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions.\n\nRussian cybersecurity ",
@@ -518,7 +530,7 @@
       ]
     },
     {
-      "id": "news-18275",
+      "id": "news-67626",
       "date": "2026-08-31",
       "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
       "content": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security.\n\nThe two independent analyses are ba",
@@ -530,7 +542,7 @@
       ]
     },
     {
-      "id": "news-26158",
+      "id": "news-10349",
       "date": "2026-08-31",
       "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
       "content": "Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give security teams their clearest view yet into that activity. They also expose a larger problem: activi",
@@ -543,22 +555,10 @@
       ]
     },
     {
-      "id": "news-80796",
+      "id": "news-36304",
       "date": "2026-08-31",
       "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
       "content": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control System (TACACS) servers, and Linux management hosts used to route, authenticate, an",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-50678",
-      "date": "2026-08-31",
-      "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
-      "content": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now pointing out that they were among those targeted.\n\nLast week, the DoJ said the Natio",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
