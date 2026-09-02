@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02 11:07 UTC",
+  "lastUpdated": "2026-09-02 16:27 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 40,
+      "probability": 44,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 2,
+      "recentIncidents": 3,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 640,
-        "anthropic": 320,
+        "anthropic": 352,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 768,
-        "anthropic": 384,
+        "anthropic": 422,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 896,
-        "anthropic": 448,
+        "anthropic": 492,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 1024,
-        "anthropic": 512,
+        "anthropic": 563,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1152,
-        "anthropic": 576,
+        "anthropic": 633,
         "google-deepmind": 187,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 576,
-        "anthropic": 288,
+        "anthropic": 316,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 688,
-        "anthropic": 344,
+        "anthropic": 378,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 800,
-        "anthropic": 400,
+        "anthropic": 440,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 912,
-        "anthropic": 456,
+        "anthropic": 501,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 1024,
-        "anthropic": 512,
+        "anthropic": 563,
         "google-deepmind": 166,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 320,
-        "anthropic": 160,
+        "anthropic": 176,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 416,
-        "anthropic": 208,
+        "anthropic": 228,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 512,
-        "anthropic": 256,
+        "anthropic": 281,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 608,
-        "anthropic": 304,
+        "anthropic": 334,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 704,
-        "anthropic": 352,
+        "anthropic": 387,
         "google-deepmind": 114,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 480,
-        "anthropic": 240,
+        "anthropic": 264,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 592,
-        "anthropic": 296,
+        "anthropic": 325,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 704,
-        "anthropic": 352,
+        "anthropic": 387,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 816,
-        "anthropic": 408,
+        "anthropic": 448,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 928,
-        "anthropic": 464,
+        "anthropic": 510,
         "google-deepmind": 150,
         "meta-ai": 116
       }
@@ -385,7 +385,68 @@
   },
   "news": [
     {
-      "id": "news-58149",
+      "id": "news-22522",
+      "date": "2026-09-02",
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "content": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication.\n\nThe command executes as the ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-58957",
+      "date": "2026-09-02",
+      "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+      "content": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using them to divert visitors to attacker-controlled pages promoting onlin",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-43105",
+      "date": "2026-09-02",
+      "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+      "content": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installations. A hosting-provider account separately said 5 of its 34 checked V",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-76923",
+      "date": "2026-09-02",
+      "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+      "content": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators near-complete control of infected devices.\n\nThreatFabric said ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-31546",
+      "date": "2026-09-02",
+      "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+      "content": "The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizations must focus on adopting AI at business speed without losing control of cyber",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-91148",
       "date": "2026-09-02",
       "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
       "content": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks.\n\nThe vulnerabilities, discovered internally by SonicWall's William Perry and Adam Babis, are lis",
@@ -397,7 +458,7 @@
       ]
     },
     {
-      "id": "news-66655",
+      "id": "news-6833",
       "date": "2026-09-02",
       "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
       "content": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals.\n\nThe project shipped fixes in versions 4.4.12 and 4.2.17 on July 8, 202",
@@ -409,7 +470,7 @@
       ]
     },
     {
-      "id": "news-15047",
+      "id": "news-96670",
       "date": "2026-09-02",
       "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
       "content": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2016 and 2017.\n\nSearzhudin Tamirlanovich ",
@@ -421,7 +482,7 @@
       ]
     },
     {
-      "id": "news-25931",
+      "id": "news-34217",
       "date": "2026-09-02",
       "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
       "content": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcode on live hardware.\n\nThe exploit targets",
@@ -434,7 +495,7 @@
       ]
     },
     {
-      "id": "news-22680",
+      "id": "news-5238",
       "date": "2026-09-02",
       "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
       "content": "The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation.\n\nThe effort was undertaken on August 31, 2026, by authorities from the U.S., Bulgaria, Hungary, ",
@@ -446,7 +507,19 @@
       ]
     },
     {
-      "id": "news-96720",
+      "id": "news-92815",
+      "date": "2026-09-02",
+      "title": "Dropbox accounts breached through Lenovo email verification flaw",
+      "content": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-16247",
       "date": "2026-09-02",
       "title": "US charges Russian for infecting 80,000 freelancers with malware",
       "content": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
@@ -458,7 +531,7 @@
       ]
     },
     {
-      "id": "news-28650",
+      "id": "news-20656",
       "date": "2026-09-02",
       "title": "Sality botnet infrastructure dismantled in joint global takedown",
       "content": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
@@ -470,7 +543,7 @@
       ]
     },
     {
-      "id": "news-44005",
+      "id": "news-40561",
       "date": "2026-09-02",
       "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
       "content": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
@@ -482,7 +555,7 @@
       ]
     },
     {
-      "id": "news-89461",
+      "id": "news-85355",
       "date": "2026-09-01",
       "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
       "content": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr.\n\nThe vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication bypass that could lead to admi",
@@ -490,79 +563,6 @@
       "impact": "Moderate",
       "views": 0,
       "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-11263",
-      "date": "2026-09-01",
-      "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
-      "content": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS d",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-31725",
-      "date": "2026-09-01",
-      "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-      "content": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-horizon, agentic tasks, disclosed that it suffered \"two notable security incidents\" ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-18500",
-      "date": "2026-09-01",
-      "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
-      "content": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-assisted analysis.\n\nThe idea, ESET said in",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-70893",
-      "date": "2026-09-01",
-      "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-      "content": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerabi",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-49568",
-      "date": "2026-09-01",
-      "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
-      "content": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain remote administrative control over victim computers and install the ScreenConnect remote support software. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-15577",
-      "date": "2026-09-01",
-      "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
-      "content": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
         "moderate"
       ]
     }
