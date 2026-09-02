@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-02 16:27 UTC",
+  "lastUpdated": "2026-09-02 20:55 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 80,
+      "probability": 84,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 2,
+      "recentIncidents": 3,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 44,
+      "probability": 48,
       "trend": {
         "value": 4,
         "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 3,
+      "recentIncidents": 4,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 13,
+      "probability": 17,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
-      "recentIncidents": 0,
+      "recentIncidents": 1,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -200,148 +200,148 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 640,
-        "anthropic": 352,
-        "google-deepmind": 104,
+        "openai": 672,
+        "anthropic": 384,
+        "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 768,
-        "anthropic": 422,
-        "google-deepmind": 124,
+        "openai": 806,
+        "anthropic": 460,
+        "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 896,
-        "anthropic": 492,
-        "google-deepmind": 145,
+        "openai": 940,
+        "anthropic": 537,
+        "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1024,
-        "anthropic": 563,
-        "google-deepmind": 166,
+        "openai": 1075,
+        "anthropic": 614,
+        "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1152,
-        "anthropic": 633,
-        "google-deepmind": 187,
+        "openai": 1209,
+        "anthropic": 691,
+        "google-deepmind": 244,
         "meta-ai": 144
       }
     ],
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 576,
-        "anthropic": 316,
-        "google-deepmind": 93,
+        "openai": 604,
+        "anthropic": 345,
+        "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 688,
-        "anthropic": 378,
-        "google-deepmind": 111,
+        "openai": 722,
+        "anthropic": 412,
+        "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 800,
-        "anthropic": 440,
-        "google-deepmind": 130,
+        "openai": 840,
+        "anthropic": 480,
+        "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 912,
-        "anthropic": 501,
-        "google-deepmind": 148,
+        "openai": 957,
+        "anthropic": 547,
+        "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1024,
-        "anthropic": 563,
-        "google-deepmind": 166,
+        "openai": 1075,
+        "anthropic": 614,
+        "google-deepmind": 217,
         "meta-ai": 128
       }
     ],
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 320,
-        "anthropic": 176,
-        "google-deepmind": 52,
+        "openai": 336,
+        "anthropic": 192,
+        "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 416,
-        "anthropic": 228,
-        "google-deepmind": 67,
+        "openai": 436,
+        "anthropic": 249,
+        "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 512,
-        "anthropic": 281,
-        "google-deepmind": 83,
+        "openai": 537,
+        "anthropic": 307,
+        "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 608,
-        "anthropic": 334,
-        "google-deepmind": 98,
+        "openai": 638,
+        "anthropic": 364,
+        "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 704,
-        "anthropic": 387,
-        "google-deepmind": 114,
+        "openai": 739,
+        "anthropic": 422,
+        "google-deepmind": 149,
         "meta-ai": 88
       }
     ],
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 480,
-        "anthropic": 264,
-        "google-deepmind": 78,
+        "openai": 504,
+        "anthropic": 288,
+        "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 592,
-        "anthropic": 325,
-        "google-deepmind": 96,
+        "openai": 621,
+        "anthropic": 355,
+        "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 704,
-        "anthropic": 387,
-        "google-deepmind": 114,
+        "openai": 739,
+        "anthropic": 422,
+        "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 816,
-        "anthropic": 448,
-        "google-deepmind": 132,
+        "openai": 856,
+        "anthropic": 489,
+        "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 928,
-        "anthropic": 510,
-        "google-deepmind": 150,
+        "openai": 974,
+        "anthropic": 556,
+        "google-deepmind": 197,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,34 @@
   },
   "news": [
     {
-      "id": "news-22522",
+      "id": "news-98072",
+      "date": "2026-09-02",
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "content": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called the Fairwind Program.\n\n\"The Fairwind Program gives high-priority defenders (like g",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "anthropic",
+        "google-deepmind",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-84623",
+      "date": "2026-09-02",
+      "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
+      "content": "An active malware campaign is using bogus software-download websites to impersonate trusted vendors and distribute malicious installers.\n\n\"The campaign has targeted users looking to download popular software and has resulted in compromises across multiple organizations and indust",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-9097",
       "date": "2026-09-02",
       "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
       "content": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication.\n\nThe command executes as the ",
@@ -398,7 +425,7 @@
       ]
     },
     {
-      "id": "news-58957",
+      "id": "news-47743",
       "date": "2026-09-02",
       "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
       "content": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using them to divert visitors to attacker-controlled pages promoting onlin",
@@ -410,7 +437,7 @@
       ]
     },
     {
-      "id": "news-43105",
+      "id": "news-8271",
       "date": "2026-09-02",
       "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
       "content": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installations. A hosting-provider account separately said 5 of its 34 checked V",
@@ -422,7 +449,7 @@
       ]
     },
     {
-      "id": "news-76923",
+      "id": "news-66378",
       "date": "2026-09-02",
       "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
       "content": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators near-complete control of infected devices.\n\nThreatFabric said ",
@@ -434,7 +461,7 @@
       ]
     },
     {
-      "id": "news-31546",
+      "id": "news-44096",
       "date": "2026-09-02",
       "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
       "content": "The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizations must focus on adopting AI at business speed without losing control of cyber",
@@ -446,7 +473,7 @@
       ]
     },
     {
-      "id": "news-91148",
+      "id": "news-77396",
       "date": "2026-09-02",
       "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
       "content": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks.\n\nThe vulnerabilities, discovered internally by SonicWall's William Perry and Adam Babis, are lis",
@@ -458,7 +485,7 @@
       ]
     },
     {
-      "id": "news-6833",
+      "id": "news-41083",
       "date": "2026-09-02",
       "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
       "content": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals.\n\nThe project shipped fixes in versions 4.4.12 and 4.2.17 on July 8, 202",
@@ -470,7 +497,7 @@
       ]
     },
     {
-      "id": "news-96670",
+      "id": "news-70895",
       "date": "2026-09-02",
       "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
       "content": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2016 and 2017.\n\nSearzhudin Tamirlanovich ",
@@ -482,7 +509,7 @@
       ]
     },
     {
-      "id": "news-34217",
+      "id": "news-38564",
       "date": "2026-09-02",
       "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
       "content": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcode on live hardware.\n\nThe exploit targets",
@@ -495,7 +522,7 @@
       ]
     },
     {
-      "id": "news-5238",
+      "id": "news-91679",
       "date": "2026-09-02",
       "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
       "content": "The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation.\n\nThe effort was undertaken on August 31, 2026, by authorities from the U.S., Bulgaria, Hungary, ",
@@ -507,7 +534,7 @@
       ]
     },
     {
-      "id": "news-92815",
+      "id": "news-2759",
       "date": "2026-09-02",
       "title": "Dropbox accounts breached through Lenovo email verification flaw",
       "content": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
@@ -519,7 +546,7 @@
       ]
     },
     {
-      "id": "news-16247",
+      "id": "news-18865",
       "date": "2026-09-02",
       "title": "US charges Russian for infecting 80,000 freelancers with malware",
       "content": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
@@ -531,34 +558,10 @@
       ]
     },
     {
-      "id": "news-20656",
+      "id": "news-69317",
       "date": "2026-09-02",
       "title": "Sality botnet infrastructure dismantled in joint global takedown",
       "content": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-40561",
-      "date": "2026-09-02",
-      "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-      "content": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-85355",
-      "date": "2026-09-01",
-      "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
-      "content": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr.\n\nThe vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication bypass that could lead to admi",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
