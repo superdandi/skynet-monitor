@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-05 10:27 UTC",
+  "lastUpdated": "2026-09-05 15:01 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 76,
+      "probability": 84,
       "trend": {
-        "value": 0,
+        "value": 8,
         "direction": "up"
       },
       "riskLevel": "critical",
-      "riskFactors": 0,
-      "recentIncidents": 2,
+      "riskFactors": 1,
+      "recentIncidents": 3,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 608,
+        "openai": 672,
         "anthropic": 384,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 729,
+        "openai": 806,
         "anthropic": 460,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 851,
+        "openai": 940,
         "anthropic": 537,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 972,
+        "openai": 1075,
         "anthropic": 614,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1094,
+        "openai": 1209,
         "anthropic": 691,
         "google-deepmind": 244,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 547,
+        "openai": 604,
         "anthropic": 345,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 653,
+        "openai": 722,
         "anthropic": 412,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 760,
+        "openai": 840,
         "anthropic": 480,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 866,
+        "openai": 957,
         "anthropic": 547,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 972,
+        "openai": 1075,
         "anthropic": 614,
         "google-deepmind": 217,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 304,
+        "openai": 336,
         "anthropic": 192,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 395,
+        "openai": 436,
         "anthropic": 249,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 486,
+        "openai": 537,
         "anthropic": 307,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 577,
+        "openai": 638,
         "anthropic": 364,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 668,
+        "openai": 739,
         "anthropic": 422,
         "google-deepmind": 149,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 456,
+        "openai": 504,
         "anthropic": 288,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 562,
+        "openai": 621,
         "anthropic": 355,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 668,
+        "openai": 739,
         "anthropic": 422,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 775,
+        "openai": 856,
         "anthropic": 489,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 881,
+        "openai": 974,
         "anthropic": 556,
         "google-deepmind": 197,
         "meta-ai": 116
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-74934",
+      "id": "news-51582",
       "date": "2026-09-05",
       "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
       "content": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.\n\nThe Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an a",
@@ -397,7 +397,32 @@
       ]
     },
     {
-      "id": "news-20869",
+      "id": "news-92746",
+      "date": "2026-09-05",
+      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+      "content": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-31535",
+      "date": "2026-09-05",
+      "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+      "content": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model \"misalignment\" rather than a security breach. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "openai",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-84033",
       "date": "2026-09-04",
       "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
       "content": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.\n\n\"Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure ",
@@ -409,7 +434,7 @@
       ]
     },
     {
-      "id": "news-76814",
+      "id": "news-2988",
       "date": "2026-09-04",
       "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
       "content": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws.\n\nThe fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media service did not elaborate on what those",
@@ -421,7 +446,7 @@
       ]
     },
     {
-      "id": "news-29834",
+      "id": "news-48025",
       "date": "2026-09-04",
       "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
       "content": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\"\n\nThe development comes days after the artificial intelligence (AI) company said the model had reached the \"Critical\" cybersecurity capability threshold unde",
@@ -434,7 +459,7 @@
       ]
     },
     {
-      "id": "news-25256",
+      "id": "news-70270",
       "date": "2026-09-04",
       "title": "IDScan sued over alleged data breach affecting 153 million drivers",
       "content": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
@@ -446,7 +471,7 @@
       ]
     },
     {
-      "id": "news-82759",
+      "id": "news-67484",
       "date": "2026-09-04",
       "title": "39 New Methods That Compromise Passkey Authentication",
       "content": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credentials, enrollment, recovery, and other trust boundaries withou",
@@ -458,7 +483,7 @@
       ]
     },
     {
-      "id": "news-6854",
+      "id": "news-66552",
       "date": "2026-09-03",
       "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
       "content": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts.\n\n\"Unlike the standard infostealer model, BraZetsu is a comprehensive maste",
@@ -470,7 +495,7 @@
       ]
     },
     {
-      "id": "news-85974",
+      "id": "news-23643",
       "date": "2026-09-03",
       "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
       "content": "Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026, affecting courts in 11 U.S. states, the U.S. Virgin Islands, and Ontario, Canada.\n\nWest P",
@@ -482,7 +507,7 @@
       ]
     },
     {
-      "id": "news-82695",
+      "id": "news-49969",
       "date": "2026-09-03",
       "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
       "content": "In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments, Continuous Integration/Continuous Deployment (CI/CD) tooling, cloud configurations, and even AI",
@@ -494,7 +519,7 @@
       ]
     },
     {
-      "id": "news-90884",
+      "id": "news-95656",
       "date": "2026-09-03",
       "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
       "content": "The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a proof-of-concept (PoC) for a privilege escalation flaw impacting Crowdstrike Falcon.\n\n\"FalconFlank is a 0-day privilege e",
@@ -506,7 +531,7 @@
       ]
     },
     {
-      "id": "news-30287",
+      "id": "news-98027",
       "date": "2026-09-03",
       "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in attackers' crosshairs.\n\nThe vulnerabilities are as follows -\n\n\n  CVE-2026-83548 (CVSS score: 10.0) - ",
@@ -518,7 +543,7 @@
       ]
     },
     {
-      "id": "news-44719",
+      "id": "news-65532",
       "date": "2026-09-03",
       "title": "French hospital fined €500,000 after breach exposes data of 727,000",
       "content": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]",
@@ -530,7 +555,7 @@
       ]
     },
     {
-      "id": "news-53403",
+      "id": "news-30350",
       "date": "2026-09-03",
       "title": "Coder's registry infrastructure compromised to push malicious modules",
       "content": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
@@ -538,33 +563,6 @@
       "impact": "Moderate",
       "views": 0,
       "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-15366",
-      "date": "2026-09-03",
-      "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
-      "content": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine whether stolen access is still usable, and respond before it leads to account takeove",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-56689",
-      "date": "2026-09-02",
-      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
-      "content": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called the Fairwind Program.\n\n\"The Fairwind Program gives high-priority defenders (like g",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "anthropic",
-        "google-deepmind",
         "moderate"
       ]
     }
