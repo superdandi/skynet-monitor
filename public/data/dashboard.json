@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06 10:46 UTC",
+  "lastUpdated": "2026-09-06 15:22 UTC",
   "companies": [
     {
       "id": "openai",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 44,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-2082",
+      "id": "news-93366",
       "date": "2026-09-06",
       "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
       "content": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to&nbsp;CERT Polska's attack warning, published on September 5.\n\nSuccessful a",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-63649",
+      "id": "news-39012",
       "date": "2026-09-06",
       "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
       "content": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself.\n\nOne of them switches off Windows Update and Microsoft Defender befor",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-57002",
+      "id": "news-61163",
       "date": "2026-09-06",
       "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
       "content": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an&nbsp;advisory published on September 5.\n\nSansec, ",
@@ -421,7 +421,19 @@
       ]
     },
     {
-      "id": "news-81371",
+      "id": "news-53932",
+      "date": "2026-09-06",
+      "title": "Attackers conceal phishing lures using invisible Unicode characters",
+      "content": "Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security filters. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-92567",
       "date": "2026-09-05",
       "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
       "content": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment.\n\n\"Cadence users should immediately ",
@@ -433,7 +445,7 @@
       ]
     },
     {
-      "id": "news-69112",
+      "id": "news-98741",
       "date": "2026-09-05",
       "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
       "content": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions.\n\nThe vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer",
@@ -445,7 +457,7 @@
       ]
     },
     {
-      "id": "news-72067",
+      "id": "news-88771",
       "date": "2026-09-05",
       "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
       "content": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk.\n\nThe exposed information includes customer names, email addresses, phone numbers, shipping addresses, and order nu",
@@ -457,7 +469,7 @@
       ]
     },
     {
-      "id": "news-79956",
+      "id": "news-28006",
       "date": "2026-09-05",
       "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
       "content": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.\n\nThe Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an a",
@@ -469,7 +481,7 @@
       ]
     },
     {
-      "id": "news-90359",
+      "id": "news-91761",
       "date": "2026-09-05",
       "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
       "content": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
@@ -481,7 +493,7 @@
       ]
     },
     {
-      "id": "news-20734",
+      "id": "news-29331",
       "date": "2026-09-05",
       "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
       "content": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model \"misalignment\" rather than a security breach. [...]",
@@ -494,7 +506,7 @@
       ]
     },
     {
-      "id": "news-16207",
+      "id": "news-84581",
       "date": "2026-09-04",
       "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
       "content": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.\n\n\"Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure ",
@@ -506,7 +518,7 @@
       ]
     },
     {
-      "id": "news-97526",
+      "id": "news-52721",
       "date": "2026-09-04",
       "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
       "content": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws.\n\nThe fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media service did not elaborate on what those",
@@ -518,7 +530,7 @@
       ]
     },
     {
-      "id": "news-14291",
+      "id": "news-64422",
       "date": "2026-09-04",
       "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
       "content": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\"\n\nThe development comes days after the artificial intelligence (AI) company said the model had reached the \"Critical\" cybersecurity capability threshold unde",
@@ -531,7 +543,7 @@
       ]
     },
     {
-      "id": "news-31890",
+      "id": "news-36305",
       "date": "2026-09-04",
       "title": "IDScan sued over alleged data breach affecting 153 million drivers",
       "content": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
@@ -543,22 +555,10 @@
       ]
     },
     {
-      "id": "news-70182",
+      "id": "news-64512",
       "date": "2026-09-04",
       "title": "39 New Methods That Compromise Passkey Authentication",
       "content": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credentials, enrollment, recovery, and other trust boundaries withou",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-19774",
-      "date": "2026-09-03",
-      "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
-      "content": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts.\n\n\"Unlike the standard infostealer model, BraZetsu is a comprehensive maste",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
