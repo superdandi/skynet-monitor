@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08 16:32 UTC",
+  "lastUpdated": "2026-09-08 21:02 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,7 +8,7 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 92,
       "trend": {
-        "value": 8,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "critical",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 40,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-33472",
+      "id": "news-86665",
       "date": "2026-09-08",
       "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
       "content": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6,&nbsp;returned 3,400 of it&nbsp;the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back.\n\nLiquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-80777",
+      "id": "news-28300",
       "date": "2026-09-08",
       "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
       "content": "Check Point Research said in a&nbsp;report published today&nbsp;that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual.\n\nIn the company's proof of concept, that hidden work read ",
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "id": "news-48170",
+      "id": "news-51507",
       "date": "2026-09-08",
       "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
       "content": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours.\n\nGo",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "id": "news-35980",
+      "id": "news-64895",
       "date": "2026-09-08",
       "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
       "content": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says.\n\nFreeIPA is the system that determines who may log in across a Linux domain and maintains all identities ",
@@ -434,7 +434,7 @@
       ]
     },
     {
-      "id": "news-76620",
+      "id": "news-23776",
       "date": "2026-09-08",
       "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
       "content": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams.\n\nThe campaign, discovered by the DFIR Report in March 2026, has been codenamed BengalSEO. It has o",
@@ -446,7 +446,31 @@
       ]
     },
     {
-      "id": "news-28914",
+      "id": "news-12016",
+      "date": "2026-09-08",
+      "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
+      "content": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what shipped and when vulnerabilities were discovered will be cr",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-47486",
+      "date": "2026-09-08",
+      "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
+      "content": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-21064",
       "date": "2026-09-08",
       "title": "OpenAI says ChatGPT outage causes image generation errors",
       "content": "OpenAI is investigating an ongoing incident causing ChatGPT image generation failures and delays when uploading files. [...]",
@@ -459,7 +483,7 @@
       ]
     },
     {
-      "id": "news-65887",
+      "id": "news-22013",
       "date": "2026-09-08",
       "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
       "content": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnostic service is enabled. [...]",
@@ -471,7 +495,7 @@
       ]
     },
     {
-      "id": "news-40332",
+      "id": "news-52054",
       "date": "2026-09-08",
       "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
       "content": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. [...]",
@@ -484,7 +508,7 @@
       ]
     },
     {
-      "id": "news-94742",
+      "id": "news-17176",
       "date": "2026-09-08",
       "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
       "content": "Third-party applications connected to Google Workspace can retain access long after their original purpose is forgotten. This webinar examines how overly permissive integrations contribute to breaches and which security controls can help fast-growing companies reduce their exposu",
@@ -496,7 +520,7 @@
       ]
     },
     {
-      "id": "news-81516",
+      "id": "news-48849",
       "date": "2026-09-08",
       "title": "Hackers build AI frameworks for widescale credential theft",
       "content": "Threat actors are increasingly switching from AI-powered coding assistants to multi-agent frameworks that automate every stage of an attack. [...]",
@@ -508,19 +532,7 @@
       ]
     },
     {
-      "id": "news-17247",
-      "date": "2026-09-08",
-      "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
-      "content": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight details spanning 2017 to 2026. Researchers accessed the Vietnam-linked system throu",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-84576",
+      "id": "news-90611",
       "date": "2026-09-07",
       "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
       "content": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser.\n\n\"Requiring prior administrative or code execution access, its installer injects the extension directl",
@@ -532,7 +544,7 @@
       ]
     },
     {
-      "id": "news-37772",
+      "id": "news-73331",
       "date": "2026-09-07",
       "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
       "content": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and res",
@@ -544,22 +556,10 @@
       ]
     },
     {
-      "id": "news-8253",
+      "id": "news-52930",
       "date": "2026-09-07",
       "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
       "content": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precaution you were counting on.\n\nElsewhere, a t",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-65615",
-      "date": "2026-09-07",
-      "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
-      "content": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organizations across AWS, Azure, and Google Cloud and found that risk profiles across ",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
