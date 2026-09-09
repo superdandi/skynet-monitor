@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08 21:02 UTC",
+  "lastUpdated": "2026-09-09 04:25 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-86665",
+      "id": "news-4970",
       "date": "2026-09-08",
       "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
       "content": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6,&nbsp;returned 3,400 of it&nbsp;the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back.\n\nLiquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-28300",
+      "id": "news-1644",
       "date": "2026-09-08",
       "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
       "content": "Check Point Research said in a&nbsp;report published today&nbsp;that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual.\n\nIn the company's proof of concept, that hidden work read ",
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "id": "news-51507",
+      "id": "news-57068",
       "date": "2026-09-08",
       "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
       "content": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours.\n\nGo",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "id": "news-64895",
+      "id": "news-16856",
       "date": "2026-09-08",
       "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
       "content": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says.\n\nFreeIPA is the system that determines who may log in across a Linux domain and maintains all identities ",
@@ -434,7 +434,7 @@
       ]
     },
     {
-      "id": "news-23776",
+      "id": "news-64891",
       "date": "2026-09-08",
       "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
       "content": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams.\n\nThe campaign, discovered by the DFIR Report in March 2026, has been codenamed BengalSEO. It has o",
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": "news-12016",
+      "id": "news-37273",
       "date": "2026-09-08",
       "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
       "content": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what shipped and when vulnerabilities were discovered will be cr",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-47486",
+      "id": "news-13109",
       "date": "2026-09-08",
       "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
       "content": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-21064",
+      "id": "news-40727",
       "date": "2026-09-08",
       "title": "OpenAI says ChatGPT outage causes image generation errors",
       "content": "OpenAI is investigating an ongoing incident causing ChatGPT image generation failures and delays when uploading files. [...]",
@@ -483,7 +483,7 @@
       ]
     },
     {
-      "id": "news-22013",
+      "id": "news-10796",
       "date": "2026-09-08",
       "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
       "content": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnostic service is enabled. [...]",
@@ -495,7 +495,7 @@
       ]
     },
     {
-      "id": "news-52054",
+      "id": "news-26758",
       "date": "2026-09-08",
       "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
       "content": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. [...]",
@@ -508,7 +508,7 @@
       ]
     },
     {
-      "id": "news-17176",
+      "id": "news-8072",
       "date": "2026-09-08",
       "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
       "content": "Third-party applications connected to Google Workspace can retain access long after their original purpose is forgotten. This webinar examines how overly permissive integrations contribute to breaches and which security controls can help fast-growing companies reduce their exposu",
@@ -520,7 +520,7 @@
       ]
     },
     {
-      "id": "news-48849",
+      "id": "news-58162",
       "date": "2026-09-08",
       "title": "Hackers build AI frameworks for widescale credential theft",
       "content": "Threat actors are increasingly switching from AI-powered coding assistants to multi-agent frameworks that automate every stage of an attack. [...]",
@@ -532,7 +532,19 @@
       ]
     },
     {
-      "id": "news-90611",
+      "id": "news-5812",
+      "date": "2026-09-08",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "content": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security expe",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-75360",
       "date": "2026-09-07",
       "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
       "content": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser.\n\n\"Requiring prior administrative or code execution access, its installer injects the extension directl",
@@ -544,22 +556,10 @@
       ]
     },
     {
-      "id": "news-73331",
+      "id": "news-76491",
       "date": "2026-09-07",
       "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
       "content": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and res",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-52930",
-      "date": "2026-09-07",
-      "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
-      "content": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precaution you were counting on.\n\nElsewhere, a t",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
