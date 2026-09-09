@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-09 11:10 UTC",
+  "lastUpdated": "2026-09-09 16:28 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 80,
+      "probability": 84,
       "trend": {
-        "value": 12,
-        "direction": "down"
+        "value": 4,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 3,
+      "recentIncidents": 4,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 32,
+      "probability": 40,
       "trend": {
         "value": 8,
-        "direction": "down"
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 0,
+      "recentIncidents": 2,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 13,
+      "probability": 17,
       "trend": {
         "value": 4,
-        "direction": "down"
+        "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
-      "recentIncidents": 0,
+      "recentIncidents": 1,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -104,14 +104,14 @@
       "name": "xAI",
       "shortName": "xAI",
       "description": "Elon Musk's AI company behind Grok",
-      "probability": 2,
+      "probability": 6,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "low",
       "riskFactors": 0,
-      "recentIncidents": 0,
+      "recentIncidents": 1,
       "statusMessage": "Low threat profile",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -200,148 +200,148 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 640,
-        "anthropic": 256,
-        "google-deepmind": 104,
+        "openai": 672,
+        "anthropic": 320,
+        "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 768,
-        "anthropic": 307,
-        "google-deepmind": 124,
+        "openai": 806,
+        "anthropic": 384,
+        "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 896,
-        "anthropic": 358,
-        "google-deepmind": 145,
+        "openai": 940,
+        "anthropic": 448,
+        "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1024,
-        "anthropic": 409,
-        "google-deepmind": 166,
+        "openai": 1075,
+        "anthropic": 512,
+        "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1152,
-        "anthropic": 460,
-        "google-deepmind": 187,
+        "openai": 1209,
+        "anthropic": 576,
+        "google-deepmind": 244,
         "meta-ai": 144
       }
     ],
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 576,
-        "anthropic": 230,
-        "google-deepmind": 93,
+        "openai": 604,
+        "anthropic": 288,
+        "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 688,
-        "anthropic": 275,
-        "google-deepmind": 111,
+        "openai": 722,
+        "anthropic": 344,
+        "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 800,
-        "anthropic": 320,
-        "google-deepmind": 130,
+        "openai": 840,
+        "anthropic": 400,
+        "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 912,
-        "anthropic": 364,
-        "google-deepmind": 148,
+        "openai": 957,
+        "anthropic": 456,
+        "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1024,
-        "anthropic": 409,
-        "google-deepmind": 166,
+        "openai": 1075,
+        "anthropic": 512,
+        "google-deepmind": 217,
         "meta-ai": 128
       }
     ],
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 320,
-        "anthropic": 128,
-        "google-deepmind": 52,
+        "openai": 336,
+        "anthropic": 160,
+        "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 416,
-        "anthropic": 166,
-        "google-deepmind": 67,
+        "openai": 436,
+        "anthropic": 208,
+        "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 512,
-        "anthropic": 204,
-        "google-deepmind": 83,
+        "openai": 537,
+        "anthropic": 256,
+        "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 608,
-        "anthropic": 243,
-        "google-deepmind": 98,
+        "openai": 638,
+        "anthropic": 304,
+        "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 704,
-        "anthropic": 281,
-        "google-deepmind": 114,
+        "openai": 739,
+        "anthropic": 352,
+        "google-deepmind": 149,
         "meta-ai": 88
       }
     ],
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 480,
-        "anthropic": 192,
-        "google-deepmind": 78,
+        "openai": 504,
+        "anthropic": 240,
+        "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 592,
-        "anthropic": 236,
-        "google-deepmind": 96,
+        "openai": 621,
+        "anthropic": 296,
+        "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 704,
-        "anthropic": 281,
-        "google-deepmind": 114,
+        "openai": 739,
+        "anthropic": 352,
+        "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 816,
-        "anthropic": 326,
-        "google-deepmind": 132,
+        "openai": 856,
+        "anthropic": 408,
+        "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 928,
-        "anthropic": 371,
-        "google-deepmind": 150,
+        "openai": 974,
+        "anthropic": 464,
+        "google-deepmind": 197,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,48 @@
   },
   "news": [
     {
-      "id": "news-99407",
+      "id": "news-70261",
+      "date": "2026-09-09",
+      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+      "content": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp;\n\nInformation stealers like Lumma Stealer or Vidar are equ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-49610",
+      "date": "2026-09-09",
+      "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
+      "content": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed?\n\nFor many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-97053",
+      "date": "2026-09-09",
+      "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+      "content": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks.\n\nThe activity has been desc",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "anthropic",
+        "google-deepmind",
+        "xai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-62938",
       "date": "2026-09-09",
       "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
       "content": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an&nbsp;analysis published on September 7.\n\nWhen Apache loads any of the three appliances' own PHP scripts, the malware adds the ",
@@ -397,7 +438,7 @@
       ]
     },
     {
-      "id": "news-48544",
+      "id": "news-52602",
       "date": "2026-09-09",
       "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
       "content": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.\n\nThe vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which t",
@@ -409,7 +450,7 @@
       ]
     },
     {
-      "id": "news-15508",
+      "id": "news-25423",
       "date": "2026-09-09",
       "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
       "content": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application\n\nThe vulnerability, tracked as",
@@ -421,7 +462,7 @@
       ]
     },
     {
-      "id": "news-93841",
+      "id": "news-40555",
       "date": "2026-09-09",
       "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
       "content": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild.\n\nThese include 723 flaws in Windows, 111 in Office and Office 2016, 6",
@@ -433,7 +474,31 @@
       ]
     },
     {
-      "id": "news-12642",
+      "id": "news-85921",
+      "date": "2026-09-09",
+      "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
+      "content": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-95683",
+      "date": "2026-09-09",
+      "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
+      "content": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verification at the service desk is critical to preventing social engineering attacks from",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-96165",
       "date": "2026-09-09",
       "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
       "content": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
@@ -445,7 +510,7 @@
       ]
     },
     {
-      "id": "news-54109",
+      "id": "news-3995",
       "date": "2026-09-08",
       "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
       "content": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6,&nbsp;returned 3,400 of it&nbsp;the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back.\n\nLiquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC",
@@ -457,7 +522,7 @@
       ]
     },
     {
-      "id": "news-23713",
+      "id": "news-74361",
       "date": "2026-09-08",
       "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
       "content": "Check Point Research said in a&nbsp;report published today&nbsp;that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual.\n\nIn the company's proof of concept, that hidden work read ",
@@ -470,7 +535,7 @@
       ]
     },
     {
-      "id": "news-57608",
+      "id": "news-70700",
       "date": "2026-09-08",
       "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
       "content": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours.\n\nGo",
@@ -482,7 +547,7 @@
       ]
     },
     {
-      "id": "news-62780",
+      "id": "news-30963",
       "date": "2026-09-08",
       "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
       "content": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says.\n\nFreeIPA is the system that determines who may log in across a Linux domain and maintains all identities ",
@@ -494,71 +559,10 @@
       ]
     },
     {
-      "id": "news-56247",
+      "id": "news-59567",
       "date": "2026-09-08",
       "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
       "content": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams.\n\nThe campaign, discovered by the DFIR Report in March 2026, has been codenamed BengalSEO. It has o",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-87896",
-      "date": "2026-09-08",
-      "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
-      "content": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what shipped and when vulnerabilities were discovered will be cr",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-97562",
-      "date": "2026-09-08",
-      "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
-      "content": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-49990",
-      "date": "2026-09-08",
-      "title": "OpenAI says ChatGPT outage causes image generation errors",
-      "content": "OpenAI is investigating an ongoing incident causing ChatGPT image generation failures and delays when uploading files. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-99459",
-      "date": "2026-09-08",
-      "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
-      "content": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnostic service is enabled. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-98944",
-      "date": "2026-09-08",
-      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-      "content": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security expe",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
