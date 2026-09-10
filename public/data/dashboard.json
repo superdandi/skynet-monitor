@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09 20:50 UTC",
+  "lastUpdated": "2026-09-10 04:22 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 80,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-95118",
+      "id": "news-86383",
       "date": "2026-09-09",
       "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
       "content": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp;\n\nInformation stealers like Lumma Stealer or Vidar are equ",
@@ -398,7 +398,7 @@
       ]
     },
     {
-      "id": "news-54270",
+      "id": "news-28887",
       "date": "2026-09-09",
       "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
       "content": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed?\n\nFor many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application",
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "id": "news-43253",
+      "id": "news-29014",
       "date": "2026-09-09",
       "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
       "content": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks.\n\nThe activity has been desc",
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": "news-30907",
+      "id": "news-74512",
       "date": "2026-09-09",
       "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
       "content": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an&nbsp;analysis published on September 7.\n\nWhen Apache loads any of the three appliances' own PHP scripts, the malware adds the ",
@@ -438,7 +438,7 @@
       ]
     },
     {
-      "id": "news-88899",
+      "id": "news-47078",
       "date": "2026-09-09",
       "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
       "content": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.\n\nThe vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which t",
@@ -450,7 +450,7 @@
       ]
     },
     {
-      "id": "news-81570",
+      "id": "news-71945",
       "date": "2026-09-09",
       "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
       "content": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application\n\nThe vulnerability, tracked as",
@@ -462,7 +462,7 @@
       ]
     },
     {
-      "id": "news-75233",
+      "id": "news-77400",
       "date": "2026-09-09",
       "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
       "content": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild.\n\nThese include 723 flaws in Windows, 111 in Office and Office 2016, 6",
@@ -474,7 +474,19 @@
       ]
     },
     {
-      "id": "news-45370",
+      "id": "news-96103",
+      "date": "2026-09-09",
+      "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
+      "content": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-77460",
       "date": "2026-09-09",
       "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
       "content": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI models since at least late 2024. [...]",
@@ -486,7 +498,7 @@
       ]
     },
     {
-      "id": "news-5278",
+      "id": "news-84390",
       "date": "2026-09-09",
       "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
       "content": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]",
@@ -498,7 +510,7 @@
       ]
     },
     {
-      "id": "news-68760",
+      "id": "news-58966",
       "date": "2026-09-09",
       "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
       "content": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verification at the service desk is critical to preventing social engineering attacks from",
@@ -510,7 +522,7 @@
       ]
     },
     {
-      "id": "news-1643",
+      "id": "news-36744",
       "date": "2026-09-09",
       "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
       "content": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
@@ -522,7 +534,7 @@
       ]
     },
     {
-      "id": "news-86515",
+      "id": "news-92019",
       "date": "2026-09-08",
       "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
       "content": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6,&nbsp;returned 3,400 of it&nbsp;the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back.\n\nLiquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC",
@@ -534,7 +546,7 @@
       ]
     },
     {
-      "id": "news-75945",
+      "id": "news-6671",
       "date": "2026-09-08",
       "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
       "content": "Check Point Research said in a&nbsp;report published today&nbsp;that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual.\n\nIn the company's proof of concept, that hidden work read ",
@@ -547,7 +559,7 @@
       ]
     },
     {
-      "id": "news-63075",
+      "id": "news-92915",
       "date": "2026-09-08",
       "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
       "content": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours.\n\nGo",
@@ -556,18 +568,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-98149",
-      "date": "2026-09-08",
-      "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-      "content": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says.\n\nFreeIPA is the system that determines who may log in across a Linux domain and maintains all identities ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
