@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10 04:22 UTC",
+  "lastUpdated": "2026-09-10 11:06 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 40,
+      "probability": 48,
       "trend": {
-        "value": 0,
+        "value": 8,
         "direction": "up"
       },
       "riskLevel": "high",
-      "riskFactors": 0,
-      "recentIncidents": 2,
+      "riskFactors": 1,
+      "recentIncidents": 3,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 640,
-        "anthropic": 320,
+        "anthropic": 384,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 768,
-        "anthropic": 384,
+        "anthropic": 460,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 896,
-        "anthropic": 448,
+        "anthropic": 537,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 1024,
-        "anthropic": 512,
+        "anthropic": 614,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1152,
-        "anthropic": 576,
+        "anthropic": 691,
         "google-deepmind": 244,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 576,
-        "anthropic": 288,
+        "anthropic": 345,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 688,
-        "anthropic": 344,
+        "anthropic": 412,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 800,
-        "anthropic": 400,
+        "anthropic": 480,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 912,
-        "anthropic": 456,
+        "anthropic": 547,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 1024,
-        "anthropic": 512,
+        "anthropic": 614,
         "google-deepmind": 217,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 320,
-        "anthropic": 160,
+        "anthropic": 192,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 416,
-        "anthropic": 208,
+        "anthropic": 249,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 512,
-        "anthropic": 256,
+        "anthropic": 307,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 608,
-        "anthropic": 304,
+        "anthropic": 364,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 704,
-        "anthropic": 352,
+        "anthropic": 422,
         "google-deepmind": 149,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 480,
-        "anthropic": 240,
+        "anthropic": 288,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 592,
-        "anthropic": 296,
+        "anthropic": 355,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 704,
-        "anthropic": 352,
+        "anthropic": 422,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 816,
-        "anthropic": 408,
+        "anthropic": 489,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 928,
-        "anthropic": 464,
+        "anthropic": 556,
         "google-deepmind": 197,
         "meta-ai": 116
       }
@@ -385,7 +385,44 @@
   },
   "news": [
     {
-      "id": "news-86383",
+      "id": "news-10799",
+      "date": "2026-09-10",
+      "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+      "content": "Nearly one in ten of the internet-facing LiteLLM servers that&nbsp;Wiz Research&nbsp;scanned in February accepted&nbsp;sk-1234, the example admin key in LiteLLM's own setup guide.\n\nLiteLLM is an open-source AI gateway, the software a company puts between its applications and the ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-11610",
+      "date": "2026-09-10",
+      "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+      "content": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed by autonomous AI agents.\n\nThe AI company ",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-53282",
+      "date": "2026-09-10",
+      "title": "Trezor warns users of email provider breach, phishing attacks",
+      "content": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-9337",
       "date": "2026-09-09",
       "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
       "content": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp;\n\nInformation stealers like Lumma Stealer or Vidar are equ",
@@ -398,7 +435,7 @@
       ]
     },
     {
-      "id": "news-28887",
+      "id": "news-63806",
       "date": "2026-09-09",
       "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
       "content": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed?\n\nFor many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application",
@@ -410,7 +447,7 @@
       ]
     },
     {
-      "id": "news-29014",
+      "id": "news-90838",
       "date": "2026-09-09",
       "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
       "content": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks.\n\nThe activity has been desc",
@@ -426,7 +463,7 @@
       ]
     },
     {
-      "id": "news-74512",
+      "id": "news-18789",
       "date": "2026-09-09",
       "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
       "content": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an&nbsp;analysis published on September 7.\n\nWhen Apache loads any of the three appliances' own PHP scripts, the malware adds the ",
@@ -438,7 +475,7 @@
       ]
     },
     {
-      "id": "news-47078",
+      "id": "news-29765",
       "date": "2026-09-09",
       "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
       "content": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.\n\nThe vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which t",
@@ -450,7 +487,7 @@
       ]
     },
     {
-      "id": "news-71945",
+      "id": "news-35960",
       "date": "2026-09-09",
       "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
       "content": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application\n\nThe vulnerability, tracked as",
@@ -462,7 +499,7 @@
       ]
     },
     {
-      "id": "news-77400",
+      "id": "news-24592",
       "date": "2026-09-09",
       "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
       "content": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild.\n\nThese include 723 flaws in Windows, 111 in Office and Office 2016, 6",
@@ -474,7 +511,7 @@
       ]
     },
     {
-      "id": "news-96103",
+      "id": "news-11680",
       "date": "2026-09-09",
       "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
       "content": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction. [...]",
@@ -486,7 +523,7 @@
       ]
     },
     {
-      "id": "news-77460",
+      "id": "news-12713",
       "date": "2026-09-09",
       "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
       "content": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI models since at least late 2024. [...]",
@@ -498,7 +535,7 @@
       ]
     },
     {
-      "id": "news-84390",
+      "id": "news-78656",
       "date": "2026-09-09",
       "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
       "content": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]",
@@ -510,7 +547,7 @@
       ]
     },
     {
-      "id": "news-58966",
+      "id": "news-85819",
       "date": "2026-09-09",
       "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
       "content": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verification at the service desk is critical to preventing social engineering attacks from",
@@ -522,7 +559,7 @@
       ]
     },
     {
-      "id": "news-36744",
+      "id": "news-78056",
       "date": "2026-09-09",
       "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
       "content": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
@@ -531,43 +568,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-92019",
-      "date": "2026-09-08",
-      "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
-      "content": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6,&nbsp;returned 3,400 of it&nbsp;the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back.\n\nLiquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-6671",
-      "date": "2026-09-08",
-      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
-      "content": "Check Point Research said in a&nbsp;report published today&nbsp;that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual.\n\nIn the company's proof of concept, that hidden work read ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-92915",
-      "date": "2026-09-08",
-      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
-      "content": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours.\n\nGo",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
