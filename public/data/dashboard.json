@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10 16:17 UTC",
+  "lastUpdated": "2026-09-10 20:45 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 76,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-77503",
+      "id": "news-21035",
+      "date": "2026-09-10",
+      "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+      "content": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?”\n\nAn extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old bug still gets results. An exposed system stays exposed. A ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-73982",
       "date": "2026-09-10",
       "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
       "content": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances.\n\nAccording to independent reports from Blackpoi",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-78355",
+      "id": "news-27277",
       "date": "2026-09-10",
       "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
       "content": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a&nbsp;report published on September 9.\n\nA work profile is a separate space that Android typica",
@@ -409,7 +421,7 @@
       ]
     },
     {
-      "id": "news-68449",
+      "id": "news-67816",
       "date": "2026-09-10",
       "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
       "content": "Nearly one in ten of the internet-facing LiteLLM servers that&nbsp;Wiz Research&nbsp;scanned in February accepted&nbsp;sk-1234, the example admin key in LiteLLM's own setup guide.\n\nLiteLLM is an open-source AI gateway, the software a company puts between its applications and the ",
@@ -421,7 +433,7 @@
       ]
     },
     {
-      "id": "news-33111",
+      "id": "news-28866",
       "date": "2026-09-10",
       "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
       "content": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed by autonomous AI agents.\n\nThe AI company ",
@@ -434,7 +446,19 @@
       ]
     },
     {
-      "id": "news-78030",
+      "id": "news-11673",
+      "date": "2026-09-10",
+      "title": "September Windows Server updates break Remote Desktop Services",
+      "content": "Windows admins report that the September 2026 security updates are causing Remote Desktop Services (RDS) failures on Windows Server 2019, 2022, and 2025 servers, preventing users from connecting and, in some cases, requiring a hard reset to restore functionality. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-20892",
       "date": "2026-09-10",
       "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
       "content": "A threat actor, likely Russian-speaking, used hundreds of AI agents to develop and launch a global exploitation campaign targeting vulnerable PaperCut NG/MF servers. [...]",
@@ -446,7 +470,7 @@
       ]
     },
     {
-      "id": "news-35477",
+      "id": "news-78183",
       "date": "2026-09-10",
       "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
       "content": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's license scans. [...]",
@@ -458,7 +482,7 @@
       ]
     },
     {
-      "id": "news-17816",
+      "id": "news-20370",
       "date": "2026-09-10",
       "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
       "content": "Identity was the target in roughly half of all confirmed malicious activity. Prophet Security breaks down the four main attack patterns seen across customer environments between May and July 2026, and explains why some attacks succeeded while others were blocked. [...]",
@@ -470,7 +494,7 @@
       ]
     },
     {
-      "id": "news-81989",
+      "id": "news-80327",
       "date": "2026-09-10",
       "title": "Trezor warns users of email provider breach, phishing attacks",
       "content": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. [...]",
@@ -482,7 +506,7 @@
       ]
     },
     {
-      "id": "news-69898",
+      "id": "news-14427",
       "date": "2026-09-09",
       "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
       "content": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp;\n\nInformation stealers like Lumma Stealer or Vidar are equ",
@@ -495,7 +519,7 @@
       ]
     },
     {
-      "id": "news-24194",
+      "id": "news-39083",
       "date": "2026-09-09",
       "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
       "content": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed?\n\nFor many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application",
@@ -507,7 +531,7 @@
       ]
     },
     {
-      "id": "news-63292",
+      "id": "news-85039",
       "date": "2026-09-09",
       "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
       "content": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks.\n\nThe activity has been desc",
@@ -523,7 +547,7 @@
       ]
     },
     {
-      "id": "news-55524",
+      "id": "news-42624",
       "date": "2026-09-09",
       "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
       "content": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an&nbsp;analysis published on September 7.\n\nWhen Apache loads any of the three appliances' own PHP scripts, the malware adds the ",
@@ -535,34 +559,10 @@
       ]
     },
     {
-      "id": "news-20133",
+      "id": "news-26208",
       "date": "2026-09-09",
       "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
       "content": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.\n\nThe vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which t",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-31981",
-      "date": "2026-09-09",
-      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
-      "content": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application\n\nThe vulnerability, tracked as",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-85959",
-      "date": "2026-09-09",
-      "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
-      "content": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild.\n\nThese include 723 flaws in Windows, 111 in Office and Office 2016, 6",
       "category": "critical",
       "impact": "Critical",
       "views": 0,
