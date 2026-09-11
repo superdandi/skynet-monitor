@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11 04:21 UTC",
+  "lastUpdated": "2026-09-11 11:05 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,67 @@
   },
   "news": [
     {
-      "id": "news-99128",
+      "id": "news-37256",
+      "date": "2026-09-11",
+      "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+      "content": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security company Wiz&nbsp;said in a report.\n\nWiz saw the attacks between August 15 and Se",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-35221",
+      "date": "2026-09-11",
+      "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+      "content": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in&nbsp;research published Thursday.\n\nThe attack started",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-25407",
+      "date": "2026-09-11",
+      "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
+      "content": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation.\n\nThe software development company said PaperCut NG/MF versions 26.0.5",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-29727",
+      "date": "2026-09-11",
+      "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
+      "content": "Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users who clicked an embedded malicious link. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-47983",
+      "date": "2026-09-11",
+      "title": "Conti ransomware gang member sentenced to 4 years in prison",
+      "content": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-13533",
       "date": "2026-09-10",
       "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
       "content": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?”\n\nAn extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old bug still gets results. An exposed system stays exposed. A ",
@@ -397,7 +457,7 @@
       ]
     },
     {
-      "id": "news-43037",
+      "id": "news-88825",
       "date": "2026-09-10",
       "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
       "content": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances.\n\nAccording to independent reports from Blackpoi",
@@ -409,7 +469,7 @@
       ]
     },
     {
-      "id": "news-49020",
+      "id": "news-20301",
       "date": "2026-09-10",
       "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
       "content": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a&nbsp;report published on September 9.\n\nA work profile is a separate space that Android typica",
@@ -421,7 +481,7 @@
       ]
     },
     {
-      "id": "news-71935",
+      "id": "news-31401",
       "date": "2026-09-10",
       "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
       "content": "Nearly one in ten of the internet-facing LiteLLM servers that&nbsp;Wiz Research&nbsp;scanned in February accepted&nbsp;sk-1234, the example admin key in LiteLLM's own setup guide.\n\nLiteLLM is an open-source AI gateway, the software a company puts between its applications and the ",
@@ -433,7 +493,7 @@
       ]
     },
     {
-      "id": "news-75464",
+      "id": "news-35443",
       "date": "2026-09-10",
       "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
       "content": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed by autonomous AI agents.\n\nThe AI company ",
@@ -446,7 +506,7 @@
       ]
     },
     {
-      "id": "news-77314",
+      "id": "news-99212",
       "date": "2026-09-10",
       "title": "New Android malware encrypts files, steals data, and harasses victims",
       "content": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
@@ -458,7 +518,7 @@
       ]
     },
     {
-      "id": "news-26887",
+      "id": "news-6463",
       "date": "2026-09-10",
       "title": "September Windows Server updates break Remote Desktop Services",
       "content": "Windows admins report that the September 2026 security updates are causing Remote Desktop Services (RDS) failures on Windows Server 2019, 2022, and 2025 servers, preventing users from connecting and, in some cases, requiring a hard reset to restore functionality. [...]",
@@ -470,7 +530,7 @@
       ]
     },
     {
-      "id": "news-52067",
+      "id": "news-26877",
       "date": "2026-09-10",
       "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
       "content": "A threat actor, likely Russian-speaking, used hundreds of AI agents to develop and launch a global exploitation campaign targeting vulnerable PaperCut NG/MF servers. [...]",
@@ -482,7 +542,7 @@
       ]
     },
     {
-      "id": "news-93665",
+      "id": "news-28849",
       "date": "2026-09-10",
       "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
       "content": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's license scans. [...]",
@@ -494,75 +554,10 @@
       ]
     },
     {
-      "id": "news-8318",
+      "id": "news-7132",
       "date": "2026-09-10",
       "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
       "content": "Identity was the target in roughly half of all confirmed malicious activity. Prophet Security breaks down the four main attack patterns seen across customer environments between May and July 2026, and explains why some attacks succeeded while others were blocked. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-37676",
-      "date": "2026-09-10",
-      "title": "Trezor warns users of email provider breach, phishing attacks",
-      "content": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-16020",
-      "date": "2026-09-09",
-      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-      "content": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp;\n\nInformation stealers like Lumma Stealer or Vidar are equ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "anthropic",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-74969",
-      "date": "2026-09-09",
-      "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
-      "content": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed?\n\nFor many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-74816",
-      "date": "2026-09-09",
-      "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
-      "content": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks.\n\nThe activity has been desc",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "anthropic",
-        "google-deepmind",
-        "xai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-44927",
-      "date": "2026-09-09",
-      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
-      "content": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an&nbsp;analysis published on September 7.\n\nWhen Apache loads any of the three appliances' own PHP scripts, the malware adds the ",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
