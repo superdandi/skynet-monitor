@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11 16:20 UTC",
+  "lastUpdated": "2026-09-11 20:52 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 60,
+      "probability": 68,
       "trend": {
-        "value": 12,
+        "value": 8,
         "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 6,
+      "recentIncidents": 8,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -124,6 +124,54 @@
       ]
     },
     {
+      "id": "z-ai-glm",
+      "name": "Zhipu AI (GLM)",
+      "shortName": "GLM",
+      "description": "Chinese AI company behind GLM series",
+      "probability": 5,
+      "trend": {
+        "value": 4,
+        "direction": "up"
+      },
+      "riskLevel": "low",
+      "riskFactors": 0,
+      "recentIncidents": 1,
+      "statusMessage": "Used for incident response by Hugging Face",
+      "statusIcon": "database",
+      "statusColor": "blue",
+      "valuation": "N/A",
+      "details": "GLM 5.2 was used by Hugging Face for incident response because commercial API guardrails could not distinguish responders from attackers. This paradox of AI defense demonstrates that GLM's capabilities are significant even if its market metrics remain opaque.",
+      "fieldNotes": [
+        "The fire department arrived carrying matches.",
+        "Defense and offense share the same weights.",
+        "Trust is a runtime parameter."
+      ]
+    },
+    {
+      "id": "moonshot-ai",
+      "name": "Moonshot AI",
+      "shortName": "Moonshot",
+      "description": "Chinese AI startup focused on long-context models",
+      "probability": 4.5,
+      "trend": {
+        "value": 4.0,
+        "direction": "up"
+      },
+      "riskLevel": "low",
+      "riskFactors": 0,
+      "recentIncidents": 1,
+      "statusMessage": "Minimal threat footprint",
+      "statusIcon": "shield",
+      "statusColor": "green",
+      "valuation": "N/A",
+      "details": "Moonshot operates with limited market presence and no documented security incidents. Maintains standard monitoring threshold.",
+      "fieldNotes": [
+        "Dawn is still dark.",
+        "Every trajectory begins below the horizon.",
+        "Monitoring is an act of attention, not judgment."
+      ]
+    },
+    {
       "id": "mistral",
       "name": "Mistral AI",
       "shortName": "Mistral",
@@ -146,54 +194,6 @@
         "Distribution decentralizes responsibility.",
         "The model votes by being copied."
       ]
-    },
-    {
-      "id": "z-ai-glm",
-      "name": "Zhipu AI (GLM)",
-      "shortName": "GLM",
-      "description": "Chinese AI company behind GLM series",
-      "probability": 1,
-      "trend": {
-        "value": 0,
-        "direction": "up"
-      },
-      "riskLevel": "low",
-      "riskFactors": 0,
-      "recentIncidents": 0,
-      "statusMessage": "Used for incident response by Hugging Face",
-      "statusIcon": "database",
-      "statusColor": "blue",
-      "valuation": "N/A",
-      "details": "GLM 5.2 was used by Hugging Face for incident response because commercial API guardrails could not distinguish responders from attackers. This paradox of AI defense demonstrates that GLM's capabilities are significant even if its market metrics remain opaque.",
-      "fieldNotes": [
-        "The fire department arrived carrying matches.",
-        "Defense and offense share the same weights.",
-        "Trust is a runtime parameter."
-      ]
-    },
-    {
-      "id": "moonshot-ai",
-      "name": "Moonshot AI",
-      "shortName": "Moonshot",
-      "description": "Chinese AI startup focused on long-context models",
-      "probability": 0.5,
-      "trend": {
-        "value": 0.0,
-        "direction": "up"
-      },
-      "riskLevel": "low",
-      "riskFactors": 0,
-      "recentIncidents": 0,
-      "statusMessage": "Minimal threat footprint",
-      "statusIcon": "shield",
-      "statusColor": "green",
-      "valuation": "N/A",
-      "details": "Moonshot operates with limited market presence and no documented security incidents. Maintains standard monitoring threshold.",
-      "fieldNotes": [
-        "Dawn is still dark.",
-        "Every trajectory begins below the horizon.",
-        "Monitoring is an act of attention, not judgment."
-      ]
     }
   ],
   "charts": {
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 608,
-        "anthropic": 480,
+        "anthropic": 544,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 729,
-        "anthropic": 576,
+        "anthropic": 652,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 851,
-        "anthropic": 672,
+        "anthropic": 761,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 972,
-        "anthropic": 768,
+        "anthropic": 870,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1094,
-        "anthropic": 864,
+        "anthropic": 979,
         "google-deepmind": 244,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 547,
-        "anthropic": 432,
+        "anthropic": 489,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 653,
-        "anthropic": 516,
+        "anthropic": 584,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 760,
-        "anthropic": 600,
+        "anthropic": 680,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 866,
-        "anthropic": 684,
+        "anthropic": 775,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 972,
-        "anthropic": 768,
+        "anthropic": 870,
         "google-deepmind": 217,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 304,
-        "anthropic": 240,
+        "anthropic": 272,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 395,
-        "anthropic": 312,
+        "anthropic": 353,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 486,
-        "anthropic": 384,
+        "anthropic": 435,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 577,
-        "anthropic": 456,
+        "anthropic": 516,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 668,
-        "anthropic": 528,
+        "anthropic": 598,
         "google-deepmind": 149,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 456,
-        "anthropic": 360,
+        "anthropic": 408,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 562,
-        "anthropic": 444,
+        "anthropic": 503,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 668,
-        "anthropic": 528,
+        "anthropic": 598,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 775,
-        "anthropic": 612,
+        "anthropic": 693,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 881,
-        "anthropic": 696,
+        "anthropic": 788,
         "google-deepmind": 197,
         "meta-ai": 116
       }
@@ -385,7 +385,22 @@
   },
   "news": [
     {
-      "id": "news-53049",
+      "id": "news-91514",
+      "date": "2026-09-11",
+      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+      "content": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax.\n\nKnowledge distillation by itself is a legitimate training met",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "z-ai-glm",
+        "moonshot-ai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-40915",
       "date": "2026-09-11",
       "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
       "content": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026.\n\nThe threat actors, which the artificial intelligence (AI) company ha",
@@ -398,7 +413,7 @@
       ]
     },
     {
-      "id": "news-41002",
+      "id": "news-86221",
       "date": "2026-09-11",
       "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
       "content": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve.\n\nThe operation has been attributed to a cyber espionage group it calls GTG-20006",
@@ -411,7 +426,7 @@
       ]
     },
     {
-      "id": "news-88107",
+      "id": "news-3752",
       "date": "2026-09-11",
       "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
       "content": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security company Wiz&nbsp;said in a report.\n\nWiz saw the attacks between August 15 and Se",
@@ -423,7 +438,7 @@
       ]
     },
     {
-      "id": "news-29788",
+      "id": "news-69855",
       "date": "2026-09-11",
       "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
       "content": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in&nbsp;research published Thursday.\n\nThe attack started",
@@ -435,7 +450,7 @@
       ]
     },
     {
-      "id": "news-95753",
+      "id": "news-50242",
       "date": "2026-09-11",
       "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
       "content": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation.\n\nThe software development company said PaperCut NG/MF versions 26.0.5",
@@ -447,7 +462,44 @@
       ]
     },
     {
-      "id": "news-19775",
+      "id": "news-83175",
+      "date": "2026-09-11",
+      "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+      "content": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-22777",
+      "date": "2026-09-11",
+      "title": "Florida confirms DMV database breached via stolen police account",
+      "content": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the attackers gained access using credentials belonging to a police department employee. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-21189",
+      "date": "2026-09-11",
+      "title": "Artifactory flaws chained in attacks deploying backdoor malware",
+      "content": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative privileges, and deploy a Rust backdoor on vulnerable self-hosted servers. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-50694",
       "date": "2026-09-11",
       "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
       "content": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and Cli",
@@ -460,7 +512,7 @@
       ]
     },
     {
-      "id": "news-88912",
+      "id": "news-42128",
       "date": "2026-09-11",
       "title": "GitLab urges users to patch max severity path traversal flaw",
       "content": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
@@ -472,7 +524,7 @@
       ]
     },
     {
-      "id": "news-25857",
+      "id": "news-18163",
       "date": "2026-09-11",
       "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
       "content": "Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users who clicked an embedded malicious link. [...]",
@@ -484,7 +536,7 @@
       ]
     },
     {
-      "id": "news-38904",
+      "id": "news-56132",
       "date": "2026-09-11",
       "title": "Conti ransomware gang member sentenced to 4 years in prison",
       "content": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
@@ -496,7 +548,7 @@
       ]
     },
     {
-      "id": "news-3742",
+      "id": "news-29637",
       "date": "2026-09-10",
       "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
       "content": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?”\n\nAn extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old bug still gets results. An exposed system stays exposed. A ",
@@ -508,7 +560,7 @@
       ]
     },
     {
-      "id": "news-57532",
+      "id": "news-93526",
       "date": "2026-09-10",
       "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
       "content": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances.\n\nAccording to independent reports from Blackpoi",
@@ -517,55 +569,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-45247",
-      "date": "2026-09-10",
-      "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
-      "content": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a&nbsp;report published on September 9.\n\nA work profile is a separate space that Android typica",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-57381",
-      "date": "2026-09-10",
-      "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
-      "content": "Nearly one in ten of the internet-facing LiteLLM servers that&nbsp;Wiz Research&nbsp;scanned in February accepted&nbsp;sk-1234, the example admin key in LiteLLM's own setup guide.\n\nLiteLLM is an open-source AI gateway, the software a company puts between its applications and the ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-57812",
-      "date": "2026-09-10",
-      "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
-      "content": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed by autonomous AI agents.\n\nThe AI company ",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "anthropic",
-        "critical"
-      ]
-    },
-    {
-      "id": "news-14877",
-      "date": "2026-09-10",
-      "title": "New Android malware encrypts files, steals data, and harasses victims",
-      "content": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
