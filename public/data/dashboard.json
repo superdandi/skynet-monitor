@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-12 04:20 UTC",
+  "lastUpdated": "2026-09-12 10:34 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 76,
+      "probability": 80,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 2,
+      "recentIncidents": 3,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 608,
+        "openai": 640,
         "anthropic": 544,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 729,
+        "openai": 768,
         "anthropic": 652,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 851,
+        "openai": 896,
         "anthropic": 761,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 972,
+        "openai": 1024,
         "anthropic": 870,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1094,
+        "openai": 1152,
         "anthropic": 979,
         "google-deepmind": 244,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 547,
+        "openai": 576,
         "anthropic": 489,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 653,
+        "openai": 688,
         "anthropic": 584,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 760,
+        "openai": 800,
         "anthropic": 680,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 866,
+        "openai": 912,
         "anthropic": 775,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 972,
+        "openai": 1024,
         "anthropic": 870,
         "google-deepmind": 217,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 304,
+        "openai": 320,
         "anthropic": 272,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 395,
+        "openai": 416,
         "anthropic": 353,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 486,
+        "openai": 512,
         "anthropic": 435,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 577,
+        "openai": 608,
         "anthropic": 516,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 668,
+        "openai": 704,
         "anthropic": 598,
         "google-deepmind": 149,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 456,
+        "openai": 480,
         "anthropic": 408,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 562,
+        "openai": 592,
         "anthropic": 503,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 668,
+        "openai": 704,
         "anthropic": 598,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 775,
+        "openai": 816,
         "anthropic": 693,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 881,
+        "openai": 928,
         "anthropic": 788,
         "google-deepmind": 197,
         "meta-ai": 116
@@ -385,7 +385,20 @@
   },
   "news": [
     {
-      "id": "news-15219",
+      "id": "news-72816",
+      "date": "2026-09-12",
+      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+      "content": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx.\n\nOn May 12, Maciej Mensfeld, senior product manager for software supply c",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-37118",
       "date": "2026-09-11",
       "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
       "content": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax.\n\nKnowledge distillation by itself is a legitimate training met",
@@ -400,7 +413,7 @@
       ]
     },
     {
-      "id": "news-50011",
+      "id": "news-34581",
       "date": "2026-09-11",
       "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
       "content": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026.\n\nThe threat actors, which the artificial intelligence (AI) company ha",
@@ -413,7 +426,7 @@
       ]
     },
     {
-      "id": "news-18628",
+      "id": "news-43698",
       "date": "2026-09-11",
       "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
       "content": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve.\n\nThe operation has been attributed to a cyber espionage group it calls GTG-20006",
@@ -426,7 +439,7 @@
       ]
     },
     {
-      "id": "news-37280",
+      "id": "news-87271",
       "date": "2026-09-11",
       "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
       "content": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security company Wiz&nbsp;said in a report.\n\nWiz saw the attacks between August 15 and Se",
@@ -438,7 +451,7 @@
       ]
     },
     {
-      "id": "news-54666",
+      "id": "news-24733",
       "date": "2026-09-11",
       "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
       "content": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in&nbsp;research published Thursday.\n\nThe attack started",
@@ -450,7 +463,7 @@
       ]
     },
     {
-      "id": "news-73119",
+      "id": "news-74185",
       "date": "2026-09-11",
       "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
       "content": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation.\n\nThe software development company said PaperCut NG/MF versions 26.0.5",
@@ -462,7 +475,7 @@
       ]
     },
     {
-      "id": "news-42990",
+      "id": "news-58547",
       "date": "2026-09-11",
       "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
       "content": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
@@ -475,7 +488,7 @@
       ]
     },
     {
-      "id": "news-83424",
+      "id": "news-39064",
       "date": "2026-09-11",
       "title": "Florida confirms DMV database breached via stolen police account",
       "content": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the attackers gained access using credentials belonging to a police department employee. [...]",
@@ -487,7 +500,7 @@
       ]
     },
     {
-      "id": "news-33373",
+      "id": "news-33809",
       "date": "2026-09-11",
       "title": "Artifactory flaws chained in attacks deploying backdoor malware",
       "content": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative privileges, and deploy a Rust backdoor on vulnerable self-hosted servers. [...]",
@@ -499,7 +512,7 @@
       ]
     },
     {
-      "id": "news-80499",
+      "id": "news-29852",
       "date": "2026-09-11",
       "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
       "content": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and Cli",
@@ -512,7 +525,7 @@
       ]
     },
     {
-      "id": "news-63460",
+      "id": "news-62537",
       "date": "2026-09-11",
       "title": "GitLab urges users to patch max severity path traversal flaw",
       "content": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
@@ -524,7 +537,7 @@
       ]
     },
     {
-      "id": "news-97404",
+      "id": "news-52449",
       "date": "2026-09-11",
       "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
       "content": "Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users who clicked an embedded malicious link. [...]",
@@ -536,7 +549,7 @@
       ]
     },
     {
-      "id": "news-94168",
+      "id": "news-56574",
       "date": "2026-09-11",
       "title": "Conti ransomware gang member sentenced to 4 years in prison",
       "content": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
@@ -548,22 +561,10 @@
       ]
     },
     {
-      "id": "news-84874",
+      "id": "news-65294",
       "date": "2026-09-10",
       "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
       "content": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?”\n\nAn extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old bug still gets results. An exposed system stays exposed. A ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-85722",
-      "date": "2026-09-10",
-      "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
-      "content": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances.\n\nAccording to independent reports from Blackpoi",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
