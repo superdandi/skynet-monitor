@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11 20:52 UTC",
+  "lastUpdated": "2026-09-12 04:20 UTC",
   "companies": [
     {
       "id": "openai",
@@ -33,7 +33,7 @@
       "description": "AI safety company behind Claude models",
       "probability": 68,
       "trend": {
-        "value": 8,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "critical",
@@ -130,7 +130,7 @@
       "description": "Chinese AI company behind GLM series",
       "probability": 5,
       "trend": {
-        "value": 4,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "low",
@@ -154,7 +154,7 @@
       "description": "Chinese AI startup focused on long-context models",
       "probability": 4.5,
       "trend": {
-        "value": 4.0,
+        "value": 0.0,
         "direction": "up"
       },
       "riskLevel": "low",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-91514",
+      "id": "news-15219",
       "date": "2026-09-11",
       "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
       "content": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax.\n\nKnowledge distillation by itself is a legitimate training met",
@@ -400,7 +400,7 @@
       ]
     },
     {
-      "id": "news-40915",
+      "id": "news-50011",
       "date": "2026-09-11",
       "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
       "content": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026.\n\nThe threat actors, which the artificial intelligence (AI) company ha",
@@ -413,7 +413,7 @@
       ]
     },
     {
-      "id": "news-86221",
+      "id": "news-18628",
       "date": "2026-09-11",
       "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
       "content": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve.\n\nThe operation has been attributed to a cyber espionage group it calls GTG-20006",
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": "news-3752",
+      "id": "news-37280",
       "date": "2026-09-11",
       "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
       "content": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security company Wiz&nbsp;said in a report.\n\nWiz saw the attacks between August 15 and Se",
@@ -438,7 +438,7 @@
       ]
     },
     {
-      "id": "news-69855",
+      "id": "news-54666",
       "date": "2026-09-11",
       "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
       "content": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in&nbsp;research published Thursday.\n\nThe attack started",
@@ -450,7 +450,7 @@
       ]
     },
     {
-      "id": "news-50242",
+      "id": "news-73119",
       "date": "2026-09-11",
       "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
       "content": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation.\n\nThe software development company said PaperCut NG/MF versions 26.0.5",
@@ -462,7 +462,7 @@
       ]
     },
     {
-      "id": "news-83175",
+      "id": "news-42990",
       "date": "2026-09-11",
       "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
       "content": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
@@ -475,7 +475,7 @@
       ]
     },
     {
-      "id": "news-22777",
+      "id": "news-83424",
       "date": "2026-09-11",
       "title": "Florida confirms DMV database breached via stolen police account",
       "content": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the attackers gained access using credentials belonging to a police department employee. [...]",
@@ -487,7 +487,7 @@
       ]
     },
     {
-      "id": "news-21189",
+      "id": "news-33373",
       "date": "2026-09-11",
       "title": "Artifactory flaws chained in attacks deploying backdoor malware",
       "content": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative privileges, and deploy a Rust backdoor on vulnerable self-hosted servers. [...]",
@@ -499,7 +499,7 @@
       ]
     },
     {
-      "id": "news-50694",
+      "id": "news-80499",
       "date": "2026-09-11",
       "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
       "content": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and Cli",
@@ -512,7 +512,7 @@
       ]
     },
     {
-      "id": "news-42128",
+      "id": "news-63460",
       "date": "2026-09-11",
       "title": "GitLab urges users to patch max severity path traversal flaw",
       "content": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
@@ -524,7 +524,7 @@
       ]
     },
     {
-      "id": "news-18163",
+      "id": "news-97404",
       "date": "2026-09-11",
       "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
       "content": "Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users who clicked an embedded malicious link. [...]",
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "id": "news-56132",
+      "id": "news-94168",
       "date": "2026-09-11",
       "title": "Conti ransomware gang member sentenced to 4 years in prison",
       "content": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
@@ -548,7 +548,7 @@
       ]
     },
     {
-      "id": "news-29637",
+      "id": "news-84874",
       "date": "2026-09-10",
       "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
       "content": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?”\n\nAn extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old bug still gets results. An exposed system stays exposed. A ",
@@ -560,7 +560,7 @@
       ]
     },
     {
-      "id": "news-93526",
+      "id": "news-85722",
       "date": "2026-09-10",
       "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
       "content": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances.\n\nAccording to independent reports from Blackpoi",
