@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14 12:31 UTC",
+  "lastUpdated": "2026-09-14 21:44 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 68,
+      "probability": 64,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 8,
+      "recentIncidents": 7,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 640,
-        "anthropic": 544,
+        "anthropic": 512,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 768,
-        "anthropic": 652,
+        "anthropic": 614,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 896,
-        "anthropic": 761,
+        "anthropic": 716,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 1024,
-        "anthropic": 870,
+        "anthropic": 819,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1152,
-        "anthropic": 979,
+        "anthropic": 921,
         "google-deepmind": 244,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 576,
-        "anthropic": 489,
+        "anthropic": 460,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 688,
-        "anthropic": 584,
+        "anthropic": 550,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 800,
-        "anthropic": 680,
+        "anthropic": 640,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 912,
-        "anthropic": 775,
+        "anthropic": 729,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 1024,
-        "anthropic": 870,
+        "anthropic": 819,
         "google-deepmind": 217,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 320,
-        "anthropic": 272,
+        "anthropic": 256,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 416,
-        "anthropic": 353,
+        "anthropic": 332,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 512,
-        "anthropic": 435,
+        "anthropic": 409,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 608,
-        "anthropic": 516,
+        "anthropic": 486,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 704,
-        "anthropic": 598,
+        "anthropic": 563,
         "google-deepmind": 149,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 480,
-        "anthropic": 408,
+        "anthropic": 384,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 592,
-        "anthropic": 503,
+        "anthropic": 473,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 704,
-        "anthropic": 598,
+        "anthropic": 563,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 816,
-        "anthropic": 693,
+        "anthropic": 652,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 928,
-        "anthropic": 788,
+        "anthropic": 742,
         "google-deepmind": 197,
         "meta-ai": 116
       }
@@ -385,7 +385,55 @@
   },
   "news": [
     {
-      "id": "news-5324",
+      "id": "news-65445",
+      "date": "2026-09-14",
+      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+      "content": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said.\n\nThe company uncovered the intrusio",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-2050",
+      "date": "2026-09-14",
+      "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+      "content": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a&nbsp;writeup&nbsp;published on September 12.\n\nIn Telegram, the message looked ordinary, with a link button, and the scr",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-55366",
+      "date": "2026-09-14",
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "content": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign.\n\n\"Red Heron scanned 1,386 Gitea instances acro",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-80012",
+      "date": "2026-09-14",
+      "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+      "content": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination.\n\nThe rest of the week is more familiar: old bugs still working, fr",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-59700",
       "date": "2026-09-14",
       "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
       "content": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while defenders still have to work out which findings actually des",
@@ -397,7 +445,55 @@
       ]
     },
     {
-      "id": "news-96734",
+      "id": "news-66892",
+      "date": "2026-09-14",
+      "title": "Microsoft releases emergency Windows updates to fix RDS failures",
+      "content": "Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month's security updates, along with Hyper-V and USB audio problems on some Windows versions. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-82647",
+      "date": "2026-09-14",
+      "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
+      "content": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-98734",
+      "date": "2026-09-14",
+      "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
+      "content": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-65024",
+      "date": "2026-09-14",
+      "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+      "content": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-20020",
       "date": "2026-09-14",
       "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
       "content": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show how these breaches unfold and which security controls can help stop them. [...]",
@@ -409,7 +505,7 @@
       ]
     },
     {
-      "id": "news-17064",
+      "id": "news-48166",
       "date": "2026-09-14",
       "title": "Microsoft: September updates cause RDS failures on Windows Server",
       "content": "Microsoft has confirmed reports that the September 2026 security updates cause Remote Desktop Services (RDS) failures on Windows Server systems. [...]",
@@ -421,7 +517,7 @@
       ]
     },
     {
-      "id": "news-17198",
+      "id": "news-48612",
       "date": "2026-09-14",
       "title": "Microsoft: September updates break audio on some Windows PCs",
       "content": "Microsoft has confirmed that USB audio devices may fail on some Windows systems after installing the KB5124008and KB5124012 September 2026 security updates. [...]",
@@ -433,7 +529,7 @@
       ]
     },
     {
-      "id": "news-59028",
+      "id": "news-18374",
       "date": "2026-09-13",
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
       "content": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.\n\nThe first campaign, per the tech giant, ",
@@ -445,7 +541,7 @@
       ]
     },
     {
-      "id": "news-44701",
+      "id": "news-8204",
       "date": "2026-09-12",
       "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.",
@@ -457,7 +553,7 @@
       ]
     },
     {
-      "id": "news-4049",
+      "id": "news-13636",
       "date": "2026-09-12",
       "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
       "content": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organizatio",
@@ -465,109 +561,6 @@
       "impact": "Moderate",
       "views": 0,
       "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-19489",
-      "date": "2026-09-12",
-      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
-      "content": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx.\n\nOn May 12, Maciej Mensfeld, senior product manager for software supply c",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-16579",
-      "date": "2026-09-11",
-      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-      "content": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax.\n\nKnowledge distillation by itself is a legitimate training met",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "anthropic",
-        "z-ai-glm",
-        "moonshot-ai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-56538",
-      "date": "2026-09-11",
-      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-      "content": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026.\n\nThe threat actors, which the artificial intelligence (AI) company ha",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "anthropic",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-29559",
-      "date": "2026-09-11",
-      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-      "content": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve.\n\nThe operation has been attributed to a cyber espionage group it calls GTG-20006",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "anthropic",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-22853",
-      "date": "2026-09-11",
-      "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-      "content": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security company Wiz&nbsp;said in a report.\n\nWiz saw the attacks between August 15 and Se",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-8577",
-      "date": "2026-09-11",
-      "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-      "content": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in&nbsp;research published Thursday.\n\nThe attack started",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-73030",
-      "date": "2026-09-11",
-      "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
-      "content": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation.\n\nThe software development company said PaperCut NG/MF versions 26.0.5",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-65394",
-      "date": "2026-09-11",
-      "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
-      "content": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "anthropic",
         "moderate"
       ]
     }
