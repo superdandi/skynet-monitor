@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15 04:40 UTC",
+  "lastUpdated": "2026-09-15 11:34 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 64,
+      "probability": 60,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 7,
+      "recentIncidents": 6,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 640,
-        "anthropic": 512,
+        "anthropic": 480,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 768,
-        "anthropic": 614,
+        "anthropic": 576,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 896,
-        "anthropic": 716,
+        "anthropic": 672,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 1024,
-        "anthropic": 819,
+        "anthropic": 768,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1152,
-        "anthropic": 921,
+        "anthropic": 864,
         "google-deepmind": 244,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 576,
-        "anthropic": 460,
+        "anthropic": 432,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 688,
-        "anthropic": 550,
+        "anthropic": 516,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 800,
-        "anthropic": 640,
+        "anthropic": 600,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 912,
-        "anthropic": 729,
+        "anthropic": 684,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 1024,
-        "anthropic": 819,
+        "anthropic": 768,
         "google-deepmind": 217,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 320,
-        "anthropic": 256,
+        "anthropic": 240,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 416,
-        "anthropic": 332,
+        "anthropic": 312,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 512,
-        "anthropic": 409,
+        "anthropic": 384,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 608,
-        "anthropic": 486,
+        "anthropic": 456,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 704,
-        "anthropic": 563,
+        "anthropic": 528,
         "google-deepmind": 149,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 480,
-        "anthropic": 384,
+        "anthropic": 360,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 592,
-        "anthropic": 473,
+        "anthropic": 444,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 704,
-        "anthropic": 563,
+        "anthropic": 528,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 816,
-        "anthropic": 652,
+        "anthropic": 612,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 928,
-        "anthropic": 742,
+        "anthropic": 696,
         "google-deepmind": 197,
         "meta-ai": 116
       }
@@ -385,7 +385,67 @@
   },
   "news": [
     {
-      "id": "news-30513",
+      "id": "news-99643",
+      "date": "2026-09-15",
+      "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+      "content": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14.\n\nOn such servers, many customers' sites run on a single machine, and an att",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-58758",
+      "date": "2026-09-15",
+      "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+      "content": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-48880",
+      "date": "2026-09-15",
+      "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+      "content": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.\n\nVolexity, which is tracking the threat cluster under the moni",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-26722",
+      "date": "2026-09-15",
+      "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+      "content": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-24966",
+      "date": "2026-09-15",
+      "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+      "content": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-509",
       "date": "2026-09-14",
       "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
       "content": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said.\n\nThe company uncovered the intrusio",
@@ -397,7 +457,7 @@
       ]
     },
     {
-      "id": "news-11692",
+      "id": "news-67008",
       "date": "2026-09-14",
       "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
       "content": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a&nbsp;writeup&nbsp;published on September 12.\n\nIn Telegram, the message looked ordinary, with a link button, and the scr",
@@ -409,7 +469,7 @@
       ]
     },
     {
-      "id": "news-7141",
+      "id": "news-20384",
       "date": "2026-09-14",
       "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
       "content": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign.\n\n\"Red Heron scanned 1,386 Gitea instances acro",
@@ -421,7 +481,7 @@
       ]
     },
     {
-      "id": "news-65166",
+      "id": "news-91161",
       "date": "2026-09-14",
       "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
       "content": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination.\n\nThe rest of the week is more familiar: old bugs still working, fr",
@@ -433,7 +493,7 @@
       ]
     },
     {
-      "id": "news-57506",
+      "id": "news-35547",
       "date": "2026-09-14",
       "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
       "content": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while defenders still have to work out which findings actually des",
@@ -445,7 +505,7 @@
       ]
     },
     {
-      "id": "news-10453",
+      "id": "news-30155",
       "date": "2026-09-14",
       "title": "Microsoft releases emergency Windows updates to fix RDS failures",
       "content": "Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month's security updates, along with Hyper-V and USB audio problems on some Windows versions. [...]",
@@ -457,7 +517,7 @@
       ]
     },
     {
-      "id": "news-62262",
+      "id": "news-1109",
       "date": "2026-09-14",
       "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
       "content": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
@@ -469,7 +529,7 @@
       ]
     },
     {
-      "id": "news-4571",
+      "id": "news-10594",
       "date": "2026-09-14",
       "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
       "content": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
@@ -481,7 +541,7 @@
       ]
     },
     {
-      "id": "news-73697",
+      "id": "news-78149",
       "date": "2026-09-14",
       "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
       "content": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...]",
@@ -493,7 +553,7 @@
       ]
     },
     {
-      "id": "news-98139",
+      "id": "news-42740",
       "date": "2026-09-14",
       "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
       "content": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show how these breaches unfold and which security controls can help stop them. [...]",
@@ -502,66 +562,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-65693",
-      "date": "2026-09-14",
-      "title": "Microsoft: September updates cause RDS failures on Windows Server",
-      "content": "Microsoft has confirmed reports that the September 2026 security updates cause Remote Desktop Services (RDS) failures on Windows Server systems. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-90499",
-      "date": "2026-09-14",
-      "title": "Microsoft: September updates break audio on some Windows PCs",
-      "content": "Microsoft has confirmed that USB audio devices may fail on some Windows systems after installing the KB5124008and KB5124012 September 2026 security updates. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-6330",
-      "date": "2026-09-13",
-      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-      "content": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.\n\nThe first campaign, per the tech giant, ",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-65864",
-      "date": "2026-09-12",
-      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-      "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-18801",
-      "date": "2026-09-12",
-      "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
-      "content": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organizatio",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
