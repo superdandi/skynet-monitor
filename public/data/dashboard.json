@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14 21:44 UTC",
+  "lastUpdated": "2026-09-15 04:40 UTC",
   "companies": [
     {
       "id": "openai",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 64,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-65445",
+      "id": "news-30513",
       "date": "2026-09-14",
       "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
       "content": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said.\n\nThe company uncovered the intrusio",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-2050",
+      "id": "news-11692",
       "date": "2026-09-14",
       "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
       "content": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a&nbsp;writeup&nbsp;published on September 12.\n\nIn Telegram, the message looked ordinary, with a link button, and the scr",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-55366",
+      "id": "news-7141",
       "date": "2026-09-14",
       "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
       "content": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign.\n\n\"Red Heron scanned 1,386 Gitea instances acro",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-80012",
+      "id": "news-65166",
       "date": "2026-09-14",
       "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
       "content": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination.\n\nThe rest of the week is more familiar: old bugs still working, fr",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-59700",
+      "id": "news-57506",
       "date": "2026-09-14",
       "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
       "content": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while defenders still have to work out which findings actually des",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-66892",
+      "id": "news-10453",
       "date": "2026-09-14",
       "title": "Microsoft releases emergency Windows updates to fix RDS failures",
       "content": "Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month's security updates, along with Hyper-V and USB audio problems on some Windows versions. [...]",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-82647",
+      "id": "news-62262",
       "date": "2026-09-14",
       "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
       "content": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-98734",
+      "id": "news-4571",
       "date": "2026-09-14",
       "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
       "content": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-65024",
+      "id": "news-73697",
       "date": "2026-09-14",
       "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
       "content": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...]",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-20020",
+      "id": "news-98139",
       "date": "2026-09-14",
       "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
       "content": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show how these breaches unfold and which security controls can help stop them. [...]",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": "news-48166",
+      "id": "news-65693",
       "date": "2026-09-14",
       "title": "Microsoft: September updates cause RDS failures on Windows Server",
       "content": "Microsoft has confirmed reports that the September 2026 security updates cause Remote Desktop Services (RDS) failures on Windows Server systems. [...]",
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": "news-48612",
+      "id": "news-90499",
       "date": "2026-09-14",
       "title": "Microsoft: September updates break audio on some Windows PCs",
       "content": "Microsoft has confirmed that USB audio devices may fail on some Windows systems after installing the KB5124008and KB5124012 September 2026 security updates. [...]",
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "id": "news-18374",
+      "id": "news-6330",
       "date": "2026-09-13",
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
       "content": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.\n\nThe first campaign, per the tech giant, ",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "id": "news-8204",
+      "id": "news-65864",
       "date": "2026-09-12",
       "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.",
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "id": "news-13636",
+      "id": "news-18801",
       "date": "2026-09-12",
       "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
       "content": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organizatio",
