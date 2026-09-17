@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17 04:40 UTC",
+  "lastUpdated": "2026-09-17 11:29 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-38343",
+      "id": "news-517",
+      "date": "2026-09-17",
+      "title": "Microsoft shares workaround for Windows domain login issues",
+      "content": "Microsoft shared a temporary fix on Wednesday for a known issue that prevents Windows 11 users from logging in with valid domain credentials after installing the September 2026 security updates. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-10621",
       "date": "2026-09-16",
       "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
       "content": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.\n\nThe cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a th",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-87894",
+      "id": "news-30739",
       "date": "2026-09-16",
       "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
       "content": "Security researchers at&nbsp;Forever Security&nbsp;have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon and the Claude in Chrome extensio",
@@ -411,7 +423,7 @@
       ]
     },
     {
-      "id": "news-36023",
+      "id": "news-19028",
       "date": "2026-09-16",
       "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
       "content": "Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread&nbsp;Shai-Hulud&nbsp;across about 100 internal code repositories.\n\nBefore the repository spread, the assistant recommended software that the atta",
@@ -423,7 +435,7 @@
       ]
     },
     {
-      "id": "news-21366",
+      "id": "news-71019",
       "date": "2026-09-16",
       "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
       "content": "Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week.\n\nThe attack needs code already running on the machine as a normal user, so it does not work over the network. JF",
@@ -435,7 +447,7 @@
       ]
     },
     {
-      "id": "news-75848",
+      "id": "news-86943",
       "date": "2026-09-16",
       "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
       "content": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to valid accounts without relying on obvious malware activity.\n\nFr",
@@ -447,7 +459,7 @@
       ]
     },
     {
-      "id": "news-8135",
+      "id": "news-26783",
       "date": "2026-09-16",
       "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
       "content": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged the alert. Attackers are combining that kind of intelligence with AI-assisted expl",
@@ -459,7 +471,7 @@
       ]
     },
     {
-      "id": "news-1153",
+      "id": "news-22237",
       "date": "2026-09-16",
       "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
       "content": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.\n\n\"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors,",
@@ -471,7 +483,7 @@
       ]
     },
     {
-      "id": "news-48728",
+      "id": "news-25753",
       "date": "2026-09-16",
       "title": "Windows 11 KB5124008 update breaks domain trust for some users",
       "content": "Microsoft is investigating reports that the Windows 11 KB5124008 security update is breaking domain trust relationships on some enterprise systems, preventing users from logging in with valid domain credentials. [...]",
@@ -483,7 +495,7 @@
       ]
     },
     {
-      "id": "news-68667",
+      "id": "news-43527",
       "date": "2026-09-16",
       "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
       "content": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activists, and journalists worldwide. [...]",
@@ -495,7 +507,7 @@
       ]
     },
     {
-      "id": "news-67906",
+      "id": "news-35776",
       "date": "2026-09-16",
       "title": "Spain's data agency gets first report of AI-powered data breach",
       "content": "The Spanish Data Protection Agency (AEPD) was notified of an attack allegedly carried out with an AI agent powered by a known large language model (LLM). [...]",
@@ -507,7 +519,7 @@
       ]
     },
     {
-      "id": "news-36431",
+      "id": "news-54039",
       "date": "2026-09-16",
       "title": "The true cost of a ransomware attack, with and without BCDR",
       "content": "The ransom itself can be only a fraction of the total cost of a ransomware attack, with downtime, recovery, remediation, and legal obligations adding millions to the bill. Datto explains how a mature BCDR strategy can reduce downtime and provide a faster, more predictable path to",
@@ -519,7 +531,7 @@
       ]
     },
     {
-      "id": "news-68099",
+      "id": "news-94708",
       "date": "2026-09-15",
       "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
       "content": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around the world.\n\nThe malware is controlled via the Telegram messa",
@@ -531,7 +543,7 @@
       ]
     },
     {
-      "id": "news-65194",
+      "id": "news-21765",
       "date": "2026-09-15",
       "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
       "content": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems.\n\nThe emerging malware family, codenamed BambooToken, is assessed to be",
@@ -543,7 +555,7 @@
       ]
     },
     {
-      "id": "news-62153",
+      "id": "news-86060",
       "date": "2026-09-15",
       "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
       "content": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access.\n\nIn one inst",
@@ -552,18 +564,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-27523",
-      "date": "2026-09-15",
-      "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-      "content": "Introduction\n\nSecurity teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this tes",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
