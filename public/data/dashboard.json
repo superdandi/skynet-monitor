@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18 04:26 UTC",
+  "lastUpdated": "2026-09-18 11:02 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 48,
+      "probability": 40,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 8,
+        "direction": "down"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 4,
+      "recentIncidents": 2,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 640,
-        "anthropic": 384,
+        "anthropic": 320,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 768,
-        "anthropic": 460,
+        "anthropic": 384,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 896,
-        "anthropic": 537,
+        "anthropic": 448,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 1024,
-        "anthropic": 614,
+        "anthropic": 512,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1152,
-        "anthropic": 691,
+        "anthropic": 576,
         "google-deepmind": 244,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 576,
-        "anthropic": 345,
+        "anthropic": 288,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 688,
-        "anthropic": 412,
+        "anthropic": 344,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 800,
-        "anthropic": 480,
+        "anthropic": 400,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 912,
-        "anthropic": 547,
+        "anthropic": 456,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 1024,
-        "anthropic": 614,
+        "anthropic": 512,
         "google-deepmind": 217,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 320,
-        "anthropic": 192,
+        "anthropic": 160,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 416,
-        "anthropic": 249,
+        "anthropic": 208,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 512,
-        "anthropic": 307,
+        "anthropic": 256,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 608,
-        "anthropic": 364,
+        "anthropic": 304,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 704,
-        "anthropic": 422,
+        "anthropic": 352,
         "google-deepmind": 149,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 480,
-        "anthropic": 288,
+        "anthropic": 240,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 592,
-        "anthropic": 355,
+        "anthropic": 296,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 704,
-        "anthropic": 422,
+        "anthropic": 352,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 816,
-        "anthropic": 489,
+        "anthropic": 408,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 928,
-        "anthropic": 556,
+        "anthropic": 464,
         "google-deepmind": 197,
         "meta-ai": 116
       }
@@ -385,7 +385,55 @@
   },
   "news": [
     {
-      "id": "news-59792",
+      "id": "news-77444",
+      "date": "2026-09-18",
+      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "content": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains assoc",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-67871",
+      "date": "2026-09-18",
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "content": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the malware using a large language model (LLM), an assessment m",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-26038",
+      "date": "2026-09-18",
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "content": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.\n\n\n\"Distributed primarily via targeted sm",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-24285",
+      "date": "2026-09-18",
+      "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+      "content": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-94767",
       "date": "2026-09-17",
       "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
       "content": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.\n\nThis week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse wha",
@@ -397,7 +445,7 @@
       ]
     },
     {
-      "id": "news-533",
+      "id": "news-61917",
       "date": "2026-09-17",
       "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
       "content": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an&nbsp;advisory&nbsp;on Wednesday.\n\nAn attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling re",
@@ -409,7 +457,7 @@
       ]
     },
     {
-      "id": "news-61599",
+      "id": "news-32350",
       "date": "2026-09-17",
       "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
       "content": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure and working exploitation, while many sec",
@@ -421,7 +469,7 @@
       ]
     },
     {
-      "id": "news-61987",
+      "id": "news-26321",
       "date": "2026-09-17",
       "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
       "content": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand ",
@@ -433,7 +481,7 @@
       ]
     },
     {
-      "id": "news-6857",
+      "id": "news-14116",
       "date": "2026-09-17",
       "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
       "content": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025.\n\n\"SparroWocky is a modular, C++ backdoor,\" ES",
@@ -445,7 +493,7 @@
       ]
     },
     {
-      "id": "news-31561",
+      "id": "news-55100",
       "date": "2026-09-17",
       "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
       "content": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to improve transparency.\n\n\"As AI",
@@ -458,7 +506,7 @@
       ]
     },
     {
-      "id": "news-39684",
+      "id": "news-99655",
       "date": "2026-09-17",
       "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
       "content": "A security breach at Gyazo, Helpfeel's image-sharing service, exposed about 23.62 million user records, including email addresses and password hashes, the Kyoto-based company said in a&nbsp;notice&nbsp;published Wednesday.\n\nIt also exposed about 490 million image metadata records",
@@ -470,7 +518,7 @@
       ]
     },
     {
-      "id": "news-6393",
+      "id": "news-93646",
       "date": "2026-09-17",
       "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
       "content": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication.",
@@ -482,7 +530,7 @@
       ]
     },
     {
-      "id": "news-55638",
+      "id": "news-46659",
       "date": "2026-09-17",
       "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
       "content": "The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire service known as NightmareStresser.\n\nThe domains in question are: nightmare-stresser[.]com and nightmarestres",
@@ -494,7 +542,7 @@
       ]
     },
     {
-      "id": "news-18970",
+      "id": "news-9976",
       "date": "2026-09-17",
       "title": "New RatHat Android malware uses AI to automate device control",
       "content": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
@@ -506,7 +554,7 @@
       ]
     },
     {
-      "id": "news-73231",
+      "id": "news-51184",
       "date": "2026-09-17",
       "title": "OpenAI details more cases of AI agents taking unauthorized actions",
       "content": "OpenAI has presented new examples of what they call \"AI model misalignment\" from the past six months, including unauthorized file uploads, following self-generated instructions, hiding mistakes, and leveraging exposed API keys. [...]",
@@ -516,54 +564,6 @@
       "tags": [
         "openai",
         "moderate"
-      ]
-    },
-    {
-      "id": "news-88509",
-      "date": "2026-09-17",
-      "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
-      "content": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embedded on customer sites to distribute malware. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-15176",
-      "date": "2026-09-17",
-      "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
-      "content": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains why identity security must go beyond successful authentication by verifying that both the user and the device requesting access can be trusted",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-28510",
-      "date": "2026-09-17",
-      "title": "Microsoft shares workaround for Windows domain login issues",
-      "content": "Microsoft shared a temporary fix on Wednesday for a known issue that prevents Windows 11 users from logging in with valid domain credentials after installing the September 2026 security updates. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-81337",
-      "date": "2026-09-16",
-      "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-      "content": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.\n\nThe cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a th",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
