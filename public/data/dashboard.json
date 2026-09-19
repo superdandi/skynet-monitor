@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19 04:23 UTC",
+  "lastUpdated": "2026-09-19 10:45 UTC",
   "companies": [
     {
       "id": "openai",
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 17,
+      "probability": 21,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 2,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -202,35 +202,35 @@
         "name": "Mar",
         "openai": 640,
         "anthropic": 320,
-        "google-deepmind": 136,
+        "google-deepmind": 168,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 768,
         "anthropic": 384,
-        "google-deepmind": 163,
+        "google-deepmind": 201,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 896,
         "anthropic": 448,
-        "google-deepmind": 190,
+        "google-deepmind": 235,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 1024,
         "anthropic": 512,
-        "google-deepmind": 217,
+        "google-deepmind": 268,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1152,
         "anthropic": 576,
-        "google-deepmind": 244,
+        "google-deepmind": 302,
         "meta-ai": 144
       }
     ],
@@ -239,35 +239,35 @@
         "name": "Mar",
         "openai": 576,
         "anthropic": 288,
-        "google-deepmind": 122,
+        "google-deepmind": 151,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 688,
         "anthropic": 344,
-        "google-deepmind": 146,
+        "google-deepmind": 180,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 800,
         "anthropic": 400,
-        "google-deepmind": 170,
+        "google-deepmind": 210,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 912,
         "anthropic": 456,
-        "google-deepmind": 193,
+        "google-deepmind": 239,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 1024,
         "anthropic": 512,
-        "google-deepmind": 217,
+        "google-deepmind": 268,
         "meta-ai": 128
       }
     ],
@@ -276,35 +276,35 @@
         "name": "Mar",
         "openai": 320,
         "anthropic": 160,
-        "google-deepmind": 68,
+        "google-deepmind": 84,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 416,
         "anthropic": 208,
-        "google-deepmind": 88,
+        "google-deepmind": 109,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 512,
         "anthropic": 256,
-        "google-deepmind": 108,
+        "google-deepmind": 134,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 608,
         "anthropic": 304,
-        "google-deepmind": 129,
+        "google-deepmind": 159,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 704,
         "anthropic": 352,
-        "google-deepmind": 149,
+        "google-deepmind": 184,
         "meta-ai": 88
       }
     ],
@@ -313,35 +313,35 @@
         "name": "Mar",
         "openai": 480,
         "anthropic": 240,
-        "google-deepmind": 102,
+        "google-deepmind": 126,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 592,
         "anthropic": 296,
-        "google-deepmind": 125,
+        "google-deepmind": 155,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 704,
         "anthropic": 352,
-        "google-deepmind": 149,
+        "google-deepmind": 184,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 816,
         "anthropic": 408,
-        "google-deepmind": 173,
+        "google-deepmind": 214,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 928,
         "anthropic": 464,
-        "google-deepmind": 197,
+        "google-deepmind": 243,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,44 @@
   },
   "news": [
     {
-      "id": "news-16977",
+      "id": "news-78848",
+      "date": "2026-09-19",
+      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+      "content": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet.\n\nThe vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution.\n\n\"Orkes",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-27987",
+      "date": "2026-09-19",
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "content": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.\n\nThe incidents occurred in May 2026 as part of a",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "google-deepmind",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-82106",
+      "date": "2026-09-19",
+      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+      "content": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec&nbsp;said on September 18.\n\nThe French security company had kept his GitHub access open. CrowdSec says his laptop was compromised in May's",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-38910",
       "date": "2026-09-18",
       "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
       "content": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not aff",
@@ -397,7 +434,7 @@
       ]
     },
     {
-      "id": "news-48705",
+      "id": "news-88108",
       "date": "2026-09-18",
       "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
       "content": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install.\n\nThe security",
@@ -409,7 +446,7 @@
       ]
     },
     {
-      "id": "news-62242",
+      "id": "news-10045",
       "date": "2026-09-18",
       "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
       "content": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0.\n\n\"Missing authentication for",
@@ -421,7 +458,7 @@
       ]
     },
     {
-      "id": "news-66882",
+      "id": "news-44171",
       "date": "2026-09-18",
       "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
       "content": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm&nbsp;Air Security said on Thursday.\n\nThe fi",
@@ -435,7 +472,7 @@
       ]
     },
     {
-      "id": "news-45004",
+      "id": "news-66151",
       "date": "2026-09-18",
       "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
       "content": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains assoc",
@@ -447,7 +484,7 @@
       ]
     },
     {
-      "id": "news-83643",
+      "id": "news-62198",
       "date": "2026-09-18",
       "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
       "content": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the malware using a large language model (LLM), an assessment m",
@@ -459,7 +496,7 @@
       ]
     },
     {
-      "id": "news-72627",
+      "id": "news-34243",
       "date": "2026-09-18",
       "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
       "content": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.\n\n\n\"Distributed primarily via targeted sm",
@@ -471,7 +508,7 @@
       ]
     },
     {
-      "id": "news-16758",
+      "id": "news-47359",
       "date": "2026-09-18",
       "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
       "content": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
@@ -483,7 +520,7 @@
       ]
     },
     {
-      "id": "news-63867",
+      "id": "news-82476",
       "date": "2026-09-18",
       "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
       "content": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
@@ -495,7 +532,7 @@
       ]
     },
     {
-      "id": "news-79354",
+      "id": "news-53044",
       "date": "2026-09-17",
       "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
       "content": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.\n\nThis week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse wha",
@@ -507,7 +544,7 @@
       ]
     },
     {
-      "id": "news-19783",
+      "id": "news-36684",
       "date": "2026-09-17",
       "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
       "content": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an&nbsp;advisory&nbsp;on Wednesday.\n\nAn attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling re",
@@ -519,7 +556,7 @@
       ]
     },
     {
-      "id": "news-82863",
+      "id": "news-13646",
       "date": "2026-09-17",
       "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
       "content": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure and working exploitation, while many sec",
@@ -527,43 +564,6 @@
       "impact": "Moderate",
       "views": 0,
       "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-38922",
-      "date": "2026-09-17",
-      "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
-      "content": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand ",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-16688",
-      "date": "2026-09-17",
-      "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-      "content": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025.\n\n\"SparroWocky is a modular, C++ backdoor,\" ES",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-83431",
-      "date": "2026-09-17",
-      "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
-      "content": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to improve transparency.\n\n\"As AI",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
         "moderate"
       ]
     }
