@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18 20:48 UTC",
+  "lastUpdated": "2026-09-19 04:23 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-84487",
+      "id": "news-16977",
       "date": "2026-09-18",
       "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
       "content": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not aff",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-12268",
+      "id": "news-48705",
       "date": "2026-09-18",
       "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
       "content": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install.\n\nThe security",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-1475",
+      "id": "news-62242",
       "date": "2026-09-18",
       "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
       "content": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0.\n\n\"Missing authentication for",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-85709",
+      "id": "news-66882",
       "date": "2026-09-18",
       "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
       "content": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm&nbsp;Air Security said on Thursday.\n\nThe fi",
@@ -435,7 +435,7 @@
       ]
     },
     {
-      "id": "news-49118",
+      "id": "news-45004",
       "date": "2026-09-18",
       "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
       "content": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains assoc",
@@ -447,7 +447,7 @@
       ]
     },
     {
-      "id": "news-24085",
+      "id": "news-83643",
       "date": "2026-09-18",
       "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
       "content": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the malware using a large language model (LLM), an assessment m",
@@ -459,7 +459,7 @@
       ]
     },
     {
-      "id": "news-19593",
+      "id": "news-72627",
       "date": "2026-09-18",
       "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
       "content": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.\n\n\n\"Distributed primarily via targeted sm",
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "id": "news-93419",
+      "id": "news-16758",
       "date": "2026-09-18",
       "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
       "content": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
@@ -483,7 +483,7 @@
       ]
     },
     {
-      "id": "news-6974",
+      "id": "news-63867",
       "date": "2026-09-18",
       "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
       "content": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
@@ -495,7 +495,7 @@
       ]
     },
     {
-      "id": "news-87256",
+      "id": "news-79354",
       "date": "2026-09-17",
       "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
       "content": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.\n\nThis week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse wha",
@@ -507,7 +507,7 @@
       ]
     },
     {
-      "id": "news-85539",
+      "id": "news-19783",
       "date": "2026-09-17",
       "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
       "content": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an&nbsp;advisory&nbsp;on Wednesday.\n\nAn attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling re",
@@ -519,7 +519,7 @@
       ]
     },
     {
-      "id": "news-30702",
+      "id": "news-82863",
       "date": "2026-09-17",
       "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
       "content": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure and working exploitation, while many sec",
@@ -531,7 +531,7 @@
       ]
     },
     {
-      "id": "news-54562",
+      "id": "news-38922",
       "date": "2026-09-17",
       "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
       "content": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand ",
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "id": "news-36210",
+      "id": "news-16688",
       "date": "2026-09-17",
       "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
       "content": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025.\n\n\"SparroWocky is a modular, C++ backdoor,\" ES",
@@ -555,7 +555,7 @@
       ]
     },
     {
-      "id": "news-84641",
+      "id": "news-83431",
       "date": "2026-09-17",
       "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
       "content": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to improve transparency.\n\n\"As AI",
