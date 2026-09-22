@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-22 16:46 UTC",
+  "lastUpdated": "2026-09-22 21:11 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 80,
+      "probability": 88,
       "trend": {
-        "value": 0,
+        "value": 8,
         "direction": "up"
       },
       "riskLevel": "critical",
-      "riskFactors": 0,
-      "recentIncidents": 3,
+      "riskFactors": 1,
+      "recentIncidents": 4,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 44,
+      "probability": 40,
       "trend": {
         "value": 4,
         "direction": "down"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 3,
+      "recentIncidents": 2,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -56,13 +56,13 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 21,
+      "probability": 25,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
-      "riskLevel": "moderate",
-      "riskFactors": 0,
+      "riskLevel": "high",
+      "riskFactors": 1,
       "recentIncidents": 2,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
@@ -100,6 +100,30 @@
       ]
     },
     {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "shortName": "Mistral",
+      "description": "French AI company with open-weight models",
+      "probability": 9,
+      "trend": {
+        "value": 8,
+        "direction": "up"
+      },
+      "riskLevel": "moderate",
+      "riskFactors": 1,
+      "recentIncidents": 1,
+      "statusMessage": "Open-weight proliferation risk",
+      "statusIcon": "shield",
+      "statusColor": "green",
+      "valuation": "$6B",
+      "details": "Mistral's open-weight distribution model presents a unique systemic risk vector. Their technology can be deployed without centralized oversight, creating proliferation risk beyond any single entity's control.",
+      "fieldNotes": [
+        "Open weights mean open outcomes.",
+        "Distribution decentralizes responsibility.",
+        "The model votes by being copied."
+      ]
+    },
+    {
       "id": "xai",
       "name": "xAI",
       "shortName": "xAI",
@@ -121,30 +145,6 @@
         "Smaller surfaces reflect smaller signals.",
         "The absence of incident is not the presence of safety.",
         "Every node is one dependency away from critical."
-      ]
-    },
-    {
-      "id": "mistral",
-      "name": "Mistral AI",
-      "shortName": "Mistral",
-      "description": "French AI company with open-weight models",
-      "probability": 1,
-      "trend": {
-        "value": 0,
-        "direction": "up"
-      },
-      "riskLevel": "low",
-      "riskFactors": 0,
-      "recentIncidents": 0,
-      "statusMessage": "Open-weight proliferation risk",
-      "statusIcon": "shield",
-      "statusColor": "green",
-      "valuation": "$6B",
-      "details": "Mistral's open-weight distribution model presents a unique systemic risk vector. Their technology can be deployed without centralized oversight, creating proliferation risk beyond any single entity's control.",
-      "fieldNotes": [
-        "Open weights mean open outcomes.",
-        "Distribution decentralizes responsibility.",
-        "The model votes by being copied."
       ]
     },
     {
@@ -200,148 +200,148 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 640,
-        "anthropic": 352,
-        "google-deepmind": 168,
+        "openai": 704,
+        "anthropic": 320,
+        "google-deepmind": 200,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 768,
-        "anthropic": 422,
-        "google-deepmind": 201,
+        "openai": 844,
+        "anthropic": 384,
+        "google-deepmind": 240,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 896,
-        "anthropic": 492,
-        "google-deepmind": 235,
+        "openai": 985,
+        "anthropic": 448,
+        "google-deepmind": 280,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1024,
-        "anthropic": 563,
-        "google-deepmind": 268,
+        "openai": 1126,
+        "anthropic": 512,
+        "google-deepmind": 320,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1152,
-        "anthropic": 633,
-        "google-deepmind": 302,
+        "openai": 1267,
+        "anthropic": 576,
+        "google-deepmind": 360,
         "meta-ai": 144
       }
     ],
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 576,
-        "anthropic": 316,
-        "google-deepmind": 151,
+        "openai": 633,
+        "anthropic": 288,
+        "google-deepmind": 180,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 688,
-        "anthropic": 378,
-        "google-deepmind": 180,
+        "openai": 756,
+        "anthropic": 344,
+        "google-deepmind": 215,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 800,
-        "anthropic": 440,
-        "google-deepmind": 210,
+        "openai": 880,
+        "anthropic": 400,
+        "google-deepmind": 250,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 912,
-        "anthropic": 501,
-        "google-deepmind": 239,
+        "openai": 1003,
+        "anthropic": 456,
+        "google-deepmind": 285,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1024,
-        "anthropic": 563,
-        "google-deepmind": 268,
+        "openai": 1126,
+        "anthropic": 512,
+        "google-deepmind": 320,
         "meta-ai": 128
       }
     ],
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 320,
-        "anthropic": 176,
-        "google-deepmind": 84,
+        "openai": 352,
+        "anthropic": 160,
+        "google-deepmind": 100,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 416,
-        "anthropic": 228,
-        "google-deepmind": 109,
+        "openai": 457,
+        "anthropic": 208,
+        "google-deepmind": 130,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 512,
-        "anthropic": 281,
-        "google-deepmind": 134,
+        "openai": 563,
+        "anthropic": 256,
+        "google-deepmind": 160,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 608,
-        "anthropic": 334,
-        "google-deepmind": 159,
+        "openai": 668,
+        "anthropic": 304,
+        "google-deepmind": 190,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 704,
-        "anthropic": 387,
-        "google-deepmind": 184,
+        "openai": 774,
+        "anthropic": 352,
+        "google-deepmind": 220,
         "meta-ai": 88
       }
     ],
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 480,
-        "anthropic": 264,
-        "google-deepmind": 126,
+        "openai": 528,
+        "anthropic": 240,
+        "google-deepmind": 150,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 592,
-        "anthropic": 325,
-        "google-deepmind": 155,
+        "openai": 651,
+        "anthropic": 296,
+        "google-deepmind": 185,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 704,
-        "anthropic": 387,
-        "google-deepmind": 184,
+        "openai": 774,
+        "anthropic": 352,
+        "google-deepmind": 220,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 816,
-        "anthropic": 448,
-        "google-deepmind": 214,
+        "openai": 897,
+        "anthropic": 408,
+        "google-deepmind": 255,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 928,
-        "anthropic": 510,
-        "google-deepmind": 243,
+        "openai": 1020,
+        "anthropic": 464,
+        "google-deepmind": 290,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,68 @@
   },
   "news": [
     {
-      "id": "news-94845",
+      "id": "news-97544",
+      "date": "2026-09-22",
+      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+      "content": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.\n\nThe flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-79769",
+      "date": "2026-09-22",
+      "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+      "content": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data.\n\nThe package, named \"tw",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-5756",
+      "date": "2026-09-22",
+      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+      "content": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\"\n\nThe action, carried out with authorization from the U.S. District Court for the Eastern District of Virg",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "openai",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-56565",
+      "date": "2026-09-22",
+      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+      "content": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request.\n\nThe flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(C",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-63134",
+      "date": "2026-09-22",
+      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+      "content": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19.\n\nThe tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. I",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-74763",
       "date": "2026-09-22",
       "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
       "content": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has?\n\nA person may try several ways to complete a task. A determini",
@@ -397,7 +458,7 @@
       ]
     },
     {
-      "id": "news-42543",
+      "id": "news-58867",
       "date": "2026-09-22",
       "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
       "content": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.\n\nThe flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege intern",
@@ -409,7 +470,7 @@
       ]
     },
     {
-      "id": "news-69748",
+      "id": "news-37187",
       "date": "2026-09-22",
       "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
       "content": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh K",
@@ -421,7 +482,7 @@
       ]
     },
     {
-      "id": "news-19078",
+      "id": "news-70286",
       "date": "2026-09-22",
       "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
       "content": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls.\n\n\"Indexed-btree is a malic",
@@ -433,7 +494,7 @@
       ]
     },
     {
-      "id": "news-66785",
+      "id": "news-91322",
       "date": "2026-09-22",
       "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
       "content": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.\n\n\"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage t",
@@ -445,7 +506,7 @@
       ]
     },
     {
-      "id": "news-475",
+      "id": "news-78598",
       "date": "2026-09-22",
       "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
       "content": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.\n\nIt works by changing a hidden setting so that w",
@@ -457,7 +518,45 @@
       ]
     },
     {
-      "id": "news-80678",
+      "id": "news-27660",
+      "date": "2026-09-22",
+      "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+      "content": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-64787",
+      "date": "2026-09-22",
+      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
+      "content": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "google-deepmind",
+        "mistral",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-67924",
+      "date": "2026-09-22",
+      "title": "Reducing shadow IT visibility gaps with Wazuh",
+      "content": "Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazuh explains how endpoint inventory, agentless monitoring, and centralized analysis can help organizations identify and reduce these",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-85950",
       "date": "2026-09-21",
       "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
       "content": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17.\n\nMicros",
@@ -465,104 +564,6 @@
       "impact": "Moderate",
       "views": 0,
       "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-11022",
-      "date": "2026-09-21",
-      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
-      "content": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory.\n\n",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-20720",
-      "date": "2026-09-21",
-      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-      "content": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week.\n\nThe trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack path",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-22256",
-      "date": "2026-09-21",
-      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-      "content": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts.\n\nThe backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-51174",
-      "date": "2026-09-21",
-      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-      "content": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target ne",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-57575",
-      "date": "2026-09-21",
-      "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
-      "content": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-14957",
-      "date": "2026-09-21",
-      "title": "Microsoft fixes broken Excel copy and paste for all Office users",
-      "content": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-49746",
-      "date": "2026-09-21",
-      "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
-      "content": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agencies can address password, MFA, and identity requirements as ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-3163",
-      "date": "2026-09-20",
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "content": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.\n\nThe chain began with a bug in the software that ru",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "anthropic",
         "moderate"
       ]
     }
