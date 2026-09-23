@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-23 04:32 UTC",
+  "lastUpdated": "2026-09-23 11:21 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 88,
+      "probability": 84,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 4,
+      "recentIncidents": 3,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 704,
+        "openai": 672,
         "anthropic": 320,
         "google-deepmind": 200,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 844,
+        "openai": 806,
         "anthropic": 384,
         "google-deepmind": 240,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 985,
+        "openai": 940,
         "anthropic": 448,
         "google-deepmind": 280,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1126,
+        "openai": 1075,
         "anthropic": 512,
         "google-deepmind": 320,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1267,
+        "openai": 1209,
         "anthropic": 576,
         "google-deepmind": 360,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 633,
+        "openai": 604,
         "anthropic": 288,
         "google-deepmind": 180,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 756,
+        "openai": 722,
         "anthropic": 344,
         "google-deepmind": 215,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 880,
+        "openai": 840,
         "anthropic": 400,
         "google-deepmind": 250,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 1003,
+        "openai": 957,
         "anthropic": 456,
         "google-deepmind": 285,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1126,
+        "openai": 1075,
         "anthropic": 512,
         "google-deepmind": 320,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 352,
+        "openai": 336,
         "anthropic": 160,
         "google-deepmind": 100,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 457,
+        "openai": 436,
         "anthropic": 208,
         "google-deepmind": 130,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 563,
+        "openai": 537,
         "anthropic": 256,
         "google-deepmind": 160,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 668,
+        "openai": 638,
         "anthropic": 304,
         "google-deepmind": 190,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 774,
+        "openai": 739,
         "anthropic": 352,
         "google-deepmind": 220,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 528,
+        "openai": 504,
         "anthropic": 240,
         "google-deepmind": 150,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 651,
+        "openai": 621,
         "anthropic": 296,
         "google-deepmind": 185,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 774,
+        "openai": 739,
         "anthropic": 352,
         "google-deepmind": 220,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 897,
+        "openai": 856,
         "anthropic": 408,
         "google-deepmind": 255,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 1020,
+        "openai": 974,
         "anthropic": 464,
         "google-deepmind": 290,
         "meta-ai": 116
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-45474",
+      "id": "news-8027",
+      "date": "2026-09-23",
+      "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+      "content": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites.\n\nThe attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-78416",
+      "date": "2026-09-23",
+      "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+      "content": "A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.\n\nThe risk applies when an app puts values an attacker controls, such as text read from",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-77214",
+      "date": "2026-09-23",
+      "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+      "content": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.\n\n\"We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-23349",
       "date": "2026-09-22",
       "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
       "content": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.\n\nThe flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging",
@@ -397,7 +433,7 @@
       ]
     },
     {
-      "id": "news-34903",
+      "id": "news-23986",
       "date": "2026-09-22",
       "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
       "content": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data.\n\nThe package, named \"tw",
@@ -409,7 +445,7 @@
       ]
     },
     {
-      "id": "news-34025",
+      "id": "news-13992",
       "date": "2026-09-22",
       "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
       "content": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\"\n\nThe action, carried out with authorization from the U.S. District Court for the Eastern District of Virg",
@@ -422,7 +458,7 @@
       ]
     },
     {
-      "id": "news-32341",
+      "id": "news-77989",
       "date": "2026-09-22",
       "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
       "content": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request.\n\nThe flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(C",
@@ -434,7 +470,7 @@
       ]
     },
     {
-      "id": "news-64393",
+      "id": "news-30336",
       "date": "2026-09-22",
       "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
       "content": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19.\n\nThe tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. I",
@@ -446,7 +482,7 @@
       ]
     },
     {
-      "id": "news-40130",
+      "id": "news-9886",
       "date": "2026-09-22",
       "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
       "content": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has?\n\nA person may try several ways to complete a task. A determini",
@@ -458,7 +494,7 @@
       ]
     },
     {
-      "id": "news-37735",
+      "id": "news-50108",
       "date": "2026-09-22",
       "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
       "content": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.\n\nThe flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege intern",
@@ -470,7 +506,7 @@
       ]
     },
     {
-      "id": "news-79080",
+      "id": "news-13670",
       "date": "2026-09-22",
       "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
       "content": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh K",
@@ -482,7 +518,7 @@
       ]
     },
     {
-      "id": "news-33229",
+      "id": "news-11699",
       "date": "2026-09-22",
       "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
       "content": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls.\n\n\"Indexed-btree is a malic",
@@ -494,7 +530,7 @@
       ]
     },
     {
-      "id": "news-46898",
+      "id": "news-66128",
       "date": "2026-09-22",
       "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
       "content": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.\n\n\"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage t",
@@ -506,7 +542,7 @@
       ]
     },
     {
-      "id": "news-55675",
+      "id": "news-4137",
       "date": "2026-09-22",
       "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
       "content": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.\n\nIt works by changing a hidden setting so that w",
@@ -518,7 +554,7 @@
       ]
     },
     {
-      "id": "news-42129",
+      "id": "news-83249",
       "date": "2026-09-22",
       "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
       "content": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
@@ -527,44 +563,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-12506",
-      "date": "2026-09-22",
-      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-      "content": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "google-deepmind",
-        "mistral",
-        "critical"
-      ]
-    },
-    {
-      "id": "news-59921",
-      "date": "2026-09-22",
-      "title": "Reducing shadow IT visibility gaps with Wazuh",
-      "content": "Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazuh explains how endpoint inventory, agentless monitoring, and centralized analysis can help organizations identify and reduce these",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-18027",
-      "date": "2026-09-21",
-      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-      "content": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17.\n\nMicros",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
