@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24 17:00 UTC",
+  "lastUpdated": "2026-09-24 21:25 UTC",
   "companies": [
     {
       "id": "openai",
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 17,
+      "probability": 13,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 0,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -202,35 +202,35 @@
         "name": "Mar",
         "openai": 672,
         "anthropic": 288,
-        "google-deepmind": 136,
+        "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 806,
         "anthropic": 345,
-        "google-deepmind": 163,
+        "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 940,
         "anthropic": 403,
-        "google-deepmind": 190,
+        "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 1075,
         "anthropic": 460,
-        "google-deepmind": 217,
+        "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1209,
         "anthropic": 518,
-        "google-deepmind": 244,
+        "google-deepmind": 187,
         "meta-ai": 144
       }
     ],
@@ -239,35 +239,35 @@
         "name": "Mar",
         "openai": 604,
         "anthropic": 259,
-        "google-deepmind": 122,
+        "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 722,
         "anthropic": 309,
-        "google-deepmind": 146,
+        "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 840,
         "anthropic": 360,
-        "google-deepmind": 170,
+        "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 957,
         "anthropic": 410,
-        "google-deepmind": 193,
+        "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 1075,
         "anthropic": 460,
-        "google-deepmind": 217,
+        "google-deepmind": 166,
         "meta-ai": 128
       }
     ],
@@ -276,35 +276,35 @@
         "name": "Mar",
         "openai": 336,
         "anthropic": 144,
-        "google-deepmind": 68,
+        "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 436,
         "anthropic": 187,
-        "google-deepmind": 88,
+        "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 537,
         "anthropic": 230,
-        "google-deepmind": 108,
+        "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 638,
         "anthropic": 273,
-        "google-deepmind": 129,
+        "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 739,
         "anthropic": 316,
-        "google-deepmind": 149,
+        "google-deepmind": 114,
         "meta-ai": 88
       }
     ],
@@ -313,35 +313,35 @@
         "name": "Mar",
         "openai": 504,
         "anthropic": 216,
-        "google-deepmind": 102,
+        "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 621,
         "anthropic": 266,
-        "google-deepmind": 125,
+        "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 739,
         "anthropic": 316,
-        "google-deepmind": 149,
+        "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 856,
         "anthropic": 367,
-        "google-deepmind": 173,
+        "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 974,
         "anthropic": 417,
-        "google-deepmind": 197,
+        "google-deepmind": 150,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-1084",
+      "id": "news-81977",
+      "date": "2026-09-24",
+      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+      "content": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.\n\nThat is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-85110",
       "date": "2026-09-24",
       "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
       "content": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users.\n\n\"third-party[.]com has been a generic documentation placeholder for years, the same role ",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-78452",
+      "id": "news-80812",
       "date": "2026-09-24",
       "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
       "content": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic.\n\n\"When a visitor interacts with the",
@@ -409,7 +421,7 @@
       ]
     },
     {
-      "id": "news-79400",
+      "id": "news-54287",
       "date": "2026-09-24",
       "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
       "content": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are leaking secrets at approximately twice the",
@@ -421,7 +433,7 @@
       ]
     },
     {
-      "id": "news-15776",
+      "id": "news-52590",
       "date": "2026-09-24",
       "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
       "content": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructur",
@@ -433,7 +445,7 @@
       ]
     },
     {
-      "id": "news-56638",
+      "id": "news-37227",
       "date": "2026-09-24",
       "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
       "content": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.\n\nAccording to Proofpoint, the activity has primarily focused on Chilean retail and financial",
@@ -445,7 +457,7 @@
       ]
     },
     {
-      "id": "news-80947",
+      "id": "news-62195",
       "date": "2026-09-24",
       "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
       "content": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).\n\n\"An unau",
@@ -457,7 +469,31 @@
       ]
     },
     {
-      "id": "news-36172",
+      "id": "news-35189",
+      "date": "2026-09-24",
+      "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+      "content": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-36822",
+      "date": "2026-09-24",
+      "title": "Exposed GitLab project email addresses let attackers push code",
+      "content": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-55025",
       "date": "2026-09-24",
       "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
       "content": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginning of a broader shift toward continuous",
@@ -469,7 +505,7 @@
       ]
     },
     {
-      "id": "news-20082",
+      "id": "news-82143",
       "date": "2026-09-24",
       "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
       "content": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
@@ -481,7 +517,7 @@
       ]
     },
     {
-      "id": "news-18119",
+      "id": "news-99058",
       "date": "2026-09-24",
       "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
       "content": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
@@ -493,7 +529,7 @@
       ]
     },
     {
-      "id": "news-32597",
+      "id": "news-74259",
       "date": "2026-09-24",
       "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
       "content": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]",
@@ -506,7 +542,7 @@
       ]
     },
     {
-      "id": "news-1896",
+      "id": "news-29599",
       "date": "2026-09-23",
       "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
       "content": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads.\n\nAccording to Aikid",
@@ -518,7 +554,7 @@
       ]
     },
     {
-      "id": "news-63922",
+      "id": "news-63262",
       "date": "2026-09-23",
       "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
       "content": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.\n\nGitLab shows each user this addr",
@@ -527,42 +563,6 @@
       "views": 0,
       "tags": [
         "warning"
-      ]
-    },
-    {
-      "id": "news-68449",
-      "date": "2026-09-23",
-      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-      "content": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-76090",
-      "date": "2026-09-23",
-      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
-      "content": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22.\n\nThe models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Tal",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-26800",
-      "date": "2026-09-23",
-      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
-      "content": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS.\n\nAccording to reports from Aikido, Safe",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
