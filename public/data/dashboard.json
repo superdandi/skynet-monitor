@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-25 04:41 UTC",
+  "lastUpdated": "2026-09-25 11:40 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 84,
+      "probability": 80,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 3,
+      "recentIncidents": 2,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 36,
+      "probability": 32,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 0,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -200,36 +200,36 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 672,
-        "anthropic": 288,
+        "openai": 640,
+        "anthropic": 256,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 806,
-        "anthropic": 345,
+        "openai": 768,
+        "anthropic": 307,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 940,
-        "anthropic": 403,
+        "openai": 896,
+        "anthropic": 358,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1075,
-        "anthropic": 460,
+        "openai": 1024,
+        "anthropic": 409,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1209,
-        "anthropic": 518,
+        "openai": 1152,
+        "anthropic": 460,
         "google-deepmind": 187,
         "meta-ai": 144
       }
@@ -237,36 +237,36 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 604,
-        "anthropic": 259,
+        "openai": 576,
+        "anthropic": 230,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 722,
-        "anthropic": 309,
+        "openai": 688,
+        "anthropic": 275,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 840,
-        "anthropic": 360,
+        "openai": 800,
+        "anthropic": 320,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 957,
-        "anthropic": 410,
+        "openai": 912,
+        "anthropic": 364,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1075,
-        "anthropic": 460,
+        "openai": 1024,
+        "anthropic": 409,
         "google-deepmind": 166,
         "meta-ai": 128
       }
@@ -274,36 +274,36 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 336,
-        "anthropic": 144,
+        "openai": 320,
+        "anthropic": 128,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 436,
-        "anthropic": 187,
+        "openai": 416,
+        "anthropic": 166,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 537,
-        "anthropic": 230,
+        "openai": 512,
+        "anthropic": 204,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 638,
-        "anthropic": 273,
+        "openai": 608,
+        "anthropic": 243,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 739,
-        "anthropic": 316,
+        "openai": 704,
+        "anthropic": 281,
         "google-deepmind": 114,
         "meta-ai": 88
       }
@@ -311,36 +311,36 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 504,
-        "anthropic": 216,
+        "openai": 480,
+        "anthropic": 192,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 621,
-        "anthropic": 266,
+        "openai": 592,
+        "anthropic": 236,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 739,
-        "anthropic": 316,
+        "openai": 704,
+        "anthropic": 281,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 856,
-        "anthropic": 367,
+        "openai": 816,
+        "anthropic": 326,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 974,
-        "anthropic": 417,
+        "openai": 928,
+        "anthropic": 371,
         "google-deepmind": 150,
         "meta-ai": 116
       }
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-65621",
+      "id": "news-4027",
+      "date": "2026-09-25",
+      "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+      "content": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets.&nbsp;\n\n\"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving a limited number of hot wallets,\" B",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-79728",
+      "date": "2026-09-25",
+      "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+      "content": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild.\n\nThe vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Rou",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-19155",
+      "date": "2026-09-25",
+      "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+      "content": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday.\n\nThe data came from disk space that earlier containers had used and given up, not fro",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-32236",
       "date": "2026-09-24",
       "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
       "content": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.\n\nThat is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI ",
@@ -397,7 +433,7 @@
       ]
     },
     {
-      "id": "news-67078",
+      "id": "news-42706",
       "date": "2026-09-24",
       "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
       "content": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users.\n\n\"third-party[.]com has been a generic documentation placeholder for years, the same role ",
@@ -409,7 +445,7 @@
       ]
     },
     {
-      "id": "news-75619",
+      "id": "news-39827",
       "date": "2026-09-24",
       "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
       "content": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic.\n\n\"When a visitor interacts with the",
@@ -421,7 +457,7 @@
       ]
     },
     {
-      "id": "news-68046",
+      "id": "news-60646",
       "date": "2026-09-24",
       "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
       "content": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are leaking secrets at approximately twice the",
@@ -433,7 +469,7 @@
       ]
     },
     {
-      "id": "news-93734",
+      "id": "news-90401",
       "date": "2026-09-24",
       "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
       "content": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructur",
@@ -445,7 +481,7 @@
       ]
     },
     {
-      "id": "news-43626",
+      "id": "news-19802",
       "date": "2026-09-24",
       "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
       "content": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.\n\nAccording to Proofpoint, the activity has primarily focused on Chilean retail and financial",
@@ -457,7 +493,7 @@
       ]
     },
     {
-      "id": "news-882",
+      "id": "news-64545",
       "date": "2026-09-24",
       "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
       "content": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).\n\n\"An unau",
@@ -469,7 +505,7 @@
       ]
     },
     {
-      "id": "news-32207",
+      "id": "news-53244",
       "date": "2026-09-24",
       "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
       "content": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
@@ -481,7 +517,7 @@
       ]
     },
     {
-      "id": "news-22864",
+      "id": "news-10548",
       "date": "2026-09-24",
       "title": "Exposed GitLab project email addresses let attackers push code",
       "content": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",
@@ -493,7 +529,7 @@
       ]
     },
     {
-      "id": "news-61386",
+      "id": "news-40130",
       "date": "2026-09-24",
       "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
       "content": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginning of a broader shift toward continuous",
@@ -505,7 +541,7 @@
       ]
     },
     {
-      "id": "news-72978",
+      "id": "news-27197",
       "date": "2026-09-24",
       "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
       "content": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
@@ -517,7 +553,7 @@
       ]
     },
     {
-      "id": "news-13769",
+      "id": "news-25638",
       "date": "2026-09-24",
       "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
       "content": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
@@ -526,43 +562,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-15533",
-      "date": "2026-09-24",
-      "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
-      "content": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-65090",
-      "date": "2026-09-23",
-      "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
-      "content": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads.\n\nAccording to Aikid",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-21852",
-      "date": "2026-09-23",
-      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
-      "content": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.\n\nGitLab shows each user this addr",
-      "category": "warning",
-      "impact": "Warning",
-      "views": 0,
-      "tags": [
-        "warning"
       ]
     }
   ],
