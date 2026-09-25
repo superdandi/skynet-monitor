@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24 21:25 UTC",
+  "lastUpdated": "2026-09-25 04:41 UTC",
   "companies": [
     {
       "id": "openai",
@@ -58,8 +58,8 @@
       "description": "Alphabet's AI research division",
       "probability": 13,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-81977",
+      "id": "news-65621",
       "date": "2026-09-24",
       "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
       "content": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.\n\nThat is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI ",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-85110",
+      "id": "news-67078",
       "date": "2026-09-24",
       "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
       "content": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users.\n\n\"third-party[.]com has been a generic documentation placeholder for years, the same role ",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-80812",
+      "id": "news-75619",
       "date": "2026-09-24",
       "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
       "content": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic.\n\n\"When a visitor interacts with the",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-54287",
+      "id": "news-68046",
       "date": "2026-09-24",
       "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
       "content": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are leaking secrets at approximately twice the",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-52590",
+      "id": "news-93734",
       "date": "2026-09-24",
       "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
       "content": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructur",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-37227",
+      "id": "news-43626",
       "date": "2026-09-24",
       "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
       "content": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.\n\nAccording to Proofpoint, the activity has primarily focused on Chilean retail and financial",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-62195",
+      "id": "news-882",
       "date": "2026-09-24",
       "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
       "content": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).\n\n\"An unau",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-35189",
+      "id": "news-32207",
       "date": "2026-09-24",
       "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
       "content": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-36822",
+      "id": "news-22864",
       "date": "2026-09-24",
       "title": "Exposed GitLab project email addresses let attackers push code",
       "content": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-55025",
+      "id": "news-61386",
       "date": "2026-09-24",
       "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
       "content": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginning of a broader shift toward continuous",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": "news-82143",
+      "id": "news-72978",
       "date": "2026-09-24",
       "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
       "content": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": "news-99058",
+      "id": "news-13769",
       "date": "2026-09-24",
       "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
       "content": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "id": "news-74259",
+      "id": "news-15533",
       "date": "2026-09-24",
       "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
       "content": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-29599",
+      "id": "news-65090",
       "date": "2026-09-23",
       "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
       "content": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads.\n\nAccording to Aikid",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-63262",
+      "id": "news-21852",
       "date": "2026-09-23",
       "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
       "content": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.\n\nGitLab shows each user this addr",
