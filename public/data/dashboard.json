@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-29 12:38 UTC",
+  "lastUpdated": "2026-09-29 22:09 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 72,
+      "probability": 76,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 2,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 576,
+        "openai": 608,
         "anthropic": 256,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 691,
+        "openai": 729,
         "anthropic": 307,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 806,
+        "openai": 851,
         "anthropic": 358,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 921,
+        "openai": 972,
         "anthropic": 409,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1036,
+        "openai": 1094,
         "anthropic": 460,
         "google-deepmind": 244,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 518,
+        "openai": 547,
         "anthropic": 230,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 619,
+        "openai": 653,
         "anthropic": 275,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 720,
+        "openai": 760,
         "anthropic": 320,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 820,
+        "openai": 866,
         "anthropic": 364,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 921,
+        "openai": 972,
         "anthropic": 409,
         "google-deepmind": 217,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 288,
+        "openai": 304,
         "anthropic": 128,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 374,
+        "openai": 395,
         "anthropic": 166,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 460,
+        "openai": 486,
         "anthropic": 204,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 547,
+        "openai": 577,
         "anthropic": 243,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 633,
+        "openai": 668,
         "anthropic": 281,
         "google-deepmind": 149,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 432,
+        "openai": 456,
         "anthropic": 192,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 532,
+        "openai": 562,
         "anthropic": 236,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 633,
+        "openai": 668,
         "anthropic": 281,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 734,
+        "openai": 775,
         "anthropic": 326,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 835,
+        "openai": 881,
         "anthropic": 371,
         "google-deepmind": 197,
         "meta-ai": 116
@@ -385,7 +385,55 @@
   },
   "news": [
     {
-      "id": "news-83363",
+      "id": "news-29535",
+      "date": "2026-09-29",
+      "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
+      "content": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors.\n\nThe ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-84855",
+      "date": "2026-09-29",
+      "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
+      "content": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers,&nbsp;according to Microsoft.\n\nThe campaigns, aimed at people and organizations tied to Ukraine, have affected more than 100 o",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-30684",
+      "date": "2026-09-29",
+      "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
+      "content": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown.\n\n\"During the shutdown, this activity led to the discovery of a previously unknow",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-68068",
+      "date": "2026-09-29",
+      "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
+      "content": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub.\n\n\"The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without the",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-65499",
       "date": "2026-09-29",
       "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
       "content": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group.\n\n\"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelij",
@@ -397,7 +445,7 @@
       ]
     },
     {
-      "id": "news-31979",
+      "id": "news-41357",
       "date": "2026-09-29",
       "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
       "content": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory.\n\nAffected versions sent the client secret, the authoriz",
@@ -409,7 +457,7 @@
       ]
     },
     {
-      "id": "news-97521",
+      "id": "news-9",
       "date": "2026-09-29",
       "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
       "content": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.\n\nThe vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics componen",
@@ -421,7 +469,7 @@
       ]
     },
     {
-      "id": "news-74890",
+      "id": "news-39150",
       "date": "2026-09-29",
       "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
       "content": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis.\n\nThe malware has been seen in a small number of targeted intrusions at telecommunications organizations, universi",
@@ -433,7 +481,68 @@
       ]
     },
     {
-      "id": "news-22853",
+      "id": "news-68784",
+      "date": "2026-09-29",
+      "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+      "content": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-15598",
+      "date": "2026-09-29",
+      "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+      "content": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-33528",
+      "date": "2026-09-29",
+      "title": "Former US Air Force members sent to prison over BEC attacks",
+      "content": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing campaigns. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-47458",
+      "date": "2026-09-29",
+      "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
+      "content": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-33934",
+      "date": "2026-09-29",
+      "title": "Catch threats before they escalate with real-time Identity Telemetry",
+      "content": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains how real-time identity telemetry can help security teams investigate suspicious activity before it escalates. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-76649",
       "date": "2026-09-28",
       "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
       "content": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday.\n\nThe attacker exploited the flaw to obtain high-level internal credentials and then,",
@@ -445,7 +554,7 @@
       ]
     },
     {
-      "id": "news-30487",
+      "id": "news-8766",
       "date": "2026-09-28",
       "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
       "content": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp;of that console since April 2026. It said this fits a malware-as-a-service mode",
@@ -455,114 +564,6 @@
       "tags": [
         "google-deepmind",
         "moderate"
-      ]
-    },
-    {
-      "id": "news-69292",
-      "date": "2026-09-28",
-      "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-      "content": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface.\n\nElsewhere, weak service accounts, old b",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-57286",
-      "date": "2026-09-28",
-      "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
-      "content": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same controls applied to human users.\n\nAccording to Okta’s Global CISO Insights 2026 rep",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-42505",
-      "date": "2026-09-28",
-      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-      "content": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent.\n\n\"The implant installs the framework unchanged, then overwr",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-81056",
-      "date": "2026-09-28",
-      "title": "Japan's Keio confirms ransomware attack disrupted business systems",
-      "content": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting  some of its business systems. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-55664",
-      "date": "2026-09-28",
-      "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
-      "content": "Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-44196",
-      "date": "2026-09-28",
-      "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
-      "content": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-95246",
-      "date": "2026-09-28",
-      "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
-      "content": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing market for stolen AI logins and how organizations can identify their exposure. [.",
-      "category": "warning",
-      "impact": "Warning",
-      "views": 0,
-      "tags": [
-        "warning"
-      ]
-    },
-    {
-      "id": "news-46237",
-      "date": "2026-09-28",
-      "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
-      "content": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-97109",
-      "date": "2026-09-28",
-      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-      "content": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically e",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
