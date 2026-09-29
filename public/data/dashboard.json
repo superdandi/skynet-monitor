@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28 23:10 UTC",
+  "lastUpdated": "2026-09-29 05:31 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 72,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -58,7 +58,7 @@
       "description": "Alphabet's AI research division",
       "probability": 17,
       "trend": {
-        "value": 4,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "moderate",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-76619",
+      "id": "news-98271",
       "date": "2026-09-29",
       "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
       "content": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.\n\nThe vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics componen",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-15586",
+      "id": "news-49435",
       "date": "2026-09-29",
       "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
       "content": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis.\n\nThe malware has been seen in a small number of targeted intrusions at telecommunications organizations, universi",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-64537",
+      "id": "news-64302",
       "date": "2026-09-28",
       "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
       "content": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday.\n\nThe attacker exploited the flaw to obtain high-level internal credentials and then,",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-31400",
+      "id": "news-36014",
       "date": "2026-09-28",
       "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
       "content": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp;of that console since April 2026. It said this fits a malware-as-a-service mode",
@@ -434,7 +434,7 @@
       ]
     },
     {
-      "id": "news-16079",
+      "id": "news-70308",
       "date": "2026-09-28",
       "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
       "content": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface.\n\nElsewhere, weak service accounts, old b",
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": "news-34860",
+      "id": "news-13928",
       "date": "2026-09-28",
       "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
       "content": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same controls applied to human users.\n\nAccording to Okta’s Global CISO Insights 2026 rep",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-670",
+      "id": "news-33747",
       "date": "2026-09-28",
       "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
       "content": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent.\n\n\"The implant installs the framework unchanged, then overwr",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-539",
+      "id": "news-79346",
       "date": "2026-09-28",
       "title": "Japan's Keio confirms ransomware attack disrupted business systems",
       "content": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting  some of its business systems. [...]",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-27861",
+      "id": "news-52183",
       "date": "2026-09-28",
       "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
       "content": "Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. [...]",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-51131",
+      "id": "news-54992",
       "date": "2026-09-28",
       "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
       "content": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-16534",
+      "id": "news-47135",
       "date": "2026-09-28",
       "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
       "content": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing market for stolen AI logins and how organizations can identify their exposure. [.",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-97824",
+      "id": "news-71541",
       "date": "2026-09-28",
       "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
       "content": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-20791",
+      "id": "news-74452",
       "date": "2026-09-28",
       "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
       "content": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically e",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-58349",
+      "id": "news-10164",
       "date": "2026-09-27",
       "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
       "content": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-91602",
+      "id": "news-55485",
       "date": "2026-09-26",
       "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
       "content": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex.\n\nThe new findings come from Ontinue, which described the activity as a four-sta",
