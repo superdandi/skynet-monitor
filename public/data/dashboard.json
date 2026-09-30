@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30 05:19 UTC",
+  "lastUpdated": "2026-09-30 12:24 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,55 @@
   },
   "news": [
     {
-      "id": "news-60408",
+      "id": "news-37309",
+      "date": "2026-09-30",
+      "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+      "content": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said.\n\nIts researchers found more than 13,000 internal images from developers at over 300 organizations, including customer",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-53168",
+      "date": "2026-09-30",
+      "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+      "content": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting organizations showed the highest exposure.\n\nBy combining Microsoft 365 sessio",
+      "category": "warning",
+      "impact": "Warning",
+      "views": 0,
+      "tags": [
+        "warning"
+      ]
+    },
+    {
+      "id": "news-8282",
+      "date": "2026-09-30",
+      "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
+      "content": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes.\n\nDTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the time",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-97699",
+      "date": "2026-09-30",
+      "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+      "content": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-56552",
       "date": "2026-09-29",
       "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
       "content": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors.\n\nThe ",
@@ -397,7 +445,7 @@
       ]
     },
     {
-      "id": "news-54359",
+      "id": "news-57855",
       "date": "2026-09-29",
       "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
       "content": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers,&nbsp;according to Microsoft.\n\nThe campaigns, aimed at people and organizations tied to Ukraine, have affected more than 100 o",
@@ -409,7 +457,7 @@
       ]
     },
     {
-      "id": "news-26288",
+      "id": "news-60478",
       "date": "2026-09-29",
       "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
       "content": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown.\n\n\"During the shutdown, this activity led to the discovery of a previously unknow",
@@ -421,7 +469,7 @@
       ]
     },
     {
-      "id": "news-57633",
+      "id": "news-86684",
       "date": "2026-09-29",
       "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
       "content": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub.\n\n\"The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without the",
@@ -433,7 +481,7 @@
       ]
     },
     {
-      "id": "news-83838",
+      "id": "news-62644",
       "date": "2026-09-29",
       "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
       "content": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group.\n\n\"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelij",
@@ -445,7 +493,7 @@
       ]
     },
     {
-      "id": "news-54434",
+      "id": "news-17476",
       "date": "2026-09-29",
       "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
       "content": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory.\n\nAffected versions sent the client secret, the authoriz",
@@ -457,7 +505,7 @@
       ]
     },
     {
-      "id": "news-8261",
+      "id": "news-8815",
       "date": "2026-09-29",
       "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
       "content": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.\n\nThe vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics componen",
@@ -469,7 +517,7 @@
       ]
     },
     {
-      "id": "news-65653",
+      "id": "news-70522",
       "date": "2026-09-29",
       "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
       "content": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis.\n\nThe malware has been seen in a small number of targeted intrusions at telecommunications organizations, universi",
@@ -481,7 +529,7 @@
       ]
     },
     {
-      "id": "news-45116",
+      "id": "news-5133",
       "date": "2026-09-29",
       "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
       "content": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
@@ -494,7 +542,7 @@
       ]
     },
     {
-      "id": "news-57098",
+      "id": "news-32893",
       "date": "2026-09-29",
       "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
       "content": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
@@ -506,7 +554,7 @@
       ]
     },
     {
-      "id": "news-91359",
+      "id": "news-59799",
       "date": "2026-09-29",
       "title": "Former US Air Force members sent to prison over BEC attacks",
       "content": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing campaigns. [...]",
@@ -514,55 +562,6 @@
       "impact": "Moderate",
       "views": 0,
       "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-2638",
-      "date": "2026-09-29",
-      "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
-      "content": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-70510",
-      "date": "2026-09-29",
-      "title": "Catch threats before they escalate with real-time Identity Telemetry",
-      "content": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains how real-time identity telemetry can help security teams investigate suspicious activity before it escalates. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-41958",
-      "date": "2026-09-28",
-      "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-      "content": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday.\n\nThe attacker exploited the flaw to obtain high-level internal credentials and then,",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-59539",
-      "date": "2026-09-28",
-      "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-      "content": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp;of that console since April 2026. It said this fits a malware-as-a-service mode",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "google-deepmind",
         "moderate"
       ]
     }
