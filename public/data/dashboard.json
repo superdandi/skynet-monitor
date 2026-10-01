@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01 05:34 UTC",
+  "lastUpdated": "2026-10-01 12:59 UTC",
   "companies": [
     {
       "id": "openai",
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 17,
+      "probability": 21,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 2,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -202,35 +202,35 @@
         "name": "Mar",
         "openai": 640,
         "anthropic": 256,
-        "google-deepmind": 136,
+        "google-deepmind": 168,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 768,
         "anthropic": 307,
-        "google-deepmind": 163,
+        "google-deepmind": 201,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 896,
         "anthropic": 358,
-        "google-deepmind": 190,
+        "google-deepmind": 235,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 1024,
         "anthropic": 409,
-        "google-deepmind": 217,
+        "google-deepmind": 268,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1152,
         "anthropic": 460,
-        "google-deepmind": 244,
+        "google-deepmind": 302,
         "meta-ai": 144
       }
     ],
@@ -239,35 +239,35 @@
         "name": "Mar",
         "openai": 576,
         "anthropic": 230,
-        "google-deepmind": 122,
+        "google-deepmind": 151,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 688,
         "anthropic": 275,
-        "google-deepmind": 146,
+        "google-deepmind": 180,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 800,
         "anthropic": 320,
-        "google-deepmind": 170,
+        "google-deepmind": 210,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 912,
         "anthropic": 364,
-        "google-deepmind": 193,
+        "google-deepmind": 239,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 1024,
         "anthropic": 409,
-        "google-deepmind": 217,
+        "google-deepmind": 268,
         "meta-ai": 128
       }
     ],
@@ -276,35 +276,35 @@
         "name": "Mar",
         "openai": 320,
         "anthropic": 128,
-        "google-deepmind": 68,
+        "google-deepmind": 84,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 416,
         "anthropic": 166,
-        "google-deepmind": 88,
+        "google-deepmind": 109,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 512,
         "anthropic": 204,
-        "google-deepmind": 108,
+        "google-deepmind": 134,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 608,
         "anthropic": 243,
-        "google-deepmind": 129,
+        "google-deepmind": 159,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 704,
         "anthropic": 281,
-        "google-deepmind": 149,
+        "google-deepmind": 184,
         "meta-ai": 88
       }
     ],
@@ -313,35 +313,35 @@
         "name": "Mar",
         "openai": 480,
         "anthropic": 192,
-        "google-deepmind": 102,
+        "google-deepmind": 126,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 592,
         "anthropic": 236,
-        "google-deepmind": 125,
+        "google-deepmind": 155,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 704,
         "anthropic": 281,
-        "google-deepmind": 149,
+        "google-deepmind": 184,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 816,
         "anthropic": 326,
-        "google-deepmind": 173,
+        "google-deepmind": 214,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 928,
         "anthropic": 371,
-        "google-deepmind": 197,
+        "google-deepmind": 243,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,56 @@
   },
   "news": [
     {
-      "id": "news-67494",
+      "id": "news-95546",
+      "date": "2026-10-01",
+      "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+      "content": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody prices out the regression testing. ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-73643",
+      "date": "2026-10-01",
+      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
+      "content": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program.\n\n\"It delivers frontier performance in complex workflows across real-world softw",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "google-deepmind",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-18847",
+      "date": "2026-10-01",
+      "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
+      "content": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals.\n\nThe trigger is a malicious PDF with a crafted embedded font that crashes unpatched",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-55881",
+      "date": "2026-10-01",
+      "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+      "content": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure.\n\n\"We are actively addressing and remediating the issue internally, in coordination with external partners and security advisors,\" the software cr",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-43794",
       "date": "2026-10-01",
       "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
       "content": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data.\n\nLevelBlue's Threat Hunt Operations &amp; Research (THOR) team, whic",
@@ -397,7 +446,7 @@
       ]
     },
     {
-      "id": "news-43236",
+      "id": "news-62150",
       "date": "2026-09-30",
       "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
       "content": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team.\n\nThe attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated o",
@@ -409,7 +458,7 @@
       ]
     },
     {
-      "id": "news-35443",
+      "id": "news-77759",
       "date": "2026-09-30",
       "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
       "content": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content.\n\n\"Once executed, the legiti",
@@ -421,7 +470,7 @@
       ]
     },
     {
-      "id": "news-69541",
+      "id": "news-92853",
       "date": "2026-09-30",
       "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
       "content": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an&nbsp;advisory&nbsp;on September 30.\n\nThe flaw, CVE-2026-76504, could allow a remote attacker with no login acce",
@@ -433,7 +482,7 @@
       ]
     },
     {
-      "id": "news-74350",
+      "id": "news-62721",
       "date": "2026-09-30",
       "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
       "content": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware.\n\nHuntress, which observed the activity in late September 2026, said it marks the abuse ",
@@ -446,7 +495,7 @@
       ]
     },
     {
-      "id": "news-19642",
+      "id": "news-59693",
       "date": "2026-09-30",
       "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
       "content": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack chain from initial access to exfiltration playing out in th",
@@ -458,7 +507,7 @@
       ]
     },
     {
-      "id": "news-81710",
+      "id": "news-18928",
       "date": "2026-09-30",
       "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
       "content": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said.\n\nIts researchers found more than 13,000 internal images from developers at over 300 organizations, including customer",
@@ -470,7 +519,7 @@
       ]
     },
     {
-      "id": "news-88695",
+      "id": "news-34010",
       "date": "2026-09-30",
       "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
       "content": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting organizations showed the highest exposure.\n\nBy combining Microsoft 365 sessio",
@@ -482,7 +531,7 @@
       ]
     },
     {
-      "id": "news-45349",
+      "id": "news-19311",
       "date": "2026-09-30",
       "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
       "content": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes.\n\nDTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the time",
@@ -494,7 +543,7 @@
       ]
     },
     {
-      "id": "news-17359",
+      "id": "news-37903",
       "date": "2026-09-30",
       "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
       "content": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as ",
@@ -506,58 +555,10 @@
       ]
     },
     {
-      "id": "news-73590",
+      "id": "news-72744",
       "date": "2026-09-30",
       "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
       "content": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing system. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-70553",
-      "date": "2026-09-30",
-      "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
-      "content": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities, owners, scoped permissions, and lifecycle controls. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-16060",
-      "date": "2026-09-30",
-      "title": "Microsoft to block Entra ID script injection attacks starting October",
-      "content": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-13692",
-      "date": "2026-09-29",
-      "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
-      "content": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors.\n\nThe ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-1513",
-      "date": "2026-09-29",
-      "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
-      "content": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers,&nbsp;according to Microsoft.\n\nThe campaigns, aimed at people and organizations tied to Ukraine, have affected more than 100 o",
       "category": "critical",
       "impact": "Critical",
       "views": 0,
