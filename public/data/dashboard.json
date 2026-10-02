@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02 05:21 UTC",
+  "lastUpdated": "2026-10-02 12:21 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,31 @@
   },
   "news": [
     {
-      "id": "news-70902",
+      "id": "news-81310",
+      "date": "2026-10-02",
+      "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+      "content": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled.\n\nWith malicious Android applications abusing the API serving as the main conduit for ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-74191",
+      "date": "2026-10-02",
+      "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+      "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-10428",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-21610",
       "date": "2026-10-01",
       "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
       "content": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid.\n\nThe 16-year-old was one of 3 people arrested on",
@@ -397,7 +421,7 @@
       ]
     },
     {
-      "id": "news-75807",
+      "id": "news-5060",
       "date": "2026-10-01",
       "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
       "content": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful f",
@@ -409,7 +433,7 @@
       ]
     },
     {
-      "id": "news-38403",
+      "id": "news-61140",
       "date": "2026-10-01",
       "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
       "content": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.\n\nThe backdoor has been codenamed SC after the \"SC_\" markers",
@@ -421,7 +445,7 @@
       ]
     },
     {
-      "id": "news-6001",
+      "id": "news-37903",
       "date": "2026-10-01",
       "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
       "content": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody prices out the regression testing. ",
@@ -433,7 +457,7 @@
       ]
     },
     {
-      "id": "news-62610",
+      "id": "news-2514",
       "date": "2026-10-01",
       "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
       "content": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program.\n\n\"It delivers frontier performance in complex workflows across real-world softw",
@@ -446,7 +470,7 @@
       ]
     },
     {
-      "id": "news-19285",
+      "id": "news-37947",
       "date": "2026-10-01",
       "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
       "content": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals.\n\nThe trigger is a malicious PDF with a crafted embedded font that crashes unpatched",
@@ -458,7 +482,7 @@
       ]
     },
     {
-      "id": "news-55748",
+      "id": "news-86869",
       "date": "2026-10-01",
       "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
       "content": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure.\n\n\"We are actively addressing and remediating the issue internally, in coordination with external partners and security advisors,\" the software cr",
@@ -470,7 +494,7 @@
       ]
     },
     {
-      "id": "news-69832",
+      "id": "news-23850",
       "date": "2026-10-01",
       "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
       "content": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data.\n\nLevelBlue's Threat Hunt Operations &amp; Research (THOR) team, whic",
@@ -482,7 +506,7 @@
       ]
     },
     {
-      "id": "news-32805",
+      "id": "news-38724",
       "date": "2026-10-01",
       "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
       "content": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulnerable devices. [...]",
@@ -494,7 +518,7 @@
       ]
     },
     {
-      "id": "news-6779",
+      "id": "news-36445",
       "date": "2026-10-01",
       "title": "Autonomous AI agents tried to hack US, Canadian government websites",
       "content": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
@@ -506,7 +530,7 @@
       ]
     },
     {
-      "id": "news-69091",
+      "id": "news-2933",
       "date": "2026-10-01",
       "title": "Microsoft says threat actors are ahead in the early AI race",
       "content": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-compromise activity while security teams struggle to keep pace. [...]",
@@ -518,7 +542,7 @@
       ]
     },
     {
-      "id": "news-50058",
+      "id": "news-44119",
       "date": "2026-10-01",
       "title": "Kiteworks patches max severity code injection vulnerability",
       "content": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solution. [...]",
@@ -530,7 +554,7 @@
       ]
     },
     {
-      "id": "news-72465",
+      "id": "news-11160",
       "date": "2026-09-30",
       "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
       "content": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team.\n\nThe attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated o",
@@ -539,30 +563,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-11202",
-      "date": "2026-09-30",
-      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
-      "content": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content.\n\n\"Once executed, the legiti",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-87515",
-      "date": "2026-09-30",
-      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
-      "content": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an&nbsp;advisory&nbsp;on September 30.\n\nThe flaw, CVE-2026-76504, could allow a remote attacker with no login acce",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
