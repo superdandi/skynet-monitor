@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03 20:56 UTC",
+  "lastUpdated": "2026-10-04 05:37 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-13186",
+      "id": "news-35399",
       "date": "2026-10-03",
       "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
       "content": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service.\n\nIn a \"Security Service Espionage Alert\" issued on September 30, 2026, MI5 said t",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-42324",
+      "id": "news-50356",
       "date": "2026-10-03",
       "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
       "content": "Featuring:\n\nCybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward co",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-24966",
+      "id": "news-1013",
       "date": "2026-10-03",
       "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
       "content": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-20619",
+      "id": "news-2902",
       "date": "2026-10-02",
       "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
       "content": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor.\n\nThe activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar,",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-93420",
+      "id": "news-39243",
       "date": "2026-10-02",
       "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
       "content": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-63688 (CVSS score: 10.0) - A missing",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-29707",
+      "id": "news-36004",
       "date": "2026-10-02",
       "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
       "content": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported.\n\n\"We have parted ways with three individuals for violating our policies on accessing and handling sensitive compa",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-32394",
+      "id": "news-31233",
       "date": "2026-10-02",
       "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
       "content": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled.\n\nWith malicious Android applications abusing the API serving as the main conduit for ",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-57887",
+      "id": "news-77838",
       "date": "2026-10-02",
       "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-10428",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-10941",
+      "id": "news-10786",
       "date": "2026-10-02",
       "title": "Frontline Education breach exposes school district employee data",
       "content": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthorized access to its systems and steal employee information, including Social Security numbers. [...]",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-17570",
+      "id": "news-46513",
       "date": "2026-10-02",
       "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
       "content": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-60380",
+      "id": "news-59277",
       "date": "2026-10-02",
       "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
       "content": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-35709",
+      "id": "news-88743",
       "date": "2026-10-02",
       "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
       "content": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer explains three ways attacks can evade endpoint telemetry and why browser-level controls can help close the gap. [...]",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-56284",
+      "id": "news-94044",
       "date": "2026-10-01",
       "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
       "content": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid.\n\nThe 16-year-old was one of 3 people arrested on",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-24319",
+      "id": "news-87222",
       "date": "2026-10-01",
       "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
       "content": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful f",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-6067",
+      "id": "news-13757",
       "date": "2026-10-01",
       "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
       "content": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.\n\nThe backdoor has been codenamed SC after the \"SC_\" markers",
