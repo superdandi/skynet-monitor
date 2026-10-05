@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05 05:21 UTC",
+  "lastUpdated": "2026-10-05 14:23 UTC",
   "companies": [
     {
       "id": "openai",
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 21,
+      "probability": 17,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
-      "recentIncidents": 2,
+      "recentIncidents": 1,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -202,35 +202,35 @@
         "name": "Mar",
         "openai": 608,
         "anthropic": 256,
-        "google-deepmind": 168,
+        "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 729,
         "anthropic": 307,
-        "google-deepmind": 201,
+        "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 851,
         "anthropic": 358,
-        "google-deepmind": 235,
+        "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 972,
         "anthropic": 409,
-        "google-deepmind": 268,
+        "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1094,
         "anthropic": 460,
-        "google-deepmind": 302,
+        "google-deepmind": 244,
         "meta-ai": 144
       }
     ],
@@ -239,35 +239,35 @@
         "name": "Mar",
         "openai": 547,
         "anthropic": 230,
-        "google-deepmind": 151,
+        "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 653,
         "anthropic": 275,
-        "google-deepmind": 180,
+        "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 760,
         "anthropic": 320,
-        "google-deepmind": 210,
+        "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 866,
         "anthropic": 364,
-        "google-deepmind": 239,
+        "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 972,
         "anthropic": 409,
-        "google-deepmind": 268,
+        "google-deepmind": 217,
         "meta-ai": 128
       }
     ],
@@ -276,35 +276,35 @@
         "name": "Mar",
         "openai": 304,
         "anthropic": 128,
-        "google-deepmind": 84,
+        "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 395,
         "anthropic": 166,
-        "google-deepmind": 109,
+        "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 486,
         "anthropic": 204,
-        "google-deepmind": 134,
+        "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 577,
         "anthropic": 243,
-        "google-deepmind": 159,
+        "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 668,
         "anthropic": 281,
-        "google-deepmind": 184,
+        "google-deepmind": 149,
         "meta-ai": 88
       }
     ],
@@ -313,35 +313,35 @@
         "name": "Mar",
         "openai": 456,
         "anthropic": 192,
-        "google-deepmind": 126,
+        "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 562,
         "anthropic": 236,
-        "google-deepmind": 155,
+        "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 668,
         "anthropic": 281,
-        "google-deepmind": 184,
+        "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 775,
         "anthropic": 326,
-        "google-deepmind": 214,
+        "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 881,
         "anthropic": 371,
-        "google-deepmind": 243,
+        "google-deepmind": 197,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,79 @@
   },
   "news": [
     {
-      "id": "news-34446",
+      "id": "news-25130",
+      "date": "2026-10-05",
+      "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+      "content": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-89938",
+      "date": "2026-10-05",
+      "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+      "content": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling.\n\n\"Cling is notable not because it introduces a new propagation technique, but because i",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-87422",
+      "date": "2026-10-05",
+      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+      "content": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents.\n\n\"Some developers are using Full Disk Access in ways that could put users at risk, exposing ever",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-69873",
+      "date": "2026-10-05",
+      "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+      "content": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.\n\nThe vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-71952",
+      "date": "2026-10-05",
+      "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
+      "content": "South Korea's Financial Services Commission (FSC) held an emergency meeting following a series of cyberattacks targeting financial institutions in the country. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-23781",
+      "date": "2026-10-05",
+      "title": "Google halts open-source bug bounty program amid AI spam surge",
+      "content": "Google has now suspended submissions to its Open Source Software Vulnerability Rewards Program (OSS VRP) after being flooded by AI-generated reports. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-27041",
       "date": "2026-10-03",
       "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
       "content": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service.\n\nIn a \"Security Service Espionage Alert\" issued on September 30, 2026, MI5 said t",
@@ -397,7 +469,7 @@
       ]
     },
     {
-      "id": "news-62167",
+      "id": "news-23955",
       "date": "2026-10-03",
       "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
       "content": "Featuring:\n\nCybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward co",
@@ -409,7 +481,7 @@
       ]
     },
     {
-      "id": "news-82376",
+      "id": "news-67156",
       "date": "2026-10-03",
       "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
       "content": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
@@ -421,7 +493,7 @@
       ]
     },
     {
-      "id": "news-54084",
+      "id": "news-78320",
       "date": "2026-10-02",
       "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
       "content": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor.\n\nThe activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar,",
@@ -433,7 +505,7 @@
       ]
     },
     {
-      "id": "news-44891",
+      "id": "news-82103",
       "date": "2026-10-02",
       "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
       "content": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-63688 (CVSS score: 10.0) - A missing",
@@ -445,7 +517,7 @@
       ]
     },
     {
-      "id": "news-58609",
+      "id": "news-36041",
       "date": "2026-10-02",
       "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
       "content": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported.\n\n\"We have parted ways with three individuals for violating our policies on accessing and handling sensitive compa",
@@ -458,7 +530,7 @@
       ]
     },
     {
-      "id": "news-4268",
+      "id": "news-13644",
       "date": "2026-10-02",
       "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
       "content": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled.\n\nWith malicious Android applications abusing the API serving as the main conduit for ",
@@ -470,7 +542,7 @@
       ]
     },
     {
-      "id": "news-25921",
+      "id": "news-21435",
       "date": "2026-10-02",
       "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-10428",
@@ -482,82 +554,10 @@
       ]
     },
     {
-      "id": "news-63554",
+      "id": "news-27990",
       "date": "2026-10-02",
       "title": "Frontline Education breach exposes school district employee data",
       "content": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthorized access to its systems and steal employee information, including Social Security numbers. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-67114",
-      "date": "2026-10-02",
-      "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
-      "content": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-72789",
-      "date": "2026-10-02",
-      "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
-      "content": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-23178",
-      "date": "2026-10-02",
-      "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
-      "content": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer explains three ways attacks can evade endpoint telemetry and why browser-level controls can help close the gap. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-13600",
-      "date": "2026-10-01",
-      "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-      "content": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid.\n\nThe 16-year-old was one of 3 people arrested on",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-97554",
-      "date": "2026-10-01",
-      "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
-      "content": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful f",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-10526",
-      "date": "2026-10-01",
-      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-      "content": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.\n\nThe backdoor has been codenamed SC after the \"SC_\" markers",
       "category": "critical",
       "impact": "Critical",
       "views": 0,
