@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-06 18:16 UTC",
+  "lastUpdated": "2026-10-07 05:40 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 84,
+      "probability": 88,
       "trend": {
-        "value": 8,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 4,
+      "recentIncidents": 5,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 40,
+      "probability": 44,
       "trend": {
-        "value": 8,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 2,
+      "recentIncidents": 3,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 21,
+      "probability": 25,
       "trend": {
         "value": 4,
         "direction": "up"
       },
-      "riskLevel": "moderate",
+      "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 2,
+      "recentIncidents": 3,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -200,148 +200,148 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 672,
-        "anthropic": 320,
-        "google-deepmind": 168,
+        "openai": 704,
+        "anthropic": 352,
+        "google-deepmind": 200,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 806,
-        "anthropic": 384,
-        "google-deepmind": 201,
+        "openai": 844,
+        "anthropic": 422,
+        "google-deepmind": 240,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 940,
-        "anthropic": 448,
-        "google-deepmind": 235,
+        "openai": 985,
+        "anthropic": 492,
+        "google-deepmind": 280,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1075,
-        "anthropic": 512,
-        "google-deepmind": 268,
+        "openai": 1126,
+        "anthropic": 563,
+        "google-deepmind": 320,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1209,
-        "anthropic": 576,
-        "google-deepmind": 302,
+        "openai": 1267,
+        "anthropic": 633,
+        "google-deepmind": 360,
         "meta-ai": 144
       }
     ],
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 604,
-        "anthropic": 288,
-        "google-deepmind": 151,
+        "openai": 633,
+        "anthropic": 316,
+        "google-deepmind": 180,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 722,
-        "anthropic": 344,
-        "google-deepmind": 180,
+        "openai": 756,
+        "anthropic": 378,
+        "google-deepmind": 215,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 840,
-        "anthropic": 400,
-        "google-deepmind": 210,
+        "openai": 880,
+        "anthropic": 440,
+        "google-deepmind": 250,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 957,
-        "anthropic": 456,
-        "google-deepmind": 239,
+        "openai": 1003,
+        "anthropic": 501,
+        "google-deepmind": 285,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1075,
-        "anthropic": 512,
-        "google-deepmind": 268,
+        "openai": 1126,
+        "anthropic": 563,
+        "google-deepmind": 320,
         "meta-ai": 128
       }
     ],
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 336,
-        "anthropic": 160,
-        "google-deepmind": 84,
+        "openai": 352,
+        "anthropic": 176,
+        "google-deepmind": 100,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 436,
-        "anthropic": 208,
-        "google-deepmind": 109,
+        "openai": 457,
+        "anthropic": 228,
+        "google-deepmind": 130,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 537,
-        "anthropic": 256,
-        "google-deepmind": 134,
+        "openai": 563,
+        "anthropic": 281,
+        "google-deepmind": 160,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 638,
-        "anthropic": 304,
-        "google-deepmind": 159,
+        "openai": 668,
+        "anthropic": 334,
+        "google-deepmind": 190,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 739,
-        "anthropic": 352,
-        "google-deepmind": 184,
+        "openai": 774,
+        "anthropic": 387,
+        "google-deepmind": 220,
         "meta-ai": 88
       }
     ],
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 504,
-        "anthropic": 240,
-        "google-deepmind": 126,
+        "openai": 528,
+        "anthropic": 264,
+        "google-deepmind": 150,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 621,
-        "anthropic": 296,
-        "google-deepmind": 155,
+        "openai": 651,
+        "anthropic": 325,
+        "google-deepmind": 185,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 739,
-        "anthropic": 352,
-        "google-deepmind": 184,
+        "openai": 774,
+        "anthropic": 387,
+        "google-deepmind": 220,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 856,
-        "anthropic": 408,
-        "google-deepmind": 214,
+        "openai": 897,
+        "anthropic": 448,
+        "google-deepmind": 255,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 974,
-        "anthropic": 464,
-        "google-deepmind": 243,
+        "openai": 1020,
+        "anthropic": 510,
+        "google-deepmind": 290,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,34 @@
   },
   "news": [
     {
-      "id": "news-22052",
+      "id": "news-63513",
+      "date": "2026-10-07",
+      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+      "content": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus.\n\nThe products, which c",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "anthropic",
+        "google-deepmind",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-42892",
+      "date": "2026-10-06",
+      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+      "content": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection.\n\nThreat actors are known to name their malicious software after a legitimate",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-24773",
       "date": "2026-10-06",
       "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
       "content": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages.\n\n\"The unauthorized bot activities in",
@@ -398,7 +425,7 @@
       ]
     },
     {
-      "id": "news-6151",
+      "id": "news-64886",
       "date": "2026-10-06",
       "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
       "content": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows.\n\nThe ecosystem around",
@@ -411,7 +438,7 @@
       ]
     },
     {
-      "id": "news-93415",
+      "id": "news-50243",
       "date": "2026-10-06",
       "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
       "content": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software.\n\nThe change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers ",
@@ -423,7 +450,7 @@
       ]
     },
     {
-      "id": "news-19761",
+      "id": "news-43489",
       "date": "2026-10-06",
       "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
       "content": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\n\nThat's according to a report from Reuters, citing two sources familiar w",
@@ -435,7 +462,7 @@
       ]
     },
     {
-      "id": "news-31465",
+      "id": "news-27659",
       "date": "2026-10-06",
       "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
       "content": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5.\n\nThey used a private Danish ",
@@ -447,7 +474,7 @@
       ]
     },
     {
-      "id": "news-75578",
+      "id": "news-61231",
       "date": "2026-10-06",
       "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
       "content": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache.\n\n\"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script p",
@@ -459,7 +486,7 @@
       ]
     },
     {
-      "id": "news-31189",
+      "id": "news-38345",
       "date": "2026-10-06",
       "title": "ASOS confirms data breach after “HACKED” in-app notifications",
       "content": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [...]",
@@ -471,7 +498,7 @@
       ]
     },
     {
-      "id": "news-65953",
+      "id": "news-8901",
       "date": "2026-10-06",
       "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
       "content": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]",
@@ -486,7 +513,7 @@
       ]
     },
     {
-      "id": "news-11286",
+      "id": "news-33906",
       "date": "2026-10-06",
       "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
       "content": "Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]",
@@ -498,7 +525,7 @@
       ]
     },
     {
-      "id": "news-50616",
+      "id": "news-83013",
       "date": "2026-10-05",
       "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
       "content": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions.\n\nThe vulnerability, tracked as CVE-2026-96940, is rated 8.8 on the CVSS scoring system.\n\n",
@@ -510,7 +537,7 @@
       ]
     },
     {
-      "id": "news-41786",
+      "id": "news-91768",
       "date": "2026-10-05",
       "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
       "content": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook.\n\nThere are actively exploited bugs in the mix, cleaner intrusi",
@@ -522,7 +549,7 @@
       ]
     },
     {
-      "id": "news-17714",
+      "id": "news-59046",
       "date": "2026-10-05",
       "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
       "content": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts",
@@ -534,34 +561,10 @@
       ]
     },
     {
-      "id": "news-93137",
+      "id": "news-99464",
       "date": "2026-10-05",
       "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
       "content": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling.\n\n\"Cling is notable not because it introduces a new propagation technique, but because i",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-76526",
-      "date": "2026-10-05",
-      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-      "content": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents.\n\n\"Some developers are using Full Disk Access in ways that could put users at risk, exposing ever",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-38673",
-      "date": "2026-10-05",
-      "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
-      "content": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.\n\nThe vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
