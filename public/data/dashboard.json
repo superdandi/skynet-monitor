@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-07 13:09 UTC",
+  "lastUpdated": "2026-10-07 22:59 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 88,
+      "probability": 84,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 5,
+      "recentIncidents": 4,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -33,7 +33,7 @@
       "description": "AI safety company behind Claude models",
       "probability": 48,
       "trend": {
-        "value": 4,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "high",
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 704,
+        "openai": 672,
         "anthropic": 384,
         "google-deepmind": 200,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 844,
+        "openai": 806,
         "anthropic": 460,
         "google-deepmind": 240,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 985,
+        "openai": 940,
         "anthropic": 537,
         "google-deepmind": 280,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1126,
+        "openai": 1075,
         "anthropic": 614,
         "google-deepmind": 320,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1267,
+        "openai": 1209,
         "anthropic": 691,
         "google-deepmind": 360,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 633,
+        "openai": 604,
         "anthropic": 345,
         "google-deepmind": 180,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 756,
+        "openai": 722,
         "anthropic": 412,
         "google-deepmind": 215,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 880,
+        "openai": 840,
         "anthropic": 480,
         "google-deepmind": 250,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 1003,
+        "openai": 957,
         "anthropic": 547,
         "google-deepmind": 285,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1126,
+        "openai": 1075,
         "anthropic": 614,
         "google-deepmind": 320,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 352,
+        "openai": 336,
         "anthropic": 192,
         "google-deepmind": 100,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 457,
+        "openai": 436,
         "anthropic": 249,
         "google-deepmind": 130,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 563,
+        "openai": 537,
         "anthropic": 307,
         "google-deepmind": 160,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 668,
+        "openai": 638,
         "anthropic": 364,
         "google-deepmind": 190,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 774,
+        "openai": 739,
         "anthropic": 422,
         "google-deepmind": 220,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 528,
+        "openai": 504,
         "anthropic": 288,
         "google-deepmind": 150,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 651,
+        "openai": 621,
         "anthropic": 355,
         "google-deepmind": 185,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 774,
+        "openai": 739,
         "anthropic": 422,
         "google-deepmind": 220,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 897,
+        "openai": 856,
         "anthropic": 489,
         "google-deepmind": 255,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 1020,
+        "openai": 974,
         "anthropic": 556,
         "google-deepmind": 290,
         "meta-ai": 116
@@ -385,7 +385,55 @@
   },
   "news": [
     {
-      "id": "news-83351",
+      "id": "news-20388",
+      "date": "2026-10-08",
+      "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+      "content": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6.\n\nGoogle's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (Am",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-33065",
+      "date": "2026-10-07",
+      "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+      "content": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.\n\nThe campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-44191",
+      "date": "2026-10-07",
+      "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+      "content": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available.\n\nThe flaw is in LMCache's&nbsp;multiprocess mode, where t",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-57190",
+      "date": "2026-10-07",
+      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+      "content": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet.\n\nThe",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-45018",
       "date": "2026-10-07",
       "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
       "content": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens.\n\nFor years, the enterprise cybersecurity story has b",
@@ -397,7 +445,7 @@
       ]
     },
     {
-      "id": "news-90563",
+      "id": "news-71586",
       "date": "2026-10-07",
       "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
       "content": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls and secure socket layer (SSL) virtual private network (VPN)",
@@ -409,7 +457,7 @@
       ]
     },
     {
-      "id": "news-39260",
+      "id": "news-78378",
       "date": "2026-10-07",
       "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
       "content": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions.\n\nThe arbitrary file access flaw, tracked as CVE-2026-21589 (CVSS score: 9.3) affects multiple",
@@ -421,7 +469,7 @@
       ]
     },
     {
-      "id": "news-57822",
+      "id": "news-89460",
       "date": "2026-10-07",
       "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
       "content": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least ",
@@ -434,7 +482,7 @@
       ]
     },
     {
-      "id": "news-50828",
+      "id": "news-35254",
       "date": "2026-10-07",
       "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
       "content": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer).\n\nThe activity, which was observed ",
@@ -446,7 +494,7 @@
       ]
     },
     {
-      "id": "news-73677",
+      "id": "news-3833",
       "date": "2026-10-07",
       "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
       "content": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus.\n\nThe products, which c",
@@ -461,7 +509,55 @@
       ]
     },
     {
-      "id": "news-5938",
+      "id": "news-41831",
+      "date": "2026-10-07",
+      "title": "Hackers hijack Google domains after breaching ccTLD registries",
+      "content": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying authoritative DNS records. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-3206",
+      "date": "2026-10-07",
+      "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+      "content": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-17432",
+      "date": "2026-10-07",
+      "title": "Ransomware has a new target. Is your backup ready?",
+      "content": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, and regularly tested backups that attackers cannot easily reach. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-80298",
+      "date": "2026-10-07",
+      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+      "content": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacke",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-85482",
       "date": "2026-10-06",
       "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
       "content": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection.\n\nThreat actors are known to name their malicious software after a legitimate",
@@ -470,107 +566,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-40132",
-      "date": "2026-10-06",
-      "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
-      "content": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages.\n\n\"The unauthorized bot activities in",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-88999",
-      "date": "2026-10-06",
-      "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
-      "content": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows.\n\nThe ecosystem around",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "anthropic",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-44949",
-      "date": "2026-10-06",
-      "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
-      "content": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software.\n\nThe change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-17826",
-      "date": "2026-10-06",
-      "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-      "content": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\n\nThat's according to a report from Reuters, citing two sources familiar w",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-65068",
-      "date": "2026-10-06",
-      "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-      "content": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5.\n\nThey used a private Danish ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-93516",
-      "date": "2026-10-06",
-      "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-      "content": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache.\n\n\"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script p",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-88870",
-      "date": "2026-10-06",
-      "title": "ASOS confirms data breach after “HACKED” in-app notifications",
-      "content": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-6423",
-      "date": "2026-10-06",
-      "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
-      "content": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "anthropic",
-        "google-deepmind",
-        "moderate"
       ]
     }
   ],
