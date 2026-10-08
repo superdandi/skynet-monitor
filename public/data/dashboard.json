@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07 22:59 UTC",
+  "lastUpdated": "2026-10-08 05:48 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 84,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-20388",
+      "id": "news-74119",
       "date": "2026-10-08",
       "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
       "content": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6.\n\nGoogle's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (Am",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-33065",
+      "id": "news-77889",
       "date": "2026-10-07",
       "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
       "content": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.\n\nThe campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed ",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-44191",
+      "id": "news-85424",
       "date": "2026-10-07",
       "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
       "content": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available.\n\nThe flaw is in LMCache's&nbsp;multiprocess mode, where t",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-57190",
+      "id": "news-99324",
       "date": "2026-10-07",
       "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
       "content": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet.\n\nThe",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-45018",
+      "id": "news-79878",
       "date": "2026-10-07",
       "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
       "content": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens.\n\nFor years, the enterprise cybersecurity story has b",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-71586",
+      "id": "news-25450",
       "date": "2026-10-07",
       "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
       "content": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls and secure socket layer (SSL) virtual private network (VPN)",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-78378",
+      "id": "news-81191",
       "date": "2026-10-07",
       "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
       "content": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions.\n\nThe arbitrary file access flaw, tracked as CVE-2026-21589 (CVSS score: 9.3) affects multiple",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-89460",
+      "id": "news-38007",
       "date": "2026-10-07",
       "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
       "content": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least ",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-35254",
+      "id": "news-79853",
       "date": "2026-10-07",
       "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
       "content": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer).\n\nThe activity, which was observed ",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-3833",
+      "id": "news-62820",
       "date": "2026-10-07",
       "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
       "content": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus.\n\nThe products, which c",
@@ -509,7 +509,19 @@
       ]
     },
     {
-      "id": "news-41831",
+      "id": "news-70765",
+      "date": "2026-10-07",
+      "title": "Ransomware recovery CEO charged over secret ransom payments",
+      "content": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attackers for decryptors while claiming to use proprietary technology to recover encrypted data. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-41393",
       "date": "2026-10-07",
       "title": "Hackers hijack Google domains after breaching ccTLD registries",
       "content": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying authoritative DNS records. [...]",
@@ -521,7 +533,7 @@
       ]
     },
     {
-      "id": "news-3206",
+      "id": "news-37838",
       "date": "2026-10-07",
       "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
       "content": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
@@ -533,7 +545,7 @@
       ]
     },
     {
-      "id": "news-17432",
+      "id": "news-10575",
       "date": "2026-10-07",
       "title": "Ransomware has a new target. Is your backup ready?",
       "content": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, and regularly tested backups that attackers cannot easily reach. [...]",
@@ -545,7 +557,7 @@
       ]
     },
     {
-      "id": "news-80298",
+      "id": "news-93445",
       "date": "2026-10-07",
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "content": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacke",
@@ -554,18 +566,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-85482",
-      "date": "2026-10-06",
-      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-      "content": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection.\n\nThreat actors are known to name their malicious software after a legitimate",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
