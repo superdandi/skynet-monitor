@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-09 05:53 UTC",
+  "lastUpdated": "2026-10-09 13:03 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 80,
+      "probability": 76,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 3,
+      "recentIncidents": 2,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 640,
+        "openai": 608,
         "anthropic": 352,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 768,
+        "openai": 729,
         "anthropic": 422,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 896,
+        "openai": 851,
         "anthropic": 492,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1024,
+        "openai": 972,
         "anthropic": 563,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1152,
+        "openai": 1094,
         "anthropic": 633,
         "google-deepmind": 244,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 576,
+        "openai": 547,
         "anthropic": 316,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 688,
+        "openai": 653,
         "anthropic": 378,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 800,
+        "openai": 760,
         "anthropic": 440,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 912,
+        "openai": 866,
         "anthropic": 501,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1024,
+        "openai": 972,
         "anthropic": 563,
         "google-deepmind": 217,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 320,
+        "openai": 304,
         "anthropic": 176,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 416,
+        "openai": 395,
         "anthropic": 228,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 512,
+        "openai": 486,
         "anthropic": 281,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 608,
+        "openai": 577,
         "anthropic": 334,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 704,
+        "openai": 668,
         "anthropic": 387,
         "google-deepmind": 149,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 480,
+        "openai": 456,
         "anthropic": 264,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 592,
+        "openai": 562,
         "anthropic": 325,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 704,
+        "openai": 668,
         "anthropic": 387,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 816,
+        "openai": 775,
         "anthropic": 448,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 928,
+        "openai": 881,
         "anthropic": 510,
         "google-deepmind": 197,
         "meta-ai": 116
@@ -385,7 +385,31 @@
   },
   "news": [
     {
-      "id": "news-11781",
+      "id": "news-80676",
+      "date": "2026-10-09",
+      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+      "content": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a critical “velocity paradox,” in which orga",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-71390",
+      "date": "2026-10-09",
+      "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+      "content": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions.\n\n\"CVE-2026-107406 is a memory overflow vulnerability that may lead to r",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-64363",
       "date": "2026-10-09",
       "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
       "content": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8.\n\nThe company, Integrity Technology G",
@@ -397,7 +421,19 @@
       ]
     },
     {
-      "id": "news-30178",
+      "id": "news-31186",
+      "date": "2026-10-09",
+      "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
+      "content": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-2500",
       "date": "2026-10-08",
       "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
       "content": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said.\n\nThe Tokyo-based center, which takes incident reports, based its&nbsp;October 8, 2026 al",
@@ -409,7 +445,7 @@
       ]
     },
     {
-      "id": "news-14683",
+      "id": "news-42156",
       "date": "2026-10-08",
       "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
       "content": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN.\n\nAccording to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cy",
@@ -421,7 +457,7 @@
       ]
     },
     {
-      "id": "news-95595",
+      "id": "news-52967",
       "date": "2026-10-08",
       "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
       "content": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks.\n\nThe activity, per CrowdStrike Intelligence, was active from late",
@@ -433,7 +469,7 @@
       ]
     },
     {
-      "id": "news-88900",
+      "id": "news-15197",
       "date": "2026-10-08",
       "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
       "content": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself.\n\nANY.RUN has",
@@ -445,7 +481,7 @@
       ]
     },
     {
-      "id": "news-5497",
+      "id": "news-86595",
       "date": "2026-10-08",
       "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
       "content": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data.\n\nZo",
@@ -457,7 +493,7 @@
       ]
     },
     {
-      "id": "news-38018",
+      "id": "news-23714",
       "date": "2026-10-08",
       "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
       "content": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack.\n\nThe malicious version 0.5.144 \"contains obfuscated malware that",
@@ -469,7 +505,7 @@
       ]
     },
     {
-      "id": "news-55344",
+      "id": "news-32336",
       "date": "2026-10-08",
       "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
       "content": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6.\n\nGoogle's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (Am",
@@ -481,7 +517,7 @@
       ]
     },
     {
-      "id": "news-5674",
+      "id": "news-30862",
       "date": "2026-10-08",
       "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
       "content": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]",
@@ -493,7 +529,7 @@
       ]
     },
     {
-      "id": "news-14888",
+      "id": "news-37734",
       "date": "2026-10-08",
       "title": "Low-cost Android phones ship with residential proxy malware",
       "content": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install apps, perform ad fraud, and turn devices into residential proxies. [...]",
@@ -505,7 +541,7 @@
       ]
     },
     {
-      "id": "news-9551",
+      "id": "news-82428",
       "date": "2026-10-08",
       "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
       "content": "More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]",
@@ -517,7 +553,7 @@
       ]
     },
     {
-      "id": "news-58312",
+      "id": "news-84816",
       "date": "2026-10-08",
       "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
       "content": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and exploiting forgotten OAuth grants to gain access to corporat",
@@ -526,42 +562,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-17160",
-      "date": "2026-10-07",
-      "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
-      "content": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.\n\nThe campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-99167",
-      "date": "2026-10-07",
-      "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-      "content": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available.\n\nThe flaw is in LMCache's&nbsp;multiprocess mode, where t",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-78617",
-      "date": "2026-10-07",
-      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-      "content": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet.\n\nThe",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
