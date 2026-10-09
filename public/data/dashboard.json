@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08 23:14 UTC",
+  "lastUpdated": "2026-10-09 05:53 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-72831",
+      "id": "news-11781",
       "date": "2026-10-09",
       "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
       "content": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8.\n\nThe company, Integrity Technology G",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-93673",
+      "id": "news-30178",
       "date": "2026-10-08",
       "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
       "content": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said.\n\nThe Tokyo-based center, which takes incident reports, based its&nbsp;October 8, 2026 al",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-32567",
+      "id": "news-14683",
       "date": "2026-10-08",
       "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
       "content": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN.\n\nAccording to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cy",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-95040",
+      "id": "news-95595",
       "date": "2026-10-08",
       "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
       "content": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks.\n\nThe activity, per CrowdStrike Intelligence, was active from late",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-1278",
+      "id": "news-88900",
       "date": "2026-10-08",
       "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
       "content": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself.\n\nANY.RUN has",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-91664",
+      "id": "news-5497",
       "date": "2026-10-08",
       "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
       "content": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data.\n\nZo",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-72570",
+      "id": "news-38018",
       "date": "2026-10-08",
       "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
       "content": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack.\n\nThe malicious version 0.5.144 \"contains obfuscated malware that",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-39621",
+      "id": "news-55344",
       "date": "2026-10-08",
       "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
       "content": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6.\n\nGoogle's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (Am",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-18062",
+      "id": "news-5674",
       "date": "2026-10-08",
       "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
       "content": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-43548",
+      "id": "news-14888",
       "date": "2026-10-08",
       "title": "Low-cost Android phones ship with residential proxy malware",
       "content": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install apps, perform ad fraud, and turn devices into residential proxies. [...]",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": "news-39727",
+      "id": "news-9551",
       "date": "2026-10-08",
       "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
       "content": "More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]",
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": "news-85955",
+      "id": "news-58312",
       "date": "2026-10-08",
       "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
       "content": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and exploiting forgotten OAuth grants to gain access to corporat",
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "id": "news-53496",
+      "id": "news-17160",
       "date": "2026-10-07",
       "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
       "content": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.\n\nThe campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed ",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "id": "news-20541",
+      "id": "news-99167",
       "date": "2026-10-07",
       "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
       "content": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available.\n\nThe flaw is in LMCache's&nbsp;multiprocess mode, where t",
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "id": "news-32873",
+      "id": "news-78617",
       "date": "2026-10-07",
       "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
       "content": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet.\n\nThe",
