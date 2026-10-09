@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09 13:03 UTC",
+  "lastUpdated": "2026-10-09 22:32 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 76,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 44,
+      "probability": 52,
       "trend": {
-        "value": 0,
+        "value": 8,
         "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 3,
+      "recentIncidents": 5,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 608,
-        "anthropic": 352,
+        "anthropic": 416,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 729,
-        "anthropic": 422,
+        "anthropic": 499,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 851,
-        "anthropic": 492,
+        "anthropic": 582,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 972,
-        "anthropic": 563,
+        "anthropic": 665,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1094,
-        "anthropic": 633,
+        "anthropic": 748,
         "google-deepmind": 244,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 547,
-        "anthropic": 316,
+        "anthropic": 374,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 653,
-        "anthropic": 378,
+        "anthropic": 447,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 760,
-        "anthropic": 440,
+        "anthropic": 520,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 866,
-        "anthropic": 501,
+        "anthropic": 592,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 972,
-        "anthropic": 563,
+        "anthropic": 665,
         "google-deepmind": 217,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 304,
-        "anthropic": 176,
+        "anthropic": 208,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 395,
-        "anthropic": 228,
+        "anthropic": 270,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 486,
-        "anthropic": 281,
+        "anthropic": 332,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 577,
-        "anthropic": 334,
+        "anthropic": 395,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 668,
-        "anthropic": 387,
+        "anthropic": 457,
         "google-deepmind": 149,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 456,
-        "anthropic": 264,
+        "anthropic": 312,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 562,
-        "anthropic": 325,
+        "anthropic": 384,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 668,
-        "anthropic": 387,
+        "anthropic": 457,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 775,
-        "anthropic": 448,
+        "anthropic": 530,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 881,
-        "anthropic": 510,
+        "anthropic": 603,
         "google-deepmind": 197,
         "meta-ai": 116
       }
@@ -385,7 +385,80 @@
   },
   "news": [
     {
-      "id": "news-80676",
+      "id": "news-99728",
+      "date": "2026-10-10",
+      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "content": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories.\n\n\"Using the account of Takashi Kitao, author of the 18,400-star ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-88976",
+      "date": "2026-10-09",
+      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+      "content": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X.\n\nShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost al",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-8326",
+      "date": "2026-10-09",
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "content": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-93020",
+      "date": "2026-10-09",
+      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+      "content": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with &nbsp;Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its routers are and how separate it is fr",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-73910",
+      "date": "2026-10-09",
+      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+      "content": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI).\n\n\"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-60483",
+      "date": "2026-10-09",
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+      "content": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners.\n\nDetails of the flaws are below -\n\n\n  CVE-2026-105133 (CVSS v4 score: 5.5) - An impr",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-23873",
       "date": "2026-10-09",
       "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
       "content": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a critical “velocity paradox,” in which orga",
@@ -397,7 +470,7 @@
       ]
     },
     {
-      "id": "news-71390",
+      "id": "news-25380",
       "date": "2026-10-09",
       "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
       "content": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions.\n\n\"CVE-2026-107406 is a memory overflow vulnerability that may lead to r",
@@ -409,7 +482,7 @@
       ]
     },
     {
-      "id": "news-64363",
+      "id": "news-50093",
       "date": "2026-10-09",
       "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
       "content": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8.\n\nThe company, Integrity Technology G",
@@ -421,7 +494,32 @@
       ]
     },
     {
-      "id": "news-31186",
+      "id": "news-26455",
+      "date": "2026-10-09",
+      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+      "content": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-41747",
+      "date": "2026-10-09",
+      "title": "How to keep AI agents within their permissions",
+      "content": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without sacrificing autonomy. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-52968",
       "date": "2026-10-09",
       "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
       "content": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]",
@@ -433,7 +531,7 @@
       ]
     },
     {
-      "id": "news-2500",
+      "id": "news-18408",
       "date": "2026-10-08",
       "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
       "content": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said.\n\nThe Tokyo-based center, which takes incident reports, based its&nbsp;October 8, 2026 al",
@@ -445,7 +543,7 @@
       ]
     },
     {
-      "id": "news-42156",
+      "id": "news-99181",
       "date": "2026-10-08",
       "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
       "content": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN.\n\nAccording to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cy",
@@ -457,7 +555,7 @@
       ]
     },
     {
-      "id": "news-52967",
+      "id": "news-63452",
       "date": "2026-10-08",
       "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
       "content": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks.\n\nThe activity, per CrowdStrike Intelligence, was active from late",
@@ -466,102 +564,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-15197",
-      "date": "2026-10-08",
-      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
-      "content": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself.\n\nANY.RUN has",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-86595",
-      "date": "2026-10-08",
-      "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
-      "content": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data.\n\nZo",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-23714",
-      "date": "2026-10-08",
-      "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
-      "content": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack.\n\nThe malicious version 0.5.144 \"contains obfuscated malware that",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-32336",
-      "date": "2026-10-08",
-      "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
-      "content": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6.\n\nGoogle's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (Am",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-30862",
-      "date": "2026-10-08",
-      "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
-      "content": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-37734",
-      "date": "2026-10-08",
-      "title": "Low-cost Android phones ship with residential proxy malware",
-      "content": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install apps, perform ad fraud, and turn devices into residential proxies. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-82428",
-      "date": "2026-10-08",
-      "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
-      "content": "More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-84816",
-      "date": "2026-10-08",
-      "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
-      "content": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and exploiting forgotten OAuth grants to gain access to corporat",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
