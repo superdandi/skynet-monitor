@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10 05:35 UTC",
+  "lastUpdated": "2026-10-10 12:20 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 52,
+      "probability": 56,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
-      "riskLevel": "high",
+      "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 5,
+      "recentIncidents": 6,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 608,
-        "anthropic": 416,
+        "anthropic": 448,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 729,
-        "anthropic": 499,
+        "anthropic": 537,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 851,
-        "anthropic": 582,
+        "anthropic": 627,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 972,
-        "anthropic": 665,
+        "anthropic": 716,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1094,
-        "anthropic": 748,
+        "anthropic": 806,
         "google-deepmind": 244,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 547,
-        "anthropic": 374,
+        "anthropic": 403,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 653,
-        "anthropic": 447,
+        "anthropic": 481,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 760,
-        "anthropic": 520,
+        "anthropic": 560,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 866,
-        "anthropic": 592,
+        "anthropic": 638,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 972,
-        "anthropic": 665,
+        "anthropic": 716,
         "google-deepmind": 217,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 304,
-        "anthropic": 208,
+        "anthropic": 224,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 395,
-        "anthropic": 270,
+        "anthropic": 291,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 486,
-        "anthropic": 332,
+        "anthropic": 358,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 577,
-        "anthropic": 395,
+        "anthropic": 425,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 668,
-        "anthropic": 457,
+        "anthropic": 492,
         "google-deepmind": 149,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 456,
-        "anthropic": 312,
+        "anthropic": 336,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 562,
-        "anthropic": 384,
+        "anthropic": 414,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 668,
-        "anthropic": 457,
+        "anthropic": 492,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 775,
-        "anthropic": 530,
+        "anthropic": 571,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 881,
-        "anthropic": 603,
+        "anthropic": 649,
         "google-deepmind": 197,
         "meta-ai": 116
       }
@@ -385,7 +385,32 @@
   },
   "news": [
     {
-      "id": "news-40640",
+      "id": "news-76899",
+      "date": "2026-10-10",
+      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "content": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an i",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-37143",
+      "date": "2026-10-10",
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "content": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.\n\nThe AI company said it identified f",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-84755",
       "date": "2026-10-10",
       "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
       "content": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories.\n\n\"Using the account of Takashi Kitao, author of the 18,400-star ",
@@ -397,7 +422,7 @@
       ]
     },
     {
-      "id": "news-17918",
+      "id": "news-85211",
       "date": "2026-10-09",
       "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
       "content": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X.\n\nShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost al",
@@ -409,7 +434,7 @@
       ]
     },
     {
-      "id": "news-29351",
+      "id": "news-97444",
       "date": "2026-10-09",
       "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
       "content": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two",
@@ -421,7 +446,7 @@
       ]
     },
     {
-      "id": "news-51813",
+      "id": "news-77405",
       "date": "2026-10-09",
       "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
       "content": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with &nbsp;Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its routers are and how separate it is fr",
@@ -433,7 +458,7 @@
       ]
     },
     {
-      "id": "news-41543",
+      "id": "news-84804",
       "date": "2026-10-09",
       "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
       "content": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI).\n\n\"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic",
@@ -446,7 +471,7 @@
       ]
     },
     {
-      "id": "news-57676",
+      "id": "news-65033",
       "date": "2026-10-09",
       "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
       "content": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners.\n\nDetails of the flaws are below -\n\n\n  CVE-2026-105133 (CVSS v4 score: 5.5) - An impr",
@@ -458,7 +483,7 @@
       ]
     },
     {
-      "id": "news-45274",
+      "id": "news-94164",
       "date": "2026-10-09",
       "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
       "content": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a critical “velocity paradox,” in which orga",
@@ -470,7 +495,7 @@
       ]
     },
     {
-      "id": "news-92012",
+      "id": "news-92234",
       "date": "2026-10-09",
       "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
       "content": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions.\n\n\"CVE-2026-107406 is a memory overflow vulnerability that may lead to r",
@@ -482,7 +507,7 @@
       ]
     },
     {
-      "id": "news-86501",
+      "id": "news-96588",
       "date": "2026-10-09",
       "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
       "content": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8.\n\nThe company, Integrity Technology G",
@@ -494,7 +519,7 @@
       ]
     },
     {
-      "id": "news-34220",
+      "id": "news-87000",
       "date": "2026-10-09",
       "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
       "content": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
@@ -507,7 +532,7 @@
       ]
     },
     {
-      "id": "news-91728",
+      "id": "news-83441",
       "date": "2026-10-09",
       "title": "How to keep AI agents within their permissions",
       "content": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without sacrificing autonomy. [...]",
@@ -519,7 +544,7 @@
       ]
     },
     {
-      "id": "news-24469",
+      "id": "news-51201",
       "date": "2026-10-09",
       "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
       "content": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]",
@@ -531,7 +556,7 @@
       ]
     },
     {
-      "id": "news-1203",
+      "id": "news-8303",
       "date": "2026-10-08",
       "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
       "content": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said.\n\nThe Tokyo-based center, which takes incident reports, based its&nbsp;October 8, 2026 al",
@@ -540,30 +565,6 @@
       "views": 0,
       "tags": [
         "warning"
-      ]
-    },
-    {
-      "id": "news-78685",
-      "date": "2026-10-08",
-      "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
-      "content": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN.\n\nAccording to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cy",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-88373",
-      "date": "2026-10-08",
-      "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
-      "content": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks.\n\nThe activity, per CrowdStrike Intelligence, was active from late",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
