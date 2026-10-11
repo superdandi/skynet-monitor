@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10 21:30 UTC",
+  "lastUpdated": "2026-10-11 05:31 UTC",
   "companies": [
     {
       "id": "openai",
@@ -33,7 +33,7 @@
       "description": "AI safety company behind Claude models",
       "probability": 60,
       "trend": {
-        "value": 4,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "critical",
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-96781",
+      "id": "news-68554",
+      "date": "2026-10-11",
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "content": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-4107",
       "date": "2026-10-10",
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
       "content": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an i",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-78884",
+      "id": "news-86474",
       "date": "2026-10-10",
       "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
       "content": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.\n\nThe AI company said it identified f",
@@ -410,7 +422,7 @@
       ]
     },
     {
-      "id": "news-12863",
+      "id": "news-50352",
       "date": "2026-10-10",
       "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
       "content": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories.\n\n\"Using the account of Takashi Kitao, author of the 18,400-star ",
@@ -422,7 +434,7 @@
       ]
     },
     {
-      "id": "news-63085",
+      "id": "news-16738",
       "date": "2026-10-10",
       "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
       "content": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
@@ -435,7 +447,7 @@
       ]
     },
     {
-      "id": "news-72309",
+      "id": "news-82516",
       "date": "2026-10-10",
       "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
       "content": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [",
@@ -447,7 +459,7 @@
       ]
     },
     {
-      "id": "news-69794",
+      "id": "news-98628",
       "date": "2026-10-09",
       "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
       "content": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X.\n\nShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost al",
@@ -459,19 +471,7 @@
       ]
     },
     {
-      "id": "news-56775",
-      "date": "2026-10-09",
-      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-      "content": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-91180",
+      "id": "news-65691",
       "date": "2026-10-09",
       "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
       "content": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with &nbsp;Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its routers are and how separate it is fr",
@@ -483,7 +483,7 @@
       ]
     },
     {
-      "id": "news-99315",
+      "id": "news-87597",
       "date": "2026-10-09",
       "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
       "content": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI).\n\n\"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic",
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": "news-17473",
+      "id": "news-26476",
       "date": "2026-10-09",
       "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
       "content": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners.\n\nDetails of the flaws are below -\n\n\n  CVE-2026-105133 (CVSS v4 score: 5.5) - An impr",
@@ -508,7 +508,7 @@
       ]
     },
     {
-      "id": "news-66042",
+      "id": "news-62880",
       "date": "2026-10-09",
       "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
       "content": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a critical “velocity paradox,” in which orga",
@@ -520,7 +520,7 @@
       ]
     },
     {
-      "id": "news-54075",
+      "id": "news-78763",
       "date": "2026-10-09",
       "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
       "content": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions.\n\n\"CVE-2026-107406 is a memory overflow vulnerability that may lead to r",
@@ -532,7 +532,7 @@
       ]
     },
     {
-      "id": "news-71132",
+      "id": "news-707",
       "date": "2026-10-09",
       "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
       "content": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8.\n\nThe company, Integrity Technology G",
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "id": "news-29470",
+      "id": "news-76178",
       "date": "2026-10-09",
       "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
       "content": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
@@ -557,7 +557,7 @@
       ]
     },
     {
-      "id": "news-10734",
+      "id": "news-15878",
       "date": "2026-10-09",
       "title": "How to keep AI agents within their permissions",
       "content": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without sacrificing autonomy. [...]",
