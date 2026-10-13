@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12 15:10 UTC",
+  "lastUpdated": "2026-10-13 00:30 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 64,
+      "probability": 72,
       "trend": {
-        "value": 4,
+        "value": 8,
         "direction": "up"
       },
       "riskLevel": "critical",
-      "riskFactors": 0,
-      "recentIncidents": 8,
+      "riskFactors": 1,
+      "recentIncidents": 9,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 608,
-        "anthropic": 512,
+        "anthropic": 576,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 729,
-        "anthropic": 614,
+        "anthropic": 691,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 851,
-        "anthropic": 716,
+        "anthropic": 806,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 972,
-        "anthropic": 819,
+        "anthropic": 921,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1094,
-        "anthropic": 921,
+        "anthropic": 1036,
         "google-deepmind": 244,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 547,
-        "anthropic": 460,
+        "anthropic": 518,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 653,
-        "anthropic": 550,
+        "anthropic": 619,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 760,
-        "anthropic": 640,
+        "anthropic": 720,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 866,
-        "anthropic": 729,
+        "anthropic": 820,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 972,
-        "anthropic": 819,
+        "anthropic": 921,
         "google-deepmind": 217,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 304,
-        "anthropic": 256,
+        "anthropic": 288,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 395,
-        "anthropic": 332,
+        "anthropic": 374,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 486,
-        "anthropic": 409,
+        "anthropic": 460,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 577,
-        "anthropic": 486,
+        "anthropic": 547,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 668,
-        "anthropic": 563,
+        "anthropic": 633,
         "google-deepmind": 149,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 456,
-        "anthropic": 384,
+        "anthropic": 432,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 562,
-        "anthropic": 473,
+        "anthropic": 532,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 668,
-        "anthropic": 563,
+        "anthropic": 633,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 775,
-        "anthropic": 652,
+        "anthropic": 734,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 881,
-        "anthropic": 742,
+        "anthropic": 835,
         "google-deepmind": 197,
         "meta-ai": 116
       }
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-32749",
+      "id": "news-83381",
+      "date": "2026-10-12",
+      "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+      "content": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it.\n\nBut speed is only part of the problem. A secure connectio",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-15994",
       "date": "2026-10-12",
       "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
       "content": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller.\n\nOn Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who ",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-64698",
+      "id": "news-50867",
       "date": "2026-10-12",
       "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
       "content": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.\n\nThe activity, which brings together commodity offens",
@@ -410,7 +422,44 @@
       ]
     },
     {
-      "id": "news-88804",
+      "id": "news-93435",
+      "date": "2026-10-12",
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "content": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-12225",
+      "date": "2026-10-12",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "content": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-64543",
+      "date": "2026-10-12",
+      "title": "Cyberattack shuts down refrigerators at French supermarkets",
+      "content": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-52503",
       "date": "2026-10-12",
       "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
       "content": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution cap",
@@ -422,7 +471,7 @@
       ]
     },
     {
-      "id": "news-43416",
+      "id": "news-38705",
       "date": "2026-10-12",
       "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
       "content": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
@@ -434,7 +483,7 @@
       ]
     },
     {
-      "id": "news-79583",
+      "id": "news-20097",
       "date": "2026-10-11",
       "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
       "content": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two",
@@ -446,7 +495,7 @@
       ]
     },
     {
-      "id": "news-29174",
+      "id": "news-59357",
       "date": "2026-10-11",
       "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
       "content": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
@@ -458,7 +507,7 @@
       ]
     },
     {
-      "id": "news-86423",
+      "id": "news-22175",
       "date": "2026-10-10",
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
       "content": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an i",
@@ -470,7 +519,7 @@
       ]
     },
     {
-      "id": "news-8785",
+      "id": "news-89010",
       "date": "2026-10-10",
       "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
       "content": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.\n\nThe AI company",
@@ -483,7 +532,7 @@
       ]
     },
     {
-      "id": "news-66123",
+      "id": "news-63753",
       "date": "2026-10-10",
       "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
       "content": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories.\n\n\"Using the account of Takashi Kitao, author of the 18,400-star ",
@@ -495,7 +544,7 @@
       ]
     },
     {
-      "id": "news-44843",
+      "id": "news-93629",
       "date": "2026-10-10",
       "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
       "content": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
@@ -508,7 +557,7 @@
       ]
     },
     {
-      "id": "news-51093",
+      "id": "news-78673",
       "date": "2026-10-10",
       "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
       "content": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [",
@@ -517,55 +566,6 @@
       "views": 0,
       "tags": [
         "warning"
-      ]
-    },
-    {
-      "id": "news-91033",
-      "date": "2026-10-09",
-      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-      "content": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X.\n\nShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost al",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-97322",
-      "date": "2026-10-09",
-      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
-      "content": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with &nbsp;Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its routers are and how separate it is fr",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-35869",
-      "date": "2026-10-09",
-      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
-      "content": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI).\n\n\"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "anthropic",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-41562",
-      "date": "2026-10-09",
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
-      "content": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners.\n\nDetails of the flaws are below -\n\n\n  CVE-2026-105133 (CVSS v4 score: 5.5) - An impr",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
