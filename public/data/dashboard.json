@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13 22:34 UTC",
+  "lastUpdated": "2026-10-14 04:39 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 68,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 44,
       "trend": {
-        "value": 24,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -58,8 +58,8 @@
       "description": "Alphabet's AI research division",
       "probability": 13,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-69518",
+      "id": "news-92096",
       "date": "2026-10-13",
       "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
       "content": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it.\n\nThe flaw was in the feature that&nbsp;",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-74018",
+      "id": "news-86084",
       "date": "2026-10-13",
       "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
       "content": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm&nbsp;Volexity said&nbsp;on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act imme",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-53675",
+      "id": "news-76366",
       "date": "2026-10-13",
       "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
       "content": "A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that ",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-75089",
+      "id": "news-82138",
       "date": "2026-10-13",
       "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
       "content": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next.\n\nWith AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security tea",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-17609",
+      "id": "news-70793",
       "date": "2026-10-13",
       "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
       "content": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\n\nLG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on Octobe",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-38208",
+      "id": "news-92100",
       "date": "2026-10-13",
       "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
       "content": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said.\n\nThe attackers reached them through the controller that runs all of a store's fridge",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-68482",
+      "id": "news-51488",
       "date": "2026-10-13",
       "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
       "content": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution.\n\n\"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthe",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-6114",
+      "id": "news-39088",
       "date": "2026-10-13",
       "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
       "content": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-7085",
+      "id": "news-53270",
       "date": "2026-10-13",
       "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
       "content": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-98222",
+      "id": "news-12304",
       "date": "2026-10-13",
       "title": "The MFA Gaps Attackers are Still Exploiting",
       "content": "Attackers continue exploiting gaps in MFA coverage, using stolen credentials to access VPNs, RDP, and Windows systems that still rely on passwords alone. Specops explains why protecting cloud applications isn't enough and how organizations can close these authentication gaps. [..",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": "news-17907",
+      "id": "news-38196",
       "date": "2026-10-12",
       "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
       "content": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it.\n\nBut speed is only part of the problem. A secure connectio",
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": "news-4184",
+      "id": "news-13795",
       "date": "2026-10-12",
       "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
       "content": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller.\n\nOn Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who ",
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "id": "news-68470",
+      "id": "news-61052",
       "date": "2026-10-12",
       "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
       "content": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.\n\nThe activity, which brings together commodity offens",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-29977",
+      "id": "news-59698",
       "date": "2026-10-11",
       "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
       "content": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-38533",
+      "id": "news-9731",
       "date": "2026-10-10",
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
       "content": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an i",
