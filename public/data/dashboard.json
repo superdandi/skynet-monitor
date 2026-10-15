@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15 16:48 UTC",
+  "lastUpdated": "2026-10-15 21:14 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 40,
+      "probability": 36,
       "trend": {
         "value": 4,
         "direction": "down"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 2,
+      "recentIncidents": 1,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 576,
-        "anthropic": 320,
+        "anthropic": 288,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 691,
-        "anthropic": 384,
+        "anthropic": 345,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 806,
-        "anthropic": 448,
+        "anthropic": 403,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 921,
-        "anthropic": 512,
+        "anthropic": 460,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1036,
-        "anthropic": 576,
+        "anthropic": 518,
         "google-deepmind": 187,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 518,
-        "anthropic": 288,
+        "anthropic": 259,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 619,
-        "anthropic": 344,
+        "anthropic": 309,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 720,
-        "anthropic": 400,
+        "anthropic": 360,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 820,
-        "anthropic": 456,
+        "anthropic": 410,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 921,
-        "anthropic": 512,
+        "anthropic": 460,
         "google-deepmind": 166,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 288,
-        "anthropic": 160,
+        "anthropic": 144,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 374,
-        "anthropic": 208,
+        "anthropic": 187,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 460,
-        "anthropic": 256,
+        "anthropic": 230,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 547,
-        "anthropic": 304,
+        "anthropic": 273,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 633,
-        "anthropic": 352,
+        "anthropic": 316,
         "google-deepmind": 114,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 432,
-        "anthropic": 240,
+        "anthropic": 216,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 532,
-        "anthropic": 296,
+        "anthropic": 266,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 633,
-        "anthropic": 352,
+        "anthropic": 316,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 734,
-        "anthropic": 408,
+        "anthropic": 367,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 835,
-        "anthropic": 464,
+        "anthropic": 417,
         "google-deepmind": 150,
         "meta-ai": 116
       }
@@ -385,7 +385,31 @@
   },
   "news": [
     {
-      "id": "news-87924",
+      "id": "news-25305",
+      "date": "2026-10-16",
+      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+      "content": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\n\nThe flaw, now tracked as CVE-2026-99999 and",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-42930",
+      "date": "2026-10-16",
+      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+      "content": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets interesting in different ways. A small permission can lead to a big theft. A trusted",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-6711",
       "date": "2026-10-15",
       "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
       "content": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&nbsp;the Citizen Lab&nbsp;said Thursday.\n\nThe hidden attack code ra",
@@ -397,7 +421,7 @@
       ]
     },
     {
-      "id": "news-45211",
+      "id": "news-91931",
       "date": "2026-10-15",
       "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
       "content": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).\n\nThe activity, observed from June 2025 through August 2026, involves four different infection chains that ma",
@@ -409,7 +433,7 @@
       ]
     },
     {
-      "id": "news-98751",
+      "id": "news-59631",
       "date": "2026-10-15",
       "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
       "content": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777.\n\nHelp TDS is assessed to be active since at least 2017, offering PHP code te",
@@ -421,7 +445,7 @@
       ]
     },
     {
-      "id": "news-99816",
+      "id": "news-62340",
       "date": "2026-10-15",
       "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
       "content": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\n\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in&n",
@@ -433,7 +457,7 @@
       ]
     },
     {
-      "id": "news-79314",
+      "id": "news-83018",
       "date": "2026-10-15",
       "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
       "content": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026.&nbsp;\n\nThe campaigns also increase operational pre",
@@ -445,7 +469,7 @@
       ]
     },
     {
-      "id": "news-28375",
+      "id": "news-95119",
       "date": "2026-10-15",
       "title": "Why AI Confidence Is Not Validation",
       "content": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance",
@@ -457,7 +481,7 @@
       ]
     },
     {
-      "id": "news-43004",
+      "id": "news-51209",
       "date": "2026-10-15",
       "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
       "content": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on October 8 and 9, 2026.\n\n\"This resulted from compromising the GitHub accounts of ab",
@@ -469,7 +493,7 @@
       ]
     },
     {
-      "id": "news-21332",
+      "id": "news-69464",
       "date": "2026-10-15",
       "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
       "content": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent co",
@@ -481,7 +505,7 @@
       ]
     },
     {
-      "id": "news-9397",
+      "id": "news-97837",
       "date": "2026-10-15",
       "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
       "content": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be",
@@ -493,7 +517,7 @@
       ]
     },
     {
-      "id": "news-91556",
+      "id": "news-20425",
       "date": "2026-10-15",
       "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
       "content": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday.\n\nThe attacker sends an email with a crafted attachment through the gateway an",
@@ -505,7 +529,19 @@
       ]
     },
     {
-      "id": "news-2346",
+      "id": "news-45947",
+      "date": "2026-10-15",
+      "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+      "content": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-21656",
       "date": "2026-10-15",
       "title": "Is AI pentesting as good as a human pentester?",
       "content": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both approaches and explains where AI agents can improve security ",
@@ -517,7 +553,7 @@
       ]
     },
     {
-      "id": "news-54034",
+      "id": "news-12972",
       "date": "2026-10-15",
       "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
       "content": "The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says attackers who breached its IT systems in April 2025 stole records dating back to 1978. [...]",
@@ -526,43 +562,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-44312",
-      "date": "2026-10-14",
-      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-      "content": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.\n\nIts researchers built the attack in six days by directing AI agents running OpenAI's public",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-52051",
-      "date": "2026-10-14",
-      "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
-      "content": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-55334",
-      "date": "2026-10-14",
-      "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
-      "content": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part.\n\nTL;DR\n\n\n  During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
