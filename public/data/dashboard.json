@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-16 11:11 UTC",
+  "lastUpdated": "2026-10-16 16:30 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 72,
+      "probability": 80,
       "trend": {
-        "value": 0,
+        "value": 8,
         "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 3,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 32,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 13,
+      "probability": 17,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
-      "recentIncidents": 0,
+      "recentIncidents": 1,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -200,148 +200,148 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 576,
+        "openai": 640,
         "anthropic": 256,
-        "google-deepmind": 104,
+        "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 691,
+        "openai": 768,
         "anthropic": 307,
-        "google-deepmind": 124,
+        "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 806,
+        "openai": 896,
         "anthropic": 358,
-        "google-deepmind": 145,
+        "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 921,
+        "openai": 1024,
         "anthropic": 409,
-        "google-deepmind": 166,
+        "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1036,
+        "openai": 1152,
         "anthropic": 460,
-        "google-deepmind": 187,
+        "google-deepmind": 244,
         "meta-ai": 144
       }
     ],
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 518,
+        "openai": 576,
         "anthropic": 230,
-        "google-deepmind": 93,
+        "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 619,
+        "openai": 688,
         "anthropic": 275,
-        "google-deepmind": 111,
+        "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 720,
+        "openai": 800,
         "anthropic": 320,
-        "google-deepmind": 130,
+        "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 820,
+        "openai": 912,
         "anthropic": 364,
-        "google-deepmind": 148,
+        "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 921,
+        "openai": 1024,
         "anthropic": 409,
-        "google-deepmind": 166,
+        "google-deepmind": 217,
         "meta-ai": 128
       }
     ],
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 288,
+        "openai": 320,
         "anthropic": 128,
-        "google-deepmind": 52,
+        "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 374,
+        "openai": 416,
         "anthropic": 166,
-        "google-deepmind": 67,
+        "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 460,
+        "openai": 512,
         "anthropic": 204,
-        "google-deepmind": 83,
+        "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 547,
+        "openai": 608,
         "anthropic": 243,
-        "google-deepmind": 98,
+        "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 633,
+        "openai": 704,
         "anthropic": 281,
-        "google-deepmind": 114,
+        "google-deepmind": 149,
         "meta-ai": 88
       }
     ],
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 432,
+        "openai": 480,
         "anthropic": 192,
-        "google-deepmind": 78,
+        "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 532,
+        "openai": 592,
         "anthropic": 236,
-        "google-deepmind": 96,
+        "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 633,
+        "openai": 704,
         "anthropic": 281,
-        "google-deepmind": 114,
+        "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 734,
+        "openai": 816,
         "anthropic": 326,
-        "google-deepmind": 132,
+        "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 835,
+        "openai": 928,
         "anthropic": 371,
-        "google-deepmind": 150,
+        "google-deepmind": 197,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,33 @@
   },
   "news": [
     {
-      "id": "news-21460",
+      "id": "news-10744",
+      "date": "2026-10-16",
+      "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+      "content": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harves",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "google-deepmind",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-50405",
+      "date": "2026-10-16",
+      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+      "content": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-82791",
       "date": "2026-10-16",
       "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
       "content": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\n\nThe flaw, now tracked as CVE-2026-99999 and",
@@ -397,7 +423,7 @@
       ]
     },
     {
-      "id": "news-76595",
+      "id": "news-65596",
       "date": "2026-10-16",
       "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
       "content": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets interesting in different ways. A small permission can lead to a big theft. A trusted",
@@ -409,7 +435,32 @@
       ]
     },
     {
-      "id": "news-22542",
+      "id": "news-6436",
+      "date": "2026-10-16",
+      "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+      "content": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches perso",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-16634",
+      "date": "2026-10-16",
+      "title": "Burger King Japan data breach exposes 11 million customer records",
+      "content": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-12115",
       "date": "2026-10-15",
       "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
       "content": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&nbsp;the Citizen Lab&nbsp;said Thursday.\n\nThe hidden attack code ra",
@@ -421,7 +472,7 @@
       ]
     },
     {
-      "id": "news-79805",
+      "id": "news-75945",
       "date": "2026-10-15",
       "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
       "content": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).\n\nThe activity, observed from June 2025 through August 2026, involves four different infection chains that ma",
@@ -433,7 +484,7 @@
       ]
     },
     {
-      "id": "news-82856",
+      "id": "news-25099",
       "date": "2026-10-15",
       "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
       "content": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777.\n\nHelp TDS is assessed to be active since at least 2017, offering PHP code te",
@@ -445,7 +496,7 @@
       ]
     },
     {
-      "id": "news-72412",
+      "id": "news-1013",
       "date": "2026-10-15",
       "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
       "content": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\n\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in&n",
@@ -457,7 +508,7 @@
       ]
     },
     {
-      "id": "news-74530",
+      "id": "news-8830",
       "date": "2026-10-15",
       "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
       "content": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026.&nbsp;\n\nThe campaigns also increase operational pre",
@@ -469,7 +520,7 @@
       ]
     },
     {
-      "id": "news-50688",
+      "id": "news-26468",
       "date": "2026-10-15",
       "title": "Why AI Confidence Is Not Validation",
       "content": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance",
@@ -481,7 +532,7 @@
       ]
     },
     {
-      "id": "news-38120",
+      "id": "news-17435",
       "date": "2026-10-15",
       "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
       "content": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on October 8 and 9, 2026.\n\n\"This resulted from compromising the GitHub accounts of ab",
@@ -493,7 +544,7 @@
       ]
     },
     {
-      "id": "news-30684",
+      "id": "news-1497",
       "date": "2026-10-15",
       "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
       "content": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent co",
@@ -505,7 +556,7 @@
       ]
     },
     {
-      "id": "news-67302",
+      "id": "news-24540",
       "date": "2026-10-15",
       "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
       "content": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be",
@@ -514,54 +565,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-47268",
-      "date": "2026-10-15",
-      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
-      "content": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday.\n\nThe attacker sends an email with a crafted attachment through the gateway an",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-70424",
-      "date": "2026-10-15",
-      "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
-      "content": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-14253",
-      "date": "2026-10-15",
-      "title": "Is AI pentesting as good as a human pentester?",
-      "content": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both approaches and explains where AI agents can improve security ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-26629",
-      "date": "2026-10-15",
-      "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
-      "content": "The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says attackers who breached its IT systems in April 2025 stole records dating back to 1978. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
