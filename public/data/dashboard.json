@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15 21:14 UTC",
+  "lastUpdated": "2026-10-16 04:16 UTC",
   "companies": [
     {
       "id": "openai",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 36,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-25305",
+      "id": "news-44176",
       "date": "2026-10-16",
       "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
       "content": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\n\nThe flaw, now tracked as CVE-2026-99999 and",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-42930",
+      "id": "news-97515",
       "date": "2026-10-16",
       "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
       "content": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets interesting in different ways. A small permission can lead to a big theft. A trusted",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-6711",
+      "id": "news-93967",
       "date": "2026-10-15",
       "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
       "content": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&nbsp;the Citizen Lab&nbsp;said Thursday.\n\nThe hidden attack code ra",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-91931",
+      "id": "news-95044",
       "date": "2026-10-15",
       "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
       "content": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).\n\nThe activity, observed from June 2025 through August 2026, involves four different infection chains that ma",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-59631",
+      "id": "news-2394",
       "date": "2026-10-15",
       "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
       "content": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777.\n\nHelp TDS is assessed to be active since at least 2017, offering PHP code te",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-62340",
+      "id": "news-24986",
       "date": "2026-10-15",
       "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
       "content": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\n\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in&n",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-83018",
+      "id": "news-14423",
       "date": "2026-10-15",
       "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
       "content": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026.&nbsp;\n\nThe campaigns also increase operational pre",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-95119",
+      "id": "news-11998",
       "date": "2026-10-15",
       "title": "Why AI Confidence Is Not Validation",
       "content": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-51209",
+      "id": "news-31413",
       "date": "2026-10-15",
       "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
       "content": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on October 8 and 9, 2026.\n\n\"This resulted from compromising the GitHub accounts of ab",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-69464",
+      "id": "news-7755",
       "date": "2026-10-15",
       "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
       "content": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent co",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": "news-97837",
+      "id": "news-98996",
       "date": "2026-10-15",
       "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
       "content": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be",
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": "news-20425",
+      "id": "news-78933",
       "date": "2026-10-15",
       "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
       "content": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday.\n\nThe attacker sends an email with a crafted attachment through the gateway an",
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "id": "news-45947",
+      "id": "news-40313",
       "date": "2026-10-15",
       "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
       "content": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "id": "news-21656",
+      "id": "news-33464",
       "date": "2026-10-15",
       "title": "Is AI pentesting as good as a human pentester?",
       "content": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both approaches and explains where AI agents can improve security ",
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "id": "news-12972",
+      "id": "news-38421",
       "date": "2026-10-15",
       "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
       "content": "The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says attackers who breached its IT systems in April 2025 stole records dating back to 1978. [...]",
