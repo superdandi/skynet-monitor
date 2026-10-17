@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17 04:07 UTC",
+  "lastUpdated": "2026-10-17 10:30 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-90100",
+      "id": "news-80854",
+      "date": "2026-10-17",
+      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "content": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environm",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-72163",
       "date": "2026-10-16",
       "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
       "content": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, wh",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-58260",
+      "id": "news-69922",
       "date": "2026-10-16",
       "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
       "content": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harves",
@@ -410,7 +422,7 @@
       ]
     },
     {
-      "id": "news-65985",
+      "id": "news-304",
       "date": "2026-10-16",
       "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
       "content": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without ",
@@ -423,7 +435,7 @@
       ]
     },
     {
-      "id": "news-83582",
+      "id": "news-34485",
       "date": "2026-10-16",
       "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
       "content": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\n\nThe flaw, now tracked as CVE-2026-99999 and",
@@ -435,7 +447,7 @@
       ]
     },
     {
-      "id": "news-77727",
+      "id": "news-36725",
       "date": "2026-10-16",
       "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
       "content": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets interesting in different ways. A small permission can lead to a big theft. A trusted",
@@ -447,7 +459,7 @@
       ]
     },
     {
-      "id": "news-46617",
+      "id": "news-56968",
       "date": "2026-10-16",
       "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
       "content": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches perso",
@@ -460,7 +472,7 @@
       ]
     },
     {
-      "id": "news-92353",
+      "id": "news-19991",
       "date": "2026-10-16",
       "title": "Burger King Japan data breach exposes 11 million customer records",
       "content": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
@@ -472,7 +484,7 @@
       ]
     },
     {
-      "id": "news-34600",
+      "id": "news-96346",
       "date": "2026-10-15",
       "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
       "content": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&nbsp;the Citizen Lab&nbsp;said Thursday.\n\nThe hidden attack code ra",
@@ -484,7 +496,7 @@
       ]
     },
     {
-      "id": "news-23704",
+      "id": "news-4776",
       "date": "2026-10-15",
       "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
       "content": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).\n\nThe activity, observed from June 2025 through August 2026, involves four different infection chains that ma",
@@ -496,7 +508,7 @@
       ]
     },
     {
-      "id": "news-20134",
+      "id": "news-12721",
       "date": "2026-10-15",
       "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
       "content": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777.\n\nHelp TDS is assessed to be active since at least 2017, offering PHP code te",
@@ -508,7 +520,7 @@
       ]
     },
     {
-      "id": "news-34036",
+      "id": "news-93803",
       "date": "2026-10-15",
       "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
       "content": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\n\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in&n",
@@ -520,7 +532,7 @@
       ]
     },
     {
-      "id": "news-35268",
+      "id": "news-54509",
       "date": "2026-10-15",
       "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
       "content": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026.&nbsp;\n\nThe campaigns also increase operational pre",
@@ -532,7 +544,7 @@
       ]
     },
     {
-      "id": "news-83526",
+      "id": "news-54658",
       "date": "2026-10-15",
       "title": "Why AI Confidence Is Not Validation",
       "content": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance",
@@ -544,22 +556,10 @@
       ]
     },
     {
-      "id": "news-27551",
+      "id": "news-2928",
       "date": "2026-10-15",
       "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
       "content": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on October 8 and 9, 2026.\n\n\"This resulted from compromising the GitHub accounts of ab",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-46986",
-      "date": "2026-10-15",
-      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-      "content": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent co",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
