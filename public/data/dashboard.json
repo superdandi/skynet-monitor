@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18 15:45 UTC",
+  "lastUpdated": "2026-10-18 20:28 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-55495",
+      "id": "news-92610",
       "date": "2026-10-18",
       "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
       "content": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.\n\nThe disabled ",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-88155",
+      "id": "news-19213",
       "date": "2026-10-17",
       "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
       "content": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\n\nThe package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" ",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-22560",
+      "id": "news-886",
       "date": "2026-10-17",
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "content": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environm",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-1772",
+      "id": "news-35023",
       "date": "2026-10-17",
       "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
       "content": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-3185",
+      "id": "news-64297",
       "date": "2026-10-16",
       "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
       "content": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, whi",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-42580",
+      "id": "news-67316",
       "date": "2026-10-16",
       "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
       "content": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harves",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-51337",
+      "id": "news-93705",
       "date": "2026-10-16",
       "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
       "content": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without ",
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "id": "news-67314",
+      "id": "news-19109",
       "date": "2026-10-16",
       "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
       "content": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\n\nThe flaw, now tracked as CVE-2026-99999 and",
@@ -483,7 +483,7 @@
       ]
     },
     {
-      "id": "news-18153",
+      "id": "news-90089",
       "date": "2026-10-16",
       "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
       "content": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets interesting in different ways. A small permission can lead to a big theft. A trusted",
@@ -495,7 +495,7 @@
       ]
     },
     {
-      "id": "news-20762",
+      "id": "news-10656",
       "date": "2026-10-16",
       "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
       "content": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches perso",
@@ -508,7 +508,7 @@
       ]
     },
     {
-      "id": "news-23485",
+      "id": "news-68655",
       "date": "2026-10-16",
       "title": "Burger King Japan data breach exposes 11 million customer records",
       "content": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
@@ -520,7 +520,7 @@
       ]
     },
     {
-      "id": "news-32765",
+      "id": "news-77509",
       "date": "2026-10-15",
       "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
       "content": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&nbsp;the Citizen Lab&nbsp;said Thursday.\n\nThe hidden attack code ra",
@@ -532,7 +532,7 @@
       ]
     },
     {
-      "id": "news-87674",
+      "id": "news-27753",
       "date": "2026-10-15",
       "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
       "content": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).\n\nThe activity, observed from June 2025 through August 2026, involves four different infection chains that ma",
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "id": "news-7054",
+      "id": "news-65041",
       "date": "2026-10-15",
       "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
       "content": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777.\n\nHelp TDS is assessed to be active since at least 2017, offering PHP code te",
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "id": "news-92024",
+      "id": "news-43900",
       "date": "2026-10-15",
       "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
       "content": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\n\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in&n",
