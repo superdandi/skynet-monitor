@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-19 04:23 UTC",
+  "lastUpdated": "2026-10-19 12:53 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 80,
+      "probability": 88,
       "trend": {
-        "value": 0,
+        "value": 8,
         "direction": "up"
       },
       "riskLevel": "critical",
-      "riskFactors": 0,
-      "recentIncidents": 3,
+      "riskFactors": 1,
+      "recentIncidents": 4,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 32,
+      "probability": 48,
       "trend": {
-        "value": 0,
+        "value": 16,
         "direction": "up"
       },
       "riskLevel": "high",
-      "riskFactors": 0,
-      "recentIncidents": 0,
+      "riskFactors": 2,
+      "recentIncidents": 2,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 17,
+      "probability": 25,
       "trend": {
-        "value": 0,
+        "value": 8,
         "direction": "up"
       },
-      "riskLevel": "moderate",
-      "riskFactors": 0,
-      "recentIncidents": 1,
+      "riskLevel": "high",
+      "riskFactors": 1,
+      "recentIncidents": 2,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -200,148 +200,148 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 640,
-        "anthropic": 256,
-        "google-deepmind": 136,
+        "openai": 704,
+        "anthropic": 384,
+        "google-deepmind": 200,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 768,
-        "anthropic": 307,
-        "google-deepmind": 163,
+        "openai": 844,
+        "anthropic": 460,
+        "google-deepmind": 240,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 896,
-        "anthropic": 358,
-        "google-deepmind": 190,
+        "openai": 985,
+        "anthropic": 537,
+        "google-deepmind": 280,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1024,
-        "anthropic": 409,
-        "google-deepmind": 217,
+        "openai": 1126,
+        "anthropic": 614,
+        "google-deepmind": 320,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1152,
-        "anthropic": 460,
-        "google-deepmind": 244,
+        "openai": 1267,
+        "anthropic": 691,
+        "google-deepmind": 360,
         "meta-ai": 144
       }
     ],
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 576,
-        "anthropic": 230,
-        "google-deepmind": 122,
+        "openai": 633,
+        "anthropic": 345,
+        "google-deepmind": 180,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 688,
-        "anthropic": 275,
-        "google-deepmind": 146,
+        "openai": 756,
+        "anthropic": 412,
+        "google-deepmind": 215,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 800,
-        "anthropic": 320,
-        "google-deepmind": 170,
+        "openai": 880,
+        "anthropic": 480,
+        "google-deepmind": 250,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 912,
-        "anthropic": 364,
-        "google-deepmind": 193,
+        "openai": 1003,
+        "anthropic": 547,
+        "google-deepmind": 285,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1024,
-        "anthropic": 409,
-        "google-deepmind": 217,
+        "openai": 1126,
+        "anthropic": 614,
+        "google-deepmind": 320,
         "meta-ai": 128
       }
     ],
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 320,
-        "anthropic": 128,
-        "google-deepmind": 68,
+        "openai": 352,
+        "anthropic": 192,
+        "google-deepmind": 100,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 416,
-        "anthropic": 166,
-        "google-deepmind": 88,
+        "openai": 457,
+        "anthropic": 249,
+        "google-deepmind": 130,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 512,
-        "anthropic": 204,
-        "google-deepmind": 108,
+        "openai": 563,
+        "anthropic": 307,
+        "google-deepmind": 160,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 608,
-        "anthropic": 243,
-        "google-deepmind": 129,
+        "openai": 668,
+        "anthropic": 364,
+        "google-deepmind": 190,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 704,
-        "anthropic": 281,
-        "google-deepmind": 149,
+        "openai": 774,
+        "anthropic": 422,
+        "google-deepmind": 220,
         "meta-ai": 88
       }
     ],
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 480,
-        "anthropic": 192,
-        "google-deepmind": 102,
+        "openai": 528,
+        "anthropic": 288,
+        "google-deepmind": 150,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 592,
-        "anthropic": 236,
-        "google-deepmind": 125,
+        "openai": 651,
+        "anthropic": 355,
+        "google-deepmind": 185,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 704,
-        "anthropic": 281,
-        "google-deepmind": 149,
+        "openai": 774,
+        "anthropic": 422,
+        "google-deepmind": 220,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 816,
-        "anthropic": 326,
-        "google-deepmind": 173,
+        "openai": 897,
+        "anthropic": 489,
+        "google-deepmind": 255,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 928,
-        "anthropic": 371,
-        "google-deepmind": 197,
+        "openai": 1020,
+        "anthropic": 556,
+        "google-deepmind": 290,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,59 @@
   },
   "news": [
     {
-      "id": "news-2556",
+      "id": "news-58584",
+      "date": "2026-10-19",
+      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+      "content": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and securit",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "google-deepmind",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-8688",
+      "date": "2026-10-19",
+      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+      "content": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.\n\nHe showed the attack working against ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-13254",
+      "date": "2026-10-19",
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "content": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "openai",
+        "anthropic",
+        "critical"
+      ]
+    },
+    {
+      "id": "news-90984",
+      "date": "2026-10-19",
+      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+      "content": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-48643",
       "date": "2026-10-18",
       "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
       "content": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.\n\nThe disabled ",
@@ -397,7 +449,7 @@
       ]
     },
     {
-      "id": "news-28454",
+      "id": "news-39810",
       "date": "2026-10-17",
       "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
       "content": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\n\nThe package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" ",
@@ -409,7 +461,7 @@
       ]
     },
     {
-      "id": "news-71012",
+      "id": "news-3879",
       "date": "2026-10-17",
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "content": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environm",
@@ -421,7 +473,7 @@
       ]
     },
     {
-      "id": "news-12193",
+      "id": "news-842",
       "date": "2026-10-17",
       "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
       "content": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
@@ -433,7 +485,7 @@
       ]
     },
     {
-      "id": "news-11276",
+      "id": "news-40878",
       "date": "2026-10-16",
       "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
       "content": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, whi",
@@ -445,7 +497,7 @@
       ]
     },
     {
-      "id": "news-65752",
+      "id": "news-95637",
       "date": "2026-10-16",
       "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
       "content": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harves",
@@ -458,7 +510,7 @@
       ]
     },
     {
-      "id": "news-77148",
+      "id": "news-60948",
       "date": "2026-10-16",
       "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
       "content": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without ",
@@ -471,7 +523,7 @@
       ]
     },
     {
-      "id": "news-52751",
+      "id": "news-42068",
       "date": "2026-10-16",
       "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
       "content": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\n\nThe flaw, now tracked as CVE-2026-99999 and",
@@ -483,7 +535,7 @@
       ]
     },
     {
-      "id": "news-3489",
+      "id": "news-52580",
       "date": "2026-10-16",
       "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
       "content": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets interesting in different ways. A small permission can lead to a big theft. A trusted",
@@ -495,7 +547,7 @@
       ]
     },
     {
-      "id": "news-94460",
+      "id": "news-23276",
       "date": "2026-10-16",
       "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
       "content": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches perso",
@@ -508,7 +560,7 @@
       ]
     },
     {
-      "id": "news-32825",
+      "id": "news-58760",
       "date": "2026-10-16",
       "title": "Burger King Japan data breach exposes 11 million customer records",
       "content": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
@@ -517,54 +569,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-1091",
-      "date": "2026-10-15",
-      "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
-      "content": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&nbsp;the Citizen Lab&nbsp;said Thursday.\n\nThe hidden attack code ra",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-5893",
-      "date": "2026-10-15",
-      "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
-      "content": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).\n\nThe activity, observed from June 2025 through August 2026, involves four different infection chains that ma",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-39698",
-      "date": "2026-10-15",
-      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-      "content": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777.\n\nHelp TDS is assessed to be active since at least 2017, offering PHP code te",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-96971",
-      "date": "2026-10-15",
-      "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-      "content": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\n\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in&n",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
