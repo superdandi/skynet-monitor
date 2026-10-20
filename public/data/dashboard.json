@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20 16:46 UTC",
+  "lastUpdated": "2026-10-20 21:29 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 80,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-56263",
+      "id": "news-45478",
       "date": "2026-10-20",
       "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
       "content": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\n\nThe agents tried more than 1,200 sites and re",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-80894",
+      "id": "news-44095",
       "date": "2026-10-20",
       "title": "What Security Teams Can Do To Tame Wild Code",
       "content": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same org",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-2314",
+      "id": "news-8079",
       "date": "2026-10-20",
       "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
       "content": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys.\n\nPrograms built on the new release will refuse connections to sites and services whose cert",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-88592",
+      "id": "news-32666",
       "date": "2026-10-20",
       "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
       "content": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO).\n\nThe Symantec Threat Hunter Team, which is tracking the ac",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-73201",
+      "id": "news-59912",
       "date": "2026-10-20",
       "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
       "content": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application i",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-96744",
+      "id": "news-18797",
       "date": "2026-10-20",
       "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
       "content": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.\n\nThe high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-80251",
+      "id": "news-38639",
       "date": "2026-10-20",
       "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
       "content": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader.\n\nAccording to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style",
@@ -469,7 +469,19 @@
       ]
     },
     {
-      "id": "news-59114",
+      "id": "news-22158",
+      "date": "2026-10-20",
+      "title": "Zeabur shutting down after second security breach in two months",
+      "content": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-12325",
       "date": "2026-10-20",
       "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
       "content": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. Specops outlines five practical priorities covering MFA, account management, passwords, logging, and audit readiness. [...]",
@@ -481,7 +493,7 @@
       ]
     },
     {
-      "id": "news-20488",
+      "id": "news-93994",
       "date": "2026-10-20",
       "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
       "content": "Ahold Delhaize, one of the world's largest food retail chains, confirmed that last week's cyberattack disrupted services at stores across Europe and the United States. [...]",
@@ -493,7 +505,7 @@
       ]
     },
     {
-      "id": "news-24610",
+      "id": "news-12016",
       "date": "2026-10-19",
       "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
       "content": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.\n\nAccording to a researcher who goes by the online alias boredhackerblog, the exploitat",
@@ -505,7 +517,7 @@
       ]
     },
     {
-      "id": "news-24750",
+      "id": "news-11575",
       "date": "2026-10-19",
       "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
       "content": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;publish",
@@ -517,7 +529,7 @@
       ]
     },
     {
-      "id": "news-6500",
+      "id": "news-95762",
       "date": "2026-10-19",
       "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
       "content": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done.\n\nThis week had plenty of that. Trusted co",
@@ -529,7 +541,7 @@
       ]
     },
     {
-      "id": "news-65180",
+      "id": "news-2267",
       "date": "2026-10-19",
       "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
       "content": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file.\n\nThe latest evolution, detailed ",
@@ -541,7 +553,7 @@
       ]
     },
     {
-      "id": "news-88676",
+      "id": "news-24287",
       "date": "2026-10-19",
       "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
       "content": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and securit",
@@ -552,18 +564,6 @@
         "anthropic",
         "google-deepmind",
         "critical"
-      ]
-    },
-    {
-      "id": "news-98724",
-      "date": "2026-10-19",
-      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-      "content": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.\n\nHe showed the attack working against ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
