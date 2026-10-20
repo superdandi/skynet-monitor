@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19 22:15 UTC",
+  "lastUpdated": "2026-10-20 04:34 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 84,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-76147",
+      "id": "news-88252",
+      "date": "2026-10-20",
+      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+      "content": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader.\n\nAccording to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-71870",
       "date": "2026-10-19",
       "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
       "content": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.\n\nAccording to a researcher who goes by the online alias boredhackerblog, the exploitat",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-21425",
+      "id": "news-33024",
       "date": "2026-10-19",
       "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
       "content": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;publish",
@@ -409,7 +421,7 @@
       ]
     },
     {
-      "id": "news-70888",
+      "id": "news-78745",
       "date": "2026-10-19",
       "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
       "content": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done.\n\nThis week had plenty of that. Trusted co",
@@ -421,7 +433,7 @@
       ]
     },
     {
-      "id": "news-76686",
+      "id": "news-8781",
       "date": "2026-10-19",
       "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
       "content": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file.\n\nThe latest evolution, detailed ",
@@ -433,7 +445,7 @@
       ]
     },
     {
-      "id": "news-18665",
+      "id": "news-78300",
       "date": "2026-10-19",
       "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
       "content": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and securit",
@@ -447,7 +459,7 @@
       ]
     },
     {
-      "id": "news-46979",
+      "id": "news-57864",
       "date": "2026-10-19",
       "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
       "content": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.\n\nHe showed the attack working against ",
@@ -459,7 +471,7 @@
       ]
     },
     {
-      "id": "news-64479",
+      "id": "news-64282",
       "date": "2026-10-19",
       "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
       "content": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic",
@@ -473,7 +485,7 @@
       ]
     },
     {
-      "id": "news-62456",
+      "id": "news-78328",
       "date": "2026-10-19",
       "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
       "content": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
@@ -485,7 +497,7 @@
       ]
     },
     {
-      "id": "news-58712",
+      "id": "news-46682",
       "date": "2026-10-19",
       "title": "Bullhorn takes staffing platform offline to contain cyberattack",
       "content": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]",
@@ -497,7 +509,7 @@
       ]
     },
     {
-      "id": "news-83796",
+      "id": "news-10788",
       "date": "2026-10-19",
       "title": "OpenCode hack exposes API keys amid AI distillation attacks",
       "content": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed in a security breach. [...]",
@@ -509,7 +521,7 @@
       ]
     },
     {
-      "id": "news-44077",
+      "id": "news-40268",
       "date": "2026-10-19",
       "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
       "content": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
@@ -521,7 +533,7 @@
       ]
     },
     {
-      "id": "news-50529",
+      "id": "news-44191",
       "date": "2026-10-19",
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
       "content": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity ha",
@@ -533,7 +545,7 @@
       ]
     },
     {
-      "id": "news-38774",
+      "id": "news-24150",
       "date": "2026-10-18",
       "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
       "content": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.\n\nThe disabled ",
@@ -545,22 +557,10 @@
       ]
     },
     {
-      "id": "news-34735",
+      "id": "news-38444",
       "date": "2026-10-17",
       "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
       "content": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\n\nThe package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-91703",
-      "date": "2026-10-17",
-      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-      "content": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environm",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
