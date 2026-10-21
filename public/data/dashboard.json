@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-21 17:03 UTC",
+  "lastUpdated": "2026-10-21 21:31 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 84,
+      "probability": 88,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 3,
+      "recentIncidents": 4,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 672,
+        "openai": 704,
         "anthropic": 384,
         "google-deepmind": 200,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 806,
+        "openai": 844,
         "anthropic": 460,
         "google-deepmind": 240,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 940,
+        "openai": 985,
         "anthropic": 537,
         "google-deepmind": 280,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1075,
+        "openai": 1126,
         "anthropic": 614,
         "google-deepmind": 320,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1209,
+        "openai": 1267,
         "anthropic": 691,
         "google-deepmind": 360,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 604,
+        "openai": 633,
         "anthropic": 345,
         "google-deepmind": 180,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 722,
+        "openai": 756,
         "anthropic": 412,
         "google-deepmind": 215,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 840,
+        "openai": 880,
         "anthropic": 480,
         "google-deepmind": 250,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 957,
+        "openai": 1003,
         "anthropic": 547,
         "google-deepmind": 285,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1075,
+        "openai": 1126,
         "anthropic": 614,
         "google-deepmind": 320,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 336,
+        "openai": 352,
         "anthropic": 192,
         "google-deepmind": 100,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 436,
+        "openai": 457,
         "anthropic": 249,
         "google-deepmind": 130,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 537,
+        "openai": 563,
         "anthropic": 307,
         "google-deepmind": 160,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 638,
+        "openai": 668,
         "anthropic": 364,
         "google-deepmind": 190,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 739,
+        "openai": 774,
         "anthropic": 422,
         "google-deepmind": 220,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 504,
+        "openai": 528,
         "anthropic": 288,
         "google-deepmind": 150,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 621,
+        "openai": 651,
         "anthropic": 355,
         "google-deepmind": 185,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 739,
+        "openai": 774,
         "anthropic": 422,
         "google-deepmind": 220,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 856,
+        "openai": 897,
         "anthropic": 489,
         "google-deepmind": 255,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 974,
+        "openai": 1020,
         "anthropic": 556,
         "google-deepmind": 290,
         "meta-ai": 116
@@ -385,7 +385,32 @@
   },
   "news": [
     {
-      "id": "news-9875",
+      "id": "news-56700",
+      "date": "2026-10-21",
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "content": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.\n\nThe compromise affects LiteLLM 1.107.0, distributed through ",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-54748",
+      "date": "2026-10-21",
+      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+      "content": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the incident took place on October 3 and 6, ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-89376",
       "date": "2026-10-21",
       "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
       "content": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious c",
@@ -397,7 +422,7 @@
       ]
     },
     {
-      "id": "news-54937",
+      "id": "news-79474",
       "date": "2026-10-21",
       "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
       "content": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive technical marker for Bronze Sandcastle is",
@@ -409,7 +434,7 @@
       ]
     },
     {
-      "id": "news-37772",
+      "id": "news-56247",
       "date": "2026-10-21",
       "title": "The Harness Is the Hard Part of Agentic Pentesting",
       "content": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the ",
@@ -422,7 +447,7 @@
       ]
     },
     {
-      "id": "news-42261",
+      "id": "news-73109",
       "date": "2026-10-21",
       "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
       "content": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.\n\nTeamUpdraft is the developer behind UpdraftPlus, a popular Wo",
@@ -434,7 +459,7 @@
       ]
     },
     {
-      "id": "news-48161",
+      "id": "news-23635",
       "date": "2026-10-21",
       "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
       "content": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order.\n\nThey may also no longer buy informat",
@@ -446,7 +471,7 @@
       ]
     },
     {
-      "id": "news-81286",
+      "id": "news-6706",
       "date": "2026-10-21",
       "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
       "content": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.\n\nThe state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&n",
@@ -458,7 +483,19 @@
       ]
     },
     {
-      "id": "news-81220",
+      "id": "news-70819",
+      "date": "2026-10-21",
+      "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+      "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-4180",
       "date": "2026-10-21",
       "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
       "content": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effe",
@@ -470,7 +507,7 @@
       ]
     },
     {
-      "id": "news-57851",
+      "id": "news-93327",
       "date": "2026-10-21",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "content": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working e",
@@ -482,7 +519,7 @@
       ]
     },
     {
-      "id": "news-71968",
+      "id": "news-14154",
       "date": "2026-10-20",
       "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
       "content": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\n\nThe agents tried more than 1,200 sites and re",
@@ -494,7 +531,7 @@
       ]
     },
     {
-      "id": "news-79597",
+      "id": "news-81588",
       "date": "2026-10-20",
       "title": "What Security Teams Can Do To Tame Wild Code",
       "content": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same org",
@@ -506,7 +543,7 @@
       ]
     },
     {
-      "id": "news-1429",
+      "id": "news-78659",
       "date": "2026-10-20",
       "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
       "content": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys.\n\nPrograms built on the new release will refuse connections to sites and services whose cert",
@@ -518,7 +555,7 @@
       ]
     },
     {
-      "id": "news-15843",
+      "id": "news-3182",
       "date": "2026-10-20",
       "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
       "content": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO).\n\nThe Symantec Threat Hunter Team, which is tracking the ac",
@@ -527,42 +564,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-70386",
-      "date": "2026-10-20",
-      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-      "content": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application i",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-15761",
-      "date": "2026-10-20",
-      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-      "content": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.\n\nThe high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-60215",
-      "date": "2026-10-20",
-      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-      "content": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader.\n\nAccording to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
