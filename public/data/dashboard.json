@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-22 17:01 UTC",
+  "lastUpdated": "2026-10-22 21:26 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 84,
+      "probability": 76,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 8,
+        "direction": "down"
       },
       "riskLevel": "critical",
-      "riskFactors": 1,
-      "recentIncidents": 3,
+      "riskFactors": 0,
+      "recentIncidents": 2,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 48,
+      "probability": 40,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 8,
+        "direction": "down"
       },
       "riskLevel": "high",
-      "riskFactors": 2,
-      "recentIncidents": 2,
+      "riskFactors": 1,
+      "recentIncidents": 1,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -200,36 +200,36 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 672,
-        "anthropic": 384,
+        "openai": 608,
+        "anthropic": 320,
         "google-deepmind": 200,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 806,
-        "anthropic": 460,
+        "openai": 729,
+        "anthropic": 384,
         "google-deepmind": 240,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 940,
-        "anthropic": 537,
+        "openai": 851,
+        "anthropic": 448,
         "google-deepmind": 280,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1075,
-        "anthropic": 614,
+        "openai": 972,
+        "anthropic": 512,
         "google-deepmind": 320,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1209,
-        "anthropic": 691,
+        "openai": 1094,
+        "anthropic": 576,
         "google-deepmind": 360,
         "meta-ai": 144
       }
@@ -237,36 +237,36 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 604,
-        "anthropic": 345,
+        "openai": 547,
+        "anthropic": 288,
         "google-deepmind": 180,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 722,
-        "anthropic": 412,
+        "openai": 653,
+        "anthropic": 344,
         "google-deepmind": 215,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 840,
-        "anthropic": 480,
+        "openai": 760,
+        "anthropic": 400,
         "google-deepmind": 250,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 957,
-        "anthropic": 547,
+        "openai": 866,
+        "anthropic": 456,
         "google-deepmind": 285,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1075,
-        "anthropic": 614,
+        "openai": 972,
+        "anthropic": 512,
         "google-deepmind": 320,
         "meta-ai": 128
       }
@@ -274,36 +274,36 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 336,
-        "anthropic": 192,
+        "openai": 304,
+        "anthropic": 160,
         "google-deepmind": 100,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 436,
-        "anthropic": 249,
+        "openai": 395,
+        "anthropic": 208,
         "google-deepmind": 130,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 537,
-        "anthropic": 307,
+        "openai": 486,
+        "anthropic": 256,
         "google-deepmind": 160,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 638,
-        "anthropic": 364,
+        "openai": 577,
+        "anthropic": 304,
         "google-deepmind": 190,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 739,
-        "anthropic": 422,
+        "openai": 668,
+        "anthropic": 352,
         "google-deepmind": 220,
         "meta-ai": 88
       }
@@ -311,36 +311,36 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 504,
-        "anthropic": 288,
+        "openai": 456,
+        "anthropic": 240,
         "google-deepmind": 150,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 621,
-        "anthropic": 355,
+        "openai": 562,
+        "anthropic": 296,
         "google-deepmind": 185,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 739,
-        "anthropic": 422,
+        "openai": 668,
+        "anthropic": 352,
         "google-deepmind": 220,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 856,
-        "anthropic": 489,
+        "openai": 775,
+        "anthropic": 408,
         "google-deepmind": 255,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 974,
-        "anthropic": 556,
+        "openai": 881,
+        "anthropic": 464,
         "google-deepmind": 290,
         "meta-ai": 116
       }
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-90648",
+      "id": "news-48669",
+      "date": "2026-10-23",
+      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+      "content": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22.\n\nThe flaw lets anyone who can log in to the orchestrato",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-35326",
+      "date": "2026-10-22",
+      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+      "content": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. A",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-78146",
+      "date": "2026-10-22",
+      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+      "content": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\n\nOne of them, ZDI-CAN-33774, can be triggered before any ne",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-32690",
       "date": "2026-10-22",
       "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
       "content": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.",
@@ -397,7 +433,7 @@
       ]
     },
     {
-      "id": "news-8094",
+      "id": "news-56786",
       "date": "2026-10-22",
       "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
       "content": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was",
@@ -409,7 +445,43 @@
       ]
     },
     {
-      "id": "news-26019",
+      "id": "news-15465",
+      "date": "2026-10-22",
+      "title": "Railway warns devs to rotate secrets after potential breach",
+      "content": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-13502",
+      "date": "2026-10-22",
+      "title": "Capcom confirms data breach affecting 11.7 million accounts",
+      "content": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-55525",
+      "date": "2026-10-22",
+      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+      "content": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-16247",
       "date": "2026-10-22",
       "title": "Machine speed attacks require machine speed detection and response",
       "content": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated conta",
@@ -421,7 +493,7 @@
       ]
     },
     {
-      "id": "news-23573",
+      "id": "news-49095",
       "date": "2026-10-22",
       "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
       "content": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
@@ -433,7 +505,7 @@
       ]
     },
     {
-      "id": "news-34851",
+      "id": "news-56598",
       "date": "2026-10-21",
       "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
       "content": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.\n\nThe compromise affects LiteLLM 1.107.0, distributed through ",
@@ -445,7 +517,7 @@
       ]
     },
     {
-      "id": "news-35827",
+      "id": "news-9837",
       "date": "2026-10-21",
       "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
       "content": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the incident took place on October 3 and 6, 2026",
@@ -458,7 +530,7 @@
       ]
     },
     {
-      "id": "news-65466",
+      "id": "news-2059",
       "date": "2026-10-21",
       "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
       "content": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious c",
@@ -470,7 +542,7 @@
       ]
     },
     {
-      "id": "news-80829",
+      "id": "news-1702",
       "date": "2026-10-21",
       "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
       "content": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive technical marker for Bronze Sandcastle is",
@@ -482,7 +554,7 @@
       ]
     },
     {
-      "id": "news-5733",
+      "id": "news-30648",
       "date": "2026-10-21",
       "title": "The Harness Is the Hard Part of Agentic Pentesting",
       "content": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the ",
@@ -491,79 +563,6 @@
       "views": 0,
       "tags": [
         "openai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-88243",
-      "date": "2026-10-21",
-      "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-      "content": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.\n\nTeamUpdraft is the developer behind UpdraftPlus, a popular Wo",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-4813",
-      "date": "2026-10-21",
-      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-      "content": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order.\n\nThey may also no longer buy informat",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-19782",
-      "date": "2026-10-21",
-      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-      "content": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.\n\nThe state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&n",
-      "category": "warning",
-      "impact": "Warning",
-      "views": 0,
-      "tags": [
-        "warning"
-      ]
-    },
-    {
-      "id": "news-79707",
-      "date": "2026-10-21",
-      "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-      "content": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "google-deepmind",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-10985",
-      "date": "2026-10-21",
-      "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
-      "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-44691",
-      "date": "2026-10-21",
-      "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
-      "content": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effe",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
         "moderate"
       ]
     }
