@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-22 04:25 UTC",
+  "lastUpdated": "2026-10-22 11:36 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 88,
+      "probability": 84,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
-      "recentIncidents": 4,
+      "recentIncidents": 3,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 29,
+      "probability": 25,
       "trend": {
         "value": 4,
-        "direction": "up"
+        "direction": "down"
       },
       "riskLevel": "high",
       "riskFactors": 1,
-      "recentIncidents": 3,
+      "recentIncidents": 2,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -200,148 +200,148 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 704,
+        "openai": 672,
         "anthropic": 384,
-        "google-deepmind": 231,
+        "google-deepmind": 200,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 844,
+        "openai": 806,
         "anthropic": 460,
-        "google-deepmind": 278,
+        "google-deepmind": 240,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 985,
+        "openai": 940,
         "anthropic": 537,
-        "google-deepmind": 324,
+        "google-deepmind": 280,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1126,
+        "openai": 1075,
         "anthropic": 614,
-        "google-deepmind": 371,
+        "google-deepmind": 320,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1267,
+        "openai": 1209,
         "anthropic": 691,
-        "google-deepmind": 417,
+        "google-deepmind": 360,
         "meta-ai": 144
       }
     ],
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 633,
+        "openai": 604,
         "anthropic": 345,
-        "google-deepmind": 208,
+        "google-deepmind": 180,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 756,
+        "openai": 722,
         "anthropic": 412,
-        "google-deepmind": 249,
+        "google-deepmind": 215,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 880,
+        "openai": 840,
         "anthropic": 480,
-        "google-deepmind": 290,
+        "google-deepmind": 250,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 1003,
+        "openai": 957,
         "anthropic": 547,
-        "google-deepmind": 330,
+        "google-deepmind": 285,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1126,
+        "openai": 1075,
         "anthropic": 614,
-        "google-deepmind": 371,
+        "google-deepmind": 320,
         "meta-ai": 128
       }
     ],
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 352,
+        "openai": 336,
         "anthropic": 192,
-        "google-deepmind": 115,
+        "google-deepmind": 100,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 457,
+        "openai": 436,
         "anthropic": 249,
-        "google-deepmind": 150,
+        "google-deepmind": 130,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 563,
+        "openai": 537,
         "anthropic": 307,
-        "google-deepmind": 185,
+        "google-deepmind": 160,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 668,
+        "openai": 638,
         "anthropic": 364,
-        "google-deepmind": 220,
+        "google-deepmind": 190,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 774,
+        "openai": 739,
         "anthropic": 422,
-        "google-deepmind": 255,
+        "google-deepmind": 220,
         "meta-ai": 88
       }
     ],
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 528,
+        "openai": 504,
         "anthropic": 288,
-        "google-deepmind": 174,
+        "google-deepmind": 150,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 651,
+        "openai": 621,
         "anthropic": 355,
-        "google-deepmind": 214,
+        "google-deepmind": 185,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 774,
+        "openai": 739,
         "anthropic": 422,
-        "google-deepmind": 255,
+        "google-deepmind": 220,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 897,
+        "openai": 856,
         "anthropic": 489,
-        "google-deepmind": 295,
+        "google-deepmind": 255,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 1020,
+        "openai": 974,
         "anthropic": 556,
-        "google-deepmind": 336,
+        "google-deepmind": 290,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-49765",
+      "id": "news-4873",
+      "date": "2026-10-22",
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "content": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-86323",
+      "date": "2026-10-22",
+      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+      "content": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-70965",
+      "date": "2026-10-22",
+      "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+      "content": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-21228",
       "date": "2026-10-21",
       "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
       "content": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.\n\nThe compromise affects LiteLLM 1.107.0, distributed through ",
@@ -397,10 +433,10 @@
       ]
     },
     {
-      "id": "news-4247",
+      "id": "news-66546",
       "date": "2026-10-21",
       "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-      "content": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the incident took place on October 3 and 6, ",
+      "content": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the incident took place on October 3 and 6, 2026",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
@@ -410,7 +446,7 @@
       ]
     },
     {
-      "id": "news-78895",
+      "id": "news-16643",
       "date": "2026-10-21",
       "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
       "content": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious c",
@@ -422,7 +458,7 @@
       ]
     },
     {
-      "id": "news-16050",
+      "id": "news-82562",
       "date": "2026-10-21",
       "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
       "content": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive technical marker for Bronze Sandcastle is",
@@ -434,7 +470,7 @@
       ]
     },
     {
-      "id": "news-57608",
+      "id": "news-84920",
       "date": "2026-10-21",
       "title": "The Harness Is the Hard Part of Agentic Pentesting",
       "content": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the ",
@@ -447,7 +483,7 @@
       ]
     },
     {
-      "id": "news-12541",
+      "id": "news-37362",
       "date": "2026-10-21",
       "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
       "content": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.\n\nTeamUpdraft is the developer behind UpdraftPlus, a popular Wo",
@@ -459,7 +495,7 @@
       ]
     },
     {
-      "id": "news-24898",
+      "id": "news-78306",
       "date": "2026-10-21",
       "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
       "content": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order.\n\nThey may also no longer buy informat",
@@ -471,7 +507,7 @@
       ]
     },
     {
-      "id": "news-80015",
+      "id": "news-72012",
       "date": "2026-10-21",
       "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
       "content": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.\n\nThe state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&n",
@@ -483,7 +519,7 @@
       ]
     },
     {
-      "id": "news-58046",
+      "id": "news-83199",
       "date": "2026-10-21",
       "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
       "content": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
@@ -496,7 +532,7 @@
       ]
     },
     {
-      "id": "news-49833",
+      "id": "news-62148",
       "date": "2026-10-21",
       "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
@@ -508,7 +544,7 @@
       ]
     },
     {
-      "id": "news-40027",
+      "id": "news-5976",
       "date": "2026-10-21",
       "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
       "content": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effe",
@@ -520,46 +556,10 @@
       ]
     },
     {
-      "id": "news-84857",
+      "id": "news-380",
       "date": "2026-10-21",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "content": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working e",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-48604",
-      "date": "2026-10-20",
-      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-      "content": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\n\nThe agents tried more than 1,200 sites and re",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-15691",
-      "date": "2026-10-20",
-      "title": "What Security Teams Can Do To Tame Wild Code",
-      "content": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same org",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-78321",
-      "date": "2026-10-20",
-      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-      "content": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys.\n\nPrograms built on the new release will refuse connections to sites and services whose cert",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
