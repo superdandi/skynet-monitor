@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22 11:36 UTC",
+  "lastUpdated": "2026-10-22 17:01 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 84,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 1,
@@ -58,8 +58,8 @@
       "description": "Alphabet's AI research division",
       "probability": 25,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 1,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-4873",
+      "id": "news-90648",
       "date": "2026-10-22",
       "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
       "content": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-86323",
+      "id": "news-8094",
       "date": "2026-10-22",
       "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
       "content": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was",
@@ -409,7 +409,19 @@
       ]
     },
     {
-      "id": "news-70965",
+      "id": "news-26019",
+      "date": "2026-10-22",
+      "title": "Machine speed attacks require machine speed detection and response",
+      "content": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated conta",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-23573",
       "date": "2026-10-22",
       "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
       "content": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
@@ -421,7 +433,7 @@
       ]
     },
     {
-      "id": "news-21228",
+      "id": "news-34851",
       "date": "2026-10-21",
       "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
       "content": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.\n\nThe compromise affects LiteLLM 1.107.0, distributed through ",
@@ -433,7 +445,7 @@
       ]
     },
     {
-      "id": "news-66546",
+      "id": "news-35827",
       "date": "2026-10-21",
       "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
       "content": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the incident took place on October 3 and 6, 2026",
@@ -446,7 +458,7 @@
       ]
     },
     {
-      "id": "news-16643",
+      "id": "news-65466",
       "date": "2026-10-21",
       "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
       "content": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious c",
@@ -458,7 +470,7 @@
       ]
     },
     {
-      "id": "news-82562",
+      "id": "news-80829",
       "date": "2026-10-21",
       "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
       "content": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive technical marker for Bronze Sandcastle is",
@@ -470,7 +482,7 @@
       ]
     },
     {
-      "id": "news-84920",
+      "id": "news-5733",
       "date": "2026-10-21",
       "title": "The Harness Is the Hard Part of Agentic Pentesting",
       "content": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the ",
@@ -483,7 +495,7 @@
       ]
     },
     {
-      "id": "news-37362",
+      "id": "news-88243",
       "date": "2026-10-21",
       "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
       "content": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.\n\nTeamUpdraft is the developer behind UpdraftPlus, a popular Wo",
@@ -495,7 +507,7 @@
       ]
     },
     {
-      "id": "news-78306",
+      "id": "news-4813",
       "date": "2026-10-21",
       "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
       "content": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order.\n\nThey may also no longer buy informat",
@@ -507,7 +519,7 @@
       ]
     },
     {
-      "id": "news-72012",
+      "id": "news-19782",
       "date": "2026-10-21",
       "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
       "content": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.\n\nThe state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&n",
@@ -519,7 +531,7 @@
       ]
     },
     {
-      "id": "news-83199",
+      "id": "news-79707",
       "date": "2026-10-21",
       "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
       "content": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
@@ -532,7 +544,7 @@
       ]
     },
     {
-      "id": "news-62148",
+      "id": "news-10985",
       "date": "2026-10-21",
       "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
@@ -544,22 +556,10 @@
       ]
     },
     {
-      "id": "news-5976",
+      "id": "news-44691",
       "date": "2026-10-21",
       "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
       "content": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effe",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-380",
-      "date": "2026-10-21",
-      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-      "content": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working e",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
