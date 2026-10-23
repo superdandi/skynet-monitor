@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22 21:26 UTC",
+  "lastUpdated": "2026-10-23 04:30 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 76,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 40,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 1,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-48669",
+      "id": "news-37902",
       "date": "2026-10-23",
       "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
       "content": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22.\n\nThe flaw lets anyone who can log in to the orchestrato",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-35326",
+      "id": "news-76293",
       "date": "2026-10-22",
       "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
       "content": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. A",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-78146",
+      "id": "news-57497",
       "date": "2026-10-22",
       "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
       "content": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\n\nOne of them, ZDI-CAN-33774, can be triggered before any ne",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-32690",
+      "id": "news-35174",
       "date": "2026-10-22",
       "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
       "content": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-56786",
+      "id": "news-75024",
       "date": "2026-10-22",
       "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
       "content": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-15465",
+      "id": "news-23766",
       "date": "2026-10-22",
       "title": "Railway warns devs to rotate secrets after potential breach",
       "content": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-13502",
+      "id": "news-84187",
       "date": "2026-10-22",
       "title": "Capcom confirms data breach affecting 11.7 million accounts",
       "content": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-55525",
+      "id": "news-2581",
       "date": "2026-10-22",
       "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
       "content": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-16247",
+      "id": "news-4691",
       "date": "2026-10-22",
       "title": "Machine speed attacks require machine speed detection and response",
       "content": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated conta",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-49095",
+      "id": "news-35454",
       "date": "2026-10-22",
       "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
       "content": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": "news-56598",
+      "id": "news-65916",
       "date": "2026-10-21",
       "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
       "content": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.\n\nThe compromise affects LiteLLM 1.107.0, distributed through ",
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": "news-9837",
+      "id": "news-51839",
       "date": "2026-10-21",
       "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
       "content": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the incident took place on October 3 and 6, 2026",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-2059",
+      "id": "news-48662",
       "date": "2026-10-21",
       "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
       "content": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious c",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-1702",
+      "id": "news-35473",
       "date": "2026-10-21",
       "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
       "content": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive technical marker for Bronze Sandcastle is",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-30648",
+      "id": "news-94015",
       "date": "2026-10-21",
       "title": "The Harness Is the Hard Part of Agentic Pentesting",
       "content": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the ",
