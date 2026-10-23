@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23 11:26 UTC",
+  "lastUpdated": "2026-10-23 16:55 UTC",
   "companies": [
     {
       "id": "openai",
@@ -33,8 +33,8 @@
       "description": "AI safety company behind Claude models",
       "probability": 32,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
@@ -58,8 +58,8 @@
       "description": "Alphabet's AI research division",
       "probability": 17,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
@@ -385,7 +385,31 @@
   },
   "news": [
     {
-      "id": "news-46176",
+      "id": "news-35113",
+      "date": "2026-10-23",
+      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "content": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also indicate that operators in this campaign h",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-69826",
+      "date": "2026-10-23",
+      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "content": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the ",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-72841",
       "date": "2026-10-23",
       "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
       "content": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22.\n\nThe cause was the SDKs' default client, which set no spending limit until",
@@ -397,7 +421,7 @@
       ]
     },
     {
-      "id": "news-76888",
+      "id": "news-85971",
       "date": "2026-10-23",
       "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
       "content": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.\n\nThe attacks ",
@@ -409,7 +433,7 @@
       ]
     },
     {
-      "id": "news-9266",
+      "id": "news-31208",
       "date": "2026-10-23",
       "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
       "content": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22.\n\nThe flaw lets anyone who can log in to the orchestrato",
@@ -421,7 +445,19 @@
       ]
     },
     {
-      "id": "news-37874",
+      "id": "news-29323",
+      "date": "2026-10-23",
+      "title": "Quest Diagnostics confirms data breach exposed patient records",
+      "content": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-82465",
       "date": "2026-10-22",
       "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
       "content": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. A",
@@ -433,7 +469,7 @@
       ]
     },
     {
-      "id": "news-74023",
+      "id": "news-11388",
       "date": "2026-10-22",
       "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
       "content": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\n\nOne of them, ZDI-CAN-33774, can be triggered before any ne",
@@ -445,7 +481,7 @@
       ]
     },
     {
-      "id": "news-2053",
+      "id": "news-82561",
       "date": "2026-10-22",
       "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
       "content": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.",
@@ -457,7 +493,7 @@
       ]
     },
     {
-      "id": "news-51364",
+      "id": "news-23597",
       "date": "2026-10-22",
       "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
       "content": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was",
@@ -469,7 +505,7 @@
       ]
     },
     {
-      "id": "news-2833",
+      "id": "news-91973",
       "date": "2026-10-22",
       "title": "Railway warns devs to rotate secrets after potential breach",
       "content": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
@@ -481,7 +517,7 @@
       ]
     },
     {
-      "id": "news-39424",
+      "id": "news-71046",
       "date": "2026-10-22",
       "title": "Capcom confirms data breach affecting 11.7 million accounts",
       "content": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
@@ -493,7 +529,7 @@
       ]
     },
     {
-      "id": "news-20968",
+      "id": "news-77158",
       "date": "2026-10-22",
       "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
       "content": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
@@ -505,7 +541,7 @@
       ]
     },
     {
-      "id": "news-55498",
+      "id": "news-5820",
       "date": "2026-10-22",
       "title": "Machine speed attacks require machine speed detection and response",
       "content": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated conta",
@@ -517,7 +553,7 @@
       ]
     },
     {
-      "id": "news-44723",
+      "id": "news-29",
       "date": "2026-10-22",
       "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
       "content": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
@@ -526,43 +562,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-14484",
-      "date": "2026-10-21",
-      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-      "content": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.\n\nThe compromise affects LiteLLM 1.107.0, distributed through ",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-1487",
-      "date": "2026-10-21",
-      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-      "content": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the incident took place on October 3 and 6, 2026",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-45520",
-      "date": "2026-10-21",
-      "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
-      "content": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious c",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
