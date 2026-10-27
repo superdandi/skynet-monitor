@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26 22:34 UTC",
+  "lastUpdated": "2026-10-27 04:46 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 76,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-30980",
+      "id": "news-83903",
       "date": "2026-10-26",
       "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
       "content": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-60540",
+      "id": "news-18607",
       "date": "2026-10-26",
       "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
       "content": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent p",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-23661",
+      "id": "news-4918",
       "date": "2026-10-26",
       "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
       "content": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to c",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-51454",
+      "id": "news-85644",
       "date": "2026-10-26",
       "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
       "content": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems t",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-29400",
+      "id": "news-84118",
       "date": "2026-10-26",
       "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
       "content": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who r",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-16435",
+      "id": "news-84906",
       "date": "2026-10-26",
       "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
       "content": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations.\n\nHuntress, which observed th",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-53658",
+      "id": "news-11122",
       "date": "2026-10-26",
       "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
       "content": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-51938",
+      "id": "news-41598",
       "date": "2026-10-26",
       "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
       "content": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week.\n\nThe company caught the attempt on a real customer's ma",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-66720",
+      "id": "news-16363",
       "date": "2026-10-26",
       "title": "University of Copenhagen data breach exposes data of 525,000 people",
       "content": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-11266",
+      "id": "news-78932",
       "date": "2026-10-26",
       "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
       "content": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": "news-15496",
+      "id": "news-82469",
       "date": "2026-10-26",
       "title": "DreamHost forces password resets in ongoing \"incident\"",
       "content": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": "news-13386",
+      "id": "news-13484",
       "date": "2026-10-26",
       "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
       "content": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "id": "news-6187",
+      "id": "news-52121",
       "date": "2026-10-25",
       "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
       "content": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker wh",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "id": "news-39416",
+      "id": "news-8236",
       "date": "2026-10-25",
       "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
       "content": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws.\n\n\"What researchers saw was an attack against a European government age",
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "id": "news-5079",
+      "id": "news-55887",
       "date": "2026-10-25",
       "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
       "content": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\n\"Based on the current state of alignment research, monitoring systems, and the se",
