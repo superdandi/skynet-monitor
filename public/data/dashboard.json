@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-27 11:59 UTC",
+  "lastUpdated": "2026-10-27 17:54 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 80,
+      "probability": 76,
       "trend": {
         "value": 4,
-        "direction": "up"
+        "direction": "down"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 3,
+      "recentIncidents": 2,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -200,35 +200,35 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 640,
+        "openai": 608,
         "anthropic": 256,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 768,
+        "openai": 729,
         "anthropic": 307,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 896,
+        "openai": 851,
         "anthropic": 358,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1024,
+        "openai": 972,
         "anthropic": 409,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1152,
+        "openai": 1094,
         "anthropic": 460,
         "google-deepmind": 187,
         "meta-ai": 144
@@ -237,35 +237,35 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 576,
+        "openai": 547,
         "anthropic": 230,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 688,
+        "openai": 653,
         "anthropic": 275,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 800,
+        "openai": 760,
         "anthropic": 320,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 912,
+        "openai": 866,
         "anthropic": 364,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1024,
+        "openai": 972,
         "anthropic": 409,
         "google-deepmind": 166,
         "meta-ai": 128
@@ -274,35 +274,35 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 320,
+        "openai": 304,
         "anthropic": 128,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 416,
+        "openai": 395,
         "anthropic": 166,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 512,
+        "openai": 486,
         "anthropic": 204,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 608,
+        "openai": 577,
         "anthropic": 243,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 704,
+        "openai": 668,
         "anthropic": 281,
         "google-deepmind": 114,
         "meta-ai": 88
@@ -311,35 +311,35 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 480,
+        "openai": 456,
         "anthropic": 192,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 592,
+        "openai": 562,
         "anthropic": 236,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 704,
+        "openai": 668,
         "anthropic": 281,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 816,
+        "openai": 775,
         "anthropic": 326,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 928,
+        "openai": 881,
         "anthropic": 371,
         "google-deepmind": 150,
         "meta-ai": 116
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-49721",
+      "id": "news-54239",
+      "date": "2026-10-27",
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "content": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26.\n\nSomeone with that key could build counterfeit devices that pass the online check owners use to v",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-67855",
+      "date": "2026-10-27",
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "content": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations.&nbsp;\n\nSome fake login pages go b",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-12486",
+      "date": "2026-10-27",
+      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+      "content": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors.\n\nAccording to Russi",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-72863",
       "date": "2026-10-27",
       "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
       "content": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut ",
@@ -397,7 +433,7 @@
       ]
     },
     {
-      "id": "news-18252",
+      "id": "news-29085",
       "date": "2026-10-27",
       "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
       "content": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.\n\nOpenAI's reasoning models work through a problem before answering, and the servi",
@@ -410,7 +446,7 @@
       ]
     },
     {
-      "id": "news-68424",
+      "id": "news-25645",
       "date": "2026-10-27",
       "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
       "content": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration ",
@@ -422,7 +458,43 @@
       ]
     },
     {
-      "id": "news-83923",
+      "id": "news-43047",
+      "date": "2026-10-27",
+      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+      "content": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-77303",
+      "date": "2026-10-27",
+      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+      "content": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-26743",
+      "date": "2026-10-27",
+      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+      "content": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve imm",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-1067",
       "date": "2026-10-26",
       "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
       "content": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that",
@@ -434,7 +506,7 @@
       ]
     },
     {
-      "id": "news-53639",
+      "id": "news-55061",
       "date": "2026-10-26",
       "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
       "content": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent p",
@@ -446,7 +518,7 @@
       ]
     },
     {
-      "id": "news-88836",
+      "id": "news-18883",
       "date": "2026-10-26",
       "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
       "content": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to c",
@@ -458,7 +530,7 @@
       ]
     },
     {
-      "id": "news-54771",
+      "id": "news-24572",
       "date": "2026-10-26",
       "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
       "content": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems t",
@@ -470,7 +542,7 @@
       ]
     },
     {
-      "id": "news-59040",
+      "id": "news-84283",
       "date": "2026-10-26",
       "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
       "content": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who r",
@@ -482,82 +554,10 @@
       ]
     },
     {
-      "id": "news-49776",
+      "id": "news-4486",
       "date": "2026-10-26",
       "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
       "content": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations.\n\nHuntress, which observed th",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-47934",
-      "date": "2026-10-26",
-      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-      "content": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-50723",
-      "date": "2026-10-26",
-      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-      "content": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week.\n\nThe company caught the attempt on a real customer's ma",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-98941",
-      "date": "2026-10-26",
-      "title": "University of Copenhagen data breach exposes data of 525,000 people",
-      "content": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-89778",
-      "date": "2026-10-26",
-      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-      "content": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-81464",
-      "date": "2026-10-26",
-      "title": "DreamHost forces password resets in ongoing \"incident\"",
-      "content": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-25539",
-      "date": "2026-10-26",
-      "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-      "content": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
