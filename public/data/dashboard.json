@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27 22:04 UTC",
+  "lastUpdated": "2026-10-28 05:21 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-40004",
+      "id": "news-91182",
       "date": "2026-10-27",
       "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
       "content": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.\n\nTrendAI, which analyzed three exposed server environments u",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-32759",
+      "id": "news-43982",
       "date": "2026-10-27",
       "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
       "content": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26.\n\nSomeone with that key could build counterfeit devices that pass the online check owners use to v",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-94529",
+      "id": "news-71539",
       "date": "2026-10-27",
       "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
       "content": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations.&nbsp;\n\nSome fake login pages go b",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-87036",
+      "id": "news-20187",
       "date": "2026-10-27",
       "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
       "content": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors.\n\nAccording to Russi",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-95975",
+      "id": "news-75928",
       "date": "2026-10-27",
       "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
       "content": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut ",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-2853",
+      "id": "news-95113",
       "date": "2026-10-27",
       "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
       "content": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.\n\nOpenAI's reasoning models work through a problem before answering, and the servi",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-71096",
+      "id": "news-28011",
       "date": "2026-10-27",
       "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
       "content": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration ",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-2075",
+      "id": "news-19076",
       "date": "2026-10-27",
       "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
       "content": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-94239",
+      "id": "news-19312",
       "date": "2026-10-27",
       "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
       "content": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-61500",
+      "id": "news-37705",
       "date": "2026-10-27",
       "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
       "content": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve imm",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-94253",
+      "id": "news-78754",
       "date": "2026-10-26",
       "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
       "content": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-67214",
+      "id": "news-48636",
       "date": "2026-10-26",
       "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
       "content": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent p",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-72324",
+      "id": "news-24444",
       "date": "2026-10-26",
       "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
       "content": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to c",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-45073",
+      "id": "news-16891",
       "date": "2026-10-26",
       "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
       "content": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems t",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-7730",
+      "id": "news-77275",
       "date": "2026-10-26",
       "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
       "content": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who r",
