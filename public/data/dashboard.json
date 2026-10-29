@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29 05:31 UTC",
+  "lastUpdated": "2026-10-29 12:47 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,103 @@
   },
   "news": [
     {
-      "id": "news-82843",
+      "id": "news-81539",
+      "date": "2026-10-29",
+      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+      "content": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than tradition",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-67061",
+      "date": "2026-10-29",
+      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+      "content": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As th",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-64090",
+      "date": "2026-10-29",
+      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+      "content": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.\n\nIndependent researcher Ben Zimmermann found them by scanning 7.25 million public ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-89165",
+      "date": "2026-10-29",
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+      "content": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-76418, is rated",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-11953",
+      "date": "2026-10-29",
+      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+      "content": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab&nbsp;released a fix, Alpine Linux&nbsp;said&nbsp;on 28 October.\n\nThe flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-127",
+      "date": "2026-10-29",
+      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "content": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.\n\nThe malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-1909",
+      "date": "2026-10-29",
+      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Wa",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-98162",
+      "date": "2026-10-29",
+      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+      "content": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.\n\n\"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-48707",
       "date": "2026-10-28",
       "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
       "content": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access.\n\n\"First identified in late 2023, Silent Train uses rotating chains",
@@ -397,7 +493,7 @@
       ]
     },
     {
-      "id": "news-1975",
+      "id": "news-88559",
       "date": "2026-10-28",
       "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
       "content": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.\n\nOrange Tsai of DEVCORE published the full method on October 28, five months after the chain",
@@ -409,7 +505,7 @@
       ]
     },
     {
-      "id": "news-25267",
+      "id": "news-28738",
       "date": "2026-10-28",
       "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
       "content": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems.\n\nThe activity, which was observe",
@@ -421,7 +517,7 @@
       ]
     },
     {
-      "id": "news-73345",
+      "id": "news-70723",
       "date": "2026-10-28",
       "title": "Wazuh and AI for Enhanced SOC Workflows",
       "content": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster de",
@@ -433,7 +529,7 @@
       ]
     },
     {
-      "id": "news-2100",
+      "id": "news-27432",
       "date": "2026-10-28",
       "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
       "content": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation.\n\nThe list of eight vulnerabilities is as follows -\n\n\n  CVE-2026",
@@ -445,7 +541,7 @@
       ]
     },
     {
-      "id": "news-30259",
+      "id": "news-72696",
       "date": "2026-10-28",
       "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
       "content": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious ",
@@ -457,7 +553,7 @@
       ]
     },
     {
-      "id": "news-83346",
+      "id": "news-50781",
       "date": "2026-10-28",
       "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
       "content": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nThe exploits were built in the lab after the model was prompted, not seen in any r",
@@ -466,102 +562,6 @@
       "views": 0,
       "tags": [
         "anthropic",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-38870",
-      "date": "2026-10-28",
-      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-      "content": "Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch.\n\nThe flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-21336",
-      "date": "2026-10-28",
-      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-      "content": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week.\n\nOracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June. Its root is a server-side re",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-57320",
-      "date": "2026-10-28",
-      "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
-      "content": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-73098",
-      "date": "2026-10-28",
-      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
-      "content": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-51518",
-      "date": "2026-10-28",
-      "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
-      "content": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the dam",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-80833",
-      "date": "2026-10-28",
-      "title": "Hackers now scanning systems for recently-patched Oracle flaw",
-      "content": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-2440",
-      "date": "2026-10-28",
-      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-      "content": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-91600",
-      "date": "2026-10-27",
-      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-      "content": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.\n\nTrendAI, which analyzed three exposed server environments u",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
         "moderate"
       ]
     }
