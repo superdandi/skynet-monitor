@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28 22:28 UTC",
+  "lastUpdated": "2026-10-29 05:31 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-76138",
+      "id": "news-82843",
       "date": "2026-10-28",
       "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
       "content": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access.\n\n\"First identified in late 2023, Silent Train uses rotating chains",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-80818",
+      "id": "news-1975",
       "date": "2026-10-28",
       "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
       "content": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.\n\nOrange Tsai of DEVCORE published the full method on October 28, five months after the chain",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-74834",
+      "id": "news-25267",
       "date": "2026-10-28",
       "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
       "content": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems.\n\nThe activity, which was observe",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-29721",
+      "id": "news-73345",
       "date": "2026-10-28",
       "title": "Wazuh and AI for Enhanced SOC Workflows",
       "content": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster de",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-98954",
+      "id": "news-2100",
       "date": "2026-10-28",
       "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
       "content": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation.\n\nThe list of eight vulnerabilities is as follows -\n\n\n  CVE-2026",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-33303",
+      "id": "news-30259",
       "date": "2026-10-28",
       "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
       "content": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious ",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-6079",
+      "id": "news-83346",
       "date": "2026-10-28",
       "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
       "content": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nThe exploits were built in the lab after the model was prompted, not seen in any r",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-41592",
+      "id": "news-38870",
       "date": "2026-10-28",
       "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
       "content": "Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch.\n\nThe flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network ",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-7568",
+      "id": "news-21336",
       "date": "2026-10-28",
       "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
       "content": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week.\n\nOracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June. Its root is a server-side re",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-71892",
+      "id": "news-57320",
       "date": "2026-10-28",
       "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
       "content": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": "news-41075",
+      "id": "news-73098",
       "date": "2026-10-28",
       "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
       "content": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "news-9675",
+      "id": "news-51518",
       "date": "2026-10-28",
       "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
       "content": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the dam",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": "news-25864",
+      "id": "news-80833",
       "date": "2026-10-28",
       "title": "Hackers now scanning systems for recently-patched Oracle flaw",
       "content": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "news-70645",
+      "id": "news-2440",
       "date": "2026-10-28",
       "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
       "content": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": "news-30508",
+      "id": "news-91600",
       "date": "2026-10-27",
       "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
       "content": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.\n\nTrendAI, which analyzed three exposed server environments u",
