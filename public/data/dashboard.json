@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31 21:22 UTC",
+  "lastUpdated": "2026-11-01 05:46 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-86269",
+      "id": "news-14322",
       "date": "2026-10-31",
       "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
       "content": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did not result in unauthorized access to its investigation content, authen",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-46657",
+      "id": "news-5555",
       "date": "2026-10-31",
       "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.\n\nThe vulnerabilities are listed below -\n\n\n  C",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-98025",
+      "id": "news-66416",
       "date": "2026-10-31",
       "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
       "content": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed.\n\nThe researchers reported the flaw through&nbsp;OpenAI's b",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "id": "news-81841",
+      "id": "news-98031",
       "date": "2026-10-31",
       "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
       "content": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HT",
@@ -434,7 +434,7 @@
       ]
     },
     {
-      "id": "news-68977",
+      "id": "news-64896",
       "date": "2026-10-31",
       "title": "Northflank security breach leads to abuse of customers' AI API keys",
       "content": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": "news-60901",
+      "id": "news-90245",
       "date": "2026-10-31",
       "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
       "content": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible finding",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "news-53277",
+      "id": "news-83379",
       "date": "2026-10-31",
       "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
       "content": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": "news-90147",
+      "id": "news-37950",
       "date": "2026-10-30",
       "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
       "content": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attributed by CrowdStrike to a China-based \"targ",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "news-49887",
+      "id": "news-60388",
       "date": "2026-10-30",
       "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
       "content": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&nbsp;\n\nTheir concerns are practical. An IPS protection could block",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "news-98599",
+      "id": "news-59506",
       "date": "2026-10-30",
       "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
       "content": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems.\n\nThe malicious update, vers",
@@ -507,7 +507,7 @@
       ]
     },
     {
-      "id": "news-63549",
+      "id": "news-51102",
       "date": "2026-10-30",
       "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
       "content": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets.\n\nThe world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far.&nbsp;\n\nTether and Circle",
@@ -519,7 +519,7 @@
       ]
     },
     {
-      "id": "news-37752",
+      "id": "news-26754",
       "date": "2026-10-30",
       "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
       "content": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't.\n\nThere's a strange mix of clever tricks and careless mistakes. Hackers are borrowi",
@@ -531,7 +531,7 @@
       ]
     },
     {
-      "id": "news-41290",
+      "id": "news-52367",
       "date": "2026-10-30",
       "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
       "content": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "id": "news-43922",
+      "id": "news-98522",
       "date": "2026-10-30",
       "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
       "content": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit trust between networks and how its secur",
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "id": "news-95336",
+      "id": "news-96666",
       "date": "2026-10-30",
       "title": "Microsoft finally fixes VPN issues caused by September updates",
       "content": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
