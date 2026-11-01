@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01 13:08 UTC",
+  "lastUpdated": "2026-11-01 21:56 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-42128",
+      "id": "news-58385",
       "date": "2026-11-01",
       "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
       "content": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.\n\nPolymarket says&nbsp;it is refunding a",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-51269",
+      "id": "news-50320",
       "date": "2026-11-01",
       "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
       "content": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.\n\nThe FBI, al",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-4027",
+      "id": "news-28195",
       "date": "2026-11-01",
       "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
       "content": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.\n\nThe activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government en",
@@ -421,7 +421,19 @@
       ]
     },
     {
-      "id": "news-56045",
+      "id": "news-69730",
+      "date": "2026-11-01",
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "content": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-36206",
       "date": "2026-10-31",
       "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
       "content": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did not result in unauthorized access to its investigation content, authen",
@@ -433,7 +445,7 @@
       ]
     },
     {
-      "id": "news-78487",
+      "id": "news-53028",
       "date": "2026-10-31",
       "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.\n\nThe vulnerabilities are listed below -\n\n\n  C",
@@ -445,7 +457,7 @@
       ]
     },
     {
-      "id": "news-49520",
+      "id": "news-71252",
       "date": "2026-10-31",
       "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
       "content": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed.\n\nThe researchers reported the flaw through&nbsp;OpenAI's b",
@@ -458,7 +470,7 @@
       ]
     },
     {
-      "id": "news-62711",
+      "id": "news-58584",
       "date": "2026-10-31",
       "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
       "content": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HT",
@@ -470,7 +482,7 @@
       ]
     },
     {
-      "id": "news-67805",
+      "id": "news-32884",
       "date": "2026-10-31",
       "title": "Northflank security breach leads to abuse of customers' AI API keys",
       "content": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
@@ -482,7 +494,7 @@
       ]
     },
     {
-      "id": "news-73375",
+      "id": "news-24895",
       "date": "2026-10-31",
       "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
       "content": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible finding",
@@ -494,7 +506,7 @@
       ]
     },
     {
-      "id": "news-47128",
+      "id": "news-7973",
       "date": "2026-10-31",
       "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
       "content": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
@@ -506,7 +518,7 @@
       ]
     },
     {
-      "id": "news-46120",
+      "id": "news-92069",
       "date": "2026-10-30",
       "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
       "content": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attributed by CrowdStrike to a China-based \"targ",
@@ -518,7 +530,7 @@
       ]
     },
     {
-      "id": "news-25941",
+      "id": "news-1965",
       "date": "2026-10-30",
       "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
       "content": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&nbsp;\n\nTheir concerns are practical. An IPS protection could block",
@@ -530,7 +542,7 @@
       ]
     },
     {
-      "id": "news-12124",
+      "id": "news-22790",
       "date": "2026-10-30",
       "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
       "content": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems.\n\nThe malicious update, vers",
@@ -543,7 +555,7 @@
       ]
     },
     {
-      "id": "news-23162",
+      "id": "news-43332",
       "date": "2026-10-30",
       "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
       "content": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets.\n\nThe world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far.&nbsp;\n\nTether and Circle",
@@ -552,18 +564,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-31512",
-      "date": "2026-10-30",
-      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-      "content": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't.\n\nThere's a strange mix of clever tricks and careless mistakes. Hackers are borrowi",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
