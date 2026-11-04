@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03 23:10 UTC",
+  "lastUpdated": "2026-11-04 05:58 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-81965",
+      "id": "news-56196",
       "date": "2026-11-03",
       "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
       "content": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure.\n\nThe incident is assessed to be part of a large-scale, artificial intelligence (AI)-pow",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-23640",
+      "id": "news-40412",
       "date": "2026-11-03",
       "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
       "content": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engi",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-58214",
+      "id": "news-56910",
       "date": "2026-11-03",
       "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
       "content": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device.\n\nThe vulnerabilities, a pre-authentication authorization bypass vulnerab",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-79361",
+      "id": "news-17232",
       "date": "2026-11-03",
       "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
       "content": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.\n\nThe tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an atta",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-53534",
+      "id": "news-78341",
       "date": "2026-11-03",
       "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
       "content": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers.\n\nThe script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-32850",
+      "id": "news-10051",
       "date": "2026-11-03",
       "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
       "content": "Fixed kernels for a&nbsp;use-after-free vulnerability in the Linux kernel's IPv4 TCP code&nbsp;are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-657",
+      "id": "news-30882",
       "date": "2026-11-03",
       "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
       "content": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-88319",
+      "id": "news-99499",
       "date": "2026-11-03",
       "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
       "content": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations.\n\n\"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law en",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-25598",
+      "id": "news-48062",
       "date": "2026-11-03",
       "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
       "content": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks.\n\nThe Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devic",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-24856",
+      "id": "news-53664",
       "date": "2026-11-03",
       "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
       "content": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers.\n\nNo chain reported more than several dozen affected stores, and some had to ",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": "news-62493",
+      "id": "news-68704",
       "date": "2026-11-03",
       "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
       "content": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": "news-93640",
+      "id": "news-50507",
       "date": "2026-11-03",
       "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
       "content": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "id": "news-65414",
+      "id": "news-16882",
       "date": "2026-11-03",
       "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
       "content": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection engineering to threat hunting a",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "id": "news-23886",
+      "id": "news-26279",
       "date": "2026-11-03",
       "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
       "content": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "id": "news-27868",
+      "id": "news-40239",
       "date": "2026-11-03",
       "title": "Harvard University data breach exposed info of 851,000 accounts",
       "content": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
