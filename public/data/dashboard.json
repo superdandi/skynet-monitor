@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-11-05 19:49 UTC",
+  "lastUpdated": "2026-11-06 06:18 UTC",
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
       "shortName": "OpenAI",
       "description": "Frontier AI research lab behind GPT and o-series models",
-      "probability": 80,
+      "probability": 88,
       "trend": {
-        "value": 4,
+        "value": 8,
         "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
-      "recentIncidents": 3,
+      "recentIncidents": 5,
       "statusMessage": "Autonomous breach capability confirmed",
       "statusIcon": "zap",
       "statusColor": "red",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 36,
+      "probability": 40,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 4,
+        "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 2,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -200,36 +200,36 @@
     "computationalPower": [
       {
         "name": "Mar",
-        "openai": 640,
-        "anthropic": 288,
+        "openai": 704,
+        "anthropic": 320,
         "google-deepmind": 136,
         "meta-ai": 80
       },
       {
         "name": "Apr",
-        "openai": 768,
-        "anthropic": 345,
+        "openai": 844,
+        "anthropic": 384,
         "google-deepmind": 163,
         "meta-ai": 96
       },
       {
         "name": "May",
-        "openai": 896,
-        "anthropic": 403,
+        "openai": 985,
+        "anthropic": 448,
         "google-deepmind": 190,
         "meta-ai": 112
       },
       {
         "name": "Jun",
-        "openai": 1024,
-        "anthropic": 460,
+        "openai": 1126,
+        "anthropic": 512,
         "google-deepmind": 217,
         "meta-ai": 128
       },
       {
         "name": "Jul",
-        "openai": 1152,
-        "anthropic": 518,
+        "openai": 1267,
+        "anthropic": 576,
         "google-deepmind": 244,
         "meta-ai": 144
       }
@@ -237,36 +237,36 @@
     "neuralComplexity": [
       {
         "name": "Mar",
-        "openai": 576,
-        "anthropic": 259,
+        "openai": 633,
+        "anthropic": 288,
         "google-deepmind": 122,
         "meta-ai": 72
       },
       {
         "name": "Apr",
-        "openai": 688,
-        "anthropic": 309,
+        "openai": 756,
+        "anthropic": 344,
         "google-deepmind": 146,
         "meta-ai": 86
       },
       {
         "name": "May",
-        "openai": 800,
-        "anthropic": 360,
+        "openai": 880,
+        "anthropic": 400,
         "google-deepmind": 170,
         "meta-ai": 100
       },
       {
         "name": "Jun",
-        "openai": 912,
-        "anthropic": 410,
+        "openai": 1003,
+        "anthropic": 456,
         "google-deepmind": 193,
         "meta-ai": 114
       },
       {
         "name": "Jul",
-        "openai": 1024,
-        "anthropic": 460,
+        "openai": 1126,
+        "anthropic": 512,
         "google-deepmind": 217,
         "meta-ai": 128
       }
@@ -274,36 +274,36 @@
     "selfModification": [
       {
         "name": "Mar",
-        "openai": 320,
-        "anthropic": 144,
+        "openai": 352,
+        "anthropic": 160,
         "google-deepmind": 68,
         "meta-ai": 40
       },
       {
         "name": "Apr",
-        "openai": 416,
-        "anthropic": 187,
+        "openai": 457,
+        "anthropic": 208,
         "google-deepmind": 88,
         "meta-ai": 52
       },
       {
         "name": "May",
-        "openai": 512,
-        "anthropic": 230,
+        "openai": 563,
+        "anthropic": 256,
         "google-deepmind": 108,
         "meta-ai": 64
       },
       {
         "name": "Jun",
-        "openai": 608,
-        "anthropic": 273,
+        "openai": 668,
+        "anthropic": 304,
         "google-deepmind": 129,
         "meta-ai": 76
       },
       {
         "name": "Jul",
-        "openai": 704,
-        "anthropic": 316,
+        "openai": 774,
+        "anthropic": 352,
         "google-deepmind": 149,
         "meta-ai": 88
       }
@@ -311,36 +311,36 @@
     "resourceAcquisition": [
       {
         "name": "Mar",
-        "openai": 480,
-        "anthropic": 216,
+        "openai": 528,
+        "anthropic": 240,
         "google-deepmind": 102,
         "meta-ai": 60
       },
       {
         "name": "Apr",
-        "openai": 592,
-        "anthropic": 266,
+        "openai": 651,
+        "anthropic": 296,
         "google-deepmind": 125,
         "meta-ai": 74
       },
       {
         "name": "May",
-        "openai": 704,
-        "anthropic": 316,
+        "openai": 774,
+        "anthropic": 352,
         "google-deepmind": 149,
         "meta-ai": 88
       },
       {
         "name": "Jun",
-        "openai": 816,
-        "anthropic": 367,
+        "openai": 897,
+        "anthropic": 408,
         "google-deepmind": 173,
         "meta-ai": 102
       },
       {
         "name": "Jul",
-        "openai": 928,
-        "anthropic": 417,
+        "openai": 1020,
+        "anthropic": 464,
         "google-deepmind": 197,
         "meta-ai": 116
       }
@@ -385,7 +385,20 @@
   },
   "news": [
     {
-      "id": "news-31243",
+      "id": "news-2836",
+      "date": "2026-11-05",
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "content": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-66820",
       "date": "2026-11-05",
       "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
       "content": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp;\n\nThe vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attacker",
@@ -397,7 +410,7 @@
       ]
     },
     {
-      "id": "news-27029",
+      "id": "news-35302",
       "date": "2026-11-05",
       "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
       "content": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, i",
@@ -409,7 +422,7 @@
       ]
     },
     {
-      "id": "news-35170",
+      "id": "news-93183",
       "date": "2026-11-05",
       "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
       "content": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country.\n\nDescribing the th",
@@ -421,7 +434,7 @@
       ]
     },
     {
-      "id": "news-73286",
+      "id": "news-64143",
       "date": "2026-11-05",
       "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
       "content": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found.\n\nThe exploit lets anyone who can reach a switch's web management interface run commands on it without lo",
@@ -433,7 +446,45 @@
       ]
     },
     {
-      "id": "news-74330",
+      "id": "news-97204",
+      "date": "2026-11-05",
+      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+      "content": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-84713",
+      "date": "2026-11-05",
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "content": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "openai",
+        "anthropic",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-37020",
+      "date": "2026-11-05",
+      "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+      "content": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-69173",
       "date": "2026-11-05",
       "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
       "content": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
@@ -446,7 +497,7 @@
       ]
     },
     {
-      "id": "news-86405",
+      "id": "news-38254",
       "date": "2026-11-05",
       "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
       "content": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
@@ -458,7 +509,7 @@
       ]
     },
     {
-      "id": "news-55988",
+      "id": "news-93810",
       "date": "2026-11-05",
       "title": "Closing the Identity Gap at the Service Desk",
       "content": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can se",
@@ -470,7 +521,7 @@
       ]
     },
     {
-      "id": "news-61494",
+      "id": "news-62301",
       "date": "2026-11-05",
       "title": "Want to Rent an Internet Address at the White House?",
       "content": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web ho",
@@ -482,7 +533,7 @@
       ]
     },
     {
-      "id": "news-13172",
+      "id": "news-83721",
       "date": "2026-11-04",
       "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
       "content": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according to advisories that&nbsp;Debian,&nbsp;Ubuntu, and&nbsp;APT's developers&nbsp;pub",
@@ -494,7 +545,7 @@
       ]
     },
     {
-      "id": "news-55860",
+      "id": "news-42995",
       "date": "2026-11-04",
       "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
       "content": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -\n\n\n  CVE-2026-109593 (CVSS score: 9.1) - An",
@@ -506,7 +557,7 @@
       ]
     },
     {
-      "id": "news-50898",
+      "id": "news-91780",
       "date": "2026-11-04",
       "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
       "content": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway.\n\nThe phenomenon has been codenamed prompt adware by C",
@@ -516,54 +567,6 @@
       "tags": [
         "openai",
         "moderate"
-      ]
-    },
-    {
-      "id": "news-8589",
-      "date": "2026-11-04",
-      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-      "content": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-71329",
-      "date": "2026-11-04",
-      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-      "content": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-57922",
-      "date": "2026-11-04",
-      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-      "content": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one.\n\nOne recent case shows what th",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-79737",
-      "date": "2026-11-04",
-      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-      "content": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkV",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
