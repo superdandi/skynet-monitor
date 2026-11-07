@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07 05:43 UTC",
+  "lastUpdated": "2026-11-07 12:50 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 40,
+      "probability": 44,
       "trend": {
-        "value": 0,
+        "value": 4,
         "direction": "up"
       },
       "riskLevel": "high",
       "riskFactors": 0,
-      "recentIncidents": 2,
+      "recentIncidents": 3,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 704,
-        "anthropic": 320,
+        "anthropic": 352,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 844,
-        "anthropic": 384,
+        "anthropic": 422,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 985,
-        "anthropic": 448,
+        "anthropic": 492,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 1126,
-        "anthropic": 512,
+        "anthropic": 563,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1267,
-        "anthropic": 576,
+        "anthropic": 633,
         "google-deepmind": 187,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 633,
-        "anthropic": 288,
+        "anthropic": 316,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 756,
-        "anthropic": 344,
+        "anthropic": 378,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 880,
-        "anthropic": 400,
+        "anthropic": 440,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 1003,
-        "anthropic": 456,
+        "anthropic": 501,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 1126,
-        "anthropic": 512,
+        "anthropic": 563,
         "google-deepmind": 166,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 352,
-        "anthropic": 160,
+        "anthropic": 176,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 457,
-        "anthropic": 208,
+        "anthropic": 228,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 563,
-        "anthropic": 256,
+        "anthropic": 281,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 668,
-        "anthropic": 304,
+        "anthropic": 334,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 774,
-        "anthropic": 352,
+        "anthropic": 387,
         "google-deepmind": 114,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 528,
-        "anthropic": 240,
+        "anthropic": 264,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 651,
-        "anthropic": 296,
+        "anthropic": 325,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 774,
-        "anthropic": 352,
+        "anthropic": 387,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 897,
-        "anthropic": 408,
+        "anthropic": 448,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 1020,
-        "anthropic": 464,
+        "anthropic": 510,
         "google-deepmind": 150,
         "meta-ai": 116
       }
@@ -385,7 +385,20 @@
   },
   "news": [
     {
-      "id": "news-39603",
+      "id": "news-95390",
+      "date": "2026-11-07",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "content": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\n\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, inc",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "anthropic",
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-88712",
       "date": "2026-11-06",
       "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
       "content": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole),",
@@ -397,7 +410,7 @@
       ]
     },
     {
-      "id": "news-36513",
+      "id": "news-51607",
       "date": "2026-11-06",
       "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
       "content": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nThe new model is \"more capable at finding and fixing vulnerabiliti",
@@ -410,7 +423,7 @@
       ]
     },
     {
-      "id": "news-63593",
+      "id": "news-78750",
       "date": "2026-11-06",
       "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
       "content": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News c",
@@ -422,7 +435,7 @@
       ]
     },
     {
-      "id": "news-92870",
+      "id": "news-27699",
       "date": "2026-11-06",
       "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
       "content": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their ph",
@@ -435,7 +448,7 @@
       ]
     },
     {
-      "id": "news-16736",
+      "id": "news-85015",
       "date": "2026-11-06",
       "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
       "content": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.\n\n\"While we investigated, we removed access to Reactor and Data Soluti",
@@ -447,7 +460,7 @@
       ]
     },
     {
-      "id": "news-4282",
+      "id": "news-81226",
       "date": "2026-11-06",
       "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
       "content": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.\n\nThe backdoored web server executes commands that attackers send via web requests, and those reques",
@@ -459,7 +472,7 @@
       ]
     },
     {
-      "id": "news-67461",
+      "id": "news-40129",
       "date": "2026-11-06",
       "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
       "content": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm watchTowr detailed the attack chain on ",
@@ -471,7 +484,7 @@
       ]
     },
     {
-      "id": "news-99327",
+      "id": "news-57111",
       "date": "2026-11-06",
       "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
       "content": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
@@ -483,7 +496,7 @@
       ]
     },
     {
-      "id": "news-88328",
+      "id": "news-64595",
       "date": "2026-11-06",
       "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
       "content": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
@@ -495,7 +508,7 @@
       ]
     },
     {
-      "id": "news-50774",
+      "id": "news-61329",
       "date": "2026-11-06",
       "title": "Chainalysis says breach exposed credentials for all customers",
       "content": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
@@ -507,7 +520,7 @@
       ]
     },
     {
-      "id": "news-68202",
+      "id": "news-85214",
       "date": "2026-11-06",
       "title": "MetaMask says recent attack didn't affect wallet infrastructure",
       "content": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
@@ -519,7 +532,7 @@
       ]
     },
     {
-      "id": "news-11669",
+      "id": "news-30793",
       "date": "2026-11-05",
       "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
       "content": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize",
@@ -532,7 +545,7 @@
       ]
     },
     {
-      "id": "news-35535",
+      "id": "news-17522",
       "date": "2026-11-05",
       "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
       "content": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp;\n\nThe vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attacker",
@@ -544,22 +557,10 @@
       ]
     },
     {
-      "id": "news-83318",
+      "id": "news-29685",
       "date": "2026-11-05",
       "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
       "content": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, i",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-70609",
-      "date": "2026-11-05",
-      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-      "content": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country.\n\nDescribing the th",
       "category": "critical",
       "impact": "Critical",
       "views": 0,
