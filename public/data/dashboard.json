@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10 23:07 UTC",
+  "lastUpdated": "2026-11-11 05:52 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 80,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-98802",
+      "id": "news-27527",
       "date": "2026-11-11",
       "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
       "content": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\n\nThe attacker could also have seen requests being processed on that server that day, including requests sent in confident",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-37832",
+      "id": "news-23126",
       "date": "2026-11-10",
       "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
       "content": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\n\nThe authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062.\n\n\"REST cookie parsing tu",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-13220",
+      "id": "news-34616",
       "date": "2026-11-10",
       "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
       "content": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, ",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-22348",
+      "id": "news-61607",
       "date": "2026-11-10",
       "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
       "content": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 a",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-87579",
+      "id": "news-60638",
       "date": "2026-11-10",
       "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
       "content": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month&nbsp; uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of account",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-2610",
+      "id": "news-12469",
       "date": "2026-11-10",
       "title": "Beyond the Alert: The Case for Rich Network Data",
       "content": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction strategy",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-6033",
+      "id": "news-17242",
       "date": "2026-11-10",
       "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
       "content": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined.\n\nAs of ",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-20231",
+      "id": "news-63719",
       "date": "2026-11-10",
       "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
       "content": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails.\n\nAccording to an ESE",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-8090",
+      "id": "news-62744",
       "date": "2026-11-10",
       "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
       "content": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday.\n\nThe attackers broke into controllers on the night of October 11 and chan",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-65674",
+      "id": "news-58316",
       "date": "2026-11-10",
       "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
       "content": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision.\n\nDuring pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations,",
@@ -507,7 +507,7 @@
       ]
     },
     {
-      "id": "news-75992",
+      "id": "news-83879",
       "date": "2026-11-10",
       "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
       "content": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell.\n\n\"As a precautionary measure, we are t",
@@ -519,7 +519,7 @@
       ]
     },
     {
-      "id": "news-60110",
+      "id": "news-43308",
       "date": "2026-11-10",
       "title": "Railway breach leads to $740,000 in fraudulent AI charges",
       "content": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
@@ -531,7 +531,7 @@
       ]
     },
     {
-      "id": "news-52275",
+      "id": "news-5490",
       "date": "2026-11-10",
       "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
       "content": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "id": "news-91270",
+      "id": "news-13980",
       "date": "2026-11-10",
       "title": "Ransomware recovery is now a client retention metric",
       "content": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response t",
@@ -555,7 +555,7 @@
       ]
     },
     {
-      "id": "news-24681",
+      "id": "news-44497",
       "date": "2026-11-10",
       "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
       "content": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
