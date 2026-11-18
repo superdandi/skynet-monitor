@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18 07:05 UTC",
+  "lastUpdated": "2026-11-18 20:21 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 68,
       "trend": {
-        "value": 8,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -56,14 +56,14 @@
       "name": "Google DeepMind",
       "shortName": "DeepMind",
       "description": "Alphabet's AI research division",
-      "probability": 17,
+      "probability": 13,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 4,
+        "direction": "down"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
-      "recentIncidents": 1,
+      "recentIncidents": 0,
       "statusMessage": "Stable - no major security incidents",
       "statusIcon": "shield",
       "statusColor": "green",
@@ -106,8 +106,8 @@
       "description": "Elon Musk's AI company behind Grok",
       "probability": 2,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "low",
       "riskFactors": 0,
@@ -202,35 +202,35 @@
         "name": "Mar",
         "openai": 544,
         "anthropic": 320,
-        "google-deepmind": 136,
+        "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 652,
         "anthropic": 384,
-        "google-deepmind": 163,
+        "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 761,
         "anthropic": 448,
-        "google-deepmind": 190,
+        "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 870,
         "anthropic": 512,
-        "google-deepmind": 217,
+        "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 979,
         "anthropic": 576,
-        "google-deepmind": 244,
+        "google-deepmind": 187,
         "meta-ai": 144
       }
     ],
@@ -239,35 +239,35 @@
         "name": "Mar",
         "openai": 489,
         "anthropic": 288,
-        "google-deepmind": 122,
+        "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 584,
         "anthropic": 344,
-        "google-deepmind": 146,
+        "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 680,
         "anthropic": 400,
-        "google-deepmind": 170,
+        "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 775,
         "anthropic": 456,
-        "google-deepmind": 193,
+        "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 870,
         "anthropic": 512,
-        "google-deepmind": 217,
+        "google-deepmind": 166,
         "meta-ai": 128
       }
     ],
@@ -276,35 +276,35 @@
         "name": "Mar",
         "openai": 272,
         "anthropic": 160,
-        "google-deepmind": 68,
+        "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 353,
         "anthropic": 208,
-        "google-deepmind": 88,
+        "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 435,
         "anthropic": 256,
-        "google-deepmind": 108,
+        "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 516,
         "anthropic": 304,
-        "google-deepmind": 129,
+        "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 598,
         "anthropic": 352,
-        "google-deepmind": 149,
+        "google-deepmind": 114,
         "meta-ai": 88
       }
     ],
@@ -313,35 +313,35 @@
         "name": "Mar",
         "openai": 408,
         "anthropic": 240,
-        "google-deepmind": 102,
+        "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 503,
         "anthropic": 296,
-        "google-deepmind": 125,
+        "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 598,
         "anthropic": 352,
-        "google-deepmind": 149,
+        "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 693,
         "anthropic": 408,
-        "google-deepmind": 173,
+        "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 788,
         "anthropic": 464,
-        "google-deepmind": 197,
+        "google-deepmind": 150,
         "meta-ai": 116
       }
     ],
@@ -385,7 +385,67 @@
   },
   "news": [
     {
-      "id": "news-69386",
+      "id": "news-17980",
+      "date": "2026-11-18",
+      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+      "content": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-50537",
+      "date": "2026-11-18",
+      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+      "content": "TL;DR\n\n\n  Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day.\n  AI pentesting vendors aren't interchangeable. Most ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-12490",
+      "date": "2026-11-18",
+      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+      "content": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with bo",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-25207",
+      "date": "2026-11-18",
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java.\n\nThe flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-63832",
+      "date": "2026-11-18",
+      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "content": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.\n\nThe malicious versions, 1.26.1 and 1.26.2, were published ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-4210",
       "date": "2026-11-18",
       "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
       "content": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.\n\nGoogle's Mandiant and Threat Intelligence ",
@@ -397,7 +457,7 @@
       ]
     },
     {
-      "id": "news-22012",
+      "id": "news-99203",
       "date": "2026-11-18",
       "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
       "content": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\n\nWidgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's",
@@ -409,7 +469,31 @@
       ]
     },
     {
-      "id": "news-57121",
+      "id": "news-21002",
+      "date": "2026-11-18",
+      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+      "content": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations prevent ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-13945",
+      "date": "2026-11-18",
+      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+      "content": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-13445",
       "date": "2026-11-18",
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
       "content": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the ",
@@ -421,7 +505,7 @@
       ]
     },
     {
-      "id": "news-72408",
+      "id": "news-99898",
       "date": "2026-11-17",
       "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
       "content": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\n\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security sca",
@@ -433,7 +517,7 @@
       ]
     },
     {
-      "id": "news-77678",
+      "id": "news-94849",
       "date": "2026-11-17",
       "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
       "content": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt.\n\nThe first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw repor",
@@ -445,7 +529,7 @@
       ]
     },
     {
-      "id": "news-31642",
+      "id": "news-9771",
       "date": "2026-11-17",
       "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
       "content": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2).\n\nThe activity has been codenamed ",
@@ -457,7 +541,7 @@
       ]
     },
     {
-      "id": "news-77094",
+      "id": "news-4902",
       "date": "2026-11-17",
       "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
       "content": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.\n\nThe changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more opt",
@@ -469,94 +553,10 @@
       ]
     },
     {
-      "id": "news-11128",
+      "id": "news-3298",
       "date": "2026-11-17",
       "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
       "content": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today.\n\nVisitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, receiv",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-95305",
-      "date": "2026-11-17",
-      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
-      "content": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.\n\nThe company said additional activity targeting on-p",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-76426",
-      "date": "2026-11-17",
-      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-      "content": "N-able has released a new security update to address additional critical security flaws impacting N-central.\n\nDescribing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the R",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-49592",
-      "date": "2026-11-17",
-      "title": "Tor releases emergency update amid ongoing DDoS attack",
-      "content": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-16211",
-      "date": "2026-11-17",
-      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-      "content": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-56303",
-      "date": "2026-11-16",
-      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-      "content": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater ope",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-49887",
-      "date": "2026-11-16",
-      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-      "content": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job.\n\nMeanwhile, AI is making bug hunting faster, ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-98554",
-      "date": "2026-11-16",
-      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-      "content": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.\n\nNo patch is available, and the researchers say the newest firmware, version 5.4.0, doe",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
