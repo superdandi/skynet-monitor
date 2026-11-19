@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18 20:21 UTC",
+  "lastUpdated": "2026-11-19 07:05 UTC",
   "companies": [
     {
       "id": "openai",
@@ -58,8 +58,8 @@
       "description": "Alphabet's AI research division",
       "probability": 13,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "moderate",
       "riskFactors": 0,
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-17980",
+      "id": "news-83490",
+      "date": "2026-11-19",
+      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+      "content": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws.\n\nThe release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC.\n\n\"These releases are part of PHP's regular four-wee",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-89644",
       "date": "2026-11-18",
       "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
       "content": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said ",
@@ -397,7 +409,7 @@
       ]
     },
     {
-      "id": "news-50537",
+      "id": "news-77529",
       "date": "2026-11-18",
       "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
       "content": "TL;DR\n\n\n  Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day.\n  AI pentesting vendors aren't interchangeable. Most ",
@@ -409,7 +421,7 @@
       ]
     },
     {
-      "id": "news-12490",
+      "id": "news-29614",
       "date": "2026-11-18",
       "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
       "content": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with bo",
@@ -421,7 +433,7 @@
       ]
     },
     {
-      "id": "news-25207",
+      "id": "news-53905",
       "date": "2026-11-18",
       "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java.\n\nThe flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can ",
@@ -433,7 +445,7 @@
       ]
     },
     {
-      "id": "news-63832",
+      "id": "news-57299",
       "date": "2026-11-18",
       "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
       "content": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.\n\nThe malicious versions, 1.26.1 and 1.26.2, were published ",
@@ -445,7 +457,7 @@
       ]
     },
     {
-      "id": "news-4210",
+      "id": "news-33987",
       "date": "2026-11-18",
       "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
       "content": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.\n\nGoogle's Mandiant and Threat Intelligence ",
@@ -457,7 +469,7 @@
       ]
     },
     {
-      "id": "news-99203",
+      "id": "news-2585",
       "date": "2026-11-18",
       "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
       "content": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\n\nWidgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's",
@@ -469,7 +481,19 @@
       ]
     },
     {
-      "id": "news-21002",
+      "id": "news-20169",
+      "date": "2026-11-18",
+      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+      "content": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-20988",
       "date": "2026-11-18",
       "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
       "content": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations prevent ",
@@ -481,7 +505,7 @@
       ]
     },
     {
-      "id": "news-13945",
+      "id": "news-71479",
       "date": "2026-11-18",
       "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
       "content": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
@@ -493,7 +517,7 @@
       ]
     },
     {
-      "id": "news-13445",
+      "id": "news-26746",
       "date": "2026-11-18",
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
       "content": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the ",
@@ -505,7 +529,7 @@
       ]
     },
     {
-      "id": "news-99898",
+      "id": "news-82659",
       "date": "2026-11-17",
       "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
       "content": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\n\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security sca",
@@ -517,7 +541,7 @@
       ]
     },
     {
-      "id": "news-94849",
+      "id": "news-70805",
       "date": "2026-11-17",
       "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
       "content": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt.\n\nThe first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw repor",
@@ -529,7 +553,7 @@
       ]
     },
     {
-      "id": "news-9771",
+      "id": "news-4594",
       "date": "2026-11-17",
       "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
       "content": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2).\n\nThe activity has been codenamed ",
@@ -538,30 +562,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-4902",
-      "date": "2026-11-17",
-      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-      "content": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.\n\nThe changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more opt",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-3298",
-      "date": "2026-11-17",
-      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-      "content": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today.\n\nVisitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, receiv",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
