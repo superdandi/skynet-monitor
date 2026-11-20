@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19 20:25 UTC",
+  "lastUpdated": "2026-11-20 06:56 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,7 +8,7 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 72,
       "trend": {
-        "value": 4,
+        "value": 0,
         "direction": "up"
       },
       "riskLevel": "critical",
@@ -385,7 +385,19 @@
   },
   "news": [
     {
-      "id": "news-20549",
+      "id": "news-52642",
+      "date": "2026-11-20",
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "content": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-90786",
       "date": "2026-11-20",
       "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
       "content": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread ",
@@ -398,7 +410,7 @@
       ]
     },
     {
-      "id": "news-14324",
+      "id": "news-38507",
       "date": "2026-11-19",
       "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
       "content": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the ",
@@ -410,7 +422,7 @@
       ]
     },
     {
-      "id": "news-34647",
+      "id": "news-59692",
       "date": "2026-11-19",
       "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
       "content": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of the patch follows an advance notice in which the project maint",
@@ -422,19 +434,19 @@
       ]
     },
     {
-      "id": "news-7712",
+      "id": "news-225",
       "date": "2026-11-19",
-      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
       "content": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions are out for all supported branches, and the company lists no ",
-      "category": "moderate",
-      "impact": "Moderate",
+      "category": "critical",
+      "impact": "Critical",
       "views": 0,
       "tags": [
-        "moderate"
+        "critical"
       ]
     },
     {
-      "id": "news-24200",
+      "id": "news-84645",
       "date": "2026-11-19",
       "title": "Everything Is a Web Application, Including Your Firewall",
       "content": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both fla",
@@ -446,7 +458,7 @@
       ]
     },
     {
-      "id": "news-24335",
+      "id": "news-24911",
       "date": "2026-11-19",
       "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
       "content": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\n\"We have taken steps to mitigate the threat and are continuing to har",
@@ -458,7 +470,7 @@
       ]
     },
     {
-      "id": "news-60312",
+      "id": "news-5561",
       "date": "2026-11-19",
       "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerab",
@@ -470,7 +482,7 @@
       ]
     },
     {
-      "id": "news-79492",
+      "id": "news-32261",
       "date": "2026-11-19",
       "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
       "content": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws.\n\nThe release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC.\n\n\"These releases are part of PHP's regular four-wee",
@@ -482,7 +494,19 @@
       ]
     },
     {
-      "id": "news-59132",
+      "id": "news-60204",
+      "date": "2026-11-19",
+      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+      "content": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-33140",
       "date": "2026-11-19",
       "title": "Transport for London breach exposes 265,000 Oyster card users' data",
       "content": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
@@ -494,7 +518,7 @@
       ]
     },
     {
-      "id": "news-48154",
+      "id": "news-63985",
       "date": "2026-11-19",
       "title": "Five warning signs of ransomware breach before encryption or data theft",
       "content": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical sy",
@@ -506,7 +530,7 @@
       ]
     },
     {
-      "id": "news-36188",
+      "id": "news-31426",
       "date": "2026-11-19",
       "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
       "content": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
@@ -518,7 +542,7 @@
       ]
     },
     {
-      "id": "news-60093",
+      "id": "news-77977",
       "date": "2026-11-19",
       "title": "NVIDIA investigating Gentlemen ransomware breach claims",
       "content": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
@@ -530,34 +554,10 @@
       ]
     },
     {
-      "id": "news-91722",
+      "id": "news-77471",
       "date": "2026-11-18",
       "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
       "content": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-70495",
-      "date": "2026-11-18",
-      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-      "content": "TL;DR\n\n\n  Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day.\n  AI pentesting vendors aren't interchangeable. Most ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-56715",
-      "date": "2026-11-18",
-      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
-      "content": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with bo",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
