@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20 06:56 UTC",
+  "lastUpdated": "2026-11-20 19:56 UTC",
   "companies": [
     {
       "id": "openai",
@@ -31,14 +31,14 @@
       "name": "Anthropic",
       "shortName": "Anthropic",
       "description": "AI safety company behind Claude models",
-      "probability": 40,
+      "probability": 32,
       "trend": {
-        "value": 0,
-        "direction": "up"
+        "value": 8,
+        "direction": "down"
       },
       "riskLevel": "high",
-      "riskFactors": 1,
-      "recentIncidents": 1,
+      "riskFactors": 0,
+      "recentIncidents": 0,
       "statusMessage": "CNVDB labeled Claude Code as 'backdoor'",
       "statusIcon": "alert-triangle",
       "statusColor": "amber",
@@ -201,35 +201,35 @@
       {
         "name": "Mar",
         "openai": 576,
-        "anthropic": 320,
+        "anthropic": 256,
         "google-deepmind": 104,
         "meta-ai": 80
       },
       {
         "name": "Apr",
         "openai": 691,
-        "anthropic": 384,
+        "anthropic": 307,
         "google-deepmind": 124,
         "meta-ai": 96
       },
       {
         "name": "May",
         "openai": 806,
-        "anthropic": 448,
+        "anthropic": 358,
         "google-deepmind": 145,
         "meta-ai": 112
       },
       {
         "name": "Jun",
         "openai": 921,
-        "anthropic": 512,
+        "anthropic": 409,
         "google-deepmind": 166,
         "meta-ai": 128
       },
       {
         "name": "Jul",
         "openai": 1036,
-        "anthropic": 576,
+        "anthropic": 460,
         "google-deepmind": 187,
         "meta-ai": 144
       }
@@ -238,35 +238,35 @@
       {
         "name": "Mar",
         "openai": 518,
-        "anthropic": 288,
+        "anthropic": 230,
         "google-deepmind": 93,
         "meta-ai": 72
       },
       {
         "name": "Apr",
         "openai": 619,
-        "anthropic": 344,
+        "anthropic": 275,
         "google-deepmind": 111,
         "meta-ai": 86
       },
       {
         "name": "May",
         "openai": 720,
-        "anthropic": 400,
+        "anthropic": 320,
         "google-deepmind": 130,
         "meta-ai": 100
       },
       {
         "name": "Jun",
         "openai": 820,
-        "anthropic": 456,
+        "anthropic": 364,
         "google-deepmind": 148,
         "meta-ai": 114
       },
       {
         "name": "Jul",
         "openai": 921,
-        "anthropic": 512,
+        "anthropic": 409,
         "google-deepmind": 166,
         "meta-ai": 128
       }
@@ -275,35 +275,35 @@
       {
         "name": "Mar",
         "openai": 288,
-        "anthropic": 160,
+        "anthropic": 128,
         "google-deepmind": 52,
         "meta-ai": 40
       },
       {
         "name": "Apr",
         "openai": 374,
-        "anthropic": 208,
+        "anthropic": 166,
         "google-deepmind": 67,
         "meta-ai": 52
       },
       {
         "name": "May",
         "openai": 460,
-        "anthropic": 256,
+        "anthropic": 204,
         "google-deepmind": 83,
         "meta-ai": 64
       },
       {
         "name": "Jun",
         "openai": 547,
-        "anthropic": 304,
+        "anthropic": 243,
         "google-deepmind": 98,
         "meta-ai": 76
       },
       {
         "name": "Jul",
         "openai": 633,
-        "anthropic": 352,
+        "anthropic": 281,
         "google-deepmind": 114,
         "meta-ai": 88
       }
@@ -312,35 +312,35 @@
       {
         "name": "Mar",
         "openai": 432,
-        "anthropic": 240,
+        "anthropic": 192,
         "google-deepmind": 78,
         "meta-ai": 60
       },
       {
         "name": "Apr",
         "openai": 532,
-        "anthropic": 296,
+        "anthropic": 236,
         "google-deepmind": 96,
         "meta-ai": 74
       },
       {
         "name": "May",
         "openai": 633,
-        "anthropic": 352,
+        "anthropic": 281,
         "google-deepmind": 114,
         "meta-ai": 88
       },
       {
         "name": "Jun",
         "openai": 734,
-        "anthropic": 408,
+        "anthropic": 326,
         "google-deepmind": 132,
         "meta-ai": 102
       },
       {
         "name": "Jul",
         "openai": 835,
-        "anthropic": 464,
+        "anthropic": 371,
         "google-deepmind": 150,
         "meta-ai": 116
       }
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-52642",
+      "id": "news-10000",
+      "date": "2026-11-20",
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+      "content": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale.\n\nDutch mobile security company ThreatFabric said it discovered the threa",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-63056",
+      "date": "2026-11-20",
+      "title": "The Path to AI Autonomy in the SOC",
+      "content": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% exp",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-35776",
+      "date": "2026-11-20",
+      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+      "content": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks.\n\n\"Attackers now use automation and AI to find and exploit unsuppo",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-6171",
       "date": "2026-11-20",
       "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
       "content": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8",
@@ -397,7 +433,19 @@
       ]
     },
     {
-      "id": "news-90786",
+      "id": "news-39870",
+      "date": "2026-11-20",
+      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+      "content": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS.\n\n\"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legio",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-78840",
       "date": "2026-11-20",
       "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
       "content": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread ",
@@ -410,7 +458,55 @@
       ]
     },
     {
-      "id": "news-38507",
+      "id": "news-79247",
+      "date": "2026-11-20",
+      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+      "content": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-30418",
+      "date": "2026-11-20",
+      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+      "content": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks,",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-18383",
+      "date": "2026-11-20",
+      "title": "N-able says recent security breach led to major service outage",
+      "content": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-49933",
+      "date": "2026-11-20",
+      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+      "content": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-26624",
       "date": "2026-11-19",
       "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
       "content": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the ",
@@ -422,7 +518,7 @@
       ]
     },
     {
-      "id": "news-59692",
+      "id": "news-94106",
       "date": "2026-11-19",
       "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
       "content": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of the patch follows an advance notice in which the project maint",
@@ -434,7 +530,7 @@
       ]
     },
     {
-      "id": "news-225",
+      "id": "news-77528",
       "date": "2026-11-19",
       "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
       "content": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions are out for all supported branches, and the company lists no ",
@@ -446,7 +542,7 @@
       ]
     },
     {
-      "id": "news-84645",
+      "id": "news-26535",
       "date": "2026-11-19",
       "title": "Everything Is a Web Application, Including Your Firewall",
       "content": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both fla",
@@ -458,7 +554,7 @@
       ]
     },
     {
-      "id": "news-24911",
+      "id": "news-79448",
       "date": "2026-11-19",
       "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
       "content": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\n\"We have taken steps to mitigate the threat and are continuing to har",
@@ -467,102 +563,6 @@
       "views": 0,
       "tags": [
         "critical"
-      ]
-    },
-    {
-      "id": "news-5561",
-      "date": "2026-11-19",
-      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-      "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerab",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-32261",
-      "date": "2026-11-19",
-      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-      "content": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws.\n\nThe release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC.\n\n\"These releases are part of PHP's regular four-wee",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-60204",
-      "date": "2026-11-19",
-      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
-      "content": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-33140",
-      "date": "2026-11-19",
-      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-      "content": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-63985",
-      "date": "2026-11-19",
-      "title": "Five warning signs of ransomware breach before encryption or data theft",
-      "content": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical sy",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-31426",
-      "date": "2026-11-19",
-      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
-      "content": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-77977",
-      "date": "2026-11-19",
-      "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-      "content": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-77471",
-      "date": "2026-11-18",
-      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-      "content": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
       ]
     }
   ],
