@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21 06:52 UTC",
+  "lastUpdated": "2026-11-21 19:01 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,55 @@
   },
   "news": [
     {
-      "id": "news-65121",
+      "id": "news-87226",
+      "date": "2026-11-21",
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "content": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.\n\nThe flaw allows an attacker with no account t",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-69957",
+      "date": "2026-11-21",
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "content": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-96257",
+      "date": "2026-11-21",
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "content": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-23024",
+      "date": "2026-11-21",
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "content": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-37013",
       "date": "2026-11-21",
       "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
       "content": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply p",
@@ -397,7 +445,7 @@
       ]
     },
     {
-      "id": "news-32250",
+      "id": "news-11709",
       "date": "2026-11-20",
       "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
       "content": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale.\n\nDutch mobile security company ThreatFabric said it discovered the threa",
@@ -409,7 +457,7 @@
       ]
     },
     {
-      "id": "news-78137",
+      "id": "news-31850",
       "date": "2026-11-20",
       "title": "The Path to AI Autonomy in the SOC",
       "content": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% exp",
@@ -421,7 +469,7 @@
       ]
     },
     {
-      "id": "news-14419",
+      "id": "news-86485",
       "date": "2026-11-20",
       "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
       "content": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks.\n\n\"Attackers now use automation and AI to find and exploit unsuppo",
@@ -433,7 +481,7 @@
       ]
     },
     {
-      "id": "news-65488",
+      "id": "news-91476",
       "date": "2026-11-20",
       "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
       "content": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8",
@@ -445,7 +493,7 @@
       ]
     },
     {
-      "id": "news-72514",
+      "id": "news-87450",
       "date": "2026-11-20",
       "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
       "content": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS.\n\n\"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legio",
@@ -457,7 +505,7 @@
       ]
     },
     {
-      "id": "news-45286",
+      "id": "news-57025",
       "date": "2026-11-20",
       "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
       "content": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread ",
@@ -470,7 +518,7 @@
       ]
     },
     {
-      "id": "news-70637",
+      "id": "news-67361",
       "date": "2026-11-20",
       "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
       "content": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
@@ -482,7 +530,7 @@
       ]
     },
     {
-      "id": "news-81827",
+      "id": "news-69948",
       "date": "2026-11-20",
       "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
       "content": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks,",
@@ -494,7 +542,7 @@
       ]
     },
     {
-      "id": "news-10414",
+      "id": "news-38186",
       "date": "2026-11-20",
       "title": "N-able says recent security breach led to major service outage",
       "content": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
@@ -506,58 +554,10 @@
       ]
     },
     {
-      "id": "news-49847",
+      "id": "news-65735",
       "date": "2026-11-20",
       "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
       "content": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-36030",
-      "date": "2026-11-19",
-      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-      "content": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-80826",
-      "date": "2026-11-19",
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-      "content": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of the patch follows an advance notice in which the project maint",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-27584",
-      "date": "2026-11-19",
-      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-      "content": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions are out for all supported branches, and the company lists no ",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-75096",
-      "date": "2026-11-19",
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "content": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both fla",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
