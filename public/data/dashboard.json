@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25 21:33 UTC",
+  "lastUpdated": "2026-11-26 07:58 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 76,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -385,7 +385,43 @@
   },
   "news": [
     {
-      "id": "news-87706",
+      "id": "news-88935",
+      "date": "2026-11-26",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "content": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions.",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-21202",
+      "date": "2026-11-26",
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "content": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.\n\n\"While we t",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-34536",
+      "date": "2026-11-26",
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "content": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment.\n\n\"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket ",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-31773",
       "date": "2026-11-25",
       "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
       "content": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr.\n\nThe vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -\n\n\n  CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulne",
@@ -397,7 +433,7 @@
       ]
     },
     {
-      "id": "news-23670",
+      "id": "news-25154",
       "date": "2026-11-25",
       "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
       "content": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline.\n\nThe bu",
@@ -409,7 +445,7 @@
       ]
     },
     {
-      "id": "news-36114",
+      "id": "news-14232",
       "date": "2026-11-25",
       "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026.\n\nThe vulnerability, tracked as CVE-2026-132",
@@ -421,7 +457,7 @@
       ]
     },
     {
-      "id": "news-78124",
+      "id": "news-51223",
       "date": "2026-11-25",
       "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
       "content": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from.\n\nThe flaw used in the attack had been in the registry's code since February 2016, and the team that maint",
@@ -433,7 +469,7 @@
       ]
     },
     {
-      "id": "news-95334",
+      "id": "news-21276",
       "date": "2026-11-25",
       "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
       "content": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world.\n\nThe intrusion activity, tracked by GreyNoise under the moniker Grey",
@@ -445,7 +481,19 @@
       ]
     },
     {
-      "id": "news-54039",
+      "id": "news-50472",
+      "date": "2026-11-25",
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "content": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+      "category": "moderate",
+      "impact": "Moderate",
+      "views": 0,
+      "tags": [
+        "moderate"
+      ]
+    },
+    {
+      "id": "news-37671",
       "date": "2026-11-25",
       "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
       "content": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
@@ -457,7 +505,7 @@
       ]
     },
     {
-      "id": "news-49833",
+      "id": "news-91217",
       "date": "2026-11-25",
       "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
@@ -469,7 +517,7 @@
       ]
     },
     {
-      "id": "news-70750",
+      "id": "news-68509",
       "date": "2026-11-25",
       "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
       "content": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves. [...]",
@@ -481,7 +529,7 @@
       ]
     },
     {
-      "id": "news-76242",
+      "id": "news-36648",
       "date": "2026-11-24",
       "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
       "content": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus.\n\nCentral to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File Sys",
@@ -493,7 +541,7 @@
       ]
     },
     {
-      "id": "news-34712",
+      "id": "news-85709",
       "date": "2026-11-24",
       "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
       "content": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\n\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security sca",
@@ -505,7 +553,7 @@
       ]
     },
     {
-      "id": "news-94621",
+      "id": "news-9532",
       "date": "2026-11-24",
       "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
       "content": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi.\n\n\"An unknown actor ha",
@@ -514,55 +562,6 @@
       "views": 0,
       "tags": [
         "moderate"
-      ]
-    },
-    {
-      "id": "news-96188",
-      "date": "2026-11-24",
-      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
-      "content": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime.\n\n\"It lets agents write dynamic eBPF controls to shield systems from exploits, giving ",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "openai",
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-3717",
-      "date": "2026-11-24",
-      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-      "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe critical vulnerabilities are listed below -\n\n\n",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-80020",
-      "date": "2026-11-24",
-      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
-      "content": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-32057",
-      "date": "2026-11-24",
-      "title": "Radware discloses breach exposing customer cloud access keys",
-      "content": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
       ]
     }
   ],
