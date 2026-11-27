@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26 21:20 UTC",
+  "lastUpdated": "2026-11-27 08:01 UTC",
   "companies": [
     {
       "id": "openai",
@@ -8,8 +8,8 @@
       "description": "Frontier AI research lab behind GPT and o-series models",
       "probability": 72,
       "trend": {
-        "value": 4,
-        "direction": "down"
+        "value": 0,
+        "direction": "up"
       },
       "riskLevel": "critical",
       "riskFactors": 0,
@@ -385,7 +385,31 @@
   },
   "news": [
     {
-      "id": "news-48374",
+      "id": "news-51721",
+      "date": "2026-11-27",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "content": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday.\n\nThree of the attacks targeted critical infrastructure operators, and two ",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-48629",
+      "date": "2026-11-27",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "content": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.\n\nThe proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL ",
+      "category": "critical",
+      "impact": "Critical",
+      "views": 0,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "news-16359",
       "date": "2026-11-26",
       "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
       "content": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025.\n\n\"The loader hides in a small utils package or in conftest.py,\" SafeDep said i",
@@ -397,7 +421,7 @@
       ]
     },
     {
-      "id": "news-89874",
+      "id": "news-69339",
       "date": "2026-11-26",
       "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
       "content": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about.\n\nAt Push Security, we measure this as breakthroug",
@@ -409,7 +433,7 @@
       ]
     },
     {
-      "id": "news-76283",
+      "id": "news-80338",
       "date": "2026-11-26",
       "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
       "content": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.\n\n\"While we t",
@@ -421,7 +445,7 @@
       ]
     },
     {
-      "id": "news-51363",
+      "id": "news-93044",
       "date": "2026-11-26",
       "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
       "content": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions.",
@@ -433,7 +457,7 @@
       ]
     },
     {
-      "id": "news-39292",
+      "id": "news-9451",
       "date": "2026-11-26",
       "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
       "content": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment.\n\n\"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket ",
@@ -445,7 +469,7 @@
       ]
     },
     {
-      "id": "news-39410",
+      "id": "news-34563",
       "date": "2026-11-26",
       "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
       "content": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
@@ -457,7 +481,7 @@
       ]
     },
     {
-      "id": "news-262",
+      "id": "news-76610",
       "date": "2026-11-26",
       "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
       "content": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
@@ -469,7 +493,7 @@
       ]
     },
     {
-      "id": "news-49421",
+      "id": "news-78205",
       "date": "2026-11-25",
       "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
       "content": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr.\n\nThe vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -\n\n\n  CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulne",
@@ -481,7 +505,7 @@
       ]
     },
     {
-      "id": "news-19094",
+      "id": "news-99503",
       "date": "2026-11-25",
       "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
       "content": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline.\n\nThe bu",
@@ -493,7 +517,7 @@
       ]
     },
     {
-      "id": "news-89021",
+      "id": "news-61770",
       "date": "2026-11-25",
       "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
       "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026.\n\nThe vulnerability, tracked as CVE-2026-132",
@@ -505,7 +529,7 @@
       ]
     },
     {
-      "id": "news-694",
+      "id": "news-53981",
       "date": "2026-11-25",
       "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
       "content": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from.\n\nThe flaw used in the attack had been in the registry's code since February 2016, and the team that maint",
@@ -517,7 +541,7 @@
       ]
     },
     {
-      "id": "news-63821",
+      "id": "news-68015",
       "date": "2026-11-25",
       "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
       "content": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world.\n\nThe intrusion activity, tracked by GreyNoise under the moniker Grey",
@@ -529,34 +553,10 @@
       ]
     },
     {
-      "id": "news-36534",
+      "id": "news-44505",
       "date": "2026-11-25",
       "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
       "content": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-      "category": "moderate",
-      "impact": "Moderate",
-      "views": 0,
-      "tags": [
-        "moderate"
-      ]
-    },
-    {
-      "id": "news-71847",
-      "date": "2026-11-25",
-      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-      "content": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
-      "category": "critical",
-      "impact": "Critical",
-      "views": 0,
-      "tags": [
-        "critical"
-      ]
-    },
-    {
-      "id": "news-23043",
-      "date": "2026-11-25",
-      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-      "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
       "category": "moderate",
       "impact": "Moderate",
       "views": 0,
