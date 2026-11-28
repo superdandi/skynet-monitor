@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27 21:01 UTC",
+  "lastUpdated": "2026-11-28 07:29 UTC",
   "companies": [
     {
       "id": "openai",
@@ -385,7 +385,7 @@
   },
   "news": [
     {
-      "id": "news-10447",
+      "id": "news-13089",
       "date": "2026-11-27",
       "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
       "content": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements.\n\nThe previously undocumented incursion set, detail",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": "news-19823",
+      "id": "news-99689",
       "date": "2026-11-27",
       "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
       "content": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT.\n\nThe intrusion, according to eSentire, begins with a redirection to a bogus site for a snip",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "news-47708",
+      "id": "news-7818",
       "date": "2026-11-27",
       "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
       "content": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "news-56818",
+      "id": "news-6901",
       "date": "2026-11-27",
       "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
       "content": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website.\n\n\"Evidence indicates that malicious files were generated not only when users downloade",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": "news-39211",
+      "id": "news-69430",
       "date": "2026-11-27",
       "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
       "content": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday.\n\nThree of the attacks targeted critical infrastructure operators, and two ",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "news-67307",
+      "id": "news-98277",
       "date": "2026-11-27",
       "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
       "content": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.\n\nThe proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL ",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "news-39818",
+      "id": "news-74862",
       "date": "2026-11-27",
       "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
       "content": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": "news-89923",
+      "id": "news-55183",
       "date": "2026-11-27",
       "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
       "content": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. ",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "news-20936",
+      "id": "news-87695",
       "date": "2026-11-27",
       "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
       "content": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "news-52560",
+      "id": "news-21337",
       "date": "2026-11-26",
       "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
       "content": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as far back as February 2025.\n\n\"These are rea",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": "news-37751",
+      "id": "news-72474",
       "date": "2026-11-26",
       "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
       "content": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about.\n\nAt Push Security, we measure this as breakthroug",
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": "news-24750",
+      "id": "news-51740",
       "date": "2026-11-26",
       "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
       "content": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.\n\n\"While we t",
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "id": "news-54432",
+      "id": "news-7479",
       "date": "2026-11-26",
       "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
       "content": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions.",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "id": "news-20855",
+      "id": "news-58349",
       "date": "2026-11-26",
       "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
       "content": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment.\n\n\"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket ",
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "id": "news-39008",
+      "id": "news-39891",
       "date": "2026-11-26",
       "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
       "content": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
